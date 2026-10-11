@@ -5,4 +5,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: './',
   plugins: [react()],
+  // The whole dataset is bundled on purpose so global search works offline (~225 kB gzipped).
+  build: { chunkSizeWarningLimit: 1200 },
 });

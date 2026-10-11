@@ -88,6 +88,45 @@
       }
     }
   ],
-  "offLabel": [],
+  "offLabel": [
+    {
+      "agent": "citalopram",
+      "drugClass": "SSRI",
+      "use": "Agitation in Alzheimer's disease",
+      "evidence": "RCT-supported",
+      "notes": "The CitAD randomized trial (n=186; target 30 mg/day) found modestly lower agitation scores than placebo, but was associated with worsening cognition and QTc prolongation (about 18 ms longer than placebo at week 3). US labeling limits citalopram to 20 mg/day in patients older than 60 because of dose-dependent QT prolongation. Other cautions: hyponatremia, falls, bleeding risk, and drug interactions. The trial authors did not recommend the 30 mg dose as a general alternative. Non-drug interventions and evaluation for medical or environmental triggers are generally tried first. Not FDA-labeled for this use.",
+      "references": [
+        {
+          "label": "Porsteinsson AP et al. Effect of citalopram on agitation in Alzheimer disease: the CitAD randomized clinical trial. JAMA 2014",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/1829989"
+        },
+        {
+          "label": "Drye LT et al. Changes in QTc interval in the CitAD randomized trial. PLoS One 2014 (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4051660"
+        }
+      ]
+    },
+    {
+      "agent": "risperidone",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Severe, persistent aggression or psychosis in dementia when non-drug approaches have failed and there is risk of harm",
+      "evidence": "guideline-recommended",
+      "notes": "Not approved for dementia-related symptoms in the US; the US label carries a boxed warning for increased mortality in elderly patients with dementia-related psychosis and states it is not approved for dementia-related psychosis. It is licensed in the UK for short-term (up to 6 weeks) treatment of persistent aggression in moderate to severe Alzheimer's dementia unresponsive to non-drug approaches when there is risk of harm. The APA 2016 guideline advises antipsychotics only for severe, dangerous, or very distressing symptoms, at the lowest effective dose, with reassessment and attempts to taper. Other cautions: stroke, falls, extrapyramidal symptoms, sedation, and metabolic effects. Non-drug interventions are first-line.",
+      "references": [
+        {
+          "label": "Reus VI et al. APA practice guideline on the use of antipsychotics to treat agitation or psychosis in patients with dementia. Am J Psychiatry 2016 (record)",
+          "url": "https://researchconnect.stonybrook.edu/en/publications/the-american-psychiatric-association-practice-guideline-on-the-us/"
+        },
+        {
+          "label": "UK SmPC: Risperidone 2 mg tablets (Sandoz), emc",
+          "url": "https://www.medicines.org.uk/emc/product/11872/smpc"
+        },
+        {
+          "label": "DailyMed: RISPERDAL (risperidone) US label with boxed warning",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0"
+        }
+      ]
+    }
+  ],
   "lastReviewed": "2026-10-11"
 }

@@ -1,0 +1,97 @@
+{
+  "id": "pseudobulbar-affect",
+  "name": "Pseudobulbar affect",
+  "aliases": ["PBA", "Involuntary emotional expression disorder", "IEED", "Pathological laughing and crying", "Emotional lability", "Emotional incontinence"],
+  "category": "Other neuropsychiatric conditions",
+  "summary": "Pseudobulbar affect is a disorder of emotional expression marked by sudden, frequent, involuntary episodes of laughing and/or crying that are out of proportion to the underlying emotional state. It occurs secondary to neurologic disease or injury (e.g., ALS, MS, stroke, dementia, traumatic brain injury). Dextromethorphan-quinidine (Nuedexta) is the only FDA-approved treatment; generic capsules are now listed on DailyMed. No new PBA approvals were found for 2024–2026. SSRIs and TCAs are used off-label, supported mainly by small, mostly post-stroke trials.",
+  "plainSummary": "Pseudobulbar affect causes sudden bursts of laughing or crying that don't match how a person actually feels. It is caused by brain or nerve conditions. One medicine is approved to treat it.",
+  "approved": [
+    {
+      "drugId": "dextromethorphan-quinidine",
+      "generic": "dextromethorphan hydrobromide and quinidine sulfate",
+      "brands": ["Nuedexta"],
+      "drugClass": "NMDA receptor antagonist / sigma-1 agonist combined with a CYP2D6 inhibitor",
+      "indication": "Treatment of pseudobulbar affect (PBA), characterized by sudden, frequent laughing and/or crying episodes that are out of proportion to the underlying emotional state.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults (safety and effectiveness not established in patients under 18)", "pediatric": false },
+      "approvalYear": 2010,
+      "dosing": {
+        "start": "One capsule (20 mg/10 mg) once daily for the first 7 days",
+        "target": "One capsule every 12 hours starting on day 8",
+        "max": "2 capsules in 24 hours (40 mg dextromethorphan/20 mg quinidine per day)",
+        "notes": "Reassess the need for continued treatment periodically, as PBA may improve spontaneously. No dose adjustment is specified for mild to moderate hepatic or renal impairment; severe impairment has not been studied. In CYP2D6 poor metabolizers the quinidine component is not expected to add to effectiveness but quinidine adverse effects remain possible; genotyping may be considered in patients at risk of quinidine toxicity. The label recommends an ECG at baseline and 3–4 hours after the first dose in patients at risk of QT prolongation, and correcting hypokalemia and hypomagnesemia first. Caution is advised in older adults when titrating."
+      },
+      "formulations": ["Capsules 20 mg dextromethorphan hydrobromide / 10 mg quinidine sulfate"],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Concomitant use with other quinidine-, quinine-, or mefloquine-containing drugs",
+        "History of thrombocytopenia, hepatitis, bone marrow depression, or lupus-like syndrome with quinidine, quinine, mefloquine, or Nuedexta",
+        "Known hypersensitivity to dextromethorphan",
+        "Taking an MAOI or within 14 days of stopping one (wait at least 14 days after stopping Nuedexta before starting an MAOI)",
+        "Prolonged QT interval, congenital long QT syndrome, history suggestive of torsades de pointes, or heart failure",
+        "Complete AV block without an implanted pacemaker, or at high risk of complete AV block",
+        "Taking drugs that both prolong the QT interval and are metabolized by CYP2D6 (e.g., thioridazine, pimozide)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "This capsule combines two medicines and can reduce sudden, uncontrollable laughing or crying episodes. It can affect heart rhythm, so some people need a heart tracing (ECG) first.",
+      "source": {
+        "label": "DailyMed: NUEDEXTA (dextromethorphan hydrobromide and quinidine sulfate) label, Otsuka America",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c8cce784-8c5f-415b-8068-76e5d481d159"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, dosing, and contraindications checked on the Otsuka label (version published 1/26/2026; Highlights show 'Revised 12/2022'). A second Nuedexta SPL (Avanir, setid 484e0918-3442-49dc-8ccf-177f1f3ee9f3, version published 11/17/2025, Highlights 'Revised 6/2019') has the same indication, dosing, and contraindication wording but a different adult/pediatric statement. Generic dextromethorphan/quinidine capsules from Teva and Camber appear on DailyMed. A web search found no new FDA approvals for PBA in 2024–2026. 2010 approval year is from secondary sources (Avanir announcement), not the label."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "citalopram",
+      "drugClass": "SSRI",
+      "use": "Pathological laughing and crying (PBA), mainly after stroke",
+      "evidence": "RCT-supported",
+      "notes": "Evidence comes from small placebo-controlled trials (e.g., a crossover trial of citalopram 10–20 mg daily in post-stroke pathological crying), mostly in stroke patients; trials vary in diagnostic criteria and outcome measures, and benefit in ALS, MS, or dementia-related PBA is less well studied. Cautions: dose-dependent QT prolongation (US labeling limits citalopram to 20 mg/day in patients older than 60), hyponatremia in older adults, bleeding risk, and serotonin syndrome if combined with other serotonergic drugs (including dextromethorphan-quinidine).",
+      "references": [
+        { "label": "Andersen G et al. Citalopram for post-stroke pathological crying. Lancet 1993 (PMID 8104273)", "url": "https://pubmed.ncbi.nlm.nih.gov/8104273/" },
+        { "label": "Giacobbe P, Flint A. Pharmacological treatment of post-stroke pathological laughing and crying. J Psychiatry Neurosci 2007 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1963355" }
+      ]
+    },
+    {
+      "agent": "sertraline",
+      "drugClass": "SSRI",
+      "use": "Pathological laughing and crying (PBA), mainly after stroke",
+      "evidence": "RCT-supported",
+      "notes": "A review of post-stroke pathological laughing and crying lists sertraline (about 50 mg daily) among four antidepressants with small placebo-controlled trials; data are mostly post-stroke and pooled samples are small. A case report also described improvement on sertraline 50 mg daily after subarachnoid hemorrhage. Cautions: serotonin syndrome risk (including with dextromethorphan-quinidine), hyponatremia, bleeding risk, and activation or GI effects.",
+      "references": [
+        { "label": "Giacobbe P, Flint A. Pharmacological treatment of post-stroke pathological laughing and crying. J Psychiatry Neurosci 2007 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1963355" },
+        { "label": "Takeuchi H et al. Sertraline for pathological laughing after aneurysmal subarachnoid hemorrhage: case report. Neurol Med Chir 2014 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4533423" }
+      ]
+    },
+    {
+      "agent": "nortriptyline",
+      "drugClass": "Tricyclic antidepressant (TCA)",
+      "use": "Pathological laughing and crying (PBA), mainly after stroke",
+      "evidence": "RCT-supported",
+      "notes": "A 6-week double-blind trial in 28 patients with post-stroke pathological laughing and crying found greater improvement with nortriptyline than placebo, independent of depression status; the sample was small and stroke-specific. Cautions: anticholinergic effects, orthostasis, sedation, cardiac conduction effects and arrhythmia risk, lethality in overdose, and QT prolongation. Reviewers generally favor SSRIs over TCAs because of cardiovascular and tolerability concerns.",
+      "references": [
+        { "label": "Robinson RG et al. Pathological laughing and crying following stroke: validation of a measurement scale and a double-blind treatment study. Am J Psychiatry 1993", "url": "https://ajp.psychiatryonline.org/doi/10.1176/ajp.150.2.286" },
+        { "label": "Giacobbe P, Flint A. Pharmacological treatment of post-stroke pathological laughing and crying. J Psychiatry Neurosci 2007 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1963355" }
+      ]
+    },
+    {
+      "agent": "amitriptyline",
+      "drugClass": "Tricyclic antidepressant (TCA)",
+      "use": "Pathological laughing and crying (PBA)",
+      "evidence": "limited",
+      "notes": "Data are limited to older, small reports (e.g., a 1985 report of low-dose amitriptyline, cited from secondary sources and not reviewed directly). No modern amitriptyline-specific controlled trial was identified. Systematic-review evidence for antidepressants overall is described as small, heterogeneous, and mostly in stroke patients. Cautions: strong anticholinergic burden (generally avoided in older adults and dementia), sedation, orthostasis, cardiac conduction effects and QT prolongation, and lethality in overdose.",
+      "references": [
+        { "label": "Hicks et al. Pharmacotherapy for pseudobulbar affect after traumatic brain injury: systematic review. Neuropsychol Rev 2020", "url": "https://link.springer.com/article/10.1007/s11065-020-09427-7" },
+        { "label": "ISPOR abstract: Comparison of clinical effectiveness of treatments for PBA, results from a systematic review", "url": "https://www.ispor.org/heor-resources/presentations-database/presentation/ispor-20th-annual-international-meeting/comparison-of-clinical-effectiveness-of-treatments-for-pseudobulbar-affect-pba---results-from-a-systematic-review" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

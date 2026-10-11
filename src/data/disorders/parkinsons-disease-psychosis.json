@@ -39,6 +39,41 @@
       }
     }
   ],
-  "offLabel": [],
+  "offLabel": [
+    {
+      "agent": "clozapine",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Hallucinations and delusions in Parkinson's disease psychosis (low dose)",
+      "evidence": "RCT-supported",
+      "notes": "The MDS evidence-based review rated clozapine 'efficacious' with 'acceptable risk with specialized monitoring' (clinically useful). Placebo-controlled trials used low doses (mean about 25–36 mg/day) without worsening motor scores in those trials. Cautions: boxed warnings for severe neutropenia, orthostatic hypotension/bradycardia/syncope, seizures, myocarditis, and increased mortality in elderly patients with dementia-related psychosis; ANC monitoring is required per the current label; sedation, sialorrhea, and constipation are common. Not FDA-labeled for this use.",
+      "references": [
+        {
+          "label": "Seppi K et al. Update on treatments for nonmotor symptoms of Parkinson's disease: an evidence-based medicine review. Mov Disord 2019 (MDS review, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6916382/"
+        },
+        {
+          "label": "Pollak P et al. Clozapine in drug induced psychosis in Parkinson's disease: a randomised, placebo controlled study with open follow up. J Neurol Neurosurg Psychiatry 2004",
+          "url": "https://jnnp.bmj.com/content/75/5/689"
+        }
+      ]
+    },
+    {
+      "agent": "quetiapine",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Hallucinations and delusions in Parkinson's disease psychosis (low dose)",
+      "evidence": "limited",
+      "notes": "Widely used because it generally does not worsen motor symptoms, but the MDS review rated efficacy as 'insufficient evidence' ('possibly useful'), with no high-quality positive placebo-controlled RCTs; small placebo-controlled trials were negative or underpowered, and some open-label and comparator data are supportive. Cautions: boxed warning for increased mortality in elderly patients with dementia-related psychosis, sedation, orthostatic hypotension, metabolic effects, and QT prolongation. Not FDA-labeled for this use.",
+      "references": [
+        {
+          "label": "Seppi K et al. Update on treatments for nonmotor symptoms of Parkinson's disease: an evidence-based medicine review. Mov Disord 2019 (MDS review, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6916382/"
+        },
+        {
+          "label": "Systematic literature review of quetiapine for the treatment of psychosis in Parkinson's disease (Houston Methodist record)",
+          "url": "https://scholars.houstonmethodist.org/en/publications/systematic-literature-review-of-quetiapine-for-the-treatment-of-p/"
+        }
+      ]
+    }
+  ],
   "lastReviewed": "2026-10-11"
 }

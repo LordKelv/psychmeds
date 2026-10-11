@@ -147,6 +147,41 @@
       }
     }
   ],
-  "offLabel": [],
+  "offLabel": [
+    {
+      "agent": "propranolol",
+      "drugClass": "Beta-blocker",
+      "use": "Antipsychotic-induced akathisia",
+      "evidence": "limited",
+      "notes": "Used for decades for akathisia, but evidence is mixed: a Cochrane review found too few data to recommend it, while one placebo-controlled trial (n=90) found benefit comparable to mirtazapine. In that trial about 17% stopped for hypotension and bradycardia. Cautions: asthma/COPD, bradycardia or conduction block, hypotension, diabetes (masks hypoglycemia), and depression. It does not treat parkinsonism itself. Reducing the dose of or switching the causative drug is usually considered first. Not FDA-labeled for akathisia.",
+      "references": [
+        {
+          "label": "Jethwa KD. Pharmacological management of antipsychotic-induced akathisia: an update and treatment algorithm. BJPsych Advances 2015",
+          "url": "https://www.cambridge.org/core/journals/bjpsych-advances/article/pharmacological-management-of-antipsychoticinduced-akathisia-an-update-and-treatment-algorithm/F9539508CAF512358754C6FD93BAF26D"
+        },
+        {
+          "label": "Poyurovsky M. Acute antipsychotic-induced akathisia revisited. Br J Psychiatry 2010",
+          "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/acute-antipsychoticinduced-akathisia-revisited/BF5042E428267A0D22A12C1C1A22FE13"
+        }
+      ]
+    },
+    {
+      "agent": "mirtazapine",
+      "drugClass": "Alpha-2 antagonist / 5-HT2 antagonist antidepressant",
+      "use": "Antipsychotic-induced akathisia (low dose, e.g., 15 mg daily in trials)",
+      "evidence": "RCT-supported",
+      "notes": "Two small placebo-controlled trials (n=26 over 5 days; n=90 over 7 days) found greater akathisia improvement than placebo, mostly with first-generation antipsychotics; short follow-up. Cautions: sedation (reported in about a third of participants in the larger trial), weight gain, rare agranulocytosis, and additive sedation with other CNS depressants. It does not treat parkinsonism itself. Not FDA-labeled for akathisia.",
+      "references": [
+        {
+          "label": "Jethwa KD. Pharmacological management of antipsychotic-induced akathisia: an update and treatment algorithm. BJPsych Advances 2015",
+          "url": "https://www.cambridge.org/core/journals/bjpsych-advances/article/pharmacological-management-of-antipsychoticinduced-akathisia-an-update-and-treatment-algorithm/F9539508CAF512358754C6FD93BAF26D"
+        },
+        {
+          "label": "Poyurovsky M. Acute antipsychotic-induced akathisia revisited. Br J Psychiatry 2010",
+          "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/acute-antipsychoticinduced-akathisia-revisited/BF5042E428267A0D22A12C1C1A22FE13"
+        }
+      ]
+    }
+  ],
   "lastReviewed": "2026-10-11"
 }
