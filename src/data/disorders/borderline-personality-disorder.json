@@ -1,0 +1,65 @@
+{
+  "id": "borderline-personality-disorder",
+  "name": "Borderline personality disorder",
+  "aliases": ["BPD", "Emotionally unstable personality disorder"],
+  "category": "Personality disorders",
+  "summary": "A pervasive pattern of instability in emotions, relationships, and self-image, with marked impulsivity, chronic emptiness, and often recurrent self-harm or suicidal behavior. Structured psychotherapies (e.g., DBT, MBT) are the primary treatment. No medication is FDA-approved, and the APA 2024 guideline and NICE advise against pharmacotherapy as the primary or BPD-specific treatment. Medications are used for comorbid conditions or briefly for targeted symptoms.",
+  "plainSummary": "Borderline personality disorder causes intense, fast-changing emotions, unstable relationships, and impulsive or self-harming behavior. Specialized talk therapies work best; no medicine is approved for it, but some can help with related problems like depression.",
+  "noApprovedNote": "No medication is FDA-approved for borderline personality disorder (no US label lists it in Indications and Usage, per an openFDA label search on 2026-10-11, and no 2024–2026 approvals were found). The APA 2024 practice guideline suggests that pharmacotherapy not be the primary intervention, and NICE CG78 advises against drug treatment specifically for BPD or its individual symptoms and against medium- or long-term antipsychotic use. Medication use should target clearly diagnosed comorbid disorders (e.g., MDD, bipolar disorder, PTSD) or be brief, symptom-targeted, and regularly reviewed, with attention to overdose risk.",
+  "approved": [],
+  "offLabel": [
+    {
+      "agent": "Second-generation antipsychotics (e.g., aripiprazole, quetiapine, olanzapine)",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Short-term adjunctive targeting of affective instability, anger, impulsivity, or transient psychotic/dissociative symptoms",
+      "evidence": "RCT-supported",
+      "notes": "Some small RCTs showed benefit on specific symptom domains, but the 2022 Cochrane review rated the evidence low to very low certainty, with no consistent effect on overall BPD severity. NICE CG78 advises against medium- and long-term antipsychotic use for BPD. Cautions: weight gain and metabolic effects (olanzapine, quetiapine), akathisia, sedation, and overdose risk.",
+      "references": [
+        { "label": "Stoffers-Winterling et al. Pharmacological interventions for BPD. Cochrane 2022, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/36375174/" },
+        { "label": "NICE CG78 Borderline personality disorder: recognition and management, recommendations 1.3.5", "url": "https://www.nice.org.uk/guidance/cg78/chapter/Recommendations" }
+      ]
+    },
+    {
+      "agent": "Mood stabilizers / anticonvulsants (lamotrigine, topiramate, valproate)",
+      "drugClass": "Anticonvulsant mood stabilizer",
+      "use": "Affective instability, anger, and impulsivity",
+      "evidence": "limited",
+      "notes": "Early small trials were positive, but the large LABILE RCT (2018) found lamotrigine no better than placebo, and the 2022 Cochrane review found low-certainty evidence overall. Cautions: valproate is highly teratogenic (avoid in people who could become pregnant unless no alternative exists); lamotrigine carries a serious-rash boxed warning and needs slow titration; consider lethality in overdose.",
+      "references": [
+        { "label": "Crawford et al. Lamotrigine in BPD (LABILE RCT). Am J Psychiatry 2018, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/29621901/" },
+        { "label": "Stoffers-Winterling et al. Pharmacological interventions for BPD. Cochrane 2022, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/36375174/" }
+      ]
+    },
+    {
+      "agent": "SSRIs and other antidepressants",
+      "drugClass": "Selective serotonin reuptake inhibitor",
+      "use": "Comorbid major depression or anxiety disorders (not core BPD symptoms)",
+      "evidence": "guideline-recommended",
+      "notes": "NICE CG78 supports drug treatment for comorbid conditions, and NICE NG222 advises treating depression in people with personality disorder with combined antidepressant and psychotherapy. Evidence for antidepressants on core BPD features is weak (Cochrane 2022). Cautions: monitor for suicidality (antidepressant boxed warning in young adults), and limit quantities given overdose risk (especially TCAs, which should generally be avoided).",
+      "references": [
+        { "label": "NICE CG78 Borderline personality disorder, recommendations 1.3.5–1.3.6", "url": "https://www.nice.org.uk/guidance/cg78/chapter/Recommendations" },
+        { "label": "NICE NG222 Depression in adults, section 1.11 (depression with personality disorder)", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" }
+      ]
+    },
+    {
+      "agent": "Short-term sedative medication in crisis (e.g., sedative antihistamine)",
+      "drugClass": "Sedative (e.g., H1 antihistamine)",
+      "use": "Brief use during a crisis as part of an overall care plan",
+      "evidence": "guideline-recommended",
+      "notes": "NICE CG78 (1.3.5.4) allows cautious short-term sedative use in crisis, preferably with a drug that has low side-effect burden, low addictive potential, and relative safety in overdose, at the minimum dose and with an agreed short duration. Benzodiazepines are generally avoided because of disinhibition, dependence, and misuse risk.",
+      "references": [
+        { "label": "NICE CG78 Borderline personality disorder, recommendation 1.3.5.4", "url": "https://www.nice.org.uk/guidance/cg78/chapter/Recommendations" }
+      ]
+    },
+    {
+      "agent": "Pharmacotherapy as primary treatment (general caution)",
+      "use": "Context: role of medication overall",
+      "evidence": "guideline-recommended",
+      "notes": "The APA 2024 practice guideline recommends structured psychotherapy as the primary treatment and suggests pharmacotherapy not be used as the primary intervention. It encourages review of existing medications to reduce polypharmacy, and short-term use, if any, for specific symptoms or comorbidities. Included as a reference point rather than a specific agent.",
+      "references": [
+        { "label": "APA Practice Guideline for the Treatment of Patients With BPD. Am J Psychiatry 2024, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/39482953/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

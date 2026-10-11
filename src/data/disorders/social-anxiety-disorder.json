@@ -1,0 +1,240 @@
+{
+  "id": "social-anxiety-disorder",
+  "name": "Social anxiety disorder",
+  "aliases": [
+    "Social phobia",
+    "SAD"
+  ],
+  "category": "Anxiety disorders",
+  "summary": "Marked fear of social or performance situations with avoidance and impairment. FDA-labeled options are paroxetine (IR/CR), sertraline, and venlafaxine ER. No new SAD drug was approved in 2024–2026; the intranasal fasedienol program missed its primary endpoint in two Phase 3 trials (PALISADE-3, Dec 2025; PALISADE-4, Jun 2026).",
+  "plainSummary": "Social anxiety disorder is a strong, lasting fear of being judged or embarrassed around other people, which leads to avoiding social situations. CBT and daily medicines can help.",
+  "approved": [
+    {
+      "drugId": "paroxetine",
+      "generic": "paroxetine (immediate- and controlled-release)",
+      "brands": [
+        "Paxil",
+        "Paxil CR"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of social anxiety disorder (SAD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1999,
+      "dosing": {
+        "start": "IR: 20 mg once daily; CR: 12.5 mg once daily",
+        "target": "IR: 20 mg/day (no clear added benefit above 20 mg); CR: titrate by 12.5 mg/day weekly",
+        "max": "IR: 60 mg/day; CR: 37.5 mg/day",
+        "notes": "IR: after 1–2 weeks may increase by 10 mg/day weekly. Geriatric, severe renal or hepatic impairment: IR start 10 mg, max 40 mg/day; CR start 12.5 mg, max 37.5 mg/day. Taper to stop."
+      },
+      "formulations": [
+        "Tablets 10, 20, 30, 40 mg",
+        "Oral suspension 10 mg/5 mL",
+        "Controlled-release tablets 12.5, 25, 37.5 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Drugs that prolong the QTc interval and are CYP2D6 substrates (e.g., thioridazine, pimozide)",
+        "Hypersensitivity to paroxetine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Paroxetine is a daily antidepressant (SSRI) approved for social anxiety disorder in adults. Stopping it suddenly can cause withdrawal-like symptoms.",
+      "source": {
+        "label": "DailyMed: Paxil (paroxetine) tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ef3b5cbe-f9e1-c1ac-79da-cfe14e3a7e7e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Paxil CR SAD dosing confirmed on the Paxil CR label (https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c). Approval year is for Paxil IR (1999); Paxil CR SAD approved 2003."
+      }
+    },
+    {
+      "drugId": "sertraline",
+      "generic": "sertraline",
+      "brands": [
+        "Zoloft"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of social anxiety disorder (SAD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "25 mg once daily for 1 week, then 50 mg",
+        "target": "50–200 mg/day",
+        "max": "200 mg/day",
+        "notes": "Increase by 25–50 mg/day once weekly. Mild hepatic impairment: half the usual dose; not recommended in moderate or severe impairment."
+      },
+      "formulations": [
+        "Tablets 25, 50, 100 mg",
+        "Oral concentrate 20 mg/mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Pimozide",
+        "Hypersensitivity to sertraline",
+        "Disulfiram (oral concentrate only)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Sertraline is a daily antidepressant (SSRI) approved for social anxiety disorder in adults.",
+      "source": {
+        "label": "DailyMed: Zoloft (sertraline) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "venlafaxine",
+      "generic": "venlafaxine extended-release (capsules or tablets)",
+      "brands": [
+        "Effexor XR"
+      ],
+      "drugClass": "SNRI",
+      "indication": "Treatment of Social Anxiety Disorder (SAD), also known as Social Phobia, in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "75 mg once daily",
+        "target": "75 mg/day",
+        "max": "75 mg/day (no evidence of added benefit at higher doses)",
+        "notes": "Take with food. Hepatic impairment: reduce dose by 50% or more. Renal impairment: reduce 25–50% (50% or more in severe impairment/dialysis). Monitor blood pressure."
+      },
+      "formulations": [
+        "Extended-release capsules 37.5, 75, 150 mg",
+        "Extended-release tablets (generic, 505(b)(2))"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to venlafaxine or desvenlafaxine",
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Venlafaxine XR is a once-daily antidepressant (SNRI) approved for social anxiety disorder in adults.",
+      "source": {
+        "label": "DailyMed: Effexor XR (venlafaxine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c848a5d8-ba94-4c84-80e3-0bf35fb8e32e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Venlafaxine ER tablets label (MDD and SAD only) also checked: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=38431a76-6185-4c17-994f-8278b6cd7510. Effexor XR SAD approval year from Drugs@FDA supplement dates (Feb 2003)."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Escitalopram",
+      "drugClass": "SSRI",
+      "use": "First-line SAD treatment",
+      "evidence": "guideline-recommended",
+      "notes": "NICE first-line SSRI (with sertraline) for adults with SAD; not FDA-labeled for SAD. Usual SSRI cautions; Cochrane review supports SSRIs as a class.",
+      "references": [
+        {
+          "label": "NICE CG159: Social anxiety disorder (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg159/chapter/Recommendations"
+        },
+        {
+          "label": "Williams et al. 2017, Cochrane: Pharmacotherapy for social anxiety disorder",
+          "url": "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001206.pub3/information"
+        }
+      ]
+    },
+    {
+      "agent": "Fluvoxamine (IR or ER)",
+      "drugClass": "SSRI",
+      "use": "SAD after non-response to a first SSRI",
+      "evidence": "guideline-recommended",
+      "notes": "NICE alternative SSRI. Luvox CR held an FDA SAD indication (2008), but Luvox CR is discontinued and current generic fluvoxamine ER labels list OCD only, so SAD is off-label. Strong CYP1A2/2C19 inhibitor with many interactions (contraindicated with tizanidine, thioridazine, pimozide, alosetron, ramelteon).",
+      "references": [
+        {
+          "label": "NICE CG159: Social anxiety disorder (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg159/chapter/Recommendations"
+        },
+        {
+          "label": "Williams et al. 2017, Cochrane: Pharmacotherapy for social anxiety disorder",
+          "url": "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001206.pub3/information"
+        }
+      ]
+    },
+    {
+      "agent": "Phenelzine",
+      "drugClass": "MAOI",
+      "use": "Treatment-resistant SAD",
+      "evidence": "guideline-recommended",
+      "notes": "NICE option after non-response to an alternative SSRI or SNRI. Requires a tyramine-restricted diet and strict interaction precautions (serotonergic drugs, sympathomimetics); risk of hypertensive crisis and orthostasis.",
+      "references": [
+        {
+          "label": "NICE CG159: Social anxiety disorder (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg159/chapter/Recommendations"
+        },
+        {
+          "label": "Williams et al. 2017, Cochrane: Pharmacotherapy for social anxiety disorder",
+          "url": "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001206.pub3/information"
+        }
+      ]
+    },
+    {
+      "agent": "Pregabalin or gabapentin",
+      "drugClass": "Gabapentinoid",
+      "use": "SAD",
+      "evidence": "RCT-supported",
+      "notes": "Some positive RCTs, but evidence is limited and NICE advises against routinely offering anticonvulsants for SAD. Cautions: sedation, dizziness, misuse potential, respiratory depression with opioids, renal dosing.",
+      "references": [
+        {
+          "label": "Williams et al. 2017, Cochrane: Pharmacotherapy for social anxiety disorder",
+          "url": "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001206.pub3/information"
+        },
+        {
+          "label": "NICE CG159: Social anxiety disorder (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg159/chapter/Recommendations"
+        }
+      ]
+    },
+    {
+      "agent": "Clonazepam",
+      "drugClass": "Benzodiazepine",
+      "use": "SAD (short-term or adjunctive)",
+      "evidence": "RCT-supported",
+      "notes": "Limited RCT support; NICE advises against routinely offering benzodiazepines for SAD. Boxed warnings: opioid co-use, misuse and addiction, dependence and withdrawal.",
+      "references": [
+        {
+          "label": "Williams et al. 2017, Cochrane: Pharmacotherapy for social anxiety disorder",
+          "url": "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001206.pub3/information"
+        },
+        {
+          "label": "NICE CG159: Social anxiety disorder (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg159/chapter/Recommendations"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

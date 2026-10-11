@@ -1,0 +1,161 @@
+{
+  "id": "alcohol-use-disorder",
+  "name": "Alcohol use disorder",
+  "aliases": ["AUD", "Alcoholism", "Alcohol dependence", "Alcohol addiction"],
+  "category": "Substance-related & addictive disorders",
+  "summary": "Three agents are FDA-labeled: naltrexone (oral and monthly XR injection), acamprosate, and disulfiram. APA (2018) recommends naltrexone or acamprosate for moderate–severe AUD and suggests disulfiram, topiramate, or gabapentin in selected patients. No new AUD drug was approved in 2024–2026; GLP-1 agonists and other agents remain investigational for this use.",
+  "plainSummary": "Alcohol use disorder means drinking keeps causing problems but is hard to cut back or stop. Medicines can reduce cravings or heavy drinking and work best together with counseling or support groups.",
+  "sections": ["Opioid antagonists", "Glutamate/GABA modulators", "Alcohol-sensitizing agents"],
+  "approved": [
+    {
+      "drugId": "naltrexone",
+      "generic": "naltrexone (oral tablet)",
+      "brands": ["ReVia (discontinued)"],
+      "drugClass": "Opioid antagonist",
+      "section": "Opioid antagonists",
+      "indication": "Treatment of alcohol dependence, as part of an appropriate plan of management for the addictions.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults (safe use below age 18 not established)", "pediatric": false },
+      "approvalYear": 1994,
+      "dosing": {
+        "start": "50 mg once daily",
+        "target": "50 mg once daily (pivotal trials ran up to 12 weeks)",
+        "max": "50 mg/day per the alcohol labeling (other regimens not evaluated in the alcohol trials)",
+        "notes": "Patients must be opioid-free for at least 7–10 days, including tramadol. Precipitates withdrawal in opioid-dependent patients and blocks opioid analgesia. Hepatocellular injury has been reported at high doses, so check LFTs and avoid in acute hepatitis or liver failure."
+      },
+      "formulations": ["Tablets 50 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Receiving opioid analgesics", "Current opioid dependence (including methadone or buprenorphine maintenance)", "Acute opioid withdrawal", "Failed naloxone challenge or positive urine opioid screen", "Hypersensitivity to naltrexone"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Naltrexone is a daily pill that can lower the urge to drink and make drinking less rewarding. It cannot be taken with opioid medicines.",
+      "source": { "label": "DailyMed: Naltrexone hydrochloride tablets USP 50 mg (SpecGx)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06ff2d5a-e62b-4fa4-bbdb-01938535bc65" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "The approval year for the alcohol indication (1994) was not shown on the label." }
+    },
+    {
+      "drugId": "naltrexone",
+      "generic": "naltrexone extended-release injectable suspension",
+      "brands": ["Vivitrol"],
+      "drugClass": "Opioid antagonist (long-acting injectable)",
+      "section": "Opioid antagonists",
+      "indication": "Treatment of alcohol dependence in patients who are able to abstain from alcohol in an outpatient setting before starting treatment; patients should not be actively drinking at the first injection. Part of a comprehensive management program that includes psychosocial support.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults (safety and efficacy in pediatric patients not established)", "pediatric": false },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "380 mg deep IM gluteal injection",
+        "target": "380 mg every 4 weeks (once monthly), alternating buttocks",
+        "max": "380 mg every 4 weeks",
+        "notes": "Must be opioid-free for at least 7–10 days. Watch for injection-site reactions, which can be severe, and use the needle length that fits the patient's body habitus. Hepatotoxicity, depression, and suicidality have been reported."
+      },
+      "formulations": ["380 mg vial of microspheres + diluent kit for intramuscular injection"],
+      "boxedWarnings": [],
+      "contraindications": ["Receiving opioid analgesics", "Current physiologic opioid dependence", "Acute opioid withdrawal", "Failed naloxone challenge or positive urine opioid screen", "Hypersensitivity to naltrexone, PLG, carboxymethylcellulose, or diluent components"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Long-acting naltrexone is a monthly shot that lowers cravings and heavy drinking without needing a daily pill. A person should not be drinking when the first shot is given.",
+      "source": { "label": "DailyMed: VIVITROL (naltrexone for extended-release injectable suspension)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Generic (Amneal naltrexone kit) listed on DailyMed; first generic approved July 2023." }
+    },
+    {
+      "drugId": "acamprosate",
+      "generic": "acamprosate calcium (delayed-release)",
+      "brands": ["Campral (discontinued)"],
+      "drugClass": "Glutamate (NMDA) modulator",
+      "section": "Glutamate/GABA modulators",
+      "indication": "Maintenance of abstinence from alcohol in patients with alcohol dependence who are abstinent at treatment initiation; part of a comprehensive management program that includes psychosocial support.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults (safety and efficacy in pediatric patients not established)", "pediatric": false },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "666 mg (two 333 mg tablets) three times daily",
+        "target": "666 mg three times daily",
+        "max": "1998 mg/day",
+        "notes": "Start as soon as possible after withdrawal once the patient is abstinent, and continue through relapse. CrCl 30–50 mL/min: 333 mg three times daily. Contraindicated at CrCl ≤30. Efficacy not shown in patients who are not abstinent at start or in polysubstance use. Monitor for depression and suicidality."
+      },
+      "formulations": ["Delayed-release (enteric-coated) tablets 333 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Hypersensitivity to acamprosate", "Severe renal impairment (CrCl ≤30 mL/min)"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Acamprosate is a pill taken three times a day that helps people who have already stopped drinking stay sober. People with serious kidney disease cannot take it.",
+      "source": { "label": "DailyMed: Acamprosate calcium delayed-release tablets (Somerset)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1cfe4675-766f-4f1a-b1a8-96bbdacfcfa5" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Campral brand is discontinued per Drugs@FDA; generics are marketed." }
+    },
+    {
+      "drugId": "disulfiram",
+      "generic": "disulfiram",
+      "brands": ["Antabuse (discontinued)"],
+      "drugClass": "Aldehyde dehydrogenase inhibitor (alcohol-sensitizing agent)",
+      "section": "Alcohol-sensitizing agents",
+      "indication": "An aid in the management of selected chronic alcohol patients who want to remain in a state of enforced sobriety so that supportive and psychotherapeutic treatment may be applied to best advantage. Not a cure for alcoholism.",
+      "role": "adjunctive",
+      "population": { "ages": "Adults (safety and effectiveness in pediatric patients not established)", "pediatric": false },
+      "approvalYear": 1951,
+      "dosing": {
+        "start": "Up to 500 mg once daily for 1–2 weeks, given only after at least 12 hours of abstinence",
+        "target": "Average maintenance 250 mg/day (range 125–500 mg)",
+        "max": "500 mg/day",
+        "notes": "Works best with supervised administration. The disulfiram-alcohol reaction can be severe, including from hidden alcohol in foods, mouthwash, or topical products, and may occur up to 14 days after the last dose. Hepatotoxicity (including fulminant hepatitis) can occur, so obtain baseline and follow-up LFTs. Interacts with metronidazole, warfarin, and phenytoin."
+      },
+      "formulations": ["Tablets 250 mg, 500 mg"],
+      "boxedWarnings": ["Never give to a patient in a state of alcohol intoxication or without the patient's full knowledge"],
+      "contraindications": ["Current or recent metronidazole, paraldehyde, alcohol, or alcohol-containing preparations", "Severe myocardial disease or coronary occlusion", "Psychoses", "Hypersensitivity to disulfiram or thiuram derivatives"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Disulfiram causes a very unpleasant reaction (flushing, vomiting, racing heart) if a person drinks, which helps some motivated people stay sober. It must only be taken with the person's full knowledge.",
+      "source": { "label": "DailyMed: Disulfiram tablets USP (Alvogen)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b90f8ff4-4fb3-46ab-8149-cb55f24a4044" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Antabuse brand is discontinued per Drugs@FDA. The approval year (1951) comes from historical sources, not the label." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Topiramate",
+      "drugClass": "Anticonvulsant",
+      "use": "Reduce heavy drinking or achieve abstinence",
+      "evidence": "guideline-recommended",
+      "notes": "APA 2018 suggests it for moderate–severe AUD when naltrexone or acamprosate are not tolerated or not preferred. VA/DoD 2021 also lists it among recommended options. Trials titrated slowly to about 200–300 mg/day. Cautions: cognitive slowing, paresthesias, weight loss, kidney stones, angle-closure glaucoma, metabolic acidosis, and teratogenicity (oral clefts).",
+      "references": [
+        { "label": "Johnson BA, et al. Topiramate for treating alcohol dependence: a randomized controlled trial. JAMA 2007", "url": "https://pubmed.ncbi.nlm.nih.gov/17925516/" },
+        { "label": "APA Practice Guideline for the Pharmacological Treatment of Patients With AUD (2018), Psychiatric News summary", "url": "https://psychnews.psychiatryonline.org/doi/10.1176/appi.pn.2018.pp1b4" },
+        { "label": "VA/DoD 2021 SUD guideline summary (AFP)", "url": "https://www.aafp.org/afp/2022/1000/practice-guidelines-substance-use-disorders" }
+      ]
+    },
+    {
+      "agent": "Gabapentin",
+      "drugClass": "Anticonvulsant (alpha-2-delta ligand)",
+      "use": "Reduce heavy drinking or achieve abstinence; may also help with sleep and protracted withdrawal symptoms",
+      "evidence": "guideline-recommended",
+      "notes": "Suggested by APA 2018 and VA/DoD 2021 as an alternative option. Mason 2014 showed a dose effect (900–1800 mg/day), but later trials were mixed. Cautions: misuse potential (especially with opioid use disorder), sedation, dizziness, respiratory depression when combined with opioids or other CNS depressants, and dose adjustment in renal impairment.",
+      "references": [
+        { "label": "Mason BJ, et al. Gabapentin treatment for alcohol dependence: a randomized clinical trial. JAMA Intern Med 2014", "url": "https://pubmed.ncbi.nlm.nih.gov/24190578/" },
+        { "label": "APA Practice Guideline for the Pharmacological Treatment of Patients With AUD (2018), Psychiatric News summary", "url": "https://psychnews.psychiatryonline.org/doi/10.1176/appi.pn.2018.pp1b4" }
+      ]
+    },
+    {
+      "agent": "Baclofen",
+      "drugClass": "GABA-B agonist",
+      "use": "Reduce drinking, including in patients with alcohol-related liver disease",
+      "evidence": "RCT-supported",
+      "notes": "A 2023 Cochrane review found it probably increases abstinence but showed no clear effect on heavy drinking, and trial results are inconsistent. It is sometimes chosen for patients with cirrhosis because it is cleared by the kidneys. Cautions: sedation, confusion, overdose toxicity (especially at high doses), withdrawal seizures if stopped abruptly, and renal dose adjustment.",
+      "references": [
+        { "label": "Agabio R, et al. Baclofen for alcohol use disorder. Cochrane Database Syst Rev 2023", "url": "https://pubmed.ncbi.nlm.nih.gov/36637087/" }
+      ]
+    },
+    {
+      "agent": "Varenicline",
+      "drugClass": "Nicotinic receptor partial agonist",
+      "use": "Reduce heavy drinking, particularly in people who also smoke",
+      "evidence": "RCT-supported",
+      "notes": "A multisite RCT (Litten 2013) found fewer heavy-drinking days with 2 mg/day; benefits may be larger in smokers. Cautions: nausea, abnormal dreams, and possible neuropsychiatric effects; the labeled caution about reduced alcohol tolerance also applies.",
+      "references": [
+        { "label": "Litten RZ, et al. A double-blind, placebo-controlled trial assessing the efficacy of varenicline tartrate for alcohol dependence. J Addict Med 2013", "url": "https://pubmed.ncbi.nlm.nih.gov/23728065/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

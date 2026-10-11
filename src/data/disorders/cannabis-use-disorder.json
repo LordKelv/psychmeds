@@ -1,0 +1,55 @@
+{
+  "id": "cannabis-use-disorder",
+  "name": "Cannabis use disorder",
+  "aliases": ["CUD", "Cannabis dependence", "Marijuana use disorder", "Cannabis withdrawal"],
+  "category": "Substance-related & addictive disorders",
+  "summary": "No medication is FDA-approved for cannabis use disorder or cannabis withdrawal. Psychosocial treatments (CBT, motivational enhancement, contingency management) are first-line. Pharmacotherapy evidence is limited and mixed (Cochrane 2019). Investigational agents such as AEF0117 and PP-01 remain in clinical trials.",
+  "plainSummary": "Cannabis use disorder means having trouble cutting back on marijuana even when it causes problems. No medicine is approved for it, so counseling is the main treatment; a few medicines are being studied.",
+  "noApprovedNote": "No FDA-approved medication exists for cannabis use disorder or cannabis withdrawal as of October 2026. Searches for 2024–2026 FDA approvals found none; candidates such as AEF0117 and PP-01 are still investigational. All options below are off-label with limited evidence.",
+  "approved": [],
+  "offLabel": [
+    {
+      "agent": "Gabapentin",
+      "drugClass": "Anticonvulsant (alpha-2-delta ligand)",
+      "use": "Reduce cannabis use and withdrawal symptoms (sleep, craving)",
+      "evidence": "limited",
+      "notes": "A small 12-week proof-of-concept RCT (1200 mg/day) found reduced use and withdrawal symptoms, but it has not been replicated in large trials. Cautions: sedation, misuse potential (especially with opioids), and renal dosing.",
+      "references": [
+        { "label": "Mason BJ, et al. A proof-of-concept randomized controlled study of gabapentin in cannabis dependence. Neuropsychopharmacology 2012", "url": "https://pubmed.ncbi.nlm.nih.gov/22373942/" },
+        { "label": "Nielsen S, et al. Pharmacotherapies for cannabis dependence. Cochrane 2019", "url": "https://pubmed.ncbi.nlm.nih.gov/30687936/" }
+      ]
+    },
+    {
+      "agent": "N-acetylcysteine",
+      "drugClass": "Glutamate modulator (OTC supplement / Rx)",
+      "use": "Adjunct to contingency management, mainly studied in adolescents",
+      "evidence": "limited",
+      "notes": "A 2012 adolescent RCT (1200 mg twice daily) doubled the odds of negative urine tests, but a large adult trial and a 2025 youth trial did not confirm benefit. Generally well tolerated (GI upset).",
+      "references": [
+        { "label": "Gray KM, et al. N-acetylcysteine in cannabis-dependent adolescents. Am J Psychiatry 2012", "url": "https://pubmed.ncbi.nlm.nih.gov/22706327/" },
+        { "label": "N-acetylcysteine for youth cannabis use disorder: randomized controlled trial main findings. Neuropsychopharmacology 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39910268/" }
+      ]
+    },
+    {
+      "agent": "Cannabinoid agonists (dronabinol, nabilone)",
+      "drugClass": "Synthetic THC / cannabinoid agonist",
+      "use": "Reduce cannabis withdrawal symptoms",
+      "evidence": "limited",
+      "notes": "A 2019 Cochrane review found that THC preparations (including nabiximols, not available in the US) may reduce withdrawal and improve retention but do not clearly increase abstinence. Cautions: dronabinol is C-III and nabilone C-II; sedation, psychoactive effects, and misuse potential.",
+      "references": [
+        { "label": "Nielsen S, et al. Pharmacotherapies for cannabis dependence. Cochrane 2019", "url": "https://pubmed.ncbi.nlm.nih.gov/30687936/" }
+      ]
+    },
+    {
+      "agent": "Varenicline",
+      "drugClass": "Nicotinic receptor partial agonist",
+      "use": "Reduce cannabis use",
+      "evidence": "limited",
+      "notes": "A 2026 phase 2 RCT (n=174) found no effect overall, with reduced use in men but not women. Evidence is insufficient to support routine use. Cautions: nausea and abnormal dreams. May be reasonable to consider when tobacco is co-used.",
+      "references": [
+        { "label": "McRae-Clark AL, et al. Varenicline for cannabis use disorder: a randomized controlled trial. Addiction 2026", "url": "https://pubmed.ncbi.nlm.nih.gov/41536001/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

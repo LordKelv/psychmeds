@@ -1,0 +1,129 @@
+{
+  "id": "obstructive-sleep-apnea-sleepiness",
+  "name": "Excessive sleepiness in obstructive sleep apnea",
+  "aliases": ["OSA", "Obstructive sleep apnea", "Residual excessive daytime sleepiness in OSA"],
+  "category": "Sleep-wake disorders",
+  "summary": "Modafinil, armodafinil, and solriamfetol are FDA-labeled to improve wakefulness in adults with excessive sleepiness from OSA. They do not treat the airway obstruction, which should be treated (e.g., with CPAP) first and continued. Tirzepatide (Zepbound, December 2024) is the first drug labeled to treat moderate-to-severe OSA itself in adults with obesity. AD109 (aroxybutynin/atomoxetine) is under FDA review (PDUFA February 28, 2027) and is not approved.",
+  "plainSummary": "Some people with sleep apnea stay sleepy during the day even when using a breathing machine (CPAP). Wake-promoting medicines can help with that sleepiness, and one weight-loss injection is approved to treat sleep apnea itself in people with obesity.",
+  "sections": ["Residual excessive sleepiness", "OSA (disease-modifying)"],
+  "approved": [
+    {
+      "drugId": "modafinil",
+      "generic": "modafinil",
+      "brands": ["Provigil"],
+      "drugClass": "Wake-promoting agent",
+      "section": "Residual excessive sleepiness",
+      "indication": "To improve wakefulness in adult patients with excessive sleepiness associated with obstructive sleep apnea (OSA). Limitation of use: treats sleepiness, not the underlying obstruction; maximize CPAP before and during treatment.",
+      "role": "adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "200 mg once daily in the morning",
+        "target": "200 mg/day",
+        "max": "400 mg/day (no consistent added benefit over 200 mg)",
+        "notes": "Severe hepatic impairment: half dose. Consider lower doses in older adults. Reduces hormonal contraceptive effectiveness."
+      },
+      "formulations": ["Tablets: 100 mg, 200 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to modafinil or armodafinil"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Modafinil can help people with sleep apnea who are still sleepy despite CPAP. It does not replace CPAP.",
+      "source": { "label": "DailyMed: Provigil (modafinil) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e16c26ad-7bc2-d155-3a5d-da83ad6492c8" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked on DailyMed. Role is 'adjunctive' because the label requires concurrent primary OSA therapy. The 2004 approval year for OSA is from FDA history and was not re-checked." }
+    },
+    {
+      "drugId": "armodafinil",
+      "generic": "armodafinil",
+      "brands": ["Nuvigil"],
+      "drugClass": "Wake-promoting agent",
+      "section": "Residual excessive sleepiness",
+      "indication": "To improve wakefulness in adult patients with excessive sleepiness associated with obstructive sleep apnea (OSA). Limitation of use: treats sleepiness, not the underlying obstruction; maximize CPAP first.",
+      "role": "adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2007,
+      "dosing": {
+        "start": "150 mg once daily in the morning",
+        "target": "150–250 mg/day",
+        "max": "250 mg/day (no consistent added benefit over 150 mg in OSA)",
+        "notes": "Reduce dose in severe hepatic impairment. Consider lower doses in older adults."
+      },
+      "formulations": ["Tablets: 50 mg, 150 mg, 200 mg, 250 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to modafinil or armodafinil"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Armodafinil can help people with sleep apnea who are still sleepy despite CPAP. It does not replace CPAP.",
+      "source": { "label": "DailyMed: Nuvigil (armodafinil) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d878aed0-ddbf-8fa1-abf7-d3e480260845" },
+      "verified": { "date": "2026-10-11", "status": "verified" }
+    },
+    {
+      "drugId": "solriamfetol",
+      "generic": "solriamfetol",
+      "brands": ["Sunosi"],
+      "drugClass": "Dopamine and norepinephrine reuptake inhibitor",
+      "section": "Residual excessive sleepiness",
+      "indication": "To improve wakefulness in adult patients with excessive daytime sleepiness associated with obstructive sleep apnea (OSA). Not indicated to treat the underlying airway obstruction; treat the obstruction (e.g., CPAP) for at least one month before starting and continue it.",
+      "role": "adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2019,
+      "dosing": {
+        "start": "37.5 mg once daily on awakening",
+        "target": "37.5–150 mg once daily",
+        "max": "150 mg/day",
+        "notes": "May double dose at intervals of at least 3 days. Avoid within 9 hours of bedtime. Control blood pressure first. Moderate renal impairment: start 37.5 mg, max 75 mg; severe: 37.5 mg; ESRD: not recommended."
+      },
+      "formulations": ["Tablets: 75 mg (functionally scored), 150 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["MAOI use currently or within the preceding 14 days"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": false,
+      "plainSummary": "Solriamfetol helps adults with sleep apnea who remain sleepy during the day while continuing their CPAP or other airway treatment. It can raise blood pressure.",
+      "source": { "label": "DailyMed: Sunosi (solriamfetol) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked on the Axsome SPL (effective May 2026)." }
+    },
+    {
+      "drugId": "tirzepatide",
+      "generic": "tirzepatide",
+      "brands": ["Zepbound"],
+      "drugClass": "GIP and GLP-1 receptor agonist",
+      "section": "OSA (disease-modifying)",
+      "indication": "In combination with a reduced-calorie diet and increased physical activity, to treat moderate to severe obstructive sleep apnea (OSA) in adults with obesity. Treats OSA itself, not residual sleepiness.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults with obesity", "pediatric": false },
+      "approvalYear": 2024,
+      "dosing": {
+        "start": "2.5 mg subcutaneously once weekly for 4 weeks",
+        "target": "10 mg or 15 mg once weekly (OSA maintenance)",
+        "max": "15 mg once weekly",
+        "notes": "Increase in 2.5 mg steps after at least 4 weeks on each dose. Do not combine with other tirzepatide products or GLP-1 receptor agonists. GI adverse effects are common; watch for pancreatitis, gallbladder disease, and hypoglycemia with insulin or sulfonylureas. May reduce oral contraceptive absorption."
+      },
+      "formulations": ["Single-dose prefilled pens", "Single-dose vials", "KwikPen (multi-dose pen)"],
+      "boxedWarnings": ["Risk of thyroid C-cell tumors (contraindicated with personal or family history of MTC or MEN 2)"],
+      "contraindications": ["Personal or family history of medullary thyroid carcinoma or MEN 2", "Known serious hypersensitivity to tirzepatide or excipients"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Tirzepatide is a weekly injection that helps with weight loss. In adults with obesity it reduces sleep apnea itself. It is not a treatment for leftover daytime sleepiness.",
+      "source": { "label": "DailyMed: Zepbound (tirzepatide) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Indication, OSA dosing, boxed warning, and contraindications checked on the Lilly SPL (effective August 2026). OSA indication approved December 20, 2024 (FDA/Lilly announcements per news reports). The formulations list is from the SPL title; strengths were not enumerated. Role is 'monotherapy or adjunctive' because the trials enrolled patients both on and off PAP." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Pitolisant",
+      "drugClass": "H3 receptor antagonist/inverse agonist",
+      "use": "Residual excessive daytime sleepiness in OSA despite or without CPAP",
+      "evidence": "RCT-supported",
+      "notes": "Positive phase 3 RCTs (HAROSA I/II/III) support it, and it is approved for this use in Europe but not in the US. French 2024 residual-sleepiness guidelines discuss it among options. Cautions: insomnia, headache, QT prolongation, CYP2D6/CYP3A4 interactions, and reduced hormonal contraceptive efficacy. Airway therapy should continue.",
+      "references": [
+        { "label": "Pépin JL et al. Pitolisant for residual excessive daytime sleepiness in OSA patients adhering to CPAP: randomized trial. Chest 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33121980/" },
+        { "label": "Barateau L et al. Guidelines for the assessment and management of residual sleepiness in OSA (SFRMS/SPLF). Respir Med Res 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/38861872/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "persistent-depressive-disorder",
+  "name": "Persistent depressive disorder",
+  "aliases": ["Dysthymia", "Dysthymic disorder", "Chronic depression", "PDD"],
+  "category": "Depressive disorders",
+  "summary": "Depressed mood on most days for at least 2 years (1 year in youth) with at least two other depressive symptoms; DSM-5-TR merges dysthymia and chronic major depression into this diagnosis. No currently marketed US drug carries a PDD- or dysthymia-specific indication, so antidepressants approved for MDD are used off-label, usually with psychotherapy. Chronic depression responds less well and needs longer treatment trials than episodic MDD.",
+  "plainSummary": "Persistent depressive disorder is long-lasting depression that goes on for two years or more. Talk therapy and antidepressant medicines, often used together, can help.",
+  "noApprovedNote": "No FDA-approved medication currently on the US market has an indication specifically for persistent depressive disorder or dysthymia (checked on DailyMed and openFDA label indications, 2026-10-11). The only US label found that named 'dysthymic disorder' was maprotiline (Ludiomil and generics: 'depressive neurosis (dysthymic disorder)'), and Drugs@FDA lists every maprotiline application as discontinued. Some older tricyclic labels (e.g., doxepin: 'psychoneurotic patients with depression') use outdated terms that overlap historically but do not name PDD. When a PDD patient also meets criteria for a current major depressive episode, MDD-approved antidepressants are on-label for that episode.",
+  "approved": [],
+  "offLabel": [
+    {
+      "agent": "SSRIs (e.g., sertraline, fluoxetine, escitalopram, paroxetine)",
+      "drugClass": "Selective serotonin reuptake inhibitor",
+      "use": "First-line pharmacotherapy for chronic depressive symptoms/dysthymia, alone or combined with CBT",
+      "evidence": "guideline-recommended",
+      "notes": "NICE NG222 (1.10.2) lists SSRIs, SNRIs, TCAs, CBT, or CBT plus an SSRI or TCA as options for chronic depressive symptoms that impair functioning. If one SSRI is not tolerated, NICE suggests trying another SSRI. A network meta-analysis (Kriston 2014) found SSRIs better than placebo for PDD. Responses are slower and smaller than in episodic MDD. Antidepressant boxed warning applies to youth and young adults.",
+      "references": [
+        { "label": "NICE NG222 Depression in adults (2022), section 1.10 Chronic depressive symptoms", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" },
+        { "label": "Kriston et al. Acute treatments for persistent depressive disorder: network meta-analysis. Depress Anxiety 2014, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/24448972/" }
+      ]
+    },
+    {
+      "agent": "SNRIs (e.g., venlafaxine, duloxetine)",
+      "drugClass": "Serotonin-norepinephrine reuptake inhibitor",
+      "use": "Chronic depressive symptoms/dysthymia",
+      "evidence": "guideline-recommended",
+      "notes": "NICE NG222 lists SNRIs among first options for chronic depressive symptoms. PDD-specific RCT data are thinner than for SSRIs or TCAs. Watch blood pressure (venlafaxine) and discontinuation symptoms. Antidepressant boxed warning applies.",
+      "references": [
+        { "label": "NICE NG222 Depression in adults (2022), section 1.10", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" }
+      ]
+    },
+    {
+      "agent": "Tricyclic antidepressants (e.g., imipramine)",
+      "drugClass": "Tricyclic antidepressant",
+      "use": "Chronic depression/dysthymia, including after SSRI non-response",
+      "evidence": "guideline-recommended",
+      "notes": "NICE NG222 lists TCAs as an option but warns that they are dangerous in overdose. In a large RCT in chronic depression, sertraline and imipramine were similarly effective, with sertraline better tolerated. Cautions: anticholinergic effects, orthostasis, cardiac conduction effects; check ECG in at-risk patients; limit amounts dispensed when suicide risk is present.",
+      "references": [
+        { "label": "NICE NG222 Depression in adults (2022), section 1.10", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" },
+        { "label": "Keller et al. Treatment of chronic depression, part 2: sertraline vs imipramine RCT. J Clin Psychiatry 1998, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/9862606/" }
+      ]
+    },
+    {
+      "agent": "Irreversible MAOIs (e.g., phenelzine)",
+      "drugClass": "Monoamine oxidase inhibitor",
+      "use": "Chronic depressive symptoms not responding to SSRIs/SNRIs, in specialist settings",
+      "evidence": "guideline-recommended",
+      "notes": "NICE NG222 (1.10.6) lists irreversible MAOIs as alternatives in specialist settings after non-response to SSRIs/SNRIs. Requires dietary tyramine restriction, careful interaction management, and adequate washout periods when switching (serotonin syndrome, hypertensive crisis risk).",
+      "references": [
+        { "label": "NICE NG222 Depression in adults (2022), section 1.10", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" }
+      ]
+    },
+    {
+      "agent": "Low-dose amisulpride (not available in the US)",
+      "drugClass": "Benzamide antipsychotic (low dose)",
+      "use": "Dysthymia/chronic depressive symptoms (outside the US)",
+      "evidence": "guideline-recommended",
+      "notes": "NICE NG222 lists low-dose amisulpride (max 50 mg/day) as an alternative in specialist settings, and network meta-analysis supports efficacy in PDD. Oral amisulpride for psychiatric use is not marketed in the US (only an IV antiemetic product exists). Risks include hyperprolactinemia and QT prolongation, and higher doses may worsen depression.",
+      "references": [
+        { "label": "NICE NG222 Depression in adults (2022), section 1.10", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" },
+        { "label": "Kriston et al. Network meta-analysis of acute PDD treatments. Depress Anxiety 2014, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/24448972/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

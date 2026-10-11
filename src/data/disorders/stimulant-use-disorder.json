@@ -1,0 +1,66 @@
+{
+  "id": "stimulant-use-disorder",
+  "name": "Stimulant use disorder",
+  "aliases": ["Methamphetamine use disorder", "Cocaine use disorder", "Amphetamine-type stimulant use disorder", "StUD"],
+  "category": "Substance-related & addictive disorders",
+  "summary": "No medication is FDA-approved for cocaine or methamphetamine/amphetamine-type stimulant use disorder. Contingency management is the evidence-based standard. The 2024 ASAM/AAAP guideline lists several off-label medications as conditional options with low-to-moderate certainty evidence; psychostimulant prescribing is restricted to addiction specialists with close monitoring.",
+  "plainSummary": "Stimulant use disorder involves trouble controlling use of drugs like methamphetamine or cocaine. No medicine is approved for it yet, but counseling programs that reward drug-free tests work well, and some medicines may help.",
+  "noApprovedNote": "No FDA-approved medication exists for stimulant (cocaine, methamphetamine, or other amphetamine-type) use disorder as of October 2026. Searches of FDA announcements for 2024–2026 found no approvals. Contingency management, a behavioral treatment, is the best-supported intervention. All medications below are off-label.",
+  "approved": [],
+  "offLabel": [
+    {
+      "agent": "Naltrexone (XR injection) + bupropion XL",
+      "drugClass": "Opioid antagonist + aminoketone",
+      "use": "Reduce methamphetamine use (amphetamine-type stimulant use disorder)",
+      "evidence": "guideline-recommended",
+      "notes": "In ADAPT-2 (NEJM 2021), XR-naltrexone 380 mg every 3 weeks plus bupropion XL 450 mg/day produced a modest but significant increase in response (methamphetamine-negative urines) versus placebo. ASAM/AAAP 2024 gives it a conditional recommendation (moderate certainty). Cautions: patients must be opioid-free, bupropion lowers the seizure threshold, and naltrexone causes injection-site reactions. Cost and access are barriers.",
+      "references": [
+        { "label": "Trivedi MH, et al. Bupropion and naltrexone in methamphetamine use disorder. N Engl J Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33497547/" },
+        { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
+      ]
+    },
+    {
+      "agent": "Mirtazapine",
+      "drugClass": "Noradrenergic and specific serotonergic antidepressant",
+      "use": "Reduce methamphetamine use",
+      "evidence": "guideline-recommended",
+      "notes": "Coffin 2020 showed reduced methamphetamine use at 30 mg/day among men and transgender women who have sex with men. A 2026 Australian phase 3 trial reported a modest reduction in use days. ASAM/AAAP 2024: conditional, low certainty. Cautions: sedation, weight gain, and antidepressant suicidality warning.",
+      "references": [
+        { "label": "Coffin PO, et al. Effects of mirtazapine for methamphetamine use disorder. JAMA Psychiatry 2020", "url": "https://pubmed.ncbi.nlm.nih.gov/31825466/" },
+        { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
+      ]
+    },
+    {
+      "agent": "Topiramate",
+      "drugClass": "Anticonvulsant",
+      "use": "Reduce cocaine use; also considered for amphetamine-type stimulant use",
+      "evidence": "guideline-recommended",
+      "notes": "Johnson 2013 found more cocaine-free weeks with topiramate titrated to 300 mg/day. ASAM/AAAP 2024 gives conditional, low-certainty recommendations for cocaine use disorder (especially with co-occurring AUD) and for ATS use disorder. Cautions: cognitive slowing, paresthesia, kidney stones, metabolic acidosis, and teratogenicity.",
+      "references": [
+        { "label": "Johnson BA, et al. Topiramate for the treatment of cocaine addiction: a randomized clinical trial. JAMA Psychiatry 2013", "url": "https://pubmed.ncbi.nlm.nih.gov/24132249/" },
+        { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
+      ]
+    },
+    {
+      "agent": "Bupropion",
+      "drugClass": "Aminoketone",
+      "use": "Promote cocaine abstinence; reduce methamphetamine use in lower-frequency users (<18 days/month)",
+      "evidence": "guideline-recommended",
+      "notes": "ASAM/AAAP 2024 gives conditional, low-certainty recommendations, with extra consideration when tobacco use disorder or depression co-occurs. Benefit as monotherapy is modest and inconsistent. Cautions: seizure risk (avoid with eating disorders or seizure history) and insomnia.",
+      "references": [
+        { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
+      ]
+    },
+    {
+      "agent": "Prescription psychostimulants (extended-release amphetamine salts, long-acting methylphenidate, modafinil)",
+      "drugClass": "CNS stimulants / wakefulness-promoting agent",
+      "use": "Agonist-type treatment: long-acting amphetamine or modafinil for cocaine use disorder (also topiramate + ER mixed amphetamine salts); long-acting methylphenidate for ATS use disorder",
+      "evidence": "guideline-recommended",
+      "notes": "ASAM/AAAP 2024 gives conditional recommendations (low to moderate certainty) but limits them to board-certified addiction specialists or equivalently trained physicians able to monitor closely (pill counts, drug testing, PDMP checks). Some regimens used doses at or above ADHD maximums. Cautions: misuse and diversion, cardiovascular effects, psychosis, and Schedule II/IV prescribing rules.",
+      "references": [
+        { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

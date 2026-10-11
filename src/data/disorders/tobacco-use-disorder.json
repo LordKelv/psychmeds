@@ -1,0 +1,195 @@
+{
+  "id": "tobacco-use-disorder",
+  "name": "Tobacco use disorder",
+  "aliases": ["Nicotine dependence", "Smoking cessation", "Tobacco dependence", "Nicotine addiction"],
+  "category": "Substance-related & addictive disorders",
+  "summary": "FDA-approved smoking-cessation aids are varenicline, bupropion SR, and nicotine replacement therapy (OTC patch, gum, and lozenge; Rx nasal spray). The ATS 2020 guideline prefers varenicline over the patch or bupropion, and combination NRT is widely endorsed. Cytisinicline received a Complete Response Letter in June 2026 (manufacturing and labeling issues) and is not approved. The Nicotrol inhaler is discontinued. No drug is FDA-labeled for vaping cessation or for smokeless tobacco.",
+  "plainSummary": "Tobacco use disorder means having a hard time quitting smoking or other tobacco even when you want to. Quit-smoking medicines like varenicline, bupropion, and nicotine patches, gum, or lozenges roughly double the chance of quitting, especially with counseling.",
+  "sections": ["Non-nicotine medications", "Nicotine replacement therapy"],
+  "approved": [
+    {
+      "drugId": "varenicline",
+      "generic": "varenicline",
+      "brands": ["Chantix"],
+      "drugClass": "Alpha4beta2 nicotinic receptor partial agonist",
+      "section": "Non-nicotine medications",
+      "indication": "Aid to smoking-cessation treatment.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults (not recommended for patients 16 years or younger; efficacy not demonstrated)", "pediatric": false },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "0.5 mg once daily on days 1–3, then 0.5 mg twice daily on days 4–7; start 1 week before the quit date, or quit between days 8 and 35",
+        "target": "1 mg twice daily for 12 weeks; an additional 12 weeks is recommended for successful quitters",
+        "max": "2 mg/day",
+        "notes": "Gradual-quit option: reduce smoking 50% by week 4, another 50% by week 8, and quit by week 12, then continue to 24 weeks total. CrCl <30: start 0.5 mg daily, maximum 0.5 mg twice daily; ESRD on hemodialysis: maximum 0.5 mg daily. Take after eating with water. Nausea is common; the boxed neuropsychiatric warning was removed in 2016."
+      },
+      "formulations": ["Tablets 0.5 mg, 1 mg", "Starting-month pack"],
+      "boxedWarnings": [],
+      "contraindications": ["History of serious hypersensitivity or skin reactions to varenicline"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Varenicline is a daily pill that eases cravings and makes smoking less satisfying. It is usually started a week before the planned quit day.",
+      "source": { "label": "DailyMed: CHANTIX (varenicline) tablets", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Chantix label rev. 1/2026; many generics are marketed per Drugs@FDA." }
+    },
+    {
+      "drugId": "bupropion",
+      "generic": "bupropion hydrochloride SR (smoking cessation)",
+      "brands": ["Zyban (discontinued)", "generic bupropion HCl SR 150 mg labeled for smoking cessation"],
+      "drugClass": "Aminoketone (norepinephrine-dopamine reuptake inhibitor)",
+      "section": "Non-nicotine medications",
+      "indication": "Aid to smoking cessation treatment.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults (safety and effectiveness in pediatric patients not established)", "pediatric": false },
+      "approvalYear": 1997,
+      "dosing": {
+        "start": "150 mg once daily for 3 days, starting 1 week before quit day (set a quit date within the first 2 weeks)",
+        "target": "150 mg twice daily (at least 8 hours apart) for 7–12 weeks",
+        "max": "300 mg/day",
+        "notes": "May be combined with the nicotine patch (labeled; monitor blood pressure). Moderate–severe hepatic impairment: 150 mg every other day. Consider lowering the dose in renal impairment. Swallow whole. Seizure risk is dose-related."
+      },
+      "formulations": ["Extended-release (SR) tablets 150 mg"],
+      "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"],
+      "contraindications": ["Seizure disorder", "Current or prior bulimia or anorexia nervosa", "Abrupt discontinuation of alcohol, benzodiazepines, barbiturates, or antiepileptic drugs", "MAOI use within 14 days, or starting in patients on linezolid or IV methylene blue", "Hypersensitivity to bupropion"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Bupropion is a pill, also used for depression, that reduces cravings and withdrawal when quitting smoking. People with seizures or eating disorders should not take it.",
+      "source": { "label": "DailyMed: Bupropion hydrochloride extended-release tablets USP (SR), smoking cessation (Dr. Reddy's)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8069c521-c49a-4b6d-baa8-4b0be897d585" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Zyban brand is discontinued per Drugs@FDA; generic SR 150 mg products labeled for smoking cessation remain on DailyMed. The boxed warning on smoking-cessation bupropion no longer includes the neuropsychiatric events warning that was removed in 2016." }
+    },
+    {
+      "drugId": "nicotine",
+      "generic": "nicotine transdermal patch",
+      "brands": ["NicoDerm CQ", "generic OTC nicotine patches"],
+      "drugClass": "Nicotine replacement therapy",
+      "section": "Nicotine replacement therapy",
+      "indication": "OTC: reduces withdrawal symptoms, including nicotine craving, associated with quitting smoking.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults 18 and older (under 18: ask a doctor)", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": ">10 cigarettes/day: 21 mg/24 h patch daily for weeks 1–6. ≤10 cigarettes/day: start at 14 mg for 6 weeks",
+        "target": "Then 14 mg/day for weeks 7–8 and 7 mg/day for weeks 9–10 (10-week program)",
+        "max": "One patch at a time",
+        "notes": "Begin on quit day. Wear 16 or 24 hours (remove at bedtime if vivid dreams). Rotate sites. Ask a doctor first if there is heart disease, recent MI, arrhythmia, or uncontrolled hypertension."
+      },
+      "formulations": ["Transdermal patch 7, 14, 21 mg/24 h (OTC)"],
+      "boxedWarnings": [],
+      "contraindications": ["Drug Facts warnings rather than formal contraindications (e.g., do not smoke or use other nicotine products while using the patch without a doctor's advice)"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A nicotine patch gives a steady, lower dose of nicotine through the skin to ease cravings, with the strength stepped down over about 10 weeks.",
+      "source": { "label": "DailyMed: NicoDerm CQ (nicotine) patch, OTC Drug Facts", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=93b2d1b9-83c1-40b5-b6af-90c38c8d6cef" },
+      "verified": { "date": "2026-10-11", "status": "partially-verified", "note": "Use statement and step-down dosing were confirmed. Approval year (Rx 1991, OTC 1996 by historical sources) and the full Drug Facts warning text were not confirmed." }
+    },
+    {
+      "drugId": "nicotine",
+      "generic": "nicotine polacrilex gum and lozenge",
+      "brands": ["Nicorette gum", "Nicorette lozenge and mini lozenge", "generic OTC nicotine gum and lozenges"],
+      "drugClass": "Nicotine replacement therapy (short-acting)",
+      "section": "Nicotine replacement therapy",
+      "indication": "OTC: reduces withdrawal symptoms, including nicotine craving, associated with quitting smoking.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults 18 and older (under 18: ask a doctor)", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "4 mg if first cigarette within 30 minutes of waking; otherwise 2 mg. Weeks 1–6: 1 piece every 1–2 h (at least 9/day)",
+        "target": "Weeks 7–9: every 2–4 h; weeks 10–12: every 4–8 h; then stop",
+        "max": "Gum: 24 pieces/day. Lozenge: 5 in 6 hours and 20/day",
+        "notes": "Gum: 'chew and park' for about 30 minutes. Lozenge: let it dissolve without chewing. Avoid eating or drinking 15 minutes before and during use. Acidic drinks reduce absorption."
+      },
+      "formulations": ["Gum 2 mg, 4 mg (OTC)", "Lozenge and mini lozenge 2 mg, 4 mg (OTC)"],
+      "boxedWarnings": [],
+      "contraindications": ["Drug Facts warnings rather than formal contraindications"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Nicotine gum and lozenges give quick, short bursts of nicotine to handle cravings, used often at first and then less over 12 weeks.",
+      "source": { "label": "DailyMed: Nicorette (nicotine polacrilex) gum, OTC Drug Facts", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=673fd19f-69b3-4f73-b9b4-18b5f4cbf69c" },
+      "verified": { "date": "2026-10-11", "status": "partially-verified", "note": "Gum and lozenge (https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f350e050-2173-43e0-8738-848382ce0700) uses and directions were confirmed. Approval years (gum 1984 Rx / 1996 OTC; lozenge 2002) come from historical sources and are not confirmed." }
+    },
+    {
+      "drugId": "nicotine",
+      "generic": "nicotine nasal spray",
+      "brands": ["Nicotrol NS"],
+      "drugClass": "Nicotine replacement therapy (short-acting, Rx)",
+      "section": "Nicotine replacement therapy",
+      "indication": "Aid to smoking cessation for the relief of nicotine withdrawal symptoms, as part of a comprehensive behavioral smoking cessation program.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults (not recommended in pediatric patients)", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "1–2 doses per hour (1 dose = 2 sprays = 1 mg, one per nostril)",
+        "target": "At least 8 doses/day, adjusted to cravings; up to 3 months, then taper",
+        "max": "5 doses/hour and 40 doses (40 mg)/day",
+        "notes": "Use for longer than 6 months is not recommended. Nasal and throat irritation is common early. Has the highest dependence potential of the NRT products."
+      },
+      "formulations": ["Nasal spray 0.5 mg/spray (10 mL bottle)"],
+      "boxedWarnings": [],
+      "contraindications": ["Hypersensitivity to nicotine or any product component"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Nicotine nasal spray is a prescription spray that delivers nicotine quickly through the nose to calm strong cravings.",
+      "source": { "label": "DailyMed: Nicotrol NS (nicotine nasal spray)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acb7d02d-249b-4645-ac1b-8ff9a56dd244" },
+      "verified": { "date": "2026-10-11", "status": "partially-verified", "note": "Indication, dosing, pediatric statement, and contraindication were confirmed (rev. 5/2025). Approval year was not confirmed. The Nicotrol oral inhaler is listed as discontinued in Drugs@FDA and is omitted." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Combination NRT (patch + short-acting gum, lozenge, or spray)",
+      "drugClass": "Nicotine replacement therapy",
+      "use": "Higher quit rates than a single NRT product",
+      "evidence": "guideline-recommended",
+      "notes": "Endorsed by the ATS 2020 guideline and US Public Health Service guidance. Individual OTC Drug Facts labels describe single-product use. Mild nicotine excess (nausea, palpitations) is possible.",
+      "references": [
+        { "label": "Leone FT, et al. Summary for clinicians: ATS clinical practice guideline for initiating pharmacologic treatment in tobacco-dependent adults. Ann Am Thorac Soc 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33052710/" },
+        { "label": "Cahill K, et al. Pharmacological interventions for smoking cessation: an overview and network meta-analysis. Cochrane 2013", "url": "https://pubmed.ncbi.nlm.nih.gov/23728690/" }
+      ]
+    },
+    {
+      "agent": "Varenicline + nicotine patch",
+      "drugClass": "Nicotinic partial agonist + NRT",
+      "use": "Combination therapy for smokers who need more support",
+      "evidence": "guideline-recommended",
+      "notes": "The ATS 2020 guideline suggests varenicline plus the nicotine patch over varenicline alone. The combination is generally well tolerated, though nausea may increase.",
+      "references": [
+        { "label": "Galiatsatos P, et al. Summary for clinicians: ATS guideline for initiating pharmacologic treatment in tobacco-dependent adults. Ann Am Thorac Soc 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33052710/" }
+      ]
+    },
+    {
+      "agent": "Varenicline + bupropion SR",
+      "drugClass": "Nicotinic partial agonist + aminoketone",
+      "use": "Combination therapy, particularly for heavier smokers",
+      "evidence": "RCT-supported",
+      "notes": "Ebbert 2014 found higher abstinence at 12 and 26 weeks (not 52 weeks) versus varenicline alone. Cautions: anxiety, insomnia, and the combined neuropsychiatric and seizure-risk considerations of both drugs.",
+      "references": [
+        { "label": "Ebbert JO, et al. Combination varenicline and bupropion SR for tobacco-dependence treatment. JAMA 2014", "url": "https://pubmed.ncbi.nlm.nih.gov/24399554/" }
+      ]
+    },
+    {
+      "agent": "Nortriptyline",
+      "drugClass": "Tricyclic antidepressant",
+      "use": "Second-line smoking cessation aid",
+      "evidence": "guideline-recommended",
+      "notes": "Recommended as second-line in US Public Health Service guidance. A Cochrane review found efficacy similar to bupropion. Cautions: anticholinergic effects, orthostasis, cardiac conduction effects, and lethality in overdose.",
+      "references": [
+        { "label": "Howes S, et al. Antidepressants for smoking cessation. Cochrane 2020", "url": "https://pubmed.ncbi.nlm.nih.gov/32319681/" }
+      ]
+    },
+    {
+      "agent": "Varenicline (for vaping/e-cigarette cessation)",
+      "drugClass": "Nicotinic partial agonist",
+      "use": "Quitting e-cigarettes (vaping)",
+      "evidence": "RCT-supported",
+      "notes": "A 2025 Cochrane review found that varenicline increased six-month vaping cessation (RR about 2.7, 2 RCTs) but rated the evidence low certainty. No drug is FDA-labeled for vaping cessation. Same cautions as for smoking cessation.",
+      "references": [
+        { "label": "Interventions for quitting vaping. Cochrane Database Syst Rev 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/41288132/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

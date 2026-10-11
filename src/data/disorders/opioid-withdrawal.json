@@ -1,0 +1,96 @@
+{
+  "id": "opioid-withdrawal",
+  "name": "Opioid withdrawal",
+  "aliases": ["Opioid detoxification", "Medically supervised opioid withdrawal", "Opiate withdrawal"],
+  "category": "Substance-related & addictive disorders",
+  "summary": "Lofexidine is the only non-opioid drug FDA-labeled to mitigate opioid withdrawal symptoms, and methadone labeling includes detoxification treatment of opioid addiction (restricted to OTPs, with narrow federal exceptions). Withdrawal management alone has high relapse and overdose rates, so guidelines favor moving patients to ongoing OUD medication (buprenorphine, methadone, or XR-naltrexone) when possible.",
+  "plainSummary": "Opioid withdrawal happens when someone who depends on opioids stops or cuts back, and it can cause aches, sweating, diarrhea, anxiety, and strong cravings. Medicines can ease these symptoms, but staying on long-term treatment afterward is much safer than stopping all treatment.",
+  "sections": ["Non-opioid withdrawal agents", "Opioid agonist detoxification"],
+  "approved": [
+    {
+      "drugId": "lofexidine",
+      "generic": "lofexidine",
+      "brands": ["Lucemyra"],
+      "drugClass": "Central alpha-2 adrenergic agonist",
+      "section": "Non-opioid withdrawal agents",
+      "indication": "Mitigation of opioid withdrawal symptoms to facilitate abrupt opioid discontinuation in adults.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2018,
+      "dosing": {
+        "start": "0.54 mg (three 0.18 mg tablets) orally 4 times daily, 5–6 h apart, during peak withdrawal (generally the first 5–7 days)",
+        "target": "Symptom-guided dosing, lowered as withdrawal wanes; may continue up to 14 days",
+        "max": "2.88 mg/day (16 tablets); no single dose above 0.72 mg (4 tablets)",
+        "notes": "Taper over 2–4 days when stopping (e.g., reduce by 1 tablet per dose every 1–2 days) to avoid rebound hypertension. Hepatic impairment: Child-Pugh 5–6, 2.16 mg/day; 7–9, 1.44 mg/day; >9, 0.72 mg/day. Renal impairment: eGFR 30–89.9, 1.44 mg/day; <30 or dialysis, 0.72 mg/day. Watch for hypotension, bradycardia, syncope, and QT prolongation."
+      },
+      "formulations": ["Tablets 0.18 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["None"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Lofexidine is a non-opioid pill that eases withdrawal symptoms such as sweating, chills, and stomach cramps for up to two weeks. It can lower blood pressure and heart rate, so dizziness is possible.",
+      "source": { "label": "DailyMed: LUCEMYRA (lofexidine) tablets", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b748f308-ba71-4fd9-84ec-ec7e0f210885" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Label rev. 7/2026. Several generic lofexidine labels are listed on DailyMed (e.g., ANI, Novadoz, Prasco)." }
+    },
+    {
+      "drugId": "methadone",
+      "generic": "methadone (oral, detoxification)",
+      "brands": ["Methadose", "Diskets", "Dolophine (discontinued)"],
+      "drugClass": "Full mu-opioid receptor agonist",
+      "section": "Opioid agonist detoxification",
+      "indication": "Detoxification treatment of opioid addiction (heroin or other morphine-like drugs). When used for detoxification of opioid addiction, methadone is subject to 42 CFR Part 8 and may be dispensed only by certified opioid treatment programs.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults (safety and effectiveness below age 18 not established per label)", "pediatric": false },
+      "approvalYear": 1972,
+      "dosing": {
+        "start": "20–30 mg supervised initial dose (≤30 mg); first-day total ordinarily ≤40 mg",
+        "target": "Short-term detoxification: about 40 mg/day in divided doses to stabilize for 2–3 days, then gradually decrease daily or every 2 days",
+        "max": "Not specified for detoxification; hospitalized patients may tolerate daily reductions of 20% of the total daily dose, while outpatients may need slower tapers",
+        "notes": "Methadone accumulates over the first days (deaths have occurred during early dosing). QT prolongation and CYP interactions apply. Federal exceptions outside OTPs are narrow (e.g., hospital use for a patient admitted for another condition, and the short-term 72-hour administration rule)."
+      },
+      "formulations": ["Oral concentrate 10 mg/mL", "Dispersible tablets 40 mg", "Oral tablets 5 mg, 10 mg", "Oral solution 5 mg/5 mL, 10 mg/5 mL"],
+      "boxedWarnings": [
+        "Life-threatening respiratory depression",
+        "Risks from concomitant use with benzodiazepines or other CNS depressants",
+        "Life-threatening QT prolongation",
+        "Accidental ingestion (especially children) can be fatal",
+        "Misuse, abuse, and diversion of opioids",
+        "Interactions with drugs affecting cytochrome P450 isoenzymes",
+        "Conditions for distribution and use of methadone products for the treatment of opioid addiction (42 CFR 8.12; certified OTPs only)"
+      ],
+      "contraindications": ["Significant respiratory depression", "Acute or severe bronchial asthma in an unmonitored setting or without resuscitative equipment", "Known or suspected gastrointestinal obstruction, including paralytic ileus", "Hypersensitivity to methadone"],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "Methadone can be used for a short time at a treatment program to ease withdrawal, then slowly lowered. Many people do better staying on methadone longer than doing a quick taper.",
+      "source": { "label": "DailyMed: METHADOSE (methadone hydrochloride) oral concentrate", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=808a9d0b-720b-4034-a862-5122ff514608" },
+      "verified": { "date": "2026-10-11", "status": "partially-verified", "note": "Indication and short-term detoxification dosing were confirmed on the label. The approval year (1972) and the federal non-OTP exceptions (hospital use, 72-hour rule under 21 CFR 1306.07) come from regulatory background and were not confirmed on the label." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Clonidine",
+      "drugClass": "Central alpha-2 adrenergic agonist",
+      "use": "Relief of autonomic opioid withdrawal symptoms (often combined with symptomatic adjuncts)",
+      "evidence": "guideline-recommended",
+      "notes": "Recommended by ASAM (2020) as a non-opioid option for withdrawal management. A Cochrane review found clonidine and lofexidine similarly effective, with less hypotension on lofexidine. Cautions: hypotension, bradycardia, sedation, and rebound hypertension if stopped abruptly. It does little for craving or myalgia, so it is usually paired with symptomatic medications.",
+      "references": [
+        { "label": "ASAM National Practice Guideline for the Treatment of OUD, 2020 Focused Update (SAMHSA listing)", "url": "https://www.samhsa.gov/resource/ebp/asam-national-practice-guideline-treatment-opioid-use-disorder" },
+        { "label": "Gowing L, et al. Alpha2-adrenergic agonists for the management of opioid withdrawal. Cochrane Database Syst Rev 2016 (CD002024.pub5)", "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002024.pub5/full" }
+      ]
+    },
+    {
+      "agent": "Buprenorphine (short-term taper)",
+      "drugClass": "Partial mu-opioid receptor agonist",
+      "use": "Medically supervised withdrawal using a buprenorphine taper",
+      "evidence": "guideline-recommended",
+      "notes": "Buprenorphine labels cover 'treatment of opioid dependence' but do not list withdrawal management as a separate indication. Guidelines (ASAM 2020) prefer buprenorphine or methadone tapers over alpha-2 agonists alone, but favor continuing maintenance because relapse and overdose risk is high after any taper. Precipitated withdrawal can occur if started too early, especially after fentanyl or methadone.",
+      "references": [
+        { "label": "Gowing L, et al. Buprenorphine for managing opioid withdrawal. Cochrane Database Syst Rev 2017", "url": "https://www.cochrane.org/evidence/CD002025_buprenorphine-managing-opioid-withdrawal" },
+        { "label": "ASAM National Practice Guideline for the Treatment of OUD, 2020 Focused Update (SAMHSA listing)", "url": "https://www.samhsa.gov/resource/ebp/asam-national-practice-guideline-treatment-opioid-use-disorder" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

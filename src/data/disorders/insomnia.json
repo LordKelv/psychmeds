@@ -1,0 +1,474 @@
+{
+  "id": "insomnia",
+  "name": "Insomnia",
+  "aliases": ["Insomnia disorder", "Chronic insomnia"],
+  "category": "Sleep-wake disorders",
+  "summary": "FDA-labeled hypnotics include dual orexin receptor antagonists, benzodiazepine receptor agonists (Z-drugs), benzodiazepines, ramelteon, and low-dose doxepin; CBT-I is first-line per AASM, ACP, and VA/DoD guidance, with medication reserved for patients who cannot access, decline, or do not respond to it. Z-drugs carry a boxed warning for complex sleep behaviors and benzodiazepines carry class boxed warnings for opioid co-use, abuse/addiction, and dependence/withdrawal.",
+  "plainSummary": "Insomnia means having trouble falling asleep or staying asleep, which leaves you tired during the day. Talk therapy for sleep (CBT-I) is usually tried first, and several sleep medicines are approved when more help is needed.",
+  "sections": [
+    "Orexin receptor antagonists",
+    "Benzodiazepine receptor agonists (Z-drugs)",
+    "Benzodiazepines",
+    "Other"
+  ],
+  "approved": [
+    {
+      "drugId": "suvorexant",
+      "generic": "suvorexant",
+      "brands": ["Belsomra"],
+      "drugClass": "Dual orexin receptor antagonist",
+      "section": "Orexin receptor antagonists",
+      "indication": "Treatment of insomnia characterized by difficulties with sleep onset and/or sleep maintenance.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults (safety and effectiveness in pediatric patients not established)", "pediatric": false },
+      "approvalYear": 2014,
+      "dosing": {
+        "start": "10 mg once nightly within 30 minutes of bedtime",
+        "target": "10 mg once nightly",
+        "max": "20 mg once nightly",
+        "notes": "Take only with at least 7 hours remaining before planned awakening; onset may be delayed if taken with or soon after a meal. Moderate CYP3A inhibitors: 5 mg (generally not to exceed 10 mg). Not recommended with strong CYP3A inhibitors. Higher exposure in obese patients and women; consider before increasing dose."
+      },
+      "formulations": ["Tablets: 5 mg, 10 mg, 15 mg, 20 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Narcolepsy"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": false,
+      "plainSummary": "Suvorexant blocks orexin, a brain chemical that keeps you awake, to help you fall asleep and stay asleep.",
+      "source": { "label": "DailyMed: Belsomra (suvorexant) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e5b72731-1acb-45b7-9c13-290ad12d3951" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Sections 1-4 checked on the current DailyMed SPL (effective March 2025). Approval year is from FDA approval history and was not re-checked against Drugs@FDA." }
+    },
+    {
+      "drugId": "lemborexant",
+      "generic": "lemborexant",
+      "brands": ["Dayvigo"],
+      "drugClass": "Dual orexin receptor antagonist",
+      "section": "Orexin receptor antagonists",
+      "indication": "Treatment of adult patients with insomnia, characterized by difficulties with sleep onset and/or sleep maintenance.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2019,
+      "dosing": {
+        "start": "5 mg once nightly immediately before bed",
+        "target": "5–10 mg once nightly",
+        "max": "10 mg once nightly",
+        "notes": "At least 7 hours before planned awakening. Avoid strong or moderate CYP3A inhibitors and strong or moderate CYP3A inducers; with weak CYP3A inhibitors max 5 mg. Moderate hepatic impairment: max 5 mg; severe hepatic impairment: not recommended."
+      },
+      "formulations": ["Tablets: 5 mg, 10 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Narcolepsy"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": false,
+      "plainSummary": "Lemborexant blocks the brain's wake signal (orexin) to help adults fall asleep and stay asleep.",
+      "source": { "label": "DailyMed: Dayvigo (lemborexant) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7074cb65-77b3-45d2-8e8d-da8dc0f70bfd" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the current DailyMed SPL (effective February 2025)." }
+    },
+    {
+      "drugId": "daridorexant",
+      "generic": "daridorexant",
+      "brands": ["Quviviq"],
+      "drugClass": "Dual orexin receptor antagonist",
+      "section": "Orexin receptor antagonists",
+      "indication": "Treatment of adult patients with insomnia, characterized by difficulties with sleep onset and/or sleep maintenance.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2022,
+      "dosing": {
+        "start": "25–50 mg once nightly within 30 minutes of bedtime",
+        "target": "25–50 mg once nightly",
+        "max": "50 mg once nightly",
+        "notes": "At least 7 hours before planned awakening. Moderate CYP3A4 inhibitors: 25 mg; avoid strong CYP3A4 inhibitors and strong/moderate inducers. Moderate hepatic impairment: max 25 mg; severe: not recommended."
+      },
+      "formulations": ["Tablets: 25 mg, 50 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Narcolepsy", "Hypersensitivity to daridorexant or product components"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": false,
+      "plainSummary": "Daridorexant blocks the brain's wake signal (orexin) to help adults fall asleep and stay asleep.",
+      "source": { "label": "DailyMed: Quviviq (daridorexant) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3a2d1503-b816-40c9-9fac-7e03c5a3bcef" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the current DailyMed SPL (effective February 2026)." }
+    },
+    {
+      "drugId": "zolpidem",
+      "generic": "zolpidem (immediate-release)",
+      "brands": ["Ambien", "Edluar"],
+      "drugClass": "Benzodiazepine receptor agonist (GABA-A positive modulator)",
+      "section": "Benzodiazepine receptor agonists (Z-drugs)",
+      "indication": "Short-term treatment of insomnia characterized by difficulties with sleep initiation. (Zolpidem 7.5 mg capsules: short-term treatment of transient insomnia characterized by difficulties with sleep initiation in adults younger than 65.)",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 1992,
+      "dosing": {
+        "start": "5 mg (women); 5 or 10 mg (men) immediately before bedtime",
+        "target": "5–10 mg once nightly",
+        "max": "10 mg once nightly",
+        "notes": "Take with 7–8 hours remaining before planned awakening; do not readminister the same night. Elderly and mild-moderate hepatic impairment: 5 mg. Lower doses may be needed with other CNS depressants. Use as short as possible. Edluar is sublingual (5 mg, 10 mg); 7.5 mg capsule is an alternative IR strength (avoid in geriatric patients)."
+      },
+      "formulations": ["Tablets: 5 mg, 10 mg", "Sublingual tablets (Edluar): 5 mg, 10 mg", "Capsules: 7.5 mg"],
+      "boxedWarnings": ["Complex sleep behaviors (sleep-walking, sleep-driving) that may cause serious injury or death"],
+      "contraindications": ["Prior complex sleep behavior after taking zolpidem", "Known hypersensitivity to zolpidem"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Zolpidem is a short-term sleep medicine that helps you fall asleep. Rarely it can cause sleep-walking or sleep-driving, so stop it and call your doctor if that happens.",
+      "source": { "label": "DailyMed: Ambien (zolpidem tartrate) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c36cadf4-65a4-4466-b409-c82020b42452" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Ambien (Sanofi, effective April 2025), Edluar (setid a32884d0-85b5-11de-8a39-0800200c9a66), and the 7.5 mg zolpidem capsule label (setid 2f1a3600-9bd6-3651-3ab5-1e4e0b0a3916) were all checked on DailyMed." }
+    },
+    {
+      "drugId": "zolpidem",
+      "generic": "zolpidem (extended-release)",
+      "brands": ["Ambien CR"],
+      "drugClass": "Benzodiazepine receptor agonist (GABA-A positive modulator)",
+      "section": "Benzodiazepine receptor agonists (Z-drugs)",
+      "indication": "Short-term treatment of insomnia characterized by difficulties with sleep onset and/or sleep maintenance (as measured by wake time after sleep onset).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2005,
+      "dosing": {
+        "start": "6.25 mg (women); 6.25 or 12.5 mg (men) immediately before bedtime",
+        "target": "6.25–12.5 mg once nightly",
+        "max": "12.5 mg once nightly",
+        "notes": "Take with 7–8 hours remaining before planned awakening. Swallow whole. Elderly and mild-moderate hepatic impairment: 6.25 mg. Higher morning levels at 12.5 mg increase next-day driving impairment risk."
+      },
+      "formulations": ["Extended-release tablets: 6.25 mg, 12.5 mg"],
+      "boxedWarnings": ["Complex sleep behaviors (sleep-walking, sleep-driving) that may cause serious injury or death"],
+      "contraindications": ["Prior complex sleep behavior after taking zolpidem", "Known hypersensitivity to zolpidem"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "This long-acting form of zolpidem helps you fall asleep and stay asleep through the night. Rarely it can cause sleep-walking or sleep-driving.",
+      "source": { "label": "DailyMed: Ambien CR (zolpidem tartrate extended-release) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d934da3-bd77-4470-e063-6294a90a64f5" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the current DailyMed SPL (Cosette, effective February 2025)." }
+    },
+    {
+      "drugId": "zolpidem",
+      "generic": "zolpidem (low-dose sublingual, middle-of-the-night)",
+      "brands": ["Intermezzo (brand not currently listed on DailyMed)"],
+      "drugClass": "Benzodiazepine receptor agonist (GABA-A agonist)",
+      "section": "Benzodiazepine receptor agonists (Z-drugs)",
+      "indication": "As-needed treatment of insomnia when a middle-of-the-night awakening is followed by difficulty returning to sleep. Not indicated when fewer than 4 hours of bedtime remain before planned waking.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2011,
+      "dosing": {
+        "start": "1.75 mg (women); 3.5 mg (men), once per night as needed, taken in bed",
+        "target": "1.75 mg (women); 3.5 mg (men)",
+        "max": "1.75 mg (women); 3.5 mg (men) once per night",
+        "notes": "Only if at least 4 hours of bedtime remain. Dissolve under the tongue. Age over 65, hepatic impairment, or concomitant CNS depressants: 1.75 mg for men and women. Do not combine with other sedative-hypnotics at bedtime or during the night."
+      },
+      "formulations": ["Sublingual tablets: 1.75 mg, 3.5 mg"],
+      "boxedWarnings": ["Complex sleep behaviors (sleep-walking, sleep-driving) that may cause serious injury or death"],
+      "contraindications": ["Prior complex sleep behavior after taking zolpidem", "Known hypersensitivity to zolpidem"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "This very low dose of zolpidem goes under the tongue when you wake in the night and can't get back to sleep. Use it only if you have at least 4 hours left in bed.",
+      "source": { "label": "DailyMed: zolpidem tartrate sublingual tablets 1.75 mg/3.5 mg (Par) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=44b34e58-114b-4774-9fab-4b188dfe0228" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Generic label (effective April 2026) checked. The Intermezzo brand did not appear in a DailyMed search; its current marketing status was not confirmed." }
+    },
+    {
+      "drugId": "eszopiclone",
+      "generic": "eszopiclone",
+      "brands": ["Lunesta"],
+      "drugClass": "Benzodiazepine receptor agonist",
+      "section": "Benzodiazepine receptor agonists (Z-drugs)",
+      "indication": "Treatment of insomnia; shown to decrease sleep latency and improve sleep maintenance.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "1 mg immediately before bedtime",
+        "target": "1–3 mg once nightly",
+        "max": "3 mg once nightly (2 mg in elderly/debilitated, severe hepatic impairment, or with potent CYP3A4 inhibitors)",
+        "notes": "At least 7–8 hours before planned awakening. Do not take with or right after a meal. 2–3 mg doses increase next-day impairment risk."
+      },
+      "formulations": ["Tablets: 1 mg, 2 mg, 3 mg"],
+      "boxedWarnings": ["Complex sleep behaviors (sleep-walking, sleep-driving) that may cause serious injury or death"],
+      "contraindications": ["Prior complex sleep behavior after taking eszopiclone", "Known hypersensitivity to eszopiclone"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Eszopiclone is a sleep medicine that helps you fall asleep and stay asleep. Rarely it can cause sleep-walking or sleep-driving.",
+      "source": { "label": "DailyMed: Lunesta (eszopiclone) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3821f4b7-a3c8-4920-ba80-18aa96532c09" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the current DailyMed SPL (Waylis, effective January 2025)." }
+    },
+    {
+      "drugId": "zaleplon",
+      "generic": "zaleplon",
+      "brands": ["Sonata (brand not currently listed on DailyMed)"],
+      "drugClass": "Benzodiazepine receptor agonist",
+      "section": "Benzodiazepine receptor agonists (Z-drugs)",
+      "indication": "Short-term treatment of insomnia; shown to decrease time to sleep onset for up to 30 days (not shown to increase total sleep time or reduce awakenings).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 1999,
+      "dosing": {
+        "start": "10 mg (5 mg in low-weight, elderly, or debilitated patients) at bedtime or after going to bed and having trouble falling asleep",
+        "target": "10 mg",
+        "max": "20 mg (non-elderly adults); 10 mg (elderly)",
+        "notes": "Mild-moderate hepatic impairment: 5 mg; severe hepatic impairment not recommended. Absorption is slowed by a heavy, high-fat meal."
+      },
+      "formulations": ["Capsules: 5 mg, 10 mg"],
+      "boxedWarnings": ["Complex sleep behaviors (sleep-walking, sleep-driving) that may cause serious injury or death"],
+      "contraindications": ["Prior complex sleep behavior after taking zaleplon", "Hypersensitivity to zaleplon or excipients"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Zaleplon is a very short-acting sleep medicine that helps you fall asleep. Rarely it can cause sleep-walking or sleep-driving.",
+      "source": { "label": "DailyMed: zaleplon capsules (Hikma) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cadd9d75-2139-4fab-94ce-2992e6a55780" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Generic zaleplon remains listed on DailyMed (Hikma, Aurobindo, Rising, and others). The only Sonata brand listing is an outdated 2010 repackager label, so the brand appears to be off the market; generics are marketed. Label strengths were inferred from the dosing section." }
+    },
+    {
+      "drugId": "temazepam",
+      "generic": "temazepam",
+      "brands": ["Restoril"],
+      "drugClass": "Benzodiazepine",
+      "section": "Benzodiazepines",
+      "indication": "Short-term treatment of insomnia (generally 7 to 10 days).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "15 mg at bedtime (7.5 mg in elderly or debilitated patients)",
+        "target": "7.5–30 mg",
+        "max": "30 mg",
+        "notes": "7.5 mg may be enough for transient insomnia. Use gradual taper to discontinue or reduce dose."
+      },
+      "formulations": ["Capsules: 7.5 mg, 15 mg, 22.5 mg, 30 mg"],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction",
+        "Dependence and withdrawal reactions"
+      ],
+      "contraindications": [],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Temazepam is a benzodiazepine sleep medicine for short-term use. It can be habit-forming and is dangerous when mixed with opioids or alcohol.",
+      "source": { "label": "DailyMed: Restoril (temazepam) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc56f7fd-1aaf-48ff-8aa7-d467e59e1015" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the current DailyMed SPL (SpecGx, effective June 2026). The current label has no Contraindications section. Approval year not confirmed." }
+    },
+    {
+      "drugId": "triazolam",
+      "generic": "triazolam",
+      "brands": ["Halcion (brand not currently listed on DailyMed)"],
+      "drugClass": "Benzodiazepine",
+      "section": "Benzodiazepines",
+      "indication": "Short-term treatment of insomnia (generally 7 to 10 days) in adults.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "0.25 mg at bedtime (0.125 mg in geriatric or low-weight patients)",
+        "target": "0.125–0.25 mg",
+        "max": "0.5 mg (0.25 mg in geriatric patients)",
+        "notes": "Prescribe for 7–10 days and no more than a 1-month supply. Use beyond 3 weeks requires reevaluation. Taper to discontinue."
+      },
+      "formulations": ["Tablets: 0.125 mg, 0.25 mg"],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction",
+        "Dependence and withdrawal reactions"
+      ],
+      "contraindications": ["Hypersensitivity to triazolam or other benzodiazepines", "Concomitant strong CYP3A inhibitors (e.g., ketoconazole, itraconazole, nefazodone, several HIV protease inhibitors)"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Triazolam is a short-acting benzodiazepine sleep medicine for a week or two of use. It can be habit-forming and is dangerous with opioids or alcohol.",
+      "source": { "label": "DailyMed: triazolam tablets (Mylan) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5add318e-11b9-42f8-b052-0d8cebb32fcf" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the generic label (effective July 2026). No Halcion brand SPL was found on DailyMed, and the brand's current marketing status was not confirmed. Approval year not confirmed." }
+    },
+    {
+      "drugId": "estazolam",
+      "generic": "estazolam",
+      "brands": ["ProSom (discontinued)"],
+      "drugClass": "Benzodiazepine",
+      "section": "Benzodiazepines",
+      "indication": "Short-term management of insomnia characterized by difficulty in falling asleep, frequent nocturnal awakenings, and/or early morning awakenings.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "1 mg at bedtime (consider 0.5 mg in small or debilitated older patients)",
+        "target": "1–2 mg",
+        "max": "2 mg",
+        "notes": "Increase cautiously in elderly patients. Prolonged use generally not necessary or recommended. Taper to discontinue."
+      },
+      "formulations": ["Tablets: 1 mg, 2 mg"],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction",
+        "Dependence and withdrawal reactions"
+      ],
+      "contraindications": ["Concomitant ketoconazole or itraconazole"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Estazolam is a benzodiazepine sleep medicine for short-term use. It can be habit-forming and is dangerous with opioids or alcohol.",
+      "source": { "label": "DailyMed: estazolam tablets (Actavis) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1e3b4bf-22e9-430a-a768-4d86ae886c9e" },
+      "verified": { "date": "2026-10-11", "status": "partially-verified", "note": "Indication, dosing, contraindications, and boxed warning checked on the generic label (effective June 2024). Strengths (1 mg, 2 mg) and ProSom's discontinued status come from general knowledge, not the label. Approval year not confirmed." }
+    },
+    {
+      "drugId": "flurazepam",
+      "generic": "flurazepam",
+      "brands": [],
+      "drugClass": "Benzodiazepine",
+      "section": "Benzodiazepines",
+      "indication": "Treatment of insomnia characterized by difficulty in falling asleep, frequent nocturnal awakenings, and/or early morning awakenings.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "15 mg (women); 15 or 30 mg (men) at bedtime",
+        "target": "15–30 mg",
+        "max": "30 mg (15 mg in elderly or debilitated patients)",
+        "notes": "Long-acting active metabolite; accumulation and falls risk in older adults. Taper to discontinue."
+      },
+      "formulations": ["Capsules: 15 mg, 30 mg"],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction",
+        "Dependence and withdrawal reactions"
+      ],
+      "contraindications": ["Hypersensitivity to flurazepam or other benzodiazepines"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Flurazepam is a long-acting benzodiazepine sleep medicine. It can cause next-day drowsiness, can be habit-forming, and is dangerous with opioids or alcohol.",
+      "source": { "label": "DailyMed: flurazepam hydrochloride capsules (Chartwell) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f476891-1346-4e8c-ac1b-f8cbdc64f5a1" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the generic label (effective October 2024). Only a generic is listed on DailyMed. Approval year not confirmed." }
+    },
+    {
+      "drugId": "quazepam",
+      "generic": "quazepam",
+      "brands": ["Doral"],
+      "drugClass": "Benzodiazepine",
+      "section": "Benzodiazepines",
+      "indication": "Treatment of insomnia characterized by difficulty in falling asleep, frequent nocturnal awakenings, and/or early morning awakenings.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "7.5 mg at bedtime (half of a scored 15 mg tablet)",
+        "target": "7.5–15 mg",
+        "max": "15 mg",
+        "notes": "Elderly and debilitated patients may be more sensitive. Long-acting metabolites. Taper to discontinue."
+      },
+      "formulations": ["Tablets: 15 mg (functionally scored)"],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction",
+        "Dependence and withdrawal reactions"
+      ],
+      "contraindications": ["Hypersensitivity to quazepam or other benzodiazepines", "Established or suspected sleep apnea", "Chronic pulmonary insufficiency"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": false,
+      "plainSummary": "Quazepam is a long-acting benzodiazepine sleep medicine. It should not be used by people with sleep apnea, and it is dangerous with opioids or alcohol.",
+      "source": { "label": "DailyMed: quazepam tablets (Atland) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f7d63f3f-5303-48ab-bce2-35fd62c45799" },
+      "verified": { "date": "2026-10-11", "status": "partially-verified", "note": "Indication, dosing, contraindications, and boxed warning checked (label effective October 2025). DailyMed has a single SPL, titled 'Quazepam Tablets', for tablets imprinted 'DORAL'. Whether an independent generic exists was not confirmed, so genericAvailable is set conservatively to false. Approval year not confirmed." }
+    },
+    {
+      "drugId": "ramelteon",
+      "generic": "ramelteon",
+      "brands": ["Rozerem"],
+      "drugClass": "Melatonin receptor agonist",
+      "section": "Other",
+      "indication": "Treatment of insomnia characterized by difficulty with sleep onset.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2005,
+      "dosing": {
+        "start": "8 mg within 30 minutes of bedtime",
+        "target": "8 mg",
+        "max": "8 mg/day",
+        "notes": "Do not take with or right after a high-fat meal. Not recommended in severe hepatic impairment; caution in moderate. Do not combine with fluvoxamine; caution with other CYP1A2 inhibitors."
+      },
+      "formulations": ["Tablets: 8 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["History of angioedema with ramelteon", "Concomitant fluvoxamine"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Ramelteon acts like the body's sleep hormone, melatonin, to help you fall asleep. It is not a controlled substance.",
+      "source": { "label": "DailyMed: Rozerem (ramelteon) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9de82310-70e8-47b9-b1fc-6c6848b99455" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the current DailyMed SPL (Takeda, effective April 2026)." }
+    },
+    {
+      "drugId": "doxepin",
+      "generic": "doxepin (low-dose)",
+      "brands": ["Silenor"],
+      "drugClass": "Tricyclic (H1 antagonist at low dose)",
+      "section": "Other",
+      "indication": "Treatment of insomnia characterized by difficulty with sleep maintenance.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2010,
+      "dosing": {
+        "start": "6 mg once daily within 30 minutes of bedtime (3 mg in adults 65 and older)",
+        "target": "3–6 mg",
+        "max": "6 mg/day",
+        "notes": "Do not take within 3 hours of a meal. 3 mg may be appropriate for some adults. Low-dose doxepin tablets differ from antidepressant-dose doxepin capsules."
+      },
+      "formulations": ["Tablets: 3 mg, 6 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Hypersensitivity to doxepin, inactive ingredients, or other dibenzoxepines", "MAOI use currently or within the past 2 weeks", "Untreated narrow-angle glaucoma or severe urinary retention"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A very low dose of doxepin helps people who wake up during the night stay asleep. It is not a controlled substance.",
+      "source": { "label": "DailyMed: Silenor (doxepin) tablets prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1bec1223-5239-4eb6-a9e8-62444106d2c0" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked against the current DailyMed SPL (Currax, effective April 2026). Several generic doxepin tablet labels are listed on DailyMed." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Trazodone",
+      "drugClass": "Serotonin antagonist and reuptake inhibitor",
+      "use": "Chronic insomnia (sleep onset or maintenance), often at low doses",
+      "evidence": "limited",
+      "notes": "Widely prescribed, but supporting trials are small and short. The AASM 2017 guideline suggests against trazodone for sleep-onset or sleep-maintenance insomnia (weak recommendation), and the VA/DoD 2025 guideline also advises against it. Cautions: orthostatic hypotension and falls (especially in older adults), next-day sedation, priapism, QT prolongation, and serotonergic interactions.",
+      "references": [
+        { "label": "Sateia MJ et al. AASM clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults. J Clin Sleep Med 2017", "url": "https://pubmed.ncbi.nlm.nih.gov/27998379/" },
+        { "label": "Everitt H et al. Antidepressants for insomnia in adults. Cochrane Database Syst Rev 2018", "url": "https://pubmed.ncbi.nlm.nih.gov/29761479/" },
+        { "label": "VA/DoD Clinical Practice Guideline for Chronic Insomnia Disorder and Obstructive Sleep Apnea (2025)", "url": "https://www.healthquality.va.gov/guidelines/CD/insomnia/index.asp" }
+      ]
+    },
+    {
+      "agent": "Quetiapine",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "Insomnia (low dose), generally discouraged when insomnia is the only indication",
+      "evidence": "limited",
+      "notes": "There is little controlled evidence for low-dose quetiapine in primary insomnia. Guidelines generally discourage antipsychotics for insomnia alone because of metabolic effects (weight gain, dyslipidemia, hyperglycemia), orthostasis, anticholinergic effects, akathisia/EPS, QT prolongation, and, in older adults with dementia, the boxed warning for increased mortality. It may be considered when a comorbid condition independently warrants an antipsychotic.",
+      "references": [
+        { "label": "Thompson W et al. Atypical antipsychotics for insomnia: a systematic review. Sleep Med 2016", "url": "https://pubmed.ncbi.nlm.nih.gov/27544830/" },
+        { "label": "Karsten J et al. Low doses of mirtazapine or quetiapine for transient insomnia: randomised, double-blind, cross-over, placebo-controlled trial. J Psychopharmacol 2017", "url": "https://pubmed.ncbi.nlm.nih.gov/28093029/" },
+        { "label": "VA/DoD Clinical Practice Guideline for Chronic Insomnia Disorder and Obstructive Sleep Apnea (2025)", "url": "https://www.healthquality.va.gov/guidelines/CD/insomnia/index.asp" }
+      ]
+    },
+    {
+      "agent": "Gabapentin",
+      "drugClass": "Alpha-2-delta ligand",
+      "use": "Insomnia, particularly with comorbid pain, restless legs, or alcohol use disorder",
+      "evidence": "limited",
+      "notes": "Evidence for insomnia comes mainly from small trials. Cautions: daytime sedation, dizziness, falls, misuse potential (especially with opioids), respiratory depression when combined with opioids or other CNS depressants, and dose adjustment in renal impairment.",
+      "references": [
+        { "label": "Lo HS et al. Treatment effects of gabapentin for primary insomnia. Clin Neuropharmacol 2010", "url": "https://pubmed.ncbi.nlm.nih.gov/20124884/" }
+      ]
+    },
+    {
+      "agent": "Mirtazapine",
+      "drugClass": "Noradrenergic and specific serotonergic antidepressant",
+      "use": "Insomnia, mainly when comorbid with depression",
+      "evidence": "limited",
+      "notes": "Low doses are sedating through H1 antagonism, but trials in insomnia without depression are few, and a small RCT found limited and short-lived benefit. Cautions: weight gain and increased appetite, next-day sedation, restless legs, and rare neutropenia. Antidepressant boxed warning for suicidality in young people applies.",
+      "references": [
+        { "label": "Karsten J et al. Low doses of mirtazapine or quetiapine for transient insomnia. J Psychopharmacol 2017", "url": "https://pubmed.ncbi.nlm.nih.gov/28093029/" },
+        { "label": "De Crescenzo F et al. Comparative effects of pharmacological interventions for insomnia disorder in adults: network meta-analysis. Lancet 2022", "url": "https://pubmed.ncbi.nlm.nih.gov/35843245/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

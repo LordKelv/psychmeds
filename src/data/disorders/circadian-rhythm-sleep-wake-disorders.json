@@ -1,0 +1,138 @@
+{
+  "id": "circadian-rhythm-sleep-wake-disorders",
+  "name": "Circadian rhythm sleep-wake disorders",
+  "aliases": ["Shift work disorder", "Non-24-hour sleep-wake disorder", "Delayed sleep-wake phase disorder", "Irregular sleep-wake rhythm disorder", "Jet lag disorder"],
+  "category": "Sleep-wake disorders",
+  "summary": "Circadian rhythm sleep-wake disorders arise from misalignment between the internal clock and the desired sleep schedule. FDA-labeled drugs: modafinil and armodafinil for excessive sleepiness in shift work disorder, and tasimelteon for Non-24-hour sleep-wake disorder in adults and for nighttime sleep disturbances in Smith-Magenis syndrome. No drug is FDA-approved for delayed or advanced phase disorders or jet lag (FDA declined tasimelteon's jet lag sNDA in January 2026; a Part 12 hearing was granted but no approval has been issued). Melatonin is a dietary supplement, not an FDA-approved drug.",
+  "plainSummary": "These conditions happen when your body clock is out of step with the time you need to sleep or be awake, for example with night-shift work or total blindness. A few medicines are approved, and timed light exposure and melatonin are also commonly used.",
+  "sections": ["Shift work disorder", "Non-24-hour sleep-wake disorder", "Smith-Magenis syndrome nighttime sleep disturbances"],
+  "approved": [
+    {
+      "drugId": "modafinil",
+      "generic": "modafinil",
+      "brands": ["Provigil"],
+      "drugClass": "Wake-promoting agent",
+      "section": "Shift work disorder",
+      "indication": "To improve wakefulness in adult patients with excessive sleepiness associated with shift work disorder (SWD).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "200 mg about 1 hour before the start of the work shift",
+        "target": "200 mg",
+        "max": "200 mg per shift (label dose)",
+        "notes": "Severe hepatic impairment: half dose. Consider lower doses in older adults. Reduces hormonal contraceptive effectiveness."
+      },
+      "formulations": ["Tablets: 100 mg, 200 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to modafinil or armodafinil"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Modafinil taken before a night shift helps shift workers with this disorder stay alert at work.",
+      "source": { "label": "DailyMed: Provigil (modafinil) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e16c26ad-7bc2-d155-3a5d-da83ad6492c8" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Indication and SWD dosing checked on DailyMed. The 2004 approval year for SWD is from FDA history and was not re-checked." }
+    },
+    {
+      "drugId": "armodafinil",
+      "generic": "armodafinil",
+      "brands": ["Nuvigil"],
+      "drugClass": "Wake-promoting agent",
+      "section": "Shift work disorder",
+      "indication": "To improve wakefulness in adult patients with excessive sleepiness associated with shift work disorder (SWD).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2007,
+      "dosing": {
+        "start": "150 mg about 1 hour before the start of the work shift",
+        "target": "150 mg",
+        "max": "150 mg per shift (label dose)",
+        "notes": "Reduce dose in severe hepatic impairment. Consider lower doses in older adults."
+      },
+      "formulations": ["Tablets: 50 mg, 150 mg, 200 mg, 250 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to modafinil or armodafinil"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Armodafinil taken before a shift helps shift workers with this disorder stay alert at work.",
+      "source": { "label": "DailyMed: Nuvigil (armodafinil) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d878aed0-ddbf-8fa1-abf7-d3e480260845" },
+      "verified": { "date": "2026-10-11", "status": "verified" }
+    },
+    {
+      "drugId": "tasimelteon",
+      "generic": "tasimelteon",
+      "brands": ["Hetlioz"],
+      "drugClass": "Melatonin receptor agonist",
+      "section": "Non-24-hour sleep-wake disorder",
+      "indication": "Treatment of Non-24-Hour Sleep-Wake Disorder (Non-24) in adults.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2014,
+      "dosing": {
+        "start": "20 mg one hour before bedtime, at the same time every night",
+        "target": "20 mg nightly",
+        "max": "20 mg/day",
+        "notes": "Take without food. Effect may take weeks to months. Skip the dose if it can't be taken at about the usual time. Avoid strong CYP1A2 inhibitors (e.g., fluvoxamine) and strong CYP3A4 inducers."
+      },
+      "formulations": ["Capsules: 20 mg"],
+      "boxedWarnings": [],
+      "contraindications": [],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Tasimelteon acts like melatonin to reset the body clock in people, usually totally blind, whose sleep time keeps drifting later each day.",
+      "source": { "label": "DailyMed: Hetlioz / Hetlioz LQ (tasimelteon) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked on the Vanda SPL (effective August 2026); the label lists no contraindications. Generic tasimelteon capsules (Teva, Apotex, Amneal) carry the Non-24 indication only. The CYP interaction note is from section 7 knowledge and was not re-read." }
+    },
+    {
+      "drugId": "tasimelteon",
+      "generic": "tasimelteon",
+      "brands": ["Hetlioz", "Hetlioz LQ"],
+      "drugClass": "Melatonin receptor agonist",
+      "section": "Smith-Magenis syndrome nighttime sleep disturbances",
+      "indication": "Treatment of nighttime sleep disturbances in Smith-Magenis syndrome (SMS): Hetlioz capsules in patients 16 years and older; Hetlioz LQ oral suspension in pediatric patients 3 to 15 years.",
+      "role": "monotherapy",
+      "population": { "ages": "Patients 3 years and older (LQ suspension for ages 3–15; capsules for 16+)", "pediatric": true },
+      "approvalYear": 2020,
+      "dosing": {
+        "start": "Ages 16+: 20 mg capsule 1 hour before bedtime. Ages 3–15: 0.7 mg/kg suspension (≤28 kg) or 20 mg (>28 kg)",
+        "target": "Same as starting dose",
+        "max": "20 mg/day",
+        "notes": "Capsules and LQ suspension are not substitutable. Give without food at the same time each night. Refrigerate the suspension and discard 5–8 weeks after opening."
+      },
+      "formulations": ["Capsules: 20 mg", "Oral suspension (Hetlioz LQ): 4 mg/mL"],
+      "boxedWarnings": [],
+      "contraindications": [],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Tasimelteon helps children and adults with Smith-Magenis syndrome, a rare genetic condition with a reversed body clock, sleep better at night.",
+      "source": { "label": "DailyMed: Hetlioz / Hetlioz LQ (tasimelteon) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ca4a9b63-708e-49e9-8f9b-010625443b90" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "SMS is not a DSM circadian diagnosis but involves an inverted melatonin rhythm, so it is listed here. Generic labels exclude the SMS indication. The 2020 approval year is from FDA history and was not re-checked." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Melatonin (dietary supplement)",
+      "drugClass": "Melatonin receptor agonist (supplement, not FDA-approved)",
+      "use": "Delayed sleep-wake phase disorder; Non-24 in blind adults; irregular sleep-wake rhythm disorder in children/adolescents with neurological disorders",
+      "evidence": "guideline-recommended",
+      "notes": "Melatonin is sold as a dietary supplement in the US. It is not an FDA-approved drug, and product strength and purity can vary. AASM 2015 gives weak recommendations for strategically timed melatonin in these settings. Timing relative to dim-light melatonin onset matters more than dose. AASM suggests against melatonin for older adults with dementia and irregular sleep-wake rhythm. Cautions: sleepiness, headache, and variable product content.",
+      "references": [
+        { "label": "Auger RR et al. AASM clinical practice guideline for intrinsic circadian rhythm sleep-wake disorders. J Clin Sleep Med 2015", "url": "https://pubmed.ncbi.nlm.nih.gov/26414986/" }
+      ]
+    },
+    {
+      "agent": "Melatonin (dietary supplement)",
+      "drugClass": "Melatonin receptor agonist (supplement, not FDA-approved)",
+      "use": "Daytime sleep after night shifts (shift work disorder)",
+      "evidence": "limited",
+      "notes": "A Cochrane review found low-quality evidence for a modest increase in daytime sleep length, with no clear effect on sleep onset. It is not an FDA-approved drug, and supplement content varies. Cautions: sedation if taken before driving home, and interactions with sedatives.",
+      "references": [
+        { "label": "Liira J et al. Pharmacological interventions for sleepiness and sleep disturbances caused by shift work. Cochrane Database Syst Rev 2014", "url": "https://pubmed.ncbi.nlm.nih.gov/25113164/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

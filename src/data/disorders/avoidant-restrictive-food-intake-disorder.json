@@ -1,0 +1,35 @@
+{
+  "id": "avoidant-restrictive-food-intake-disorder",
+  "name": "Avoidant/restrictive food intake disorder",
+  "aliases": ["ARFID"],
+  "category": "Feeding & eating disorders",
+  "summary": "Restrictive or avoidant eating driven by sensory sensitivity, fear of aversive consequences (e.g., choking or vomiting), or low interest in food, leading to weight loss, nutritional deficiency, supplement dependence, or psychosocial impairment, without body-image concerns. Treatment is nutritional and behavioral (e.g., CBT-AR, family-based approaches). No medication is FDA-approved, and no completed placebo-controlled medication RCTs were found.",
+  "plainSummary": "ARFID means eating very little or only a few foods because of fear, texture or smell problems, or low appetite, not because of worries about weight. Therapy and nutrition support are the main treatments; no medicine is approved.",
+  "noApprovedNote": "No medication is FDA-approved for ARFID. A 2025 review of eating-disorder pharmacotherapy found no eligible ARFID trials, and searches for 2024–2026 FDA actions found none.",
+  "approved": [],
+  "offLabel": [
+    {
+      "agent": "Mirtazapine",
+      "drugClass": "Noradrenergic and specific serotonergic antidepressant",
+      "use": "Appetite stimulation and anxiety around eating",
+      "evidence": "limited",
+      "notes": "Supported only by case reports and a retrospective pediatric chart review (associated with shorter hospital stay). Sedation and weight gain; antidepressant suicidality boxed warning applies.",
+      "references": [
+        { "label": "Chishti A et al. Mirtazapine and hospital stay in pediatric ARFID: retrospective chart review. Int J Eat Disord 2025 (PMID 40265508)", "url": "https://pubmed.ncbi.nlm.nih.gov/40265508/" },
+        { "label": "Naguy A et al. Mirtazapine improved eating patterns in ARFID. Am J Ther 2023 (PMID 33491963)", "url": "https://pubmed.ncbi.nlm.nih.gov/33491963/" }
+      ]
+    },
+    {
+      "agent": "Olanzapine (low dose, adjunctive)",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "Fear-based food avoidance and weight restoration in youth",
+      "evidence": "limited",
+      "notes": "A retrospective case series of children and adolescents in an eating-disorders program reported improved eating and weight with low-dose adjunctive olanzapine. No controlled trials. Metabolic effects, sedation, and EPS.",
+      "references": [
+        { "label": "Brewerton TD, D'Agostino M. Adjunctive olanzapine in pediatric ARFID. J Child Adolesc Psychopharmacol 2017 (PMID 29068721)", "url": "https://pubmed.ncbi.nlm.nih.gov/29068721/" },
+        { "label": "Hirsch D et al. Approved and pipeline pharmacological interventions for eating disorders (2010–2025). CNS Drugs 2025", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12855243/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

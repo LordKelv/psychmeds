@@ -1,0 +1,138 @@
+{
+  "id": "tourette-syndrome",
+  "name": "Tourette's disorder",
+  "aliases": ["Tourette syndrome", "TS", "Tic disorder"],
+  "category": "Neurodevelopmental disorders",
+  "summary": "Multiple motor tics and at least one vocal tic lasting more than a year, beginning before age 18. Behavioral therapy (CBIT) is first-line for impairing tics. FDA-approved drugs are the dopamine-blocking antipsychotics haloperidol, pimozide, and aripiprazole; alpha-2 agonists are widely used off-label, especially with co-occurring ADHD. Ecopipam (a D1 antagonist) was under FDA priority review as of late 2026 and is not approved.",
+  "plainSummary": "Tourette's causes repeated movements or sounds (tics) that a person can't fully control. Behavior therapy is often tried first, and a few medicines are approved to reduce tics when they cause real problems.",
+  "approved": [
+    {
+      "drugId": "aripiprazole",
+      "generic": "aripiprazole",
+      "brands": ["Abilify"],
+      "drugClass": "Second-generation (atypical) antipsychotic; dopamine D2 partial agonist",
+      "indication": "Treatment of Tourette's disorder in pediatric patients 6 to 18 years.",
+      "role": "monotherapy",
+      "population": { "ages": "Pediatric patients 6 to 18 years", "pediatric": true },
+      "approvalYear": 2014,
+      "dosing": {
+        "start": "2 mg/day",
+        "target": "Under 50 kg: 5 mg/day after 2 days. 50 kg or more: 5 mg/day for days 3–7, then 10 mg/day on day 8.",
+        "max": "10 mg/day (under 50 kg); 20 mg/day (50 kg or more)",
+        "notes": "Adjust at intervals of at least 1 week. CYP2D6 poor metabolizers: half the usual dose; adjust for strong CYP2D6/CYP3A4 inhibitors and CYP3A4 inducers."
+      },
+      "formulations": ["Tablet", "Orally disintegrating tablet (generic)", "Oral solution 1 mg/mL (generic)"],
+      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors with antidepressant drugs (children, adolescents, and young adults)"],
+      "contraindications": ["Known hypersensitivity to aripiprazole"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An antipsychotic medicine taken once a day that can reduce tics in children and teens; weight and blood sugar need monitoring.",
+      "source": { "label": "DailyMed: Abilify (aripiprazole) tablets, Otsuka", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Label effective 1/2025 checked (indication and section 2.5 weight-based dosing)." }
+    },
+    {
+      "drugId": "haloperidol",
+      "generic": "haloperidol",
+      "brands": ["Haldol (oral brand discontinued; generic tablets and oral concentrate marketed)"],
+      "drugClass": "First-generation (typical) antipsychotic, butyrophenone",
+      "indication": "Control of tics and vocal utterances of Tourette's Disorder in children and adults.",
+      "role": "monotherapy",
+      "population": { "ages": "Children 3 years and older and adults (not intended for children under 3)", "pediatric": true },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Children 3–12 years (15–40 kg): 0.5 mg/day. Adults: 0.5–2 mg two or three times daily (moderate symptoms).",
+        "target": "Children: increase by 0.5 mg every 5–7 days to 0.05–0.075 mg/kg/day in 2–3 divided doses",
+        "max": "Not specified for Tourette's; individualize to the lowest effective dose",
+        "notes": "Adult dosing in the label is general (not Tourette-specific). Monitor for EPS, tardive dyskinesia, QT prolongation, and neuroleptic malignant syndrome."
+      },
+      "formulations": ["Tablet 0.5, 1, 2, 5, 10, 20 mg", "Oral concentrate 2 mg/mL"],
+      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+      "contraindications": ["Severe toxic CNS depression or comatose states", "Hypersensitivity to haloperidol", "Parkinson's disease"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic that can strongly reduce tics, but it often causes stiffness, restlessness, or other movement side effects.",
+      "source": { "label": "DailyMed: Haloperidol tablets USP, Upsher-Smith", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afb3ac3e-7459-42d3-b5ca-e0d6d27ced73" },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, pediatric Tourette dosing, boxed warning, and contraindications confirmed on the generic label (8/2026). The adult starting range is from the label's general adult dosing and was not re-read in full; original approval year for Tourette's not confirmed. Drugs@FDA lists all Haldol oral NDAs as discontinued."
+      }
+    },
+    {
+      "drugId": "pimozide",
+      "generic": "pimozide",
+      "brands": ["Orap (discontinued; generic tablets marketed)"],
+      "drugClass": "First-generation (typical) antipsychotic, diphenylbutylpiperidine",
+      "indication": "Suppression of motor and phonic tics in patients with Tourette's Disorder who have failed to respond satisfactorily to standard treatment; not a first-choice treatment and reserved for patients whose development or daily functioning is severely compromised by tics.",
+      "role": "monotherapy",
+      "population": { "ages": "Efficacy trials enrolled ages 8–53 (most 12 or older); label provides pediatric dosing but data under 12 are limited", "pediatric": true },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Adults: 1–2 mg/day in divided doses. Children: 0.05 mg/kg once at bedtime.",
+        "target": "Adults: increase every other day; most maintained below 0.2 mg/kg/day or 10 mg/day. Children: increase every third day.",
+        "max": "0.2 mg/kg/day or 10 mg/day, whichever is less",
+        "notes": "Baseline and periodic ECG. CYP2D6 genotyping required above 4 mg/day (adults) or 0.05 mg/kg/day (children); in poor metabolizers do not exceed 4 mg/day or 0.05 mg/kg/day and wait at least 14 days between increases. Many CYP3A4-inhibitor and QT-drug interactions."
+      },
+      "formulations": ["Tablet 1, 2 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Simple tics or tics not associated with Tourette's Disorder", "Patients taking drugs that may cause tics (e.g., methylphenidate, amphetamines) until withdrawn", "Congenital long QT, history of arrhythmias, other QT-prolonging drugs, hypokalemia or hypomagnesemia", "Severe toxic CNS depression or comatose states", "Hypersensitivity to pimozide", "Macrolide antibiotics and other strong CYP3A4 inhibitors (see label for full list)"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic used only for severe tics when other treatments fail; it needs heart tracings (ECGs) because it can affect heart rhythm.",
+      "source": { "label": "DailyMed: Pimozide tablets USP, Par", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280" },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, dosing, CYP2D6 rules, and contraindications 1–5 confirmed on the generic label (8/2026); the full list of interacting drugs in contraindication 6 onward was not read in full. No boxed warning section is present on this label. Approval year (Orap, 1984) not confirmed from a primary source. Drugs@FDA lists Orap (NDA 017473) as discontinued."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Guanfacine (IR or ER)",
+      "drugClass": "Alpha-2A adrenergic agonist",
+      "use": "Tics, particularly with co-occurring ADHD",
+      "evidence": "guideline-recommended",
+      "notes": "The AAN 2019 guideline lists alpha-2 agonists as an option, with better evidence when ADHD co-occurs. An RCT in children with tics and ADHD showed tic reduction; a later trial of guanfacine ER for tics alone was negative. Sedation, hypotension, bradycardia; taper to avoid rebound hypertension.",
+      "references": [
+        { "label": "Pringsheim T et al. AAN practice guideline: treatment of tics in Tourette syndrome and chronic tic disorders. Neurology 2019 (PMID 31061208)", "url": "https://pubmed.ncbi.nlm.nih.gov/31061208/" },
+        { "label": "Scahill L et al. Placebo-controlled study of guanfacine in children with tic disorders and ADHD. Am J Psychiatry 2001 (PMID 11431228)", "url": "https://pubmed.ncbi.nlm.nih.gov/11431228/" }
+      ]
+    },
+    {
+      "agent": "Clonidine (oral or transdermal)",
+      "drugClass": "Alpha-2 adrenergic agonist",
+      "use": "Tics, particularly with co-occurring ADHD",
+      "evidence": "guideline-recommended",
+      "notes": "Named by the AAN guideline. In the Tourette's Syndrome Study Group trial, clonidine (alone or with methylphenidate) improved ADHD symptoms and tics did not worsen. Sedation is common; monitor blood pressure and heart rate; avoid abrupt discontinuation.",
+      "references": [
+        { "label": "Pringsheim T et al. AAN practice guideline: treatment of tics. Neurology 2019 (PMID 31061208)", "url": "https://pubmed.ncbi.nlm.nih.gov/31061208/" },
+        { "label": "Tourette's Syndrome Study Group. Treatment of ADHD in children with tics: RCT. Neurology 2002 (PMID 11865128)", "url": "https://pubmed.ncbi.nlm.nih.gov/11865128/" }
+      ]
+    },
+    {
+      "agent": "Risperidone",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "Moderate to severe tics",
+      "evidence": "guideline-recommended",
+      "notes": "Listed in the AAN guideline among antipsychotics with evidence for tic reduction. Weight gain, metabolic effects, hyperprolactinemia, sedation, and EPS.",
+      "references": [
+        { "label": "Pringsheim T et al. AAN practice guideline: treatment of tics. Neurology 2019 (PMID 31061208)", "url": "https://pubmed.ncbi.nlm.nih.gov/31061208/" }
+      ]
+    },
+    {
+      "agent": "Topiramate",
+      "drugClass": "Anticonvulsant",
+      "use": "Tics",
+      "evidence": "limited",
+      "notes": "One small RCT (about 30 patients) showed tic reduction; the AAN guideline rates evidence as low. Cognitive slowing, paresthesia, weight loss, kidney stones.",
+      "references": [
+        { "label": "Jankovic J et al. RCT of topiramate in Tourette syndrome. J Neurol Neurosurg Psychiatry 2010 (PMID 19726418)", "url": "https://pubmed.ncbi.nlm.nih.gov/19726418/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

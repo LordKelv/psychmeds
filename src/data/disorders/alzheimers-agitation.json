@@ -1,0 +1,132 @@
+{
+  "id": "alzheimers-agitation",
+  "name": "Agitation associated with Alzheimer's dementia",
+  "aliases": [
+    "Agitation in Alzheimer's disease",
+    "Behavioral and psychological symptoms of dementia (agitation)",
+    "BPSD agitation",
+    "Alzheimer's agitation"
+  ],
+  "category": "Neurocognitive disorders",
+  "summary": "Two drugs are FDA-labeled for agitation associated with dementia due to Alzheimer's disease: brexpiprazole (2023, an antipsychotic with the dementia-mortality boxed warning) and dextromethorphan-bupropion (approved April 2026, the first non-antipsychotic for this indication). Neither is indicated for as-needed (prn) use; nonpharmacologic approaches and evaluation for medical causes come first.",
+  "plainSummary": "Many people with Alzheimer's disease become restless, irritable, or aggressive. Two prescription medicines are approved to help with this, and doctors usually try non-drug approaches and look for other causes such as pain or infection first.",
+  "approved": [
+    {
+      "drugId": "brexpiprazole",
+      "generic": "brexpiprazole",
+      "brands": ["Rexulti"],
+      "drugClass": "Second-generation (atypical) antipsychotic",
+      "indication": "Treatment of agitation associated with dementia due to Alzheimer's disease. Not indicated as an as-needed (\"prn\") treatment for this agitation.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2023,
+      "dosing": {
+        "start": "0.5 mg once daily (days 1–7)",
+        "target": "1 mg once daily on days 8–14, then 2 mg once daily from day 15",
+        "max": "3 mg once daily (after at least 14 days at 2 mg, based on response and tolerability)",
+        "notes": "CYP2D6 poor metabolizers: half the usual dose (quarter dose if also taking a strong/moderate CYP3A4 inhibitor). Moderate–severe hepatic impairment or CrCl <60 mL/min: max 2 mg once daily."
+      },
+      "formulations": ["Tablets 0.25, 0.5, 1, 2, 3, and 4 mg"],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in pediatric and young adult patients (antidepressant class warning)"
+      ],
+      "contraindications": ["Known hypersensitivity to brexpiprazole or any component"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Brexpiprazole is a daily pill that can reduce agitation in people with Alzheimer's dementia. Like other antipsychotics, it carries a warning about a higher risk of death in older adults with dementia.",
+      "source": {
+        "label": "DailyMed: REXULTI (brexpiprazole) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d301358-6291-4ec1-bd87-37b4ad9bd850"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked on the Rexulti label (revised 4/2026). A generic brexpiprazole label (Ajanta, ANDA) exists on DailyMed but lists only MDD and schizophrenia, so no generic carries this indication; genericAvailable is false for this indication."
+      }
+    },
+    {
+      "drugId": "dextromethorphan-bupropion",
+      "generic": "dextromethorphan-bupropion",
+      "brands": ["Auvelity"],
+      "drugClass": "NMDA receptor antagonist / sigma-1 agonist + aminoketone (norepinephrine-dopamine reuptake inhibitor; CYP2D6 inhibitor)",
+      "indication": "Treatment of agitation associated with dementia due to Alzheimer's disease. Not indicated as an as-needed (\"prn\") treatment for this agitation.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2026,
+      "dosing": {
+        "start": "30 mg/105 mg once daily in the morning",
+        "target": "Day 8: 30 mg/105 mg twice daily (at least 8 hours apart); day 15: 45 mg/105 mg twice daily",
+        "max": "45 mg/105 mg twice daily (no more than 2 doses per day)",
+        "notes": "Known CYP2D6 poor metabolizers and moderate renal impairment (eGFR 30–59): start 30 mg/105 mg once daily, max 45 mg/105 mg once daily from day 8. Not recommended in severe renal (eGFR 15–29) or severe hepatic impairment."
+      },
+      "formulations": [
+        "Extended-release tablets 30 mg/105 mg and 45 mg/105 mg (dextromethorphan HBr/bupropion HCl)",
+        "Titration kit"
+      ],
+      "boxedWarnings": ["Suicidal thoughts and behaviors (antidepressant class warning)"],
+      "contraindications": [
+        "Seizure disorder",
+        "Current or prior diagnosis of bulimia or anorexia nervosa",
+        "Abrupt discontinuation of alcohol, benzodiazepines, barbiturates, or antiepileptic drugs",
+        "Taking, or within 14 days of stopping, MAOIs",
+        "Known hypersensitivity to bupropion, dextromethorphan, or other components"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Auvelity is a pill taken once or twice a day that can lower agitation in people with Alzheimer's dementia, and it is not an antipsychotic. It should not be used by people who have seizures.",
+      "source": {
+        "label": "DailyMed: AUVELITY (dextromethorphan-bupropion) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, dosing (including the new 45 mg/105 mg strength), contraindications, and boxed warning checked on the label (revised 8/2026). Approval date (April 30, 2026) is from trade press (AJMC, Healio); the label shows only 'Initial U.S. Approval: 2022'."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "citalopram",
+      "drugClass": "SSRI",
+      "use": "Agitation in Alzheimer's disease",
+      "evidence": "RCT-supported",
+      "notes": "The CitAD randomized trial (n=186; target 30 mg/day) found modestly lower agitation scores than placebo, but was associated with worsening cognition and QTc prolongation (about 18 ms longer than placebo at week 3). US labeling limits citalopram to 20 mg/day in patients older than 60 because of dose-dependent QT prolongation. Other cautions: hyponatremia, falls, bleeding risk, and drug interactions. The trial authors did not recommend the 30 mg dose as a general alternative. Non-drug interventions and evaluation for medical or environmental triggers are generally tried first. Not FDA-labeled for this use.",
+      "references": [
+        {
+          "label": "Porsteinsson AP et al. Effect of citalopram on agitation in Alzheimer disease: the CitAD randomized clinical trial. JAMA 2014",
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/1829989"
+        },
+        {
+          "label": "Drye LT et al. Changes in QTc interval in the CitAD randomized trial. PLoS One 2014 (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4051660"
+        }
+      ]
+    },
+    {
+      "agent": "risperidone",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Severe, persistent aggression or psychosis in dementia when non-drug approaches have failed and there is risk of harm",
+      "evidence": "guideline-recommended",
+      "notes": "Not approved for dementia-related symptoms in the US; the US label carries a boxed warning for increased mortality in elderly patients with dementia-related psychosis and states it is not approved for dementia-related psychosis. It is licensed in the UK for short-term (up to 6 weeks) treatment of persistent aggression in moderate to severe Alzheimer's dementia unresponsive to non-drug approaches when there is risk of harm. The APA 2016 guideline advises antipsychotics only for severe, dangerous, or very distressing symptoms, at the lowest effective dose, with reassessment and attempts to taper. Other cautions: stroke, falls, extrapyramidal symptoms, sedation, and metabolic effects. Non-drug interventions are first-line.",
+      "references": [
+        {
+          "label": "Reus VI et al. APA practice guideline on the use of antipsychotics to treat agitation or psychosis in patients with dementia. Am J Psychiatry 2016 (record)",
+          "url": "https://researchconnect.stonybrook.edu/en/publications/the-american-psychiatric-association-practice-guideline-on-the-us/"
+        },
+        {
+          "label": "UK SmPC: Risperidone 2 mg tablets (Sandoz), emc",
+          "url": "https://www.medicines.org.uk/emc/product/11872/smpc"
+        },
+        {
+          "label": "DailyMed: RISPERDAL (risperidone) US label with boxed warning",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

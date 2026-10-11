@@ -1,0 +1,187 @@
+{
+  "id": "drug-induced-parkinsonism",
+  "name": "Antipsychotic-induced parkinsonism and extrapyramidal symptoms",
+  "aliases": [
+    "Drug-induced parkinsonism",
+    "Medication-induced parkinsonism",
+    "Extrapyramidal symptoms",
+    "EPS",
+    "Acute dystonia",
+    "Neuroleptic-induced akathisia"
+  ],
+  "category": "Medication-induced movement disorders",
+  "summary": "Older anticholinergic and dopaminergic agents carry FDA labeling for drug-induced extrapyramidal disorders: benztropine (oral and injection; excludes tardive dyskinesia), trihexyphenidyl, and immediate-release amantadine. Injectable diphenhydramine is labeled for parkinsonism when oral therapy is impossible. First-line management is usually lowering the dose or switching the causative antipsychotic. No drug is FDA-labeled for akathisia.",
+  "plainSummary": "Some antipsychotic medicines can cause stiffness, shaking, slow movement, muscle spasms, or an inner restlessness. Doctors may lower or change the medicine, and several older medicines can ease these side effects.",
+  "approved": [
+    {
+      "drugId": "benztropine",
+      "generic": "benztropine mesylate",
+      "brands": ["Cogentin (brand discontinued)"],
+      "drugClass": "Anticholinergic (antimuscarinic) antiparkinson agent",
+      "indication": "Adjunct in the therapy of all forms of parkinsonism; also useful in the control of extrapyramidal disorders (except tardive dyskinesia) due to neuroleptic drugs (e.g., phenothiazines). The injection is also used for acute dystonic reactions.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults (contraindicated under age 3; use with caution in older children)", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "1–2 mg orally 2–3 times daily for transient EPS early in neuroleptic treatment; acute dystonia: 1–2 mg IM/IV",
+        "target": "1–4 mg once or twice daily (oral or parenteral)",
+        "max": "6 mg/day (general label titration ceiling)",
+        "notes": "After 1–2 weeks, consider withdrawing to see if still needed. Anticholinergic effects (dry mouth, constipation, urinary retention, blurred vision, confusion, heat intolerance/anhidrosis); use caution in older adults, glaucoma, and prostatic hypertrophy. Not effective for, and may worsen, tardive dyskinesia."
+      },
+      "formulations": ["Tablets 0.5, 1, 2 mg", "Injection 1 mg/mL (IM or IV)"],
+      "boxedWarnings": [],
+      "contraindications": ["Hypersensitivity to benztropine or any component", "Pediatric patients under 3 years of age"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Benztropine is a pill or shot that can ease stiffness, shaking, and muscle spasms caused by antipsychotics. It can cause dry mouth, constipation, and confusion, especially in older adults.",
+      "source": {
+        "label": "DailyMed: benztropine mesylate tablets (Cipla) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d2732f9-b8a9-4e83-91e7-da616ddcb786"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication and dosing checked on a generic tablet label (revised 2/2020) and a generic injection label (Fresenius Kabi, setid b03bd28e-3b44-41e4-9a7e-28b9d7975245). No Cogentin brand label is on DailyMed. Pre-1962 drug; original approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "trihexyphenidyl",
+      "generic": "trihexyphenidyl",
+      "brands": ["Artane (brand discontinued)"],
+      "drugClass": "Anticholinergic (antimuscarinic) antiparkinson agent",
+      "indication": "Adjunct in the treatment of all forms of parkinsonism; also indicated for the control of extrapyramidal disorders caused by central nervous system drugs (e.g., phenothiazines, thioxanthenes, butyrophenones).",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "1 mg single dose",
+        "target": "5–15 mg/day total, usually in divided doses",
+        "max": "No fixed maximum stated; increase progressively until control is achieved",
+        "notes": "Anticholinergic effects (confusion, memory impairment, urinary retention, constipation, blurred vision, angle-closure glaucoma risk); use caution in older adults. Sometimes the antipsychotic dose can be reduced instead."
+      },
+      "formulations": ["Tablets 2, 5 mg", "Oral solution 2 mg/5 mL"],
+      "boxedWarnings": [],
+      "contraindications": [],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Trihexyphenidyl is a pill or liquid that can ease stiffness and shaking caused by antipsychotics. It can cause confusion, dry mouth, and trouble urinating, especially in older adults.",
+      "source": {
+        "label": "DailyMed: trihexyphenidyl hydrochloride tablets (Actavis) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a44d7803-164d-4a67-9356-581c45de8596"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, starting dose, and 5–15 mg/day range confirmed on a generic label (revised 2/2024). No Contraindications section was found in the fetched text, so contraindications are left empty; the oral solution strength was not confirmed on its own label. Original approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "amantadine",
+      "generic": "amantadine (immediate-release)",
+      "brands": [],
+      "drugClass": "NMDA receptor antagonist / dopaminergic agent",
+      "indication": "Treatment of drug-induced extrapyramidal reactions (also labeled for parkinsonism). Extended-release products (Gocovri, Osmolex ER) carry different Parkinson's disease indications.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "100 mg twice daily",
+        "target": "100 mg twice daily",
+        "max": "300 mg/day in divided doses (if response at 200 mg/day is not optimal)",
+        "notes": "Renal dosing by CrCl (mL/min/1.73 m²): 30–50, 200 mg day 1 then 100 mg daily; 15–29, 200 mg day 1 then 100 mg every other day; <15 or hemodialysis, 200 mg every 7 days. Can cause livedo reticularis, edema, hallucinations, and confusion; do not stop abruptly."
+      },
+      "formulations": ["Capsules 100 mg", "Tablets 100 mg", "Oral solution 50 mg/5 mL"],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to amantadine or any component"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Amantadine is a pill or liquid that can ease stiffness and shaking caused by antipsychotics, with fewer memory side effects than anticholinergic drugs. The dose must be lowered in people with kidney problems.",
+      "source": {
+        "label": "DailyMed: amantadine hydrochloride capsules (Advagen) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c3b9e7f0-be6d-4f37-9277-54bb0ba8b158"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, dose, max, and renal dosing checked on a generic capsule label (revised 6/2025). Tablet and oral solution strengths were not individually checked. The brand Symmetrel is no longer marketed; generics only. Original approval year for this indication not confirmed."
+      }
+    },
+    {
+      "drugId": "diphenhydramine",
+      "generic": "diphenhydramine hydrochloride (injection)",
+      "brands": [],
+      "drugClass": "First-generation antihistamine with anticholinergic activity",
+      "indication": "For use in parkinsonism when oral therapy is impossible or contraindicated: parkinsonism in the elderly who are unable to tolerate more potent agents, mild cases of parkinsonism in other age groups, and other cases of parkinsonism in combination with centrally acting anticholinergic agents. The label does not specifically name drug-induced EPS or acute dystonia.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults (contraindicated in neonates and premature infants)", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "10–50 mg IV (≤25 mg/min) or deep IM",
+        "target": "10–50 mg; 100 mg if required",
+        "max": "400 mg/day",
+        "notes": "Sedation, dizziness, and hypotension are more likely in older adults. Oral diphenhydramine is OTC and its OTC labeling does not include parkinsonism."
+      },
+      "formulations": ["Injection 50 mg/mL (IV or IM)"],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Neonates or premature infants",
+        "Nursing mothers",
+        "Use as a local anesthetic",
+        "Hypersensitivity to diphenhydramine or structurally similar antihistamines"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A diphenhydramine shot can quickly ease stiffness or muscle spasms when someone can't take pills. It often causes sleepiness.",
+      "source": {
+        "label": "Pfizer (Hospira) diphenhydramine hydrochloride injection prescribing information",
+        "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=4409"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, dosing, and contraindications confirmed on the Hospira label (revised 5/2019) via Pfizer's labeling site; a DailyMed setid for the injection could not be located through DailyMed search. Labeled for parkinsonism generally; use for antipsychotic-induced acute dystonia is customary but not explicitly named in the label."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "propranolol",
+      "drugClass": "Beta-blocker",
+      "use": "Antipsychotic-induced akathisia",
+      "evidence": "limited",
+      "notes": "Used for decades for akathisia, but evidence is mixed: a Cochrane review found too few data to recommend it, while one placebo-controlled trial (n=90) found benefit comparable to mirtazapine. In that trial about 17% stopped for hypotension and bradycardia. Cautions: asthma/COPD, bradycardia or conduction block, hypotension, diabetes (masks hypoglycemia), and depression. It does not treat parkinsonism itself. Reducing the dose of or switching the causative drug is usually considered first. Not FDA-labeled for akathisia.",
+      "references": [
+        {
+          "label": "Jethwa KD. Pharmacological management of antipsychotic-induced akathisia: an update and treatment algorithm. BJPsych Advances 2015",
+          "url": "https://www.cambridge.org/core/journals/bjpsych-advances/article/pharmacological-management-of-antipsychoticinduced-akathisia-an-update-and-treatment-algorithm/F9539508CAF512358754C6FD93BAF26D"
+        },
+        {
+          "label": "Poyurovsky M. Acute antipsychotic-induced akathisia revisited. Br J Psychiatry 2010",
+          "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/acute-antipsychoticinduced-akathisia-revisited/BF5042E428267A0D22A12C1C1A22FE13"
+        }
+      ]
+    },
+    {
+      "agent": "mirtazapine",
+      "drugClass": "Alpha-2 antagonist / 5-HT2 antagonist antidepressant",
+      "use": "Antipsychotic-induced akathisia (low dose, e.g., 15 mg daily in trials)",
+      "evidence": "RCT-supported",
+      "notes": "Two small placebo-controlled trials (n=26 over 5 days; n=90 over 7 days) found greater akathisia improvement than placebo, mostly with first-generation antipsychotics; short follow-up. Cautions: sedation (reported in about a third of participants in the larger trial), weight gain, rare agranulocytosis, and additive sedation with other CNS depressants. It does not treat parkinsonism itself. Not FDA-labeled for akathisia.",
+      "references": [
+        {
+          "label": "Jethwa KD. Pharmacological management of antipsychotic-induced akathisia: an update and treatment algorithm. BJPsych Advances 2015",
+          "url": "https://www.cambridge.org/core/journals/bjpsych-advances/article/pharmacological-management-of-antipsychoticinduced-akathisia-an-update-and-treatment-algorithm/F9539508CAF512358754C6FD93BAF26D"
+        },
+        {
+          "label": "Poyurovsky M. Acute antipsychotic-induced akathisia revisited. Br J Psychiatry 2010",
+          "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/acute-antipsychoticinduced-akathisia-revisited/BF5042E428267A0D22A12C1C1A22FE13"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

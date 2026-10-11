@@ -1,0 +1,81 @@
+{
+  "id": "enuresis",
+  "name": "Nocturnal enuresis",
+  "aliases": ["Bedwetting", "Primary nocturnal enuresis", "PNE"],
+  "category": "Elimination disorders",
+  "summary": "Repeated involuntary voiding during sleep at age 5 or older. Enuresis alarms and oral desmopressin are first-line treatments in pediatric continence guidelines. FDA-labeled drugs are oral desmopressin tablets (primary nocturnal enuresis) and imipramine (temporary adjunctive therapy in children 6 and older). Intranasal desmopressin is no longer indicated for primary nocturnal enuresis (removed in 2007 after hyponatremic seizures and deaths); current nasal spray labels list it as a limitation of use.",
+  "plainSummary": "Bedwetting is common in children and usually gets better with time. A bedwetting alarm or a bedtime tablet called desmopressin can help, and an older medicine called imipramine is sometimes used for a short time.",
+  "approved": [
+    {
+      "drugId": "desmopressin",
+      "generic": "desmopressin acetate (oral tablets)",
+      "brands": ["DDAVP Tablets"],
+      "drugClass": "Synthetic vasopressin analog (antidiuretic)",
+      "indication": "Management of primary nocturnal enuresis; may be used alone or as an adjunct to behavioral conditioning or other non-pharmacologic intervention (tablets are also indicated for central diabetes insipidus).",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Patients 6 years and older", "pediatric": true },
+      "approvalYear": null,
+      "dosing": {
+        "start": "0.2 mg at bedtime",
+        "target": "Titrate to response",
+        "max": "0.6 mg at bedtime",
+        "notes": "Limit fluid intake from 1 hour before the dose until the next morning (at least 8 hours). Interrupt during acute illness with fluid/electrolyte imbalance (fever, vomiting, diarrhea), very hot weather, or vigorous exercise. Watch for hyponatremia (headache, nausea, seizures). Intranasal desmopressin is not indicated for enuresis; Noctiva (nasal) and Nocdurna (sublingual) are labeled only for adult nocturia."
+      },
+      "formulations": ["Tablet 0.1, 0.2 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Hypersensitivity to desmopressin or tablet components", "Moderate to severe renal impairment (CrCl below 50 mL/min)", "Hyponatremia or history of hyponatremia"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A bedtime tablet that makes the kidneys produce less urine overnight; children must limit drinks in the evening to avoid a dangerous drop in blood salt.",
+      "source": { "label": "DailyMed: DDAVP (desmopressin acetate) tablets, Ferring", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d55baa9-2b62-469c-93ae-3909ab249332" },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "DDAVP tablet label and Apotex generic tablet label (setid 72aeef35-c102-b628-0219-9822651887eb, 9/2026) both list primary nocturnal enuresis with 0.2–0.6 mg bedtime dosing for ages 6+. Current desmopressin nasal spray label (Apotex, setid 1ac423b8-27a6-4cef-4a82-c50bf81b4f49, 9/2026) states it is not indicated for primary nocturnal enuresis. Desmoda oral solution (2026) is labeled only for central diabetes insipidus. Year PNE was added to tablet labeling not confirmed."
+      }
+    },
+    {
+      "drugId": "imipramine",
+      "generic": "imipramine hydrochloride",
+      "brands": ["Tofranil (discontinued; generic tablets marketed)"],
+      "drugClass": "Tricyclic antidepressant",
+      "indication": "May be useful as temporary adjunctive therapy in reducing enuresis in children aged 6 years and older, after possible organic causes have been excluded by appropriate tests.",
+      "role": "adjunctive",
+      "population": { "ages": "Children 6 years and older", "pediatric": true },
+      "approvalYear": null,
+      "dosing": {
+        "start": "25 mg/day, 1 hour before bedtime",
+        "target": "If no response within 1 week: 50 mg nightly (under 12 years) or up to 75 mg nightly (over 12 years)",
+        "max": "75 mg/day and no more than 2.5 mg/kg/day",
+        "notes": "Early-night wetters may respond better to 25 mg mid-afternoon plus 25 mg at bedtime. Effectiveness may wane with continued use; consider a drug-free period after a response. Long-term safety for enuresis not established. ECG changes reported at twice the 2.5 mg/kg/day limit. Fatal in overdose; store securely."
+      },
+      "formulations": ["Tablet 10, 25, 50 mg (imipramine hydrochloride)"],
+      "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+      "contraindications": ["MAOI use or within 14 days of stopping an MAOI", "Acute recovery period after myocardial infarction", "Hypersensitivity to imipramine (possible cross-sensitivity with other dibenzazepines)"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antidepressant that can reduce bedwetting for a short time; it is used less often because overdose is dangerous and it can affect the heart.",
+      "source": { "label": "DailyMed: Imipramine hydrochloride tablets USP, Strides", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51d3b181-0d15-4782-a966-feb137972b18" },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Generic imipramine HCl label (7/2026) checked for indication, enuresis dosing, 2.5 mg/kg/day limit, boxed warning, and contraindications. Imipramine pamoate capsules are labeled for depression only. Drugs@FDA lists Tofranil tablets as discontinued. Original approval year for enuresis not confirmed."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Anticholinergics (oxybutynin, solifenacin) added to desmopressin",
+      "drugClass": "Antimuscarinic",
+      "use": "Desmopressin-resistant enuresis, especially with signs of overactive bladder or reduced bladder capacity",
+      "evidence": "guideline-recommended",
+      "notes": "The International Children's Continence Society suggests adding an anticholinergic to desmopressin in therapy-resistant cases after constipation and daytime bladder dysfunction are addressed. Oxybutynin is labeled for pediatric detrusor overactivity from neurological conditions, not enuresis. Constipation, dry mouth, heat intolerance, and possible cognitive or behavioral effects; check post-void residual.",
+      "references": [
+        { "label": "Nevéus T et al. Management and treatment of nocturnal enuresis: updated ICCS standardization document. J Pediatr Urol 2020 (PMID 32278657)", "url": "https://pubmed.ncbi.nlm.nih.gov/32278657/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

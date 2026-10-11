@@ -1,0 +1,161 @@
+{
+  "id": "restless-legs-syndrome",
+  "name": "Restless legs syndrome",
+  "aliases": ["Willis-Ekbom disease", "RLS"],
+  "category": "Sleep-wake disorders",
+  "summary": "RLS is an urge to move the legs, usually with unpleasant sensations, that is worse at rest and in the evening and relieved by movement. FDA-labeled drugs for moderate-to-severe primary RLS are ropinirole, pramipexole, rotigotine, and gabapentin enacarbil. The 2024 AASM guideline (published J Clin Sleep Med 2025) now suggests against standard use of dopamine agonists because of augmentation, though they remain FDA-labeled. It strongly recommends alpha-2-delta ligands and IV ferric carboxymaltose (when iron status is appropriate) and calls for checking iron studies in all patients.",
+  "plainSummary": "Restless legs syndrome causes an uncomfortable urge to move your legs, mostly in the evening and at night, which can disrupt sleep. Checking and treating low iron and using certain nerve-calming medicines are now preferred over older dopamine medicines, which can make symptoms worse over time.",
+  "approved": [
+    {
+      "drugId": "gabapentin-enacarbil",
+      "generic": "gabapentin enacarbil",
+      "brands": ["Horizant"],
+      "drugClass": "Alpha-2-delta ligand (gabapentin prodrug)",
+      "indication": "Treatment of moderate-to-severe primary Restless Legs Syndrome (RLS) in adults. Not recommended for patients required to sleep during the day and remain awake at night.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2011,
+      "dosing": {
+        "start": "600 mg once daily at about 5 PM with food",
+        "target": "600 mg once daily",
+        "max": "600 mg/day (1,200 mg gave no added benefit and more adverse effects)",
+        "notes": "Swallow whole. Not interchangeable with other gabapentin products. Renal: CrCl 30–59 start 300 mg and increase to 600 mg as needed; 15–29: 300 mg/day; <15: 300 mg every other day; on hemodialysis: not recommended."
+      },
+      "formulations": ["Extended-release tablets: 300 mg, 600 mg"],
+      "boxedWarnings": [],
+      "contraindications": [],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Gabapentin enacarbil is a long-acting form of gabapentin taken once in the late afternoon to calm restless legs. It can cause sleepiness and dizziness.",
+      "source": { "label": "DailyMed: Horizant (gabapentin enacarbil) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c486fc7-c8c4-4c6c-b30c-366dabaeaadd" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked on the Azurity SPL (effective April 2025); the label lists no contraindications. AASM 2024 gives a strong recommendation for use." }
+    },
+    {
+      "drugId": "ropinirole",
+      "generic": "ropinirole (immediate-release)",
+      "brands": ["Requip"],
+      "drugClass": "Non-ergoline dopamine agonist",
+      "indication": "Treatment of moderate-to-severe primary Restless Legs Syndrome (RLS). (Ropinirole extended-release is labeled for Parkinson's disease only.)",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2005,
+      "dosing": {
+        "start": "0.25 mg once daily, 1–3 hours before bedtime",
+        "target": "Titrate (0.5 mg after day 2, 1 mg after week 1, then weekly) to response",
+        "max": "4 mg/day (3 mg/day in ESRD on hemodialysis)",
+        "notes": "Retitrate after significant interruption. Monitor for augmentation, impulse-control disorders, falling asleep during activities, and orthostatic hypotension."
+      },
+      "formulations": ["Tablets: 0.25 mg, 0.5 mg, 1 mg, 2 mg, 3 mg, 4 mg, 5 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Hypersensitivity/allergic reaction to ropinirole or excipients"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Ropinirole is a dopamine medicine taken before bed to ease restless legs. Over time it can make symptoms worse (augmentation), and it can cause impulse-control problems.",
+      "source": { "label": "DailyMed: ropinirole tablets (Glenmark) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=85971b31-6f7d-421c-bf3c-5b33f3c1e781" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked on a current generic label (effective January 2026). No current Requip brand SPL was found on DailyMed, so brand availability was not confirmed. AASM 2024 suggests against standard use (conditional) because of augmentation, though the drug remains FDA-labeled." }
+    },
+    {
+      "drugId": "pramipexole",
+      "generic": "pramipexole (immediate-release)",
+      "brands": ["Mirapex"],
+      "drugClass": "Non-ergot dopamine agonist",
+      "indication": "Treatment of moderate-to-severe primary Restless Legs Syndrome (RLS). (Pramipexole extended-release is labeled for Parkinson's disease only.)",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "0.125 mg once daily, 2–3 hours before bedtime",
+        "target": "0.25–0.5 mg if needed",
+        "max": "0.5 mg/day",
+        "notes": "Increase every 4–7 days (every 14 days if CrCl 20–60 mL/min). Monitor for augmentation, impulse-control disorders, sudden sleep onset, and orthostatic hypotension."
+      },
+      "formulations": ["Tablets: 0.125 mg, 0.25 mg, 0.5 mg, 0.75 mg, 1 mg, 1.5 mg"],
+      "boxedWarnings": [],
+      "contraindications": [],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Pramipexole is a dopamine medicine taken before bed to ease restless legs. Over time it can make symptoms worse (augmentation), and it can cause impulse-control problems.",
+      "source": { "label": "DailyMed: pramipexole dihydrochloride tablets (Torrent) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=60167d7c-469f-455a-a113-561841af5e59" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked on a current generic label (effective March 2026); contraindications: none. No current Mirapex brand SPL was found on DailyMed. AASM 2024 suggests against standard use (conditional) because of augmentation." }
+    },
+    {
+      "drugId": "rotigotine",
+      "generic": "rotigotine (transdermal)",
+      "brands": ["Neupro"],
+      "drugClass": "Non-ergoline dopamine agonist",
+      "indication": "Treatment of moderate-to-severe primary Restless Legs Syndrome.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2012,
+      "dosing": {
+        "start": "1 mg/24 hours patch once daily",
+        "target": "1–3 mg/24 hours",
+        "max": "3 mg/24 hours",
+        "notes": "Increase by 1 mg/24 h weekly as needed. Rotate application sites (same site no more than once every 14 days). Taper to discontinue. Contains sodium metabisulfite. Application-site reactions are common."
+      },
+      "formulations": ["Transdermal system: 1, 2, 3, 4, 6, 8 mg/24 hours"],
+      "boxedWarnings": [],
+      "contraindications": ["Hypersensitivity to rotigotine or patch components"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Rotigotine is a daily skin patch that delivers a dopamine medicine to ease restless legs. Like other dopamine medicines, it can make symptoms worse over time.",
+      "source": { "label": "DailyMed: Neupro (rotigotine) prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Checked on the UCB SPL (effective September 2026). The sulfite note is from the label's warnings, not re-read here. Approval year 2012 refers to the US reintroduction with the RLS indication, from FDA history. AASM 2024 suggests against standard use (conditional)." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Gabapentin",
+      "drugClass": "Alpha-2-delta ligand",
+      "use": "RLS (adults, including ESRD)",
+      "evidence": "guideline-recommended",
+      "notes": "AASM 2024 strong recommendation (conditional in ESRD). Cautions: sedation, dizziness, falls, misuse potential, respiratory depression with opioids or other CNS depressants, and renal dose adjustment.",
+      "references": [{ "label": "Winkelman JW et al. Treatment of RLS and PLMD: AASM clinical practice guideline. J Clin Sleep Med 2025 (published online 2024)", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
+    },
+    {
+      "agent": "Pregabalin",
+      "drugClass": "Alpha-2-delta ligand",
+      "use": "RLS",
+      "evidence": "guideline-recommended",
+      "notes": "AASM 2024 strong recommendation. In a large RCT it had lower augmentation rates than pramipexole. Cautions: dizziness, somnolence, weight gain, edema, misuse potential (C-V), and renal dose adjustment.",
+      "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
+    },
+    {
+      "agent": "IV ferric carboxymaltose",
+      "drugClass": "Intravenous iron",
+      "use": "RLS with ferritin ≤100 ng/mL or transferrin saturation <20%",
+      "evidence": "guideline-recommended",
+      "notes": "AASM 2024 strong recommendation. FDA-approved for iron-deficiency anemia, not RLS. Iron thresholds for RLS (oral or IV if ferritin ≤75 ng/mL or TSAT <20%; IV only if ferritin 75–100) are higher than for the general population. Cautions: hypophosphatemia, hypersensitivity reactions, and cost/access. Other IV iron options with conditional recommendations: LMW iron dextran, ferumoxytol, and iron sucrose in ESRD.",
+      "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
+    },
+    {
+      "agent": "Oral iron (ferrous sulfate)",
+      "drugClass": "Iron supplement",
+      "use": "RLS with ferritin ≤75 ng/mL or transferrin saturation <20%",
+      "evidence": "guideline-recommended",
+      "notes": "AASM 2024 conditional recommendation. Check morning iron studies off supplements. Absorption is limited; consider every-other-day dosing with vitamin C. Cautions: GI upset, constipation, and iron overload if given without testing.",
+      "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
+    },
+    {
+      "agent": "Opioids (e.g., extended-release oxycodone, methadone, buprenorphine)",
+      "drugClass": "Opioid agonists",
+      "use": "Refractory RLS, including augmentation after dopamine agonists",
+      "evidence": "guideline-recommended",
+      "notes": "AASM 2024 conditional recommendation (moderate certainty), usually at low doses for refractory cases. Cautions: respiratory depression (especially with sleep apnea or other sedatives), opioid use disorder risk, constipation, and opioid boxed warnings. Requires risk assessment and monitoring.",
+      "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
+    },
+    {
+      "agent": "Dipyridamole",
+      "drugClass": "Adenosine reuptake inhibitor / antiplatelet",
+      "use": "RLS",
+      "evidence": "guideline-recommended",
+      "notes": "AASM 2024 conditional recommendation (low certainty) based on small trials. Cautions: headache, dizziness, GI upset, and bleeding risk with other antiplatelets or anticoagulants.",
+      "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

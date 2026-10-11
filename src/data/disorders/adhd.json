@@ -1,0 +1,879 @@
+{
+  "id": "adhd",
+  "name": "Attention-deficit/hyperactivity disorder",
+  "aliases": [
+    "ADHD",
+    "ADD"
+  ],
+  "category": "Neurodevelopmental disorders",
+  "summary": "Persistent, impairing inattention and/or hyperactivity-impulsivity beginning in childhood. FDA-approved options are methylphenidate- and amphetamine-based CNS stimulants (Schedule II), the norepinephrine reuptake inhibitors atomoxetine and viloxazine, the extended-release alpha-2 agonists guanfacine and clonidine, and (approved July 2026, DEA scheduling pending) the triple reuptake inhibitor centanafadine. Since 2023 all stimulant labels carry a unified boxed warning on abuse, misuse, and addiction. In 2025 FDA added a Limitation of Use to extended-release stimulant labels: use is not recommended under age 6 because of higher drug exposure and adverse reactions such as weight loss.",
+  "plainSummary": "ADHD makes it hard to pay attention, sit still, or control impulses, and it often starts in childhood and can last into adulthood. Several types of medicine can help, including stimulants and non-stimulants, and doctors pick one based on age, other health issues, and side effects.",
+  "sections": [
+    "Methylphenidate-based stimulants",
+    "Amphetamine-based stimulants",
+    "Non-stimulants",
+    "Norepinephrine-dopamine-serotonin reuptake inhibitor"
+  ],
+  "approved": [
+    {
+      "drugId": "methylphenidate",
+      "generic": "methylphenidate (immediate-release)",
+      "brands": [
+        "Ritalin",
+        "Methylin (oral solution)",
+        "Methylin chewable tablets (discontinued; generic chewables marketed)"
+      ],
+      "drugClass": "CNS stimulant (dopamine/norepinephrine reuptake inhibitor)",
+      "section": "Methylphenidate-based stimulants",
+      "indication": "Treatment of attention deficit hyperactivity disorder (ADHD) in pediatric patients 6 years and older and adults (also labeled for narcolepsy).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Pediatric 6+: 5 mg twice daily (before breakfast and lunch)",
+        "target": "Titrate weekly by 5–10 mg/day; adults average 20–30 mg/day in 2–3 divided doses",
+        "max": "60 mg/day",
+        "notes": "Take 30–45 minutes before meals; last dose before 6 p.m. if insomnia. Discontinue if no improvement after appropriate adjustment over 1 month."
+      },
+      "formulations": [
+        "Tablet (5, 10, 20 mg)",
+        "Chewable tablet (generic)",
+        "Oral solution (5 mg/5 mL, 10 mg/5 mL)"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to methylphenidate or product components",
+        "Concurrent MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "A short-acting stimulant taken two or three times a day that helps improve focus and reduce hyperactivity and impulsivity.",
+      "source": {
+        "label": "DailyMed: Ritalin (methylphenidate HCl) tablets, Sandoz",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6fb2750-cdab-4749-ba0d-7534840a5892"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Ritalin label (effective 2/2025) and Methylin oral solution label (setid 9e3c22d9-71d9-46a7-b315-8021c94c4bec) checked; both list ADHD in adults and pediatric patients 6+. Year the ADHD indication was first approved could not be confirmed (Initial U.S. approval 1955)."
+      }
+    },
+    {
+      "drugId": "methylphenidate",
+      "generic": "methylphenidate (extended-release oral products)",
+      "brands": [
+        "Concerta",
+        "Relexxii",
+        "Ritalin LA",
+        "Metadate CD",
+        "Aptensio XR",
+        "Quillivant XR",
+        "QuilliChew ER",
+        "Jornay PM",
+        "Cotempla XR-ODT",
+        "Adhansia XR (discontinued)"
+      ],
+      "drugClass": "CNS stimulant (dopamine/norepinephrine reuptake inhibitor)",
+      "section": "Methylphenidate-based stimulants",
+      "indication": "Treatment of ADHD. Age ranges differ by product (see population). Limitation of Use (added 2025): not recommended in pediatric patients younger than 6 years because of higher plasma exposure and higher incidence of adverse reactions (e.g., weight loss).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Concerta: 6–65 years. Relexxii: 6 years and older and adults up to 65. Jornay PM, Aptensio XR/generic multilayer ER capsules: 6 years and older. Quillivant XR, QuilliChew ER: 6 years and older (per dosing; indication not age-limited). Cotempla XR-ODT: 6–17 years. Ritalin LA: 6–12 years. Metadate CD: 6–15 years.",
+        "pediatric": true
+      },
+      "approvalYear": 2000,
+      "dosing": {
+        "start": "Concerta/Relexxii: 18 mg once daily (pediatric), 18 or 36 mg (adults). Ritalin LA, Metadate CD, Quillivant XR, QuilliChew ER, Jornay PM: 20 mg once daily. Aptensio XR/generic: 10 mg. Cotempla XR-ODT: 17.3 mg.",
+        "target": "Titrate weekly to response (Concerta in 18 mg steps; most others in 10–20 mg steps)",
+        "max": "Concerta/Relexxii: 54 mg (6–12 y), 72 mg (13–17 y and adults). Ritalin LA, Metadate CD, Quillivant XR, QuilliChew ER, Aptensio XR: 60 mg/day. Jornay PM: 100 mg/day. Cotempla XR-ODT: 51.8 mg/day.",
+        "notes": "Jornay PM is dosed in the evening (6:30–9:30 p.m.). Do not substitute products mg-for-mg (especially Jornay PM, Cotempla). Concerta tablets must be swallowed whole; several capsules may be sprinkled on applesauce."
+      },
+      "formulations": [
+        "Osmotic ER tablet (Concerta, Relexxii)",
+        "ER capsule (Ritalin LA, Metadate CD, Aptensio XR, Jornay PM)",
+        "ER oral suspension (Quillivant XR)",
+        "ER chewable tablet (QuilliChew ER)",
+        "ER orally disintegrating tablet (Cotempla XR-ODT)"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to methylphenidate or product components",
+        "Concurrent MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "Long-acting forms of methylphenidate taken once a day so the effect lasts through school or work. They come as tablets, capsules, chewables, a liquid, and a melt-in-the-mouth tablet.",
+      "source": {
+        "label": "DailyMed: Concerta (methylphenidate HCl) extended-release tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a88218c-5b18-4220-8f56-526de1a276cd"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, ages, and dosing checked on current DailyMed labels for Concerta (4/2026), Relexxii, Ritalin LA, Metadate CD, Quillivant XR, QuilliChew ER, Jornay PM, Cotempla XR-ODT, and the Rhodes generic methylphenidate ER capsule (Aptensio XR equivalent, setid f7a7ffd1-bc30-4db8-8391-dddf76acd639). All show the 9/2025 Limitation of Use for children under 6. Aptensio XR brand label was not on DailyMed but Drugs@FDA lists it as a prescription product; Adhansia XR is listed as discontinued. approvalYear refers to Concerta (2000)."
+      }
+    },
+    {
+      "drugId": "methylphenidate",
+      "generic": "methylphenidate (transdermal system)",
+      "brands": [
+        "Daytrana"
+      ],
+      "drugClass": "CNS stimulant (dopamine/norepinephrine reuptake inhibitor)",
+      "section": "Methylphenidate-based stimulants",
+      "indication": "Treatment of ADHD in pediatric patients 6 to 17 years of age. Not recommended under 6 years (higher exposure and adverse reactions such as weight loss).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Pediatric patients 6 to 17 years",
+        "pediatric": true
+      },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "10 mg/9 hours patch",
+        "target": "Titrate weekly (10 → 15 → 20 → 30 mg/9 hours) to effect",
+        "max": "30 mg/9 hours",
+        "notes": "Apply to the hip 2 hours before effect is needed; remove after 9 hours (may remove earlier). Alternate sites. Patients converting from oral methylphenidate should start at 10 mg."
+      },
+      "formulations": [
+        "Transdermal system 10, 15, 20, 30 mg/9 hours"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to methylphenidate or patch components",
+        "Concurrent MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "A methylphenidate skin patch worn on the hip for part of the day, useful for children who have trouble swallowing pills.",
+      "source": {
+        "label": "DailyMed: Daytrana (methylphenidate transdermal system)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c312c31-3198-4775-91ab-294e0b4b9e7f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label effective 9/2025 checked; also warns of chemical leukoderma (W&P). Generic patches (Mylan, Padagis) are listed on DailyMed."
+      }
+    },
+    {
+      "drugId": "dexmethylphenidate",
+      "generic": "dexmethylphenidate",
+      "brands": [
+        "Focalin",
+        "Focalin XR"
+      ],
+      "drugClass": "CNS stimulant (d-threo-enantiomer of methylphenidate)",
+      "section": "Methylphenidate-based stimulants",
+      "indication": "Treatment of ADHD (IR tablets and XR capsules). Focalin XR: not recommended in pediatric patients younger than 6 years.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Patients 6 years and older; Focalin XR studied and dosed in pediatric patients 6+ and adults (section 1 does not state an age range)",
+        "pediatric": true
+      },
+      "approvalYear": 2001,
+      "dosing": {
+        "start": "IR: 2.5 mg twice daily (5 mg/day). XR: 5 mg once daily (pediatric), 10 mg once daily (adults).",
+        "target": "Titrate weekly (IR by 2.5–5 mg; XR by 5 mg pediatric, 10 mg adults)",
+        "max": "IR: 20 mg/day (10 mg twice daily). XR: 30 mg/day pediatric, 40 mg/day adults.",
+        "notes": "Patients on racemic methylphenidate: start at half the current total daily methylphenidate dose. Same daily dose when switching from Focalin IR to XR. XR capsules may be sprinkled on applesauce."
+      },
+      "formulations": [
+        "Tablet 2.5, 5, 10 mg",
+        "ER capsule 5–40 mg"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to methylphenidate or product components",
+        "Concurrent MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "A more targeted form of methylphenidate that works at about half the dose, available as a short-acting tablet or a once-daily capsule.",
+      "source": {
+        "label": "DailyMed: Focalin XR (dexmethylphenidate HCl) extended-release capsules, Novartis",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a1da905-42a0-4748-9c39-67eca45deccc"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Focalin XR (9/2025) and Focalin IR (setid 2016f5c2-95d2-4655-af65-c588c2bf5e6d) labels checked. Section 1 for both is not age-limited; age floor of 6 years comes from the XR Limitation of Use and pediatric-use sections. approvalYear is Focalin IR (2001); Focalin XR approved 2005."
+      }
+    },
+    {
+      "drugId": "serdexmethylphenidate-dexmethylphenidate",
+      "generic": "serdexmethylphenidate/dexmethylphenidate",
+      "brands": [
+        "Azstarys"
+      ],
+      "drugClass": "CNS stimulant (dexmethylphenidate prodrug plus immediate-release dexmethylphenidate)",
+      "section": "Methylphenidate-based stimulants",
+      "indication": "Treatment of ADHD in patients 6 years of age and older. Not recommended under 6 years (higher exposure and adverse reactions such as weight loss).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "39.2 mg/7.8 mg once daily in the morning",
+        "target": "6–12 y: may adjust to 26.1/5.2 mg or 52.3/10.4 mg after 1 week; 13+ and adults: increase to 52.3/10.4 mg after 1 week as tolerated",
+        "max": "52.3 mg/10.4 mg once daily",
+        "notes": "Swallow whole or sprinkle on applesauce or in water. Do not substitute mg-for-mg with other methylphenidate products."
+      },
+      "formulations": [
+        "Capsule 26.1/5.2 mg, 39.2/7.8 mg, 52.3/10.4 mg"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to serdexmethylphenidate, methylphenidate, or product components",
+        "Concurrent MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": false,
+      "plainSummary": "A once-daily capsule that combines a quick-starting and a slowly released form of methylphenidate so it works early and lasts all day.",
+      "source": {
+        "label": "DailyMed: Azstarys (serdexmethylphenidate and dexmethylphenidate) capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b5e716-5564-4bbd-acaf-df2bc45a5663"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label effective 5/2026 checked. Product label lists C-II for the combination."
+      }
+    },
+    {
+      "drugId": "lisdexamfetamine",
+      "generic": "lisdexamfetamine",
+      "brands": [
+        "Vyvanse"
+      ],
+      "drugClass": "CNS stimulant (amphetamine prodrug)",
+      "section": "Amphetamine-based stimulants",
+      "indication": "Treatment of ADHD in adults and pediatric patients 6 years and older (also labeled for moderate to severe binge eating disorder in adults). Not recommended under 6 years.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2007,
+      "dosing": {
+        "start": "30 mg once every morning",
+        "target": "30–70 mg/day; titrate by 10–20 mg weekly",
+        "max": "70 mg/day",
+        "notes": "Severe renal impairment: max 50 mg/day; ESRD: max 30 mg/day. Capsules may be opened and mixed with yogurt, water, or orange juice; chewable tablets must be chewed fully."
+      },
+      "formulations": [
+        "Capsule 10–70 mg",
+        "Chewable tablet 10–60 mg"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to amphetamine products or other ingredients",
+        "MAOI use or within 14 days of stopping an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "A once-daily stimulant that the body slowly converts into its active form, giving a smooth effect through the day.",
+      "source": {
+        "label": "DailyMed: Vyvanse (lisdexamfetamine dimesylate) capsules and chewable tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=704e4378-ca83-445c-8b45-3cfa51c1ecad"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label effective 4/2026 checked."
+      }
+    },
+    {
+      "drugId": "mixed-amphetamine-salts",
+      "generic": "mixed amphetamine salts (immediate-release)",
+      "brands": [
+        "Adderall"
+      ],
+      "drugClass": "CNS stimulant (amphetamine)",
+      "section": "Amphetamine-based stimulants",
+      "indication": "Treatment of ADHD and narcolepsy. Not recommended for children under 3 years of age.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Patients 3 years and older (label gives dosing from age 3; ADHD indication itself is not age-limited and includes adults)",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Ages 3–5: 2.5 mg/day. Ages 6+: 5 mg once or twice daily.",
+        "target": "Increase by 2.5 mg (3–5 y) or 5 mg (6+) weekly to optimal response; first dose on awakening, then 1–2 doses at 4–6 hour intervals",
+        "max": "Only in rare cases will it be necessary to exceed 40 mg/day",
+        "notes": "Avoid late evening doses (insomnia)."
+      },
+      "formulations": [
+        "Tablet 5, 7.5, 10, 12.5, 15, 20, 30 mg"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to amphetamine or product components",
+        "MAOI use or within 14 days of stopping an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "A short-acting amphetamine tablet taken once to three times a day; it is one of the few ADHD medicines labeled for children as young as 3.",
+      "source": {
+        "label": "DailyMed: Adderall (mixed amphetamine salts) tablets, Teva",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f22635fe-821d-4cde-aa12-419f8b53db81"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Older-format label (effective 5/2024) checked; boxed warning is the 2023 abuse/misuse/addiction wording. Year the ADHD indication was first approved not confirmed."
+      }
+    },
+    {
+      "drugId": "mixed-amphetamine-salts",
+      "generic": "mixed amphetamine salts (extended-release)",
+      "brands": [
+        "Adderall XR",
+        "Mydayis"
+      ],
+      "drugClass": "CNS stimulant (amphetamine)",
+      "section": "Amphetamine-based stimulants",
+      "indication": "Adderall XR: ADHD in adults and pediatric patients 6 years and older (not recommended under 6). Mydayis: ADHD in patients 13 years and older (children 12 and younger had higher exposure and more adverse reactions).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adderall XR: adults and pediatric patients 6 years and older. Mydayis: patients 13 years and older.",
+        "pediatric": true
+      },
+      "approvalYear": 2001,
+      "dosing": {
+        "start": "Adderall XR: 10 mg once daily (6–17 y), 20 mg once daily (adults). Mydayis: 12.5 mg once daily on awakening.",
+        "target": "Titrate weekly (Adderall XR 5–10 mg steps; Mydayis 12.5 mg steps)",
+        "max": "Adderall XR: 30 mg/day for ages 6–12 (adult recommended dose 20 mg/day). Mydayis: 25 mg/day (13–17 y), 50 mg/day (adults).",
+        "notes": "Severe renal impairment: Adderall XR 5 mg (peds)/15 mg (adults) start, ESRD not recommended; Mydayis max 25 mg adults/12.5 mg peds, ESRD not recommended. Mydayis effects may last up to 16 hours. Do not substitute mg-for-mg between amphetamine products."
+      },
+      "formulations": [
+        "ER capsule (Adderall XR 5–30 mg)",
+        "ER capsule (Mydayis 12.5–50 mg)"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to amphetamine or product components",
+        "MAOI use or within 14 days of stopping an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "Long-acting amphetamine capsules taken once in the morning; Mydayis lasts the longest and is only for teens and adults.",
+      "source": {
+        "label": "DailyMed: Adderall XR (mixed amphetamine salts) extended-release capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aff45863-ffe1-4d4f-8acf-c7081512a6c0"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Adderall XR (4/2026) and Mydayis (setid 141a7970-3f06-44ea-9ab7-aeece2c085fc, 4/2026) labels checked. approvalYear refers to Adderall XR (2001); Mydayis approved 2017."
+      }
+    },
+    {
+      "drugId": "amphetamine",
+      "generic": "amphetamine sulfate (immediate-release)",
+      "brands": [
+        "Evekeo",
+        "Evekeo ODT (discontinued)"
+      ],
+      "drugClass": "CNS stimulant (racemic amphetamine)",
+      "section": "Amphetamine-based stimulants",
+      "indication": "Attention deficit disorder with hyperactivity in children, as an integral part of a total treatment program (also labeled for narcolepsy and short-term adjunctive use in exogenous obesity). Not recommended for children under 3 years.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Children 3 years and older (label dosing for ages 3–5 and 6+)",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Ages 3–5: 2.5 mg/day. Ages 6+: 5 mg once or twice daily.",
+        "target": "Increase by 2.5 mg (3–5 y) or 5 mg (6+) weekly to optimal response",
+        "max": "Only in rare cases will it be necessary to exceed 40 mg/day",
+        "notes": "First dose on awakening; additional doses at 4–6 hour intervals. Avoid late evening doses."
+      },
+      "formulations": [
+        "Tablet 5, 10 mg"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity or idiosyncrasy to sympathomimetic amines",
+        "MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "A short-acting amphetamine tablet that can be used in young children with ADHD as part of a broader treatment plan.",
+      "source": {
+        "label": "DailyMed: Evekeo (amphetamine sulfate) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f469fb38-0380-4621-9db3-a4f429126156"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, ages, and dosing confirmed on Evekeo label (effective 10/2025). The contraindication list was not re-read in full for this label and is based on the standard older-format amphetamine labeling; confirm. Drugs@FDA lists Evekeo ODT (NDA 209905) as discontinued."
+      }
+    },
+    {
+      "drugId": "amphetamine",
+      "generic": "amphetamine (extended-release)",
+      "brands": [
+        "Adzenys XR-ODT",
+        "Dyanavel XR"
+      ],
+      "drugClass": "CNS stimulant (amphetamine)",
+      "section": "Amphetamine-based stimulants",
+      "indication": "Treatment of ADHD in patients 6 years and older. Not recommended under 6 years (higher exposure and adverse reactions such as weight loss).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "Adzenys XR-ODT: 6.3 mg once daily (6–17 y), 12.5 mg once daily (adults). Dyanavel XR: 2.5 or 5 mg once daily.",
+        "target": "Adzenys: titrate weekly by 3.1–6.3 mg. Dyanavel: increase 2.5–10 mg/day every 4–7 days.",
+        "max": "Adzenys XR-ODT: 18.8 mg/day (6–12 y), 12.5 mg/day (13–17 y and adults). Dyanavel XR: 20 mg/day.",
+        "notes": "Dyanavel XR suspension and tablets interchangeable mg-for-mg; do not substitute mg-for-mg with other amphetamine products."
+      },
+      "formulations": [
+        "ER orally disintegrating tablet (Adzenys XR-ODT)",
+        "ER oral suspension 2.5 mg/mL and ER tablet (Dyanavel XR)"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to amphetamine or product components",
+        "MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": false,
+      "plainSummary": "Long-acting amphetamine as a liquid, chewable or melt-in-the-mouth tablet, helpful for people who cannot swallow capsules.",
+      "source": {
+        "label": "DailyMed: Dyanavel XR (amphetamine) ER oral suspension and ER tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ae304b29-0b40-40ec-ad0d-76b742d4a9b9"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indications, ages, and dosing confirmed on Dyanavel XR (2/2026) and Adzenys XR-ODT (setid c1179269-00b5-48ea-972d-31e614e99b7e, 5/2026) labels. Adzenys titration step and generic availability were not confirmed. approvalYear refers to Dyanavel XR suspension (2015); Adzenys XR-ODT approved 2016."
+      }
+    },
+    {
+      "drugId": "dextroamphetamine",
+      "generic": "dextroamphetamine (oral and transdermal)",
+      "brands": [
+        "Zenzedi",
+        "ProCentra",
+        "Dexedrine Spansule",
+        "Xelstrym"
+      ],
+      "drugClass": "CNS stimulant (d-amphetamine)",
+      "section": "Amphetamine-based stimulants",
+      "indication": "Oral products: attention deficit disorder with hyperactivity as part of a total treatment program (also narcolepsy). Xelstrym transdermal system: ADHD in adults and pediatric patients 6 years and older (not recommended under 6).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "IR tablets/oral solution: 3–16 years. Dexedrine Spansule: 6–16 years. Xelstrym patch: adults and pediatric patients 6 years and older.",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Oral, ages 3–5: 2.5 mg/day; ages 6+: 5 mg once or twice daily. Xelstrym: 4.5 mg/9 h (6–17 y), 9 mg/9 h (adults).",
+        "target": "Oral: increase by 2.5 mg (3–5 y) or 5 mg (6+) weekly. Xelstrym: titrate weekly by 4.5 mg/9 h.",
+        "max": "Oral: only rarely necessary to exceed 40 mg/day. Xelstrym: 18 mg/9 hours.",
+        "notes": "Spansule not recommended under 6. Xelstrym: apply 2 hours before effect needed and remove within 9 hours; severe renal impairment max 13.5 mg/9 h, ESRD max 9 mg/9 h."
+      },
+      "formulations": [
+        "Tablet (Zenzedi, generic)",
+        "Oral solution 5 mg/5 mL (ProCentra)",
+        "Sustained-release capsule (Dexedrine Spansule)",
+        "Transdermal system 4.5, 9, 13.5, 18 mg/9 h (Xelstrym)"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to amphetamine or product components",
+        "MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "The more active half of amphetamine, available as short-acting tablets or liquid, a long-acting capsule, or a daytime skin patch.",
+      "source": {
+        "label": "DailyMed: Zenzedi (dextroamphetamine sulfate) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6394df5-f2c9-47eb-b57e-f3e9cfd94f84"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked Zenzedi (11/2025), ProCentra (setid 1548cce2-fb6b-4f17-8a3b-868933f6c9d6), Dexedrine Spansule (setid cc717b9b-22ea-4c60-a1d4-ee38a40bce78), and Xelstrym (setid 0862f02a-72a8-41cc-8845-57cf4974bb6f, 12/2025; approved 2022). Original ADHD approval year for oral dextroamphetamine not confirmed."
+      }
+    },
+    {
+      "drugId": "methamphetamine",
+      "generic": "methamphetamine",
+      "brands": [
+        "Desoxyn"
+      ],
+      "drugClass": "CNS stimulant (amphetamine)",
+      "section": "Amphetamine-based stimulants",
+      "indication": "Treatment of ADHD in pediatric patients 6 years of age and older.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Pediatric patients 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "5 mg once or twice daily",
+        "target": "Increase by 5 mg weekly; usual effective dose 20–25 mg/day",
+        "max": "No maximum stated; recommended range 20–25 mg/day",
+        "notes": "Give once daily or in two divided doses; avoid late-evening dosing."
+      },
+      "formulations": [
+        "Tablet 5 mg"
+      ],
+      "boxedWarnings": [
+        "Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to amphetamine or product components",
+        "MAOI use or within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "A rarely used stimulant tablet approved for children 6 and older with ADHD; it carries a high risk of misuse.",
+      "source": {
+        "label": "DailyMed: Methamphetamine HCl tablets USP, Dr. Reddy's",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0905e2c-a02f-ec4f-59a3-6f7ad0acbbf6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Generic methamphetamine label (11/2025) checked. No current Desoxyn brand label was found on DailyMed; Drugs@FDA lists Desoxyn 5 mg tablets (NDA 005378) as a prescription product. Original approval year for ADHD not confirmed."
+      }
+    },
+    {
+      "drugId": "atomoxetine",
+      "generic": "atomoxetine",
+      "brands": [
+        "Strattera"
+      ],
+      "drugClass": "Selective norepinephrine reuptake inhibitor",
+      "section": "Non-stimulants",
+      "indication": "Treatment of ADHD in adults and pediatric patients 6 years of age and older, as an integral part of a total treatment program.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2002,
+      "dosing": {
+        "start": "Under 70 kg: 0.5 mg/kg/day. 70 kg or more and adults: 40 mg/day.",
+        "target": "Under 70 kg: 1.2 mg/kg/day. 70 kg or more and adults: 80 mg/day.",
+        "max": "Under 70 kg: 1.4 mg/kg/day or 100 mg/day, whichever is less. 70 kg or more and adults: 100 mg/day.",
+        "notes": "Once daily in the morning or divided twice daily. Reduce dose in moderate (50%) or severe (25%) hepatic impairment. Strong CYP2D6 inhibitors or poor metabolizers: start at the usual dose and increase to target only if needed after 4 weeks. Screen for personal/family history of bipolar disorder. Do not open capsules."
+      },
+      "formulations": [
+        "Capsule 10, 18, 25, 40, 60, 80, 100 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric patients 6 years of age and older"
+      ],
+      "contraindications": [
+        "Hypersensitivity to atomoxetine",
+        "MAOI use or within 14 days of stopping an MAOI",
+        "Narrow-angle glaucoma",
+        "Pheochromocytoma or history of it",
+        "Severe cardiac or vascular disorders that would worsen with clinically important increases in blood pressure or heart rate"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A non-stimulant capsule taken daily that builds up over several weeks; it is not a controlled substance.",
+      "source": {
+        "label": "DailyMed: Strattera (atomoxetine) capsules, Eli Lilly",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, boxed warning, weight-based dosing, and contraindications confirmed on the June 2026 Strattera label (reformatted; boxed warning now reads 'pediatric patients 6 years of age and older'). The specific hepatic and CYP2D6 adjustment wording in notes was not re-read in the 2026 revision."
+      }
+    },
+    {
+      "drugId": "viloxazine",
+      "generic": "viloxazine",
+      "brands": [
+        "Qelbree"
+      ],
+      "drugClass": "Selective norepinephrine reuptake inhibitor",
+      "section": "Non-stimulants",
+      "indication": "Treatment of ADHD in adults and pediatric patients 6 years and older.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "6–11 y: 100 mg once daily. 12–17 y and adults: 200 mg once daily.",
+        "target": "Titrate weekly by 100 mg (6–11 y) or 200 mg (12+)",
+        "max": "400 mg/day (6–17 y); 600 mg/day (adults)",
+        "notes": "Severe renal impairment: start 100 mg, max 200 mg/day. Capsules may be opened onto applesauce or pudding. Check heart rate and blood pressure at baseline and after dose increases."
+      },
+      "formulations": [
+        "ER capsule 100, 150, 200 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors"
+      ],
+      "contraindications": [
+        "MAOI use or within 14 days of stopping an MAOI",
+        "Concomitant sensitive CYP1A2 substrates or CYP1A2 substrates with a narrow therapeutic range"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A once-daily non-stimulant capsule for children and adults; it is not a controlled substance but needs monitoring for mood changes.",
+      "source": {
+        "label": "DailyMed: Qelbree (viloxazine) extended-release capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aedf408d-0f84-418d-9416-7c39ddb0d29a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label effective 10/5/2026 checked. Pediatric approval April 2021; adult indication added 2022."
+      }
+    },
+    {
+      "drugId": "guanfacine",
+      "generic": "guanfacine (extended-release)",
+      "brands": [
+        "Intuniv"
+      ],
+      "drugClass": "Central alpha-2A adrenergic agonist",
+      "section": "Non-stimulants",
+      "indication": "Treatment of ADHD as monotherapy and as adjunctive therapy to stimulant medications.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Pediatric patients 6 to 17 years (studied population; safety and efficacy under 6 not established)",
+        "pediatric": true
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "1 mg once daily (morning or evening)",
+        "target": "0.05–0.12 mg/kg/day (1–7 mg/day); increase by no more than 1 mg/week",
+        "max": "Doses above 4 mg/day not evaluated in ages 6–12; above 7 mg/day not evaluated in ages 13–17",
+        "notes": "Swallow whole; avoid high-fat meals. Not interchangeable mg-for-mg with IR guanfacine. Taper by no more than 1 mg every 3–7 days to avoid rebound hypertension. Adjust with strong CYP3A4 inhibitors/inducers."
+      },
+      "formulations": [
+        "ER tablet 1, 2, 3, 4 mg"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Hypersensitivity to guanfacine or product components"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A once-daily non-stimulant that calms hyperactivity and impulsivity; it can be used alone or with a stimulant and must not be stopped suddenly.",
+      "source": {
+        "label": "DailyMed: Intuniv (guanfacine) extended-release tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b972af81-3a37-40be-9fe1-3ddf59852528"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, dose range, titration, and taper confirmed (label 6/2025). Section 1 does not state ages; 6–17 is from clinical studies and pediatric-use sections. CYP3A4 adjustment in notes not re-read in this revision."
+      }
+    },
+    {
+      "drugId": "clonidine",
+      "generic": "clonidine (extended-release)",
+      "brands": [
+        "Onyda XR",
+        "Kapvay (discontinued; generic ER tablets marketed)"
+      ],
+      "drugClass": "Central alpha-2 adrenergic agonist",
+      "section": "Non-stimulants",
+      "indication": "Treatment of ADHD as monotherapy or as adjunctive therapy to (CNS) stimulant medications. Onyda XR label specifies pediatric patients 6 years of age and older.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Onyda XR: pediatric patients 6 years and older. ER tablets: studied in ages 6–17.",
+        "pediatric": true
+      },
+      "approvalYear": 2010,
+      "dosing": {
+        "start": "0.1 mg at bedtime",
+        "target": "Increase by 0.1 mg/day weekly. ER tablets: give twice daily (equal or larger dose at bedtime). Onyda XR: once daily at bedtime.",
+        "max": "0.4 mg/day",
+        "notes": "Not interchangeable mg-for-mg with other clonidine products. Taper by no more than 0.1 mg every 3–7 days to avoid rebound hypertension."
+      },
+      "formulations": [
+        "ER tablet 0.1 mg (generic)",
+        "ER oral suspension 0.1 mg/mL (Onyda XR)"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "History of hypersensitivity reaction to clonidine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A non-stimulant taken at bedtime (as a tablet or liquid) that can be used alone or with a stimulant; it can cause sleepiness and must be tapered off.",
+      "source": {
+        "label": "DailyMed: Onyda XR (clonidine HCl) extended-release oral suspension",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a15c850-9da5-4bdc-a34d-7f740a6149b7"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Onyda XR (approved May 2024; label 4/2025) and generic clonidine ER tablets (Actavis, setid 0100c70d-7fde-46a1-8374-940550a27e43) checked. Drugs@FDA lists Kapvay (NDA 022331) as discontinued, not for safety reasons. approvalYear is Kapvay (2010)."
+      }
+    },
+    {
+      "drugId": "centanafadine",
+      "generic": "centanafadine",
+      "brands": [
+        "Simtriyo"
+      ],
+      "drugClass": "Norepinephrine-dopamine-serotonin reuptake inhibitor; labeled as a CNS stimulant",
+      "section": "Norepinephrine-dopamine-serotonin reuptake inhibitor",
+      "indication": "Treatment of ADHD in adults and pediatric patients 6 years of age and older weighing at least 20 kg. Not recommended under 6 years (more weight loss) or under 20 kg (lack of data).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 years and older weighing at least 20 kg",
+        "pediatric": true
+      },
+      "approvalYear": 2026,
+      "dosing": {
+        "start": "Adults: 210 mg once daily. Ages 6–12 by weight: 140 mg (20 to <35 kg), 210 mg (35–50 kg), 280 mg (>50 kg). Ages 13–17: 280 mg once daily.",
+        "target": "Adults: 210–280 mg once daily. Pediatric: the weight- or age-based dose above (no titration).",
+        "max": "280 mg once daily",
+        "notes": "Take in the morning; capsule may be opened onto applesauce, yogurt, or orange juice. Avoid alcohol at dosing time and for 2 hours after. Not recommended in severe hepatic impairment. Monitor CYP1A2 substrates; serotonin syndrome risk with serotonergic drugs."
+      },
+      "formulations": [
+        "ER capsule 140, 210, 280 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal ideation and behaviors in pediatric patients aged 6 years and older",
+        "Abuse, misuse, and addiction"
+      ],
+      "contraindications": [
+        "Hypersensitivity to centanafadine or excipients",
+        "MAOI use or within 14 days of stopping an MAOI",
+        "Pheochromocytoma or history of it"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A new once-daily ADHD capsule approved in 2026 that works on three brain chemicals; it is not yet available in pharmacies while its controlled-substance status is set.",
+      "source": {
+        "label": "Otsuka: Simtriyo (centanafadine) prescribing information, revised 7/2026",
+        "url": "https://otsuka-us.com/media/static/Simtriyo-PI.pdf"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Approved July 24, 2026. Indication, boxed warnings, dosing, and contraindications read directly from the Otsuka-hosted PI (Revised 7/2026). That PI still shows '[controlled substance schedule pending]' and no DEA schedule had been published as of late August 2026 reports, so controlledSubstance is null pending DEA action and the drug may not yet be dispensable. No DailyMed SPL or FDA approval letter was located for cross-checking."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Methylphenidate (in children 4–5 years)",
+      "drugClass": "CNS stimulant",
+      "use": "ADHD in preschool-aged children when behavioral treatment is insufficient",
+      "evidence": "guideline-recommended",
+      "notes": "Methylphenidate products are not labeled for children under 6, and 2025 labeling states extended-release stimulants are not recommended under 6 because of higher exposure and weight loss. The AAP guideline places parent training in behavior management first and allows methylphenidate for moderate-to-severe persistent impairment; the PATS trial supports efficacy at low IR doses, with more adverse effects than in older children. Amphetamine IR products are labeled from age 3.",
+      "references": [
+        {
+          "label": "Wolraich ML et al. AAP clinical practice guideline for ADHD. Pediatrics 2019 (PMID 31570648)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31570648/"
+        },
+        {
+          "label": "Greenhill L et al. Efficacy and safety of IR methylphenidate for preschoolers with ADHD (PATS). JAACAP 2006 (PMID 17023867)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17023867/"
+        }
+      ]
+    },
+    {
+      "agent": "Bupropion",
+      "drugClass": "Norepinephrine-dopamine reuptake inhibitor antidepressant",
+      "use": "ADHD in adults (often with comorbid depression or substance use, or when stimulants are unsuitable)",
+      "evidence": "RCT-supported",
+      "notes": "A Cochrane review found low-quality evidence of modest symptom improvement versus placebo in adults; smaller effects than stimulants. Lowers seizure threshold (avoid in seizure or eating disorders); carries the antidepressant suicidality boxed warning.",
+      "references": [
+        {
+          "label": "Verbeeck W et al. Bupropion for ADHD in adults. Cochrane Database Syst Rev 2017 (PMID 28965364)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28965364/"
+        }
+      ]
+    },
+    {
+      "agent": "Tricyclic antidepressants (desipramine, nortriptyline)",
+      "drugClass": "Tricyclic antidepressant",
+      "use": "Second- or third-line ADHD treatment, sometimes with comorbid tics or enuresis",
+      "evidence": "limited",
+      "notes": "Cochrane review of six small RCTs (mostly desipramine) showed short-term core-symptom improvement, but evidence quality was low. Cardiac conduction effects and sudden death reports with desipramine in children; baseline and follow-up ECG commonly advised. Toxic in overdose.",
+      "references": [
+        {
+          "label": "Otasowie J et al. Tricyclic antidepressants for ADHD in children and adolescents. Cochrane Database Syst Rev 2014 (PMID 25238582)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25238582/"
+        }
+      ]
+    },
+    {
+      "agent": "Guanfacine ER or clonidine ER in adults",
+      "drugClass": "Alpha-2 adrenergic agonist",
+      "use": "Adult ADHD when stimulants and labeled non-stimulants are not suitable",
+      "evidence": "limited",
+      "notes": "US labeling and pivotal trials are pediatric. A 2018 network meta-analysis found insufficient adult data for alpha-2 agonists. A 2023 meta-analysis of adult non-stimulant trials found a moderate effect for guanfacine, but based on only two small RCTs. Sedation, hypotension, bradycardia, and rebound hypertension if stopped abruptly.",
+      "references": [
+        {
+          "label": "Cortese S et al. Comparative efficacy and tolerability of ADHD medications: network meta-analysis. Lancet Psychiatry 2018 (PMID 30097390)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30097390/"
+        },
+        {
+          "label": "Radonjić NV et al. Nonstimulant medications for ADHD in adults: systematic review and meta-analysis. CNS Drugs 2023 (PMID 37166701)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37166701/"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

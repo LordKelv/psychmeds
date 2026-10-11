@@ -1,0 +1,318 @@
+{
+  "id": "obsessive-compulsive-disorder",
+  "name": "Obsessive-compulsive disorder",
+  "aliases": [
+    "OCD"
+  ],
+  "category": "Obsessive-compulsive & related disorders",
+  "summary": "Obsessions and/or compulsions that are time-consuming or impairing. FDA-labeled drugs are clomipramine and the SSRIs fluoxetine, fluvoxamine, paroxetine, and sertraline (pediatric labeling for clomipramine 10+, fluoxetine 7+, fluvoxamine IR 8+, sertraline 6+). Exposure and response prevention (ERP) is first-line psychotherapy. Troriluzole failed Phase 3 and was dropped for OCD in 2025.",
+  "plainSummary": "OCD causes unwanted, repeated thoughts and urges to do things over and over, like checking or washing. A type of therapy called ERP and certain antidepressants can help, often at higher doses.",
+  "approved": [
+    {
+      "drugId": "clomipramine",
+      "generic": "clomipramine",
+      "brands": [
+        "Anafranil"
+      ],
+      "drugClass": "Tricyclic antidepressant",
+      "indication": "Treatment of obsessions and compulsions in patients with Obsessive-Compulsive Disorder (OCD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 10 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 1989,
+      "dosing": {
+        "start": "25 mg daily",
+        "target": "About 100 mg/day by the end of week 2, then titrate over several weeks",
+        "max": "Adults: 250 mg/day; children/adolescents: 3 mg/kg/day or 200 mg/day, whichever is smaller",
+        "notes": "Give in divided doses with meals during titration; once daily at bedtime after titration. Pediatric: up to 3 mg/kg or 100 mg (whichever smaller) in the first 2 weeks. Steady state takes 2–3 weeks. Seizure risk is dose-related; cardiac conduction effects; lethal in overdose."
+      },
+      "formulations": [
+        "Capsules 25, 50, 75 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to clomipramine or other tricyclic antidepressants",
+        "MAOIs concurrently or within 14 days; starting in patients on linezolid or IV methylene blue",
+        "Acute recovery period after myocardial infarction"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Clomipramine is an older antidepressant approved for OCD in adults and children 10 and older. It works well but has more side effects than SSRIs.",
+      "source": {
+        "label": "DailyMed: Anafranil (clomipramine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "fluoxetine",
+      "generic": "fluoxetine",
+      "brands": [
+        "Prozac"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Acute and maintenance treatment of obsessions and compulsions in patients with Obsessive Compulsive Disorder (OCD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 7 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 1994,
+      "dosing": {
+        "start": "Adults: 20 mg/day in the morning; pediatric: 10 mg/day",
+        "target": "Adults: 20–60 mg/day; pediatric: 20–60 mg/day (adolescents and higher-weight children) or 20–30 mg/day (lower-weight children)",
+        "max": "80 mg/day (adults); pediatric experience above 60 mg/day is lacking",
+        "notes": "Full effect may take 5 weeks or longer. Pediatric (higher weight): increase to 20 mg after 2 weeks. Doses above 20 mg/day may be given once daily or split morning and noon."
+      },
+      "formulations": [
+        "Capsules 10, 20, 40 mg",
+        "Tablets (generic)",
+        "Oral solution 20 mg/5 mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs concurrently, within 5 weeks of stopping fluoxetine, or within 14 days of stopping an MAOI; starting in patients on linezolid or IV methylene blue",
+        "Pimozide",
+        "Thioridazine (and within 5 weeks of stopping fluoxetine)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Fluoxetine is a daily antidepressant (SSRI) approved for OCD in adults and children 7 and older. OCD often needs higher doses and more time than depression.",
+      "source": {
+        "label": "DailyMed: Prozac (fluoxetine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, pediatric ages (7–17), and dosing confirmed on the label. Adult OCD approval year (1994) not re-confirmed in Drugs@FDA. Drugs@FDA lists Prozac capsules as discontinued; generics available."
+      }
+    },
+    {
+      "drugId": "fluvoxamine",
+      "generic": "fluvoxamine (immediate- and extended-release)",
+      "brands": [
+        "Luvox (discontinued)",
+        "Luvox CR (discontinued)"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of obsessions and compulsions in patients with obsessive compulsive disorder (OCD) (IR tablets); treatment of OCD (ER capsules).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (IR and ER); pediatric patients 8–17 years (IR tablets only)",
+        "pediatric": true
+      },
+      "approvalYear": 1994,
+      "dosing": {
+        "start": "IR adults: 50 mg at bedtime; IR ages 8–17: 25 mg at bedtime; ER adults: 100 mg at bedtime",
+        "target": "Adults: 100–300 mg/day; pediatric: 50–200 mg/day",
+        "max": "300 mg/day (adults and ages 12–17); 200 mg/day (ages 8–11)",
+        "notes": "IR: increase by 50 mg (adults) or 25 mg (pediatric) every 4–7 days; split doses above 100 mg/day (adults) or 50 mg/day (pediatric). ER: increase by 50 mg weekly; not evaluated in pediatric patients. Slower titration in elderly or hepatic impairment. Potent CYP1A2/2C19 inhibitor."
+      },
+      "formulations": [
+        "Tablets 25, 50, 100 mg",
+        "Extended-release capsules 100, 150 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Tizanidine, thioridazine, pimozide, or alosetron (plus ramelteon for ER)",
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Fluvoxamine is an SSRI approved for OCD in adults and in children 8 and older (regular tablets). It interacts with many other medicines.",
+      "source": {
+        "label": "DailyMed: fluvoxamine maleate tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6eeb14df-6fcf-a737-5359-5744eb4accea"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "ER label also checked: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49601858-df61-4522-ac99-0d2892f92e11. Luvox and Luvox CR brands discontinued (Drugs@FDA); Luvox CR approved 2008. Pediatric OCD for IR added 1997."
+      }
+    },
+    {
+      "drugId": "paroxetine",
+      "generic": "paroxetine",
+      "brands": [
+        "Paxil"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of obsessive compulsive disorder (OCD) in adults (Paxil immediate-release; Paxil CR is not labeled for OCD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1996,
+      "dosing": {
+        "start": "20 mg once daily",
+        "target": "Increase by 10 mg/day weekly as needed",
+        "max": "60 mg/day",
+        "notes": "Geriatric, severe renal or hepatic impairment: start 10 mg/day, max 40 mg/day. Taper to stop."
+      },
+      "formulations": [
+        "Tablets 10, 20, 30, 40 mg",
+        "Oral suspension 10 mg/5 mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Drugs that prolong the QTc interval and are CYP2D6 substrates (e.g., thioridazine, pimozide)",
+        "Hypersensitivity to paroxetine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Paroxetine is a daily antidepressant (SSRI) approved for OCD in adults.",
+      "source": {
+        "label": "DailyMed: Paxil (paroxetine) tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ef3b5cbe-f9e1-c1ac-79da-cfe14e3a7e7e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "The Sept 2026 label no longer states a specific target dose for OCD (older labels said 40 mg/day)."
+      }
+    },
+    {
+      "drugId": "sertraline",
+      "generic": "sertraline",
+      "brands": [
+        "Zoloft"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of obsessive-compulsive disorder (OCD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 1996,
+      "dosing": {
+        "start": "Adults and ages 13–17: 50 mg once daily; ages 6–12: 25 mg once daily",
+        "target": "50–200 mg/day",
+        "max": "200 mg/day",
+        "notes": "Increase by 25–50 mg/day once weekly. Mild hepatic impairment: half the usual dose. Sertraline 150/200 mg capsules (labeled for MDD and OCD) are not for initiation."
+      },
+      "formulations": [
+        "Tablets 25, 50, 100 mg",
+        "Oral concentrate 20 mg/mL",
+        "Capsules 150, 200 mg (not for initiation)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Pimozide",
+        "Hypersensitivity to sertraline",
+        "Disulfiram (oral concentrate only)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Sertraline is a daily antidepressant (SSRI) approved for OCD in adults and children 6 and older.",
+      "source": {
+        "label": "DailyMed: Zoloft (sertraline) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Sertraline capsules label also checked: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f1c8c5-032c-4ea9-beb0-ca3a614ba4b6. Pediatric OCD added 1997."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Risperidone augmentation",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "SSRI-resistant OCD (added to an SSRI or clomipramine)",
+      "evidence": "guideline-recommended",
+      "notes": "APA and NICE list antipsychotic augmentation for partial or non-response; meta-analysis supports low-dose risperidone. Benefit is modest (roughly one-third respond). Cautions: weight gain, metabolic effects, hyperprolactinemia, EPS/tardive dyskinesia.",
+      "references": [
+        {
+          "label": "Veale et al. 2014, BMC Psychiatry: Atypical antipsychotic augmentation in SSRI-refractory OCD, meta-analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4262998"
+        },
+        {
+          "label": "APA OCD Practice Guideline (2007) and 2013 Guideline Watch (Psychiatric News summary)",
+          "url": "https://psychnews.psychiatryonline.org/doi/10.1176/appi.pn.2013.6a18"
+        },
+        {
+          "label": "NICE CG31: Obsessive-compulsive disorder and body dysmorphic disorder (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"
+        }
+      ]
+    },
+    {
+      "agent": "Aripiprazole augmentation",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "SSRI-resistant OCD (added to an SSRI)",
+      "evidence": "guideline-recommended",
+      "notes": "Supported by small RCTs and meta-analysis; NICE recommends antipsychotic augmentation as a class. Cautions: akathisia, metabolic effects, impulse-control problems. Quetiapine and olanzapine augmentation have weaker evidence.",
+      "references": [
+        {
+          "label": "Veale et al. 2014, BMC Psychiatry: Atypical antipsychotic augmentation in SSRI-refractory OCD, meta-analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4262998"
+        },
+        {
+          "label": "NICE CG31: Obsessive-compulsive disorder and body dysmorphic disorder (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"
+        }
+      ]
+    },
+    {
+      "agent": "High-dose SSRI (above labeled maximum)",
+      "drugClass": "SSRI",
+      "use": "Partial response in OCD",
+      "evidence": "guideline-recommended",
+      "notes": "Higher SSRI doses give modestly greater benefit in OCD, with more dropouts from side effects. APA describes doses above the labeled maximum in some patients with close monitoring. Avoid supratherapeutic citalopram/escitalopram (QT) and watch interactions.",
+      "references": [
+        {
+          "label": "Bloch et al. 2010, Molecular Psychiatry: Dose-response of SSRIs in OCD, meta-analysis",
+          "url": "https://www.nature.com/articles/mp200950"
+        },
+        {
+          "label": "APA OCD Practice Guideline (2007) and 2013 Guideline Watch (Psychiatric News summary)",
+          "url": "https://psychnews.psychiatryonline.org/doi/10.1176/appi.pn.2013.6a18"
+        }
+      ]
+    },
+    {
+      "agent": "Citalopram or escitalopram",
+      "drugClass": "SSRI",
+      "use": "OCD",
+      "evidence": "guideline-recommended",
+      "notes": "NICE lists citalopram among first-line SSRIs for adult OCD; neither is FDA-labeled for OCD. Dose-related QT prolongation with citalopram (FDA max 40 mg/day; 20 mg/day over age 60).",
+      "references": [
+        {
+          "label": "NICE CG31: Obsessive-compulsive disorder and body dysmorphic disorder (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"
+        },
+        {
+          "label": "APA OCD Practice Guideline (2007) and 2013 Guideline Watch (Psychiatric News summary)",
+          "url": "https://psychnews.psychiatryonline.org/doi/10.1176/appi.pn.2013.6a18"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

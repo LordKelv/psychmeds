@@ -1,0 +1,62 @@
+{
+  "id": "bulimia-nervosa",
+  "name": "Bulimia nervosa",
+  "aliases": ["BN", "Bulimia"],
+  "category": "Feeding & eating disorders",
+  "summary": "Recurrent binge eating with compensatory behaviors such as vomiting, laxative misuse, fasting, or excessive exercise, and self-evaluation unduly influenced by shape and weight. CBT is first-line. Fluoxetine is the only FDA-approved medication, at 60 mg/day, a higher dose than typically used for depression.",
+  "plainSummary": "Bulimia involves eating large amounts of food and then trying to get rid of it, for example by vomiting. Therapy is the main treatment, and the antidepressant fluoxetine is approved to help reduce bingeing and vomiting in adults.",
+  "approved": [
+    {
+      "drugId": "fluoxetine",
+      "generic": "fluoxetine",
+      "brands": ["Prozac"],
+      "drugClass": "Selective serotonin reuptake inhibitor (SSRI)",
+      "indication": "Acute and maintenance treatment of binge-eating and vomiting behaviors in patients with moderate to severe bulimia nervosa.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults (efficacy established in adult trials)", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "60 mg/day in the morning (may titrate up over several days)",
+        "target": "60 mg/day",
+        "max": "60 mg/day (higher doses not systematically studied in bulimia)",
+        "notes": "Only 60 mg (not 20 mg) separated from placebo in trials. Long half-life; wait 5 weeks after stopping before starting an MAOI. Check electrolytes and ECG risk in patients who purge (QT prolongation warning)."
+      },
+      "formulations": ["Capsule 10, 20, 40 mg", "Tablet (generic)", "Oral solution 20 mg/5 mL (generic)"],
+      "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+      "contraindications": ["MAOIs (within 14 days before or 5 weeks after fluoxetine), including linezolid or IV methylene blue", "Pimozide", "Thioridazine"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An antidepressant taken once a day at a fairly high dose that can reduce binge eating and vomiting.",
+      "source": { "label": "DailyMed: Prozac (fluoxetine) capsules, Lilly/Dista", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299" },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label effective 1/2026 checked (indication, 2.3 dosing, boxed warning, contraindications). Approval year for the bulimia indication (generally cited as 1996) not confirmed from a primary source."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Topiramate",
+      "drugClass": "Anticonvulsant",
+      "use": "Reducing binge and purge frequency",
+      "evidence": "RCT-supported",
+      "notes": "A 10-week RCT showed reduced binge/purge days. Cognitive slowing, paresthesia, kidney stones, and weight loss, which can be undesirable in eating disorders; teratogenic.",
+      "references": [
+        { "label": "Hoopes SP et al. Topiramate for bulimia nervosa, RCT part 1. J Clin Psychiatry 2003 (PMID 14658948)", "url": "https://pubmed.ncbi.nlm.nih.gov/14658948/" }
+      ]
+    },
+    {
+      "agent": "Other SSRIs (e.g., sertraline)",
+      "drugClass": "Selective serotonin reuptake inhibitor",
+      "use": "Alternative when fluoxetine is not tolerated",
+      "evidence": "limited",
+      "notes": "Evidence is much smaller than for fluoxetine (a single small sertraline RCT). Usual SSRI cautions, including the suicidality boxed warning. Bupropion is contraindicated in bulimia because of seizure risk.",
+      "references": [
+        { "label": "Milano W et al. Treatment of bulimia nervosa with sertraline: RCT. Adv Ther 2004 (PMID 15605617)", "url": "https://pubmed.ncbi.nlm.nih.gov/15605617/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

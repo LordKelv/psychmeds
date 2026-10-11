@@ -1,0 +1,24 @@
+{
+  "id": "anorexia-nervosa",
+  "name": "Anorexia nervosa",
+  "aliases": ["AN", "Anorexia"],
+  "category": "Feeding & eating disorders",
+  "summary": "Restriction of energy intake leading to significantly low body weight, with intense fear of weight gain and disturbed body image. Treatment centers on nutritional rehabilitation, medical monitoring, and psychotherapy (family-based treatment for adolescents). No medication is FDA-approved; olanzapine has the most trial support for weight gain.",
+  "plainSummary": "Anorexia makes people eat far too little because they are very afraid of gaining weight. Treatment focuses on safe refeeding and therapy; there is no approved medicine, though some are used to help with weight gain or anxiety.",
+  "noApprovedNote": "No medication is FDA-approved for anorexia nervosa. A 2025 review of eating-disorder pharmacotherapy (2010–2025) found no approvals for AN, and searches for 2024–2026 FDA actions found none.",
+  "approved": [],
+  "offLabel": [
+    {
+      "agent": "Olanzapine",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "Promoting weight gain in adult outpatients",
+      "evidence": "RCT-supported",
+      "notes": "A 16-week multisite RCT (n=152) found a modestly greater monthly BMI increase than placebo (about 0.26 vs 0.10 kg/m2 per month) with no benefit on obsessional symptoms. Low doses (2.5–10 mg/day) were used. Monitor glucose, lipids, sedation, QT, and EPS; patients may resist weight-promoting medication. Evidence in adolescents is limited.",
+      "references": [
+        { "label": "Attia E et al. Olanzapine versus placebo in adult outpatients with anorexia nervosa: RCT. Am J Psychiatry 2019 (PMID 30654643)", "url": "https://pubmed.ncbi.nlm.nih.gov/30654643/" },
+        { "label": "Hirsch D et al. Approved and pipeline pharmacological interventions for eating disorders (2010–2025). CNS Drugs 2025", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12855243/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

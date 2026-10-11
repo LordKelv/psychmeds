@@ -1,0 +1,2070 @@
+{
+  "id": "major-depressive-disorder",
+  "name": "Major depressive disorder",
+  "aliases": [
+    "MDD",
+    "Depression",
+    "Clinical depression"
+  ],
+  "category": "Depressive disorders",
+  "summary": "Major depressive disorder has dozens of FDA-approved antidepressants (SSRIs, SNRIs, bupropion, mirtazapine, vortioxetine, vilazodone, gepirone, dextromethorphan-bupropion, TCAs, MAOIs). Five atypical antipsychotics are approved as adjuncts (aripiprazole, brexpiprazole, quetiapine XR, cariprazine, and lumateperone since 11/2025). Esketamine nasal spray (TRD, monotherapy since 01/2025; and MDD with acute suicidal ideation) and olanzapine-fluoxetine (TRD) cover more resistant illness. Every antidepressant carries the boxed warning on suicidal thoughts and behaviors in young people; as of 10/2026 that warning is unchanged and no pregnancy boxed warning has been added.",
+  "plainSummary": "Major depression is a common, treatable illness with persistent low mood or loss of interest that affects daily life. Many medicines are approved to treat it, and others can be added or switched to if the first one does not work well enough.",
+  "sections": [
+    "Antidepressants (monotherapy)",
+    "Adjunctive treatment",
+    "Treatment-resistant depression",
+    "Depressive symptoms with acute suicidal ideation",
+    "Seasonal affective disorder (prevention)"
+  ],
+  "approved": [
+    {
+      "drugId": "citalopram",
+      "generic": "citalopram",
+      "brands": [
+        "Celexa"
+      ],
+      "drugClass": "SSRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1998,
+      "dosing": {
+        "start": "20 mg once daily",
+        "target": "20–40 mg once daily",
+        "max": "40 mg/day",
+        "notes": "Doses above 40 mg/day not recommended (QT prolongation). Max 20 mg/day if >60 years, hepatic impairment, CYP2C19 poor metabolizer, or taking a CYP2C19 inhibitor. Increase no sooner than 1 week."
+      },
+      "formulations": [
+        "Tablets",
+        "Oral solution (generic)",
+        "Capsules (generic)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Pimozide",
+        "Hypersensitivity to citalopram"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An SSRI antidepressant taken once a day for depression in adults. It can affect heart rhythm at higher doses, so the dose is capped.",
+      "source": {
+        "label": "Celexa (citalopram) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "escitalopram",
+      "generic": "escitalopram",
+      "brands": [
+        "Lexapro"
+      ],
+      "drugClass": "SSRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults and pediatric patients 12 years of age and older.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 12 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2002,
+      "dosing": {
+        "start": "10 mg once daily",
+        "target": "10 mg once daily",
+        "max": "20 mg/day",
+        "notes": "Adults: may increase to 20 mg after at least 1 week (a fixed-dose trial showed no added benefit of 20 mg over 10 mg). Adolescents: increase no sooner than 3 weeks. Elderly or hepatic impairment: 10 mg/day. Adolescent MDD indication added in 2009."
+      },
+      "formulations": [
+        "Tablets",
+        "Oral solution"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Pimozide",
+        "Hypersensitivity to escitalopram or citalopram"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An SSRI antidepressant for depression in adults and teens 12 and older. It is usually taken once a day.",
+      "source": {
+        "label": "Lexapro (escitalopram) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13bb8267-1cab-43e5-acae-55a4d957630a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "fluoxetine",
+      "generic": "fluoxetine",
+      "brands": [
+        "Prozac"
+      ],
+      "drugClass": "SSRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Acute and maintenance treatment of major depressive disorder (efficacy established in adults and in children and adolescents 8 to 18 years).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 8 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 1987,
+      "dosing": {
+        "start": "Adults: 20 mg/day in the morning; pediatric: 10–20 mg/day",
+        "target": "Adults: 20 mg/day (20–80 mg/day studied); pediatric: 20 mg/day (10 mg/day in lower-weight children)",
+        "max": "80 mg/day (adults)",
+        "notes": "Pediatric: if started at 10 mg/day, increase to 20 mg/day after 1 week. Use lower or less frequent doses in hepatic impairment, the elderly, and with multiple concomitant medications. Very long half-life (norfluoxetine). Pediatric MDD indication added in 2003."
+      },
+      "formulations": [
+        "Capsules",
+        "Tablets (generic)",
+        "Delayed-release weekly capsules (generic)",
+        "Oral solution (generic)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Use of an MAOI within 5 weeks of stopping fluoxetine, or fluoxetine within 14 days of stopping an MAOI (including linezolid or IV methylene blue)",
+        "Pimozide",
+        "Thioridazine (and within 5 weeks of stopping fluoxetine)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An SSRI antidepressant for depression in adults and in children 8 and older. It stays in the body a long time after stopping.",
+      "source": {
+        "label": "Prozac (fluoxetine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label effective 01/2026. Drugs@FDA lists the Prozac brand NDAs as discontinued even though a Lilly/Dista label remains on DailyMed; generics are widely available."
+      }
+    },
+    {
+      "drugId": "paroxetine",
+      "generic": "paroxetine",
+      "brands": [
+        "Paxil",
+        "Paxil CR",
+        "Pexeva (discontinued)"
+      ],
+      "drugClass": "SSRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults (Paxil immediate-release and Paxil CR).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1992,
+      "dosing": {
+        "start": "IR: 20 mg/day; CR: 25 mg/day (morning)",
+        "target": "IR: 20–50 mg/day; CR: 25–62.5 mg/day",
+        "max": "IR: 50 mg/day; CR: 62.5 mg/day",
+        "notes": "Increase in 10 mg/day (IR) or 12.5 mg/day (CR) steps at weekly intervals. Elderly, severe renal or hepatic impairment: IR start 10 mg, max 40 mg; CR start 12.5 mg, max 50 mg. Taper on discontinuation. Strong CYP2D6 inhibitor. Paxil CR MDD approval 1999."
+      },
+      "formulations": [
+        "Tablets",
+        "Oral suspension",
+        "Extended-release tablets (Paxil CR)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Drugs that prolong QTc and are CYP2D6 substrates",
+        "Hypersensitivity to paroxetine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An SSRI antidepressant for adults with depression, available as a regular tablet, liquid, or once-daily extended-release tablet.",
+      "source": {
+        "label": "Paxil (paroxetine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ef3b5cbe-f9e1-c1ac-79da-cfe14e3a7e7e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Paxil (10/2026) and Paxil CR (setid 483bd97f-c4d0-4e23-aaa8-6334f4471e0c, 09/2026) labels both checked; both now marketed by Apotex. The current labels' contraindication refers to QTc-prolonging CYP2D6 substrates rather than naming thioridazine/pimozide. Paroxetine mesylate (Pexeva) is listed as discontinued in Drugs@FDA and has no current DailyMed label."
+      }
+    },
+    {
+      "drugId": "sertraline",
+      "generic": "sertraline",
+      "brands": [
+        "Zoloft"
+      ],
+      "drugClass": "SSRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD); MDD dosing in the label is for adults (pediatric dosing is given only for OCD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1991,
+      "dosing": {
+        "start": "50 mg once daily",
+        "target": "50–200 mg/day",
+        "max": "200 mg/day",
+        "notes": "Increase by 25–50 mg/day at weekly intervals. Mild hepatic impairment: half the usual starting and maximum dose; moderate–severe not recommended. Oral concentrate must be diluted."
+      },
+      "formulations": [
+        "Tablets",
+        "Oral solution (concentrate)",
+        "Capsules (generic)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Pimozide",
+        "Hypersensitivity to sertraline",
+        "Oral solution: disulfiram"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An SSRI antidepressant commonly used for depression in adults, taken once a day.",
+      "source": {
+        "label": "Zoloft (sertraline) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Confirmed sertraline carries an MDD indication (section 1). Pediatric approval is for OCD only (ages 6–17), not MDD."
+      }
+    },
+    {
+      "drugId": "venlafaxine",
+      "generic": "venlafaxine",
+      "brands": [
+        "Effexor XR",
+        "Effexor (discontinued)"
+      ],
+      "drugClass": "SNRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults (Effexor XR capsules; venlafaxine IR tablets and ER tablets also carry MDD labeling).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1993,
+      "dosing": {
+        "start": "ER: 75 mg once daily (37.5 mg for 4–7 days in some patients); IR: 75 mg/day in 2–3 divided doses",
+        "target": "ER: 75–225 mg/day; IR: 75–225 mg/day",
+        "max": "ER: 225 mg/day; IR: 375 mg/day (severely depressed inpatients)",
+        "notes": "Increase by up to 75 mg/day at intervals of at least 4 days. Renal impairment: reduce total daily dose 25–50% (50% or more for dialysis/severe). Hepatic impairment: reduce 50% (more in cirrhosis). The 112.5 mg-only venlafaxine ER tablet (besylate) must not be used for initiation or titration. Taper on discontinuation. Effexor XR approved 1997."
+      },
+      "formulations": [
+        "Extended-release capsules",
+        "Immediate-release tablets (generic)",
+        "Extended-release tablets (generic)",
+        "Venlafaxine besylate extended-release tablets 112.5 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 7 days of stopping venlafaxine / 14 days of stopping an MAOI (including linezolid or IV methylene blue)",
+        "Hypersensitivity to venlafaxine or desvenlafaxine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An SNRI antidepressant for adults with depression. It can raise blood pressure and should be stopped slowly.",
+      "source": {
+        "label": "Effexor XR (venlafaxine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c848a5d8-ba94-4c84-80e3-0bf35fb8e32e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Also checked venlafaxine IR tablets (Sun, setid 55889b3d-74c9-4638-9a14-6a4ca3a99f7f), venlafaxine ER tablets (Ajanta, setid 22d4817c-1f19-4490-8a38-d8904f0374f7) and the 112.5 mg ER tablet (Almatica, setid e81a2daf-b8b2-7c05-b532-bc775700b100). The Effexor IR brand is listed as discontinued in Drugs@FDA."
+      }
+    },
+    {
+      "drugId": "desvenlafaxine",
+      "generic": "desvenlafaxine",
+      "brands": [
+        "Pristiq"
+      ],
+      "drugClass": "SNRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of adults with major depressive disorder (MDD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2008,
+      "dosing": {
+        "start": "50 mg once daily",
+        "target": "50 mg once daily",
+        "max": "No added benefit above 50 mg/day (doses up to 400 mg/day studied)",
+        "notes": "Moderate renal impairment: max 50 mg/day; severe renal impairment/ESRD: max 25 mg/day or 50 mg every other day. Moderate–severe hepatic impairment: max 100 mg/day. 25 mg tablet is for tapering and renal dosing."
+      },
+      "formulations": [
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Hypersensitivity to desvenlafaxine or venlafaxine",
+        "Use with or within 7 days of stopping desvenlafaxine / 14 days of stopping an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An SNRI antidepressant taken once a day for depression in adults. Most people stay on the starting dose.",
+      "source": {
+        "label": "Pristiq (desvenlafaxine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f43610c-f290-46ea-d186-4f998ed99fce"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "duloxetine",
+      "generic": "duloxetine",
+      "brands": [
+        "Cymbalta",
+        "Drizalma Sprinkle"
+      ],
+      "drugClass": "SNRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "40–60 mg/day",
+        "target": "Acute: 40 mg/day (20 mg twice daily) to 60 mg/day; maintenance: 60 mg/day",
+        "max": "120 mg/day",
+        "notes": "No evidence that doses above 60 mg/day add benefit. Swallow capsules whole (Drizalma Sprinkle may be opened onto applesauce or given by nasogastric tube). Avoid in hepatic impairment, substantial alcohol use, and severe renal impairment. Pediatric approvals are for GAD (7+) and fibromyalgia (13+), not MDD."
+      },
+      "formulations": [
+        "Delayed-release capsules",
+        "Delayed-release sprinkle capsules (Drizalma Sprinkle)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 5 days of stopping duloxetine / 14 days of stopping an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An SNRI antidepressant for adults with depression that is also used for anxiety and some pain conditions.",
+      "source": {
+        "label": "Duloxetine delayed-release capsules prescribing information (Lupin), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=829a4f51-c882-4b64-81f3-abfb03a52ebe"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked a current generic label (05/2026) and Drizalma Sprinkle (setid b41423b8-dfec-4d79-ba3c-e43a87803d85). The Lilly Cymbalta SPL (setid 2f7d4d67-10c1-4bf4-a7f2-c185fbad64ba) could not be retrieved through the DailyMed API, and Drugs@FDA lists the original Cymbalta NDA 021427 products as discontinued, so the brand's current US marketing status is uncertain."
+      }
+    },
+    {
+      "drugId": "levomilnacipran",
+      "generic": "levomilnacipran",
+      "brands": [
+        "Fetzima"
+      ],
+      "drugClass": "SNRI",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2013,
+      "dosing": {
+        "start": "20 mg once daily for 2 days, then 40 mg once daily",
+        "target": "40–120 mg once daily",
+        "max": "120 mg/day",
+        "notes": "Increase by 40 mg at intervals of 2 or more days. Moderate renal impairment: max 80 mg/day; severe: max 40 mg/day. Not approved for fibromyalgia."
+      },
+      "formulations": [
+        "Extended-release capsules"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Hypersensitivity to levomilnacipran or milnacipran",
+        "Use with or within 7 days of stopping levomilnacipran / 14 days of stopping an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An SNRI antidepressant capsule taken once a day for depression in adults.",
+      "source": {
+        "label": "Fetzima (levomilnacipran) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f371258d-91b3-4b6a-ac99-434a1964c3af"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "bupropion",
+      "generic": "bupropion",
+      "brands": [
+        "Wellbutrin SR",
+        "Wellbutrin XL",
+        "Aplenzin",
+        "Forfivo XL",
+        "Wellbutrin (discontinued)"
+      ],
+      "drugClass": "Aminoketone (norepinephrine-dopamine reuptake inhibitor)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD), as defined by the DSM (all bupropion HCl IR/SR/XL and bupropion HBr formulations).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1985,
+      "dosing": {
+        "start": "IR: 100 mg twice daily; SR: 150 mg once daily; XL: 150 mg once daily; Aplenzin (HBr): 174 mg once daily",
+        "target": "300 mg/day (IR 100 mg three times daily; SR 150 mg twice daily; XL 300 mg once daily; Aplenzin 348 mg)",
+        "max": "IR: 450 mg/day (no single dose >150 mg); SR: 400 mg/day; XL: 450 mg/day; Aplenzin: 522 mg/day",
+        "notes": "Titrate gradually to reduce seizure risk (dose-related). Forfivo XL (450 mg only) cannot be used to start therapy; use after at least 2 weeks at 300 mg/day of another formulation. Moderate–severe hepatic impairment: e.g., XL 150 mg every other day, SR 100 mg/day or 150 mg every other day. Consider dose reduction in renal impairment. Wellbutrin IR approved 1985 (marketed 1989)."
+      },
+      "formulations": [
+        "Immediate-release tablets (generic)",
+        "Sustained-release tablets (Wellbutrin SR)",
+        "Extended-release tablets (Wellbutrin XL)",
+        "Bupropion hydrobromide extended-release tablets (Aplenzin)",
+        "Extended-release 450 mg tablets (Forfivo XL)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Seizure disorder",
+        "Current or prior bulimia or anorexia nervosa",
+        "Abrupt discontinuation of alcohol, benzodiazepines, barbiturates, or antiepileptic drugs",
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Hypersensitivity to bupropion",
+        "Forfivo XL: concurrent use of other bupropion products"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An activating antidepressant for adults that tends not to cause weight gain or sexual side effects. It can raise seizure risk, so the dose is increased slowly.",
+      "source": {
+        "label": "Wellbutrin XL (bupropion HCl extended-release) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a435da9d-f6e8-4ddc-897d-8cd2bf777b21"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Also checked Wellbutrin SR (setid cbc8c074-f080-4489-a5ae-207b5fadeba3), Aplenzin (6494d2d9-0ce4-4126-b1c7-49684395942b), Forfivo XL (80b01182-dc94-4990-8ebb-55c306d7e536) and generic bupropion HCl IR tablets (3c6b5ab4-9671-4fcd-8b4c-7f230dcfe6c9). Seasonal affective disorder prevention (XL, Aplenzin) is listed separately."
+      }
+    },
+    {
+      "drugId": "dextromethorphan-bupropion",
+      "generic": "dextromethorphan-bupropion",
+      "brands": [
+        "Auvelity"
+      ],
+      "drugClass": "NMDA receptor antagonist / sigma-1 agonist + aminoketone (CYP2D6 inhibitor)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2022,
+      "dosing": {
+        "start": "45 mg/105 mg once daily in the morning",
+        "target": "45 mg/105 mg twice daily (from day 4), at least 8 hours apart",
+        "max": "90 mg/210 mg per day (two tablets)",
+        "notes": "Moderate renal impairment, CYP2D6 poor metabolizers, or strong CYP2D6 inhibitors: max one tablet daily. Check blood pressure and screen for bipolar disorder and other bupropion/dextromethorphan products before starting. The 2026 label also includes Alzheimer's disease agitation (separate indication)."
+      },
+      "formulations": [
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Seizure disorder",
+        "Current or prior bulimia or anorexia nervosa",
+        "Abrupt discontinuation of alcohol, benzodiazepines, barbiturates, or antiepileptic drugs",
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Hypersensitivity to bupropion or dextromethorphan"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A combination pill of dextromethorphan and bupropion for depression in adults, taken twice a day after the first few days.",
+      "source": {
+        "label": "Auvelity (dextromethorphan-bupropion) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "mirtazapine",
+      "generic": "mirtazapine",
+      "brands": [
+        "Remeron",
+        "RemeronSolTab"
+      ],
+      "drugClass": "Noradrenergic and specific serotonergic antidepressant (alpha-2 antagonist)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1996,
+      "dosing": {
+        "start": "15 mg once daily at bedtime",
+        "target": "15–45 mg/day",
+        "max": "45 mg/day",
+        "notes": "Change dose no more often than every 1–2 weeks. Reduce gradually on discontinuation. Sedation and weight gain are common."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Hypersensitivity to mirtazapine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An antidepressant for adults that is taken at bedtime. It often helps sleep and appetite but can cause weight gain.",
+      "source": {
+        "label": "Remeron/RemeronSolTab (mirtazapine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "trazodone",
+      "generic": "trazodone",
+      "brands": [
+        "Raldesy",
+        "Desyrel (discontinued)"
+      ],
+      "drugClass": "Serotonin antagonist and reuptake inhibitor (SARI)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1981,
+      "dosing": {
+        "start": "150 mg/day in divided doses",
+        "target": "Increase by 50 mg/day every 3–4 days as needed",
+        "max": "400 mg/day outpatients; 600 mg/day inpatients (divided doses)",
+        "notes": "Take shortly after a meal or light snack; give the larger portion at bedtime if drowsy. Taper on discontinuation. Raldesy oral solution (NDA 218637) was approved in November 2024."
+      },
+      "formulations": [
+        "Tablets (generic)",
+        "Oral solution (Raldesy)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antidepressant for depression in adults that is quite sedating, so much of the dose is often taken at bedtime.",
+      "source": {
+        "label": "Trazodone hydrochloride tablets prescribing information (TruPharma), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a57da4f8-151d-4a74-8710-6158d1da3852"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Also checked Raldesy oral solution (setid 34708cc1-b0b2-4fd0-b9f3-7f008b457fc9, 09/2026). Note: the generic trazodone label's highlights describe it as a 'selective serotonin reuptake inhibitor'; it is pharmacologically classed as a SARI. Insomnia use is off-label."
+      }
+    },
+    {
+      "drugId": "nefazodone",
+      "generic": "nefazodone",
+      "brands": [
+        "Serzone (discontinued)"
+      ],
+      "drugClass": "Phenylpiperazine antidepressant (SARI)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of depression. Because of the risk of hepatic failure, other drugs should usually be tried first.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1994,
+      "dosing": {
+        "start": "200 mg/day in two divided doses",
+        "target": "300–600 mg/day (divided twice daily)",
+        "max": "600 mg/day",
+        "notes": "Increase by 100–200 mg/day at intervals of at least 1 week. Elderly/debilitated: start 100 mg/day. Do not start in active liver disease or elevated transaminases. Strong CYP3A4 inhibitor (avoid triazolam in most patients)."
+      },
+      "formulations": [
+        "Tablets (generic only)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults",
+        "Life-threatening hepatic failure"
+      ],
+      "contraindications": [
+        "Terfenadine, astemizole, cisapride, pimozide, or carbamazepine",
+        "Patients previously withdrawn from nefazodone for liver injury",
+        "Hypersensitivity to nefazodone or other phenylpiperazine antidepressants"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antidepressant that is rarely used first because it can, rarely, cause serious liver damage.",
+      "source": {
+        "label": "Nefazodone hydrochloride tablets prescribing information (Teva), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51ff7db5-aaf9-4c3c-86e6-958ebf16b60f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "vilazodone",
+      "generic": "vilazodone",
+      "brands": [
+        "Viibryd"
+      ],
+      "drugClass": "SSRI and 5-HT1A partial agonist",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2011,
+      "dosing": {
+        "start": "10 mg once daily with food for 7 days",
+        "target": "20–40 mg once daily with food",
+        "max": "40 mg/day",
+        "notes": "Increase to 20 mg after 7 days, then up to 40 mg after at least 7 more days. Must be taken with food. Reduce dose with strong CYP3A4 inhibitors."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An antidepressant for adults that must be taken with food and is started at a low dose.",
+      "source": {
+        "label": "Viibryd (vilazodone) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c55ccfb-c4cf-11df-851a-0800200c9a66"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "vortioxetine",
+      "generic": "vortioxetine",
+      "brands": [
+        "Trintellix"
+      ],
+      "drugClass": "Serotonin modulator (multimodal)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2013,
+      "dosing": {
+        "start": "10 mg once daily",
+        "target": "20 mg once daily as tolerated",
+        "max": "20 mg/day",
+        "notes": "Consider 5 mg/day if higher doses are not tolerated. CYP2D6 poor metabolizers: max 10 mg/day. May be stopped abruptly, but reducing 15–20 mg/day to 10 mg/day for a week is recommended. Originally marketed as Brintellix."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Hypersensitivity to vortioxetine",
+        "Use with or within 21 days of stopping vortioxetine / 14 days of stopping an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An antidepressant for adults taken once a day; nausea is the most common side effect.",
+      "source": {
+        "label": "Trintellix (vortioxetine) prescribing information (Takeda), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a5b68e2-14d0-419d-9ec6-1ca97145e838"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "gepirone",
+      "generic": "gepirone",
+      "brands": [
+        "Exxua"
+      ],
+      "drugClass": "5-HT1A receptor agonist",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2023,
+      "dosing": {
+        "start": "18.2 mg once daily with food",
+        "target": "36.3–72.6 mg once daily",
+        "max": "72.6 mg/day",
+        "notes": "May increase to 36.3 mg on day 4, 54.5 mg after day 7, and 72.6 mg after another week. Get ECG and correct electrolytes before starting; do not start if QTc >450 ms; repeat ECGs during titration. Elderly, CrCl <50 mL/min, or moderate hepatic impairment: start 18.2 mg, may increase to 36.3 mg after 7 days. Halve dose with moderate CYP3A4 inhibitors."
+      },
+      "formulations": [
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "QTc >450 ms at baseline or congenital long QT syndrome",
+        "Strong CYP3A4 inhibitors",
+        "Severe hepatic impairment",
+        "Use with or within 14 days of an MAOI",
+        "Hypersensitivity to gepirone"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A newer antidepressant for adults that acts on serotonin 1A receptors. It needs heart-rhythm (ECG) checks before and during treatment.",
+      "source": {
+        "label": "Exxua (gepirone) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c78edd8-6acb-433c-9d34-2527da8d64e1"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approved 09/2023; current label (07/2026) lists Aytu Therapeutics as labeler."
+      }
+    },
+    {
+      "drugId": "amitriptyline",
+      "generic": "amitriptyline",
+      "brands": [
+        "Elavil (discontinued)"
+      ],
+      "drugClass": "Tricyclic antidepressant",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "\"For the relief of symptoms of depression. Endogenous depression is more likely to be alleviated than are other depressive states.\"",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (label: not recommended under 12; lower doses for adolescents and elderly)",
+        "pediatric": false
+      },
+      "approvalYear": 1961,
+      "dosing": {
+        "start": "Outpatients: 75 mg/day in divided doses, or 50–100 mg at bedtime",
+        "target": "Outpatients: up to 150 mg/day; maintenance 50–100 mg/day",
+        "max": "150 mg/day outpatients; 200 mg/day hospitalized (some up to 300 mg/day)",
+        "notes": "Adolescents and elderly: 10 mg three times daily plus 20 mg at bedtime may suffice. Anticholinergic, sedating, and cardiotoxic in overdose."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to amitriptyline",
+        "Concomitant MAOIs (allow at least 14 days after stopping an MAOI)",
+        "Cisapride",
+        "Acute recovery period after myocardial infarction"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older tricyclic antidepressant for depression. It is sedating and can be dangerous in overdose.",
+      "source": {
+        "label": "Amitriptyline hydrochloride tablets prescribing information (Sun), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4e520c63-1cf6-40f6-a51c-3f9b0e181342"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label states amitriptyline is not approved for use in pediatric patients, while its dosing section gives adolescent doses. pediatric is set to false."
+      }
+    },
+    {
+      "drugId": "nortriptyline",
+      "generic": "nortriptyline",
+      "brands": [
+        "Pamelor"
+      ],
+      "drugClass": "Tricyclic antidepressant",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "\"For the relief of symptoms of depression. Endogenous depressions are more likely to be alleviated than are other depressive states.\"",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (lower doses for adolescents and elderly; not recommended for children)",
+        "pediatric": false
+      },
+      "approvalYear": 1964,
+      "dosing": {
+        "start": "Start low, e.g., 25 mg/day, and increase",
+        "target": "25 mg three or four times daily (or total once daily)",
+        "max": "150 mg/day",
+        "notes": "Monitor plasma levels above 100 mg/day (therapeutic window 50–150 ng/mL). Elderly and adolescents: 30–50 mg/day."
+      },
+      "formulations": [
+        "Capsules",
+        "Oral solution"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Concomitant MAOIs (allow at least 14 days after stopping an MAOI); also linezolid or IV methylene blue",
+        "Cross-sensitivity with other dibenzazepines",
+        "Acute recovery period after myocardial infarction"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older tricyclic antidepressant whose blood level can be checked to guide dosing. It can be dangerous in overdose.",
+      "source": {
+        "label": "Pamelor (nortriptyline) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "First approved as Aventyl (1964). Drugs@FDA lists the Pamelor brand NDA as discontinued although a SpecGx Pamelor label remains on DailyMed; generics are widely available."
+      }
+    },
+    {
+      "drugId": "imipramine",
+      "generic": "imipramine",
+      "brands": [
+        "Tofranil (discontinued)",
+        "Tofranil-PM (discontinued)"
+      ],
+      "drugClass": "Tricyclic antidepressant",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "\"For the relief of symptoms of depression. Endogenous depression is more likely to be alleviated than other depressive states.\"",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (lower doses for adolescents and elderly)",
+        "pediatric": false
+      },
+      "approvalYear": 1959,
+      "dosing": {
+        "start": "Outpatients: 75 mg/day; hospitalized: 100 mg/day (divided)",
+        "target": "Outpatients: 150 mg/day; maintenance 50–150 mg/day",
+        "max": "200 mg/day outpatients; 250–300 mg/day hospitalized",
+        "notes": "Adolescents and elderly: 30–40 mg/day, usually not above 100 mg/day. Pamoate capsules (75–150 mg) may be given once daily at bedtime after the dose is established. Childhood enuresis (HCl tablets, age 6+) is a separate indication."
+      },
+      "formulations": [
+        "Tablets (imipramine HCl)",
+        "Capsules (imipramine pamoate)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Concomitant MAOIs (allow at least 14 days after stopping an MAOI)",
+        "Acute recovery period after myocardial infarction",
+        "Hypersensitivity (possible cross-sensitivity with dibenzazepines)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "One of the oldest tricyclic antidepressants for depression. It can be dangerous in overdose.",
+      "source": {
+        "label": "Imipramine hydrochloride tablets prescribing information (Leading Pharma), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=490263ce-b4d2-428a-87da-fcd07f85499a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Also checked imipramine pamoate capsules (Lupin, setid d1dde497-1889-4424-af18-da7ca6459cf3). Label states imipramine is not approved for pediatric patients (for depression)."
+      }
+    },
+    {
+      "drugId": "desipramine",
+      "generic": "desipramine",
+      "brands": [
+        "Norpramin"
+      ],
+      "drugClass": "Tricyclic antidepressant",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of depression.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (lower doses for adolescents and elderly; not recommended for children)",
+        "pediatric": false
+      },
+      "approvalYear": 1964,
+      "dosing": {
+        "start": "Start low and increase according to response",
+        "target": "100–200 mg/day",
+        "max": "300 mg/day",
+        "notes": "Adolescents and elderly: 25–100 mg/day (up to 150 mg/day in more severe illness). Can be given once daily."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Acute recovery period after myocardial infarction",
+        "Hypersensitivity (possible cross-sensitivity with dibenzazepines)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older tricyclic antidepressant for depression. It can be dangerous in overdose.",
+      "source": {
+        "label": "Norpramin (desipramine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70b562ea-9f21-4e4a-b3ed-0590b2892f6a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Drugs@FDA lists the Norpramin NDA as discontinued although a Validus label (07/2025) remains on DailyMed; generics available."
+      }
+    },
+    {
+      "drugId": "doxepin",
+      "generic": "doxepin",
+      "brands": [
+        "Sinequan (discontinued)"
+      ],
+      "drugClass": "Tricyclic antidepressant",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adults (doxepin capsules; current PLR-format generic label).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1969,
+      "dosing": {
+        "start": "25 mg three times daily or 75 mg once daily",
+        "target": "75–150 mg/day",
+        "max": "300 mg/day (100 mg three times daily)",
+        "notes": "Dose adjustments for anticholinergic sensitivity, strong CYP2D6 inhibitors, and CYP2D6/CYP2C19 poor metabolizers are in the label. Low-dose doxepin tablets (3–6 mg; Silenor and generics) are approved for insomnia only and are not antidepressant products."
+      },
+      "formulations": [
+        "Capsules",
+        "Oral concentrate (generic)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Hypersensitivity to doxepin",
+        "Glaucoma",
+        "Current or past urinary retention",
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older tricyclic antidepressant for adults with depression. The very-low-dose tablets used for sleep are a different product.",
+      "source": {
+        "label": "Doxepin hydrochloride capsules prescribing information (Amneal), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20bfb8af-7933-4e5c-a2b5-010659d9125b"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "The Amneal capsule label (08/2026) is in updated PLR format and says 'MDD in adults'; older generic labels say 'depression and/or anxiety'. Oral concentrate wording not separately checked."
+      }
+    },
+    {
+      "drugId": "protriptyline",
+      "generic": "protriptyline",
+      "brands": [
+        "Vivactil (discontinued)"
+      ],
+      "drugClass": "Tricyclic antidepressant",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "\"Treatment of symptoms of mental depression in patients who are under close medical supervision.\" Its activating properties make it suitable for withdrawn and anergic patients.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (lower doses for adolescents and elderly)",
+        "pediatric": false
+      },
+      "approvalYear": 1967,
+      "dosing": {
+        "start": "Low dose, e.g., 5 mg three times daily in adolescents/elderly",
+        "target": "15–40 mg/day in 3–4 divided doses",
+        "max": "60 mg/day",
+        "notes": "Make increases in the morning dose. Elderly: monitor cardiovascular status closely above 20 mg/day."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to protriptyline",
+        "Concomitant MAOIs (allow at least 14 days after stopping an MAOI)",
+        "Cisapride",
+        "Acute recovery period after myocardial infarction"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An activating tricyclic antidepressant that is used less often today. It can be dangerous in overdose.",
+      "source": {
+        "label": "Protriptyline hydrochloride tablets prescribing information (Epic), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c6c7c39e-e510-4f4a-bf7a-926f0e075d3a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "trimipramine",
+      "generic": "trimipramine",
+      "brands": [
+        "Surmontil (discontinued)"
+      ],
+      "drugClass": "Tricyclic antidepressant",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "\"For the relief of symptoms of depression. Endogenous depression is more likely to be alleviated than other depressive states.\"",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (lower doses for adolescents and elderly)",
+        "pediatric": false
+      },
+      "approvalYear": 1979,
+      "dosing": {
+        "start": "Outpatients: 75 mg/day in divided doses; hospitalized: 100 mg/day",
+        "target": "Outpatients: 150 mg/day; maintenance 50–150 mg/day",
+        "max": "200 mg/day outpatients; 250–300 mg/day hospitalized",
+        "notes": "Total daily dose may be given at bedtime. Adolescents and elderly: start 50 mg/day."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Hypersensitivity (cross-sensitivity with dibenzazepines)",
+        "Acute recovery period after myocardial infarction"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older, sedating tricyclic antidepressant. It can be dangerous in overdose.",
+      "source": {
+        "label": "Trimipramine capsules prescribing information (Breckenridge), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4f31df66-7dc2-1f04-e054-00144ff88e88"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Adolescent/geriatric starting dose (50 mg/day) not re-read in the current label."
+      }
+    },
+    {
+      "drugId": "amoxapine",
+      "generic": "amoxapine",
+      "brands": [
+        "Asendin (discontinued)"
+      ],
+      "drugClass": "Tetracyclic (dibenzoxazepine) antidepressant",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "\"For the relief of symptoms of depression in patients with neurotic or reactive depressive disorders as well as endogenous and psychotic depressions,\" including depression accompanied by anxiety or agitation.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1980,
+      "dosing": {
+        "start": "50 mg two or three times daily",
+        "target": "200–300 mg/day",
+        "max": "400 mg/day outpatients; 600 mg/day in refractory hospitalized patients without seizure history",
+        "notes": "May increase to 100 mg two or three times daily by end of week 1. Single daily dose up to 300 mg at bedtime. Has dopamine-blocking activity (risk of EPS, tardive dyskinesia, NMS)."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to dibenzoxazepines",
+        "Concomitant MAOIs (allow at least 14 days after stopping an MAOI)",
+        "Acute recovery period after myocardial infarction"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antidepressant related to the tricyclics that also has some antipsychotic-like effects. It is used less often today.",
+      "source": {
+        "label": "Amoxapine tablets prescribing information (Actavis), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a16297df-3158-48db-85e5-5cd506885556"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "perphenazine-amitriptyline",
+      "generic": "perphenazine-amitriptyline",
+      "brands": [
+        "Triavil (discontinued)",
+        "Etrafon (discontinued)"
+      ],
+      "drugClass": "Phenothiazine antipsychotic + tricyclic antidepressant (fixed-dose combination)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of (1) moderate to severe anxiety and/or agitation and depressed mood, (2) depression in which anxiety and/or agitation are severe, and (3) depression and anxiety associated with chronic physical disease; also schizophrenia with associated depressive symptoms.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (not recommended for children)",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "2/25 mg or 4/25 mg three or four times daily, or 4/50 mg twice daily",
+        "target": "Reduce to lowest effective maintenance dose",
+        "max": "16 mg perphenazine / 200 mg amitriptyline per day",
+        "notes": "Schizophrenia with depressive symptoms: 4/25 mg, two tablets three times daily initially. Carries antipsychotic risks (tardive dyskinesia, NMS)."
+      },
+      "formulations": [
+        "Tablets (2/10, 2/25, 4/10, 4/25, 4/50 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "CNS depression from drugs",
+        "Bone marrow depression",
+        "Hypersensitivity to phenothiazines or amitriptyline",
+        "Concomitant MAOIs (allow at least 14 days after stopping an MAOI)",
+        "Acute recovery period after myocardial infarction"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A combination of an older antipsychotic and a tricyclic antidepressant for depression with marked anxiety or agitation. It is rarely used today.",
+      "source": {
+        "label": "Perphenazine and amitriptyline tablets prescribing information (Mylan), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e2937445-c015-c9a5-52f8-a2959da97290"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Original approval year not confirmed in Drugs@FDA. Acute MI contraindication taken from the amitriptyline component; confirm wording in the full label."
+      }
+    },
+    {
+      "drugId": "chlordiazepoxide-amitriptyline",
+      "generic": "chlordiazepoxide-amitriptyline",
+      "brands": [
+        "Limbitrol (discontinued)"
+      ],
+      "drugClass": "Benzodiazepine + tricyclic antidepressant (fixed-dose combination)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of patients with moderate to severe depression associated with moderate to severe anxiety.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1977,
+      "dosing": {
+        "start": "10/25 mg tablets, 3–4 tablets daily in divided doses",
+        "target": "Lowest dose that maintains remission",
+        "max": "6 tablets/day (10/25 mg)",
+        "notes": "Larger portion of the dose may be given at bedtime. Lower doses in the elderly. Benzodiazepine component brings risks of dependence, withdrawal, and respiratory depression with opioids."
+      },
+      "formulations": [
+        "Tablets (5/12.5 mg, 10/25 mg)"
+      ],
+      "boxedWarnings": [
+        "Risks from concomitant use with opioids",
+        "Abuse, misuse, and addiction",
+        "Dependence and withdrawal reactions",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to benzodiazepines or tricyclic antidepressants",
+        "Concomitant MAOIs (allow at least 14 days after stopping an MAOI)",
+        "Acute recovery period after myocardial infarction"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "A combination of a benzodiazepine and a tricyclic antidepressant for depression with significant anxiety. It can be habit-forming.",
+      "source": {
+        "label": "Chlordiazepoxide and amitriptyline tablets prescribing information (Mylan), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=66a756f2-ac77-451c-a19a-08896d73b15c"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Acute MI contraindication taken from the amitriptyline component; confirm wording in the full label."
+      }
+    },
+    {
+      "drugId": "phenelzine",
+      "generic": "phenelzine",
+      "brands": [
+        "Nardil"
+      ],
+      "drugClass": "Monoamine oxidase inhibitor (MAOI)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Effective in depressed patients clinically characterized as \"atypical,\" \"nonendogenous,\" or \"neurotic\"; should rarely be the first antidepressant used and is more suitable for patients who have not responded to more commonly used drugs.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1961,
+      "dosing": {
+        "start": "15 mg three times daily",
+        "target": "At least 60 mg/day (increase rapidly as tolerated)",
+        "max": "90 mg/day",
+        "notes": "Many patients need 60 mg/day for at least 4 weeks before responding. After maximum benefit, reduce slowly over several weeks; maintenance may be as low as 15 mg daily or every other day. Strict tyramine diet and drug-interaction precautions."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Pheochromocytoma",
+        "Congestive heart failure",
+        "Severe renal impairment",
+        "History of liver disease or abnormal LFTs",
+        "Sympathomimetics, many serotonergic drugs, and high-tyramine foods (see label)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older MAOI antidepressant used when other treatments have not worked. It needs a special diet and careful checks for drug interactions.",
+      "source": {
+        "label": "Nardil (phenelzine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=513a41d0-37d4-4355-8a6d-a2c643bce6fa"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "tranylcypromine",
+      "generic": "tranylcypromine",
+      "brands": [
+        "Parnate"
+      ],
+      "drugClass": "Monoamine oxidase inhibitor (MAOI)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of major depressive disorder (MDD) in adult patients who have not responded adequately to other antidepressants; not indicated for initial treatment of MDD.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1961,
+      "dosing": {
+        "start": "30 mg/day in divided doses",
+        "target": "30 mg/day; increase by 10 mg/day every 1–3 weeks if needed",
+        "max": "60 mg/day (30 mg twice daily)",
+        "notes": "Increase more slowly in patients at risk for hypotension. Taper on discontinuation. Tyramine diet restrictions and long list of contraindicated drugs."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients",
+        "Hypertensive crisis with significant tyramine use"
+      ],
+      "contraindications": [
+        "Other MAOIs, SSRIs, SNRIs, TCAs, other antidepressants, sympathomimetics, and numerous other drugs (see label)",
+        "Pheochromocytoma or other catecholamine-releasing paraganglioma"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An MAOI antidepressant for adults whose depression has not improved with other medicines. It requires a low-tyramine diet.",
+      "source": {
+        "label": "Parnate (tranylcypromine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "isocarboxazid",
+      "generic": "isocarboxazid",
+      "brands": [
+        "Marplan"
+      ],
+      "drugClass": "Monoamine oxidase inhibitor (MAOI)",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of depression; because of potentially serious side effects, not an antidepressant of first choice for newly diagnosed depression.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1959,
+      "dosing": {
+        "start": "10 mg twice daily",
+        "target": "40 mg/day by end of week 1 (divided 2–4 times daily)",
+        "max": "60 mg/day",
+        "notes": "Increase by 10 mg every 2–4 days to 40 mg/day, then by up to 20 mg/week if needed. Use caution above 40 mg/day. Response may take 3–6 weeks."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Other MAOIs, dibenzazepines, sympathomimetics, bupropion, buspirone, dextromethorphan, and high-tyramine foods (see label)",
+        "Cerebrovascular or cardiovascular disease, hypertension, or history of headache",
+        "Pheochromocytoma",
+        "Liver disease or abnormal LFTs",
+        "Severe renal impairment"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An MAOI antidepressant that is not used first because of serious interaction and diet risks.",
+      "source": {
+        "label": "Marplan (isocarboxazid) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=95fde749-44ad-4668-86c4-0ff17bca0074"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Severe renal impairment contraindication is from prior label knowledge; truncated in the section text reviewed. Generic availability not confirmed (brand only on DailyMed)."
+      }
+    },
+    {
+      "drugId": "selegiline-transdermal",
+      "generic": "selegiline (transdermal)",
+      "brands": [
+        "Emsam"
+      ],
+      "drugClass": "Monoamine oxidase inhibitor (MAOI), transdermal",
+      "section": "Antidepressants (monotherapy)",
+      "indication": "Treatment of adults with major depressive disorder (MDD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "6 mg/24 hours patch once daily",
+        "target": "6 mg/24 hours",
+        "max": "12 mg/24 hours",
+        "notes": "Increase by 3 mg/24 h at intervals of at least 2 weeks. Elderly: 6 mg/24 h. Tyramine diet restrictions are required at 9 and 12 mg/24 h (and for 2 weeks after lowering or stopping). Apply to dry intact skin on the upper torso, upper thigh, or outer upper arm."
+      },
+      "formulations": [
+        "Transdermal system (6, 9, 12 mg/24 h)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "SSRIs, SNRIs, clomipramine, imipramine, meperidine, tramadol, methadone, pentazocine, propoxyphene, dextromethorphan",
+        "Carbamazepine",
+        "Pediatric patients under 12 (hypertensive crisis risk)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A skin-patch MAOI antidepressant for adults. At the lowest dose no special diet is needed, but higher doses need a low-tyramine diet.",
+      "source": {
+        "label": "Emsam (selegiline transdermal system) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b891bd9f-fdb8-4862-89c5-ecdd700398a3"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "aripiprazole",
+      "generic": "aripiprazole",
+      "brands": [
+        "Abilify"
+      ],
+      "drugClass": "Atypical antipsychotic (D2 partial agonist)",
+      "section": "Adjunctive treatment",
+      "indication": "Adjunctive treatment of major depressive disorder (adults already taking an antidepressant).",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2007,
+      "dosing": {
+        "start": "2–5 mg/day",
+        "target": "2–15 mg/day",
+        "max": "15 mg/day",
+        "notes": "Adjust by up to 5 mg/day at intervals of at least 1 week. Reduce dose with strong CYP2D6 or CYP3A4 inhibitors and in CYP2D6 poor metabolizers; increase with strong CYP3A4 inducers. Akathisia is common. Long-acting injectables are not approved for MDD."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets (generic)",
+        "Oral solution (generic)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to aripiprazole"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An antipsychotic added to an antidepressant when depression has not improved enough. Restlessness (akathisia) is a common side effect.",
+      "source": {
+        "label": "Abilify (aripiprazole) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "brexpiprazole",
+      "generic": "brexpiprazole",
+      "brands": [
+        "Rexulti"
+      ],
+      "drugClass": "Atypical antipsychotic (D2 partial agonist)",
+      "section": "Adjunctive treatment",
+      "indication": "Adjunctive treatment to antidepressants for major depressive disorder (MDD) in adults.",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "0.5 mg or 1 mg once daily",
+        "target": "2 mg once daily",
+        "max": "3 mg/day",
+        "notes": "Titrate at weekly intervals (to 1 mg, then 2 mg). Reduce dose in moderate–severe hepatic or renal impairment, CYP2D6 poor metabolizers, and with strong CYP2D6/CYP3A4 inhibitors."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Hypersensitivity to brexpiprazole"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An antipsychotic added to an antidepressant for adults whose depression has not responded fully.",
+      "source": {
+        "label": "Rexulti (brexpiprazole) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d301358-6291-4ec1-bd87-37b4ad9bd850"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "quetiapine",
+      "generic": "quetiapine (extended-release)",
+      "brands": [
+        "Seroquel XR"
+      ],
+      "drugClass": "Atypical antipsychotic",
+      "section": "Adjunctive treatment",
+      "indication": "Adjunctive therapy to antidepressants for the treatment of MDD (adults with an inadequate response to antidepressant treatment).",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "50 mg once daily (days 1–2)",
+        "target": "150 mg/day from day 3; range 150–300 mg/day",
+        "max": "300 mg/day",
+        "notes": "Take once daily in the evening, without food or with a light meal. Only the extended-release form carries the MDD indication; immediate-release quetiapine is not approved for MDD. Sedation, weight gain, and metabolic effects."
+      },
+      "formulations": [
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to quetiapine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A sedating antipsychotic, taken at night, that can be added to an antidepressant when depression has not improved enough.",
+      "source": {
+        "label": "Seroquel XR (quetiapine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab959a35-d0ba-4f18-8f2e-6619d88b16e3"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "cariprazine",
+      "generic": "cariprazine",
+      "brands": [
+        "Vraylar"
+      ],
+      "drugClass": "Atypical antipsychotic (D3/D2 partial agonist)",
+      "section": "Adjunctive treatment",
+      "indication": "Adjunctive therapy to antidepressants for the treatment of major depressive disorder (MDD) in adult patients.",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2022,
+      "dosing": {
+        "start": "1.5 mg once daily",
+        "target": "1.5–3 mg once daily",
+        "max": "3 mg/day",
+        "notes": "May increase to 3 mg on day 15; faster titration increased adverse reactions. Long half-life active metabolites, so effects and adverse reactions may appear weeks later. Adjust with strong CYP3A4 inhibitors; avoid with CYP3A4 inducers."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Hypersensitivity to cariprazine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An antipsychotic capsule added to an antidepressant for adults whose depression has not responded fully.",
+      "source": {
+        "label": "Vraylar (cariprazine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b5f7c65-aa2d-452a-b3db-bc85c06ff12f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Contraindication (hypersensitivity) is from the known label; the contraindications section was not re-read in this pass."
+      }
+    },
+    {
+      "drugId": "lumateperone",
+      "generic": "lumateperone",
+      "brands": [
+        "Caplyta"
+      ],
+      "drugClass": "Atypical antipsychotic",
+      "section": "Adjunctive treatment",
+      "indication": "Adjunctive therapy with antidepressants for the treatment of major depressive disorder (MDD) in adults.",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2025,
+      "dosing": {
+        "start": "42 mg once daily",
+        "target": "42 mg once daily",
+        "max": "42 mg/day",
+        "notes": "No titration needed. Moderate–severe hepatic impairment: 21 mg/day. Moderate CYP3A4 inhibitors: 21 mg/day; strong CYP3A4 inhibitors: 10.5 mg/day; avoid CYP3A4 inducers. Approved for adjunctive MDD on November 6, 2025."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Hypersensitivity to lumateperone"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An antipsychotic taken once a day, added to an antidepressant for adults whose depression has not improved enough. It was approved for this use in late 2025.",
+      "source": {
+        "label": "Caplyta (lumateperone) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db730b06-6351-47fd-8183-e61e61bbead5"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "esketamine",
+      "generic": "esketamine",
+      "brands": [
+        "Spravato"
+      ],
+      "drugClass": "NMDA receptor antagonist (intranasal)",
+      "section": "Treatment-resistant depression",
+      "indication": "Treatment-resistant depression (TRD) in adults, as monotherapy or in conjunction with an oral antidepressant.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2019,
+      "dosing": {
+        "start": "56 mg or 84 mg intranasally twice weekly (weeks 1–4)",
+        "target": "56 mg or 84 mg once weekly (weeks 5–8), then every 2 weeks or weekly",
+        "max": "84 mg per session",
+        "notes": "Give only in a certified healthcare setting under direct supervision. Monitor for at least 2 hours after each dose, including pulse oximetry, then assess for discharge. Check BP before and about 40 minutes after dosing. No driving until the next day after a restful sleep. Assess benefit after the 4-week induction. Monotherapy use was added in January 2025."
+      },
+      "formulations": [
+        "Nasal spray (28 mg per device)"
+      ],
+      "boxedWarnings": [
+        "Sedation",
+        "Dissociation",
+        "Respiratory depression",
+        "Abuse and misuse",
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Aneurysmal vascular disease (thoracic/abdominal aorta, intracranial, peripheral) or arteriovenous malformation",
+        "History of intracerebral hemorrhage",
+        "Hypersensitivity to esketamine or ketamine"
+      ],
+      "rems": "SPRAVATO REMS",
+      "controlledSubstance": "C-III",
+      "genericAvailable": false,
+      "plainSummary": "A nasal spray for adults whose depression has not improved after trying other antidepressants. It is given in a clinic, where patients are watched for at least 2 hours afterward.",
+      "source": {
+        "label": "Spravato (esketamine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked label version 21 (revised 09/2026). TRD is defined in the trials as inadequate response to at least two antidepressants in the current episode. The current Table 1 lists 56 mg or 84 mg for the induction phase without a separate day-1 starting-dose line that older labels had; check the full label before relying on this."
+      }
+    },
+    {
+      "drugId": "olanzapine-fluoxetine",
+      "generic": "olanzapine-fluoxetine",
+      "brands": [
+        "Symbyax (discontinued)"
+      ],
+      "drugClass": "Atypical antipsychotic + SSRI (fixed-dose combination)",
+      "section": "Treatment-resistant depression",
+      "indication": "Treatment resistant depression (major depressive disorder in patients who do not respond to 2 separate trials of different antidepressants of adequate dose and duration in the current episode).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "6 mg/25 mg once daily in the evening",
+        "target": "Olanzapine 6–18 mg / fluoxetine 25–50 mg",
+        "max": "18 mg/75 mg (higher doses not evaluated)",
+        "notes": "Start 3/25 or 6/25 mg in patients prone to hypotension, with hepatic impairment, or slow metabolizers. Weight gain and metabolic monitoring needed. Pediatric approval (10–17 years) is for bipolar I depression only, not TRD."
+      },
+      "formulations": [
+        "Capsules (3/25, 6/25, 6/50, 12/25, 12/50 mg)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Use of an MAOI within 5 weeks of stopping, or this drug within 14 days of stopping an MAOI (including linezolid or IV methylene blue)",
+        "Pimozide",
+        "Thioridazine (and within 5 weeks of stopping)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A capsule combining olanzapine and fluoxetine for adults whose depression has not improved after two different antidepressants. It often causes weight gain.",
+      "source": {
+        "label": "Olanzapine and fluoxetine capsules prescribing information (Par), DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f6ceda3-3edc-4427-98a6-23e3c930c44d"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Drugs@FDA lists Symbyax (NDA 021520) as discontinued and its SPL could not be retrieved; generic labels (Par, Teva) are current."
+      }
+    },
+    {
+      "drugId": "olanzapine",
+      "generic": "olanzapine (with fluoxetine)",
+      "brands": [
+        "Zyprexa + Prozac (given together)"
+      ],
+      "drugClass": "Atypical antipsychotic (used with an SSRI)",
+      "section": "Treatment-resistant depression",
+      "indication": "Oral olanzapine in combination with fluoxetine for treatment resistant depression (efficacy established with Symbyax in adults). Monotherapy with either drug is not indicated for TRD.",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "Olanzapine 5 mg + fluoxetine 20 mg once daily in the evening",
+        "target": "Olanzapine 5–20 mg + fluoxetine 20–50 mg",
+        "max": "Olanzapine 18 mg + fluoxetine 75 mg (higher doses not evaluated)",
+        "notes": "Adjust each component separately according to efficacy and tolerability. Same precautions as olanzapine-fluoxetine capsules."
+      },
+      "formulations": [
+        "Olanzapine tablets or orally disintegrating tablets plus fluoxetine capsules"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "See olanzapine and fluoxetine labels (fluoxetine: MAOIs, pimozide, thioridazine)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Taking olanzapine together with fluoxetine as separate pills is another approved option when depression has not responded to two antidepressants.",
+      "source": {
+        "label": "Zyprexa (olanzapine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b418946a-1ab4-4d89-a012-d94fc361a3c4"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication confirmed in Zyprexa (10/2026) and Prozac labels. The Zyprexa TRD dose-range text (section 2.6) was only partly read; the target range shown is from the Symbyax-based labeling and should be checked."
+      }
+    },
+    {
+      "drugId": "esketamine",
+      "generic": "esketamine",
+      "brands": [
+        "Spravato"
+      ],
+      "drugClass": "NMDA receptor antagonist (intranasal)",
+      "section": "Depressive symptoms with acute suicidal ideation",
+      "indication": "Depressive symptoms in adults with major depressive disorder (MDD) with acute suicidal ideation or behavior, in conjunction with an oral antidepressant. Effectiveness in preventing suicide or reducing suicidal ideation or behavior has not been demonstrated.",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2020,
+      "dosing": {
+        "start": "84 mg intranasally twice weekly",
+        "target": "84 mg twice weekly for 4 weeks (may reduce to 56 mg twice weekly for tolerability)",
+        "max": "84 mg per session",
+        "notes": "Use with an oral antidepressant. Treatment beyond 4 weeks has not been systematically evaluated. Use does not replace hospitalization when clinically warranted. Same in-clinic monitoring (at least 2 hours, pulse oximetry, BP) and REMS requirements as for TRD."
+      },
+      "formulations": [
+        "Nasal spray (28 mg per device)"
+      ],
+      "boxedWarnings": [
+        "Sedation",
+        "Dissociation",
+        "Respiratory depression",
+        "Abuse and misuse",
+        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+      ],
+      "contraindications": [
+        "Aneurysmal vascular disease (thoracic/abdominal aorta, intracranial, peripheral) or arteriovenous malformation",
+        "History of intracerebral hemorrhage",
+        "Hypersensitivity to esketamine or ketamine"
+      ],
+      "rems": "SPRAVATO REMS",
+      "controlledSubstance": "C-III",
+      "genericAvailable": false,
+      "plainSummary": "A clinic-given nasal spray, used with an oral antidepressant, for adults with depression and current suicidal thoughts or behavior. It does not replace hospital care when needed.",
+      "source": {
+        "label": "Spravato (esketamine) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked label version 21 (revised 09/2026). This indication still requires an oral antidepressant; the 2025 monotherapy change applies to TRD only."
+      }
+    },
+    {
+      "drugId": "bupropion",
+      "generic": "bupropion",
+      "brands": [
+        "Wellbutrin XL",
+        "Aplenzin"
+      ],
+      "drugClass": "Aminoketone (norepinephrine-dopamine reuptake inhibitor)",
+      "section": "Seasonal affective disorder (prevention)",
+      "indication": "Prevention of seasonal major depressive episodes in patients with a diagnosis of seasonal affective disorder (SAD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "XL 150 mg once daily (Aplenzin 174 mg) in autumn before symptoms start",
+        "target": "XL 300 mg once daily (Aplenzin 348 mg) after 1 week",
+        "max": "XL 300 mg/day (Aplenzin 348 mg/day) for SAD",
+        "notes": "Start in autumn and continue through winter; the label describes tapering XL to 150 mg/day for 2 weeks before stopping in early spring. Same seizure precautions as for MDD. Only the XL (HCl) and Aplenzin (HBr) products carry this indication."
+      },
+      "formulations": [
+        "Extended-release tablets (Wellbutrin XL)",
+        "Bupropion hydrobromide extended-release tablets (Aplenzin)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Seizure disorder",
+        "Current or prior bulimia or anorexia nervosa",
+        "Abrupt discontinuation of alcohol, benzodiazepines, barbiturates, or antiepileptic drugs",
+        "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
+        "Hypersensitivity to bupropion"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Once-daily bupropion started in the fall can help prevent winter depression in people with seasonal depression.",
+      "source": {
+        "label": "Wellbutrin XL (bupropion HCl extended-release) prescribing information, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a435da9d-f6e8-4ddc-897d-8cd2bf777b21"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication and starting/target doses confirmed in the Wellbutrin XL and Aplenzin labels. The SAD maximum and spring taper details were not re-read in this pass. Approval year refers to Wellbutrin XL's SAD indication."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Lithium",
+      "drugClass": "Mood stabilizer",
+      "use": "Augmentation of an antidepressant after inadequate response",
+      "evidence": "guideline-recommended",
+      "notes": "A long-established augmentation strategy with the strongest evidence in older trials. Usually targeted to lower serum levels than in bipolar disorder. Requires level, renal, and thyroid monitoring. It has a narrow therapeutic index and interacts with NSAIDs, ACE inhibitors, and diuretics. It may also reduce suicide risk.",
+      "references": [
+        {
+          "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11351064/"
+        },
+        {
+          "label": "McQuaid et al. VA/DoD 2022 MDD guideline synopsis (Ann Intern Med 2022), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36122380/"
+        },
+        {
+          "label": "Nelson et al. Lithium augmentation meta-analysis, PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=lithium+augmentation+meta-analysis+Nelson+2014"
+        }
+      ]
+    },
+    {
+      "agent": "Liothyronine (T3)",
+      "drugClass": "Thyroid hormone",
+      "use": "Augmentation of an antidepressant after inadequate response",
+      "evidence": "guideline-recommended",
+      "notes": "Typically 25–50 mcg/day added to an antidepressant. In STAR*D level 3, it performed similarly to lithium with fewer discontinuations. Monitor for hyperthyroid symptoms, arrhythmia, and bone loss, especially in older adults.",
+      "references": [
+        {
+          "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11351064/"
+        },
+        {
+          "label": "Nierenberg et al. Lithium vs T3 augmentation after two failed medication treatments (STAR*D), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Nierenberg+lithium+T3+STAR*D"
+        }
+      ]
+    },
+    {
+      "agent": "Ketamine (intravenous, racemic)",
+      "drugClass": "NMDA receptor antagonist",
+      "use": "Treatment-resistant depression",
+      "evidence": "guideline-recommended",
+      "notes": "Subanesthetic IV infusions (commonly 0.5 mg/kg over 40 minutes) work rapidly, but effects are often short-lived without repeated dosing. Risks include dissociation, raised blood pressure, abuse potential, and limited long-term safety data. Not FDA-approved for depression (esketamine nasal spray is the approved product). Guidelines position it after multiple failed treatments.",
+      "references": [
+        {
+          "label": "McQuaid et al. VA/DoD 2022 MDD guideline synopsis (Ann Intern Med 2022), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36122380/"
+        },
+        {
+          "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11351064/"
+        },
+        {
+          "label": "Anand et al. Ketamine versus ECT for nonpsychotic treatment-resistant major depression (NEJM 2023), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37224232/"
+        }
+      ]
+    },
+    {
+      "agent": "Bupropion (augmentation of an SSRI/SNRI)",
+      "drugClass": "Aminoketone",
+      "use": "Augmentation or combination after partial response",
+      "evidence": "guideline-recommended",
+      "notes": "Adding bupropion to an SSRI was comparable to buspirone augmentation in STAR*D and was a reasonable option in VA-AUGMENT/VAST-D. It may offset SSRI sexual dysfunction and fatigue. Watch for seizure risk, anxiety, and blood pressure. Bupropion inhibits CYP2D6 and can raise levels of some SSRIs (e.g., paroxetine, fluoxetine).",
+      "references": [
+        {
+          "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11351064/"
+        },
+        {
+          "label": "Trivedi et al. Medication augmentation after the failure of SSRIs (STAR*D, NEJM 2006), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16554526/"
+        },
+        {
+          "label": "Mohamed et al. Effect of antidepressant switching vs augmentation (VAST-D, JAMA 2017), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28697253/"
+        }
+      ]
+    },
+    {
+      "agent": "Mirtazapine (combined with an SSRI or SNRI)",
+      "drugClass": "Alpha-2 antagonist (NaSSA)",
+      "use": "Combination therapy after partial response",
+      "evidence": "RCT-supported",
+      "notes": "Evidence is mixed. An early combination-from-the-start RCT was positive, but the larger MIR trial in primary care found no clinically meaningful benefit of adding mirtazapine to an SSRI/SNRI in treatment-resistant depression. Sedation and weight gain are common. Watch for serotonin syndrome when combined with other serotonergic drugs.",
+      "references": [
+        {
+          "label": "Blier et al. Combination of antidepressant medications from treatment initiation (Am J Psychiatry 2010), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20008946/"
+        },
+        {
+          "label": "Kessler et al. Mirtazapine added to SSRIs or SNRIs for treatment-resistant depression (MIR trial), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30381374/"
+        }
+      ]
+    },
+    {
+      "agent": "Pramipexole",
+      "drugClass": "Dopamine D2/D3 agonist",
+      "use": "Augmentation in treatment-resistant depression",
+      "evidence": "RCT-supported",
+      "notes": "Doses used in trials are higher than in Parkinson's disease, reached by slow titration (often to about 2.5 mg/day). A recent RCT in treatment-resistant depression was positive. Adverse effects include nausea, sleepiness and sudden sleep episodes, impulse-control disorders, and possible psychosis or mania.",
+      "references": [
+        {
+          "label": "Browning et al. Pramipexole augmentation in treatment-resistant depression (PAX-D), PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41333541/"
+        }
+      ]
+    },
+    {
+      "agent": "Risperidone",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Adjunct to an antidepressant after inadequate response",
+      "evidence": "guideline-recommended",
+      "notes": "Low doses (around 0.5–3 mg/day) have positive adjunctive RCTs and are listed among adjunctive antipsychotic options in CANMAT. Not FDA-approved for MDD. Risks include hyperprolactinemia, EPS, metabolic effects, and increased mortality in elderly patients with dementia.",
+      "references": [
+        {
+          "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11351064/"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}
