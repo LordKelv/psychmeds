@@ -1,0 +1,69 @@
+{
+  "id": "delirium",
+  "name": "Delirium",
+  "aliases": ["Acute confusional state", "ICU delirium", "Postoperative delirium", "Acute brain dysfunction"],
+  "category": "Neurocognitive disorders",
+  "summary": "Delirium is an acute, fluctuating disturbance of attention and awareness caused by an underlying medical condition, substance, or medication. Management centers on identifying and treating causes and on multicomponent nonpharmacologic measures; the 2025 APA practice guideline limits medications to severe distress or danger after de-escalation fails and advises against antipsychotics for prevention or to hasten resolution.",
+  "plainSummary": "Delirium is sudden confusion, often in people who are very sick, in the hospital, or after surgery. The main treatment is finding and fixing the cause and helping the person feel safe and oriented; medicines are used only in limited situations.",
+  "noApprovedNote": "No medication is FDA-approved to prevent or treat delirium. All drug use for delirium is off-label. A search for 2024–2026 FDA approvals found none.",
+  "approved": [],
+  "offLabel": [
+    {
+      "agent": "Haloperidol and other antipsychotics (e.g., quetiapine, olanzapine, risperidone)",
+      "drugClass": "First- and second-generation antipsychotics",
+      "use": "Short-term management of severe agitation, distress, or psychotic symptoms of delirium that pose a risk of harm",
+      "evidence": "guideline-recommended",
+      "notes": "The 2025 APA guideline recommends medications, including antipsychotics, only when verbal and nonverbal de-escalation has failed, contributing causes have been addressed as far as possible, and symptoms cause significant distress or risk of physical harm. It recommends against antipsychotics to prevent delirium or speed its resolution. Cautions: QT prolongation (especially IV haloperidol), extrapyramidal symptoms, oversedation, aspiration, and the boxed warning for increased mortality in older adults with dementia. Use the lowest dose for the shortest time and reassess daily; avoid in Lewy body dementia and Parkinson's disease where possible.",
+      "references": [
+        {
+          "label": "APA Practice Guideline for the Prevention and Treatment of Delirium (Am J Psychiatry 2025) – PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40887950/"
+        },
+        {
+          "label": "APA news release: APA Published Updated Guideline for Delirium",
+          "url": "https://www.psychiatry.org/News-room/News-Releases/APA-Published-Updated-Guideline-for-Delirium"
+        }
+      ]
+    },
+    {
+      "agent": "Dexmedetomidine (IV)",
+      "drugClass": "Alpha-2 adrenergic receptor agonist",
+      "use": "Prevention of delirium in patients undergoing major surgery or mechanically ventilated in critical care, and sedation of mechanically ventilated patients with delirium",
+      "evidence": "guideline-recommended",
+      "notes": "The 2025 APA guideline suggests (conditional) dexmedetomidine rather than other sedating agents in these ICU and perioperative settings. IV dexmedetomidine is FDA-labeled for ICU and procedural sedation, not for delirium. Cautions: bradycardia, hypotension, and need for monitored settings. The sublingual film (Igalmi) is labeled only for agitation in schizophrenia or bipolar disorder.",
+      "references": [
+        {
+          "label": "APA news release: APA Published Updated Guideline for Delirium",
+          "url": "https://www.psychiatry.org/News-room/News-Releases/APA-Published-Updated-Guideline-for-Delirium"
+        }
+      ]
+    },
+    {
+      "agent": "Benzodiazepines (e.g., lorazepam)",
+      "drugClass": "Benzodiazepines",
+      "use": "Delirium due to alcohol or sedative-hypnotic withdrawal, or when another specific indication exists (e.g., seizures)",
+      "evidence": "guideline-recommended",
+      "notes": "The 2025 APA guideline recommends against benzodiazepines in patients with or at risk for delirium unless there is a specific indication, such as alcohol or benzodiazepine withdrawal. Outside such indications they can cause or worsen delirium, especially in older adults. Cautions: respiratory depression and oversedation, particularly with opioids.",
+      "references": [
+        {
+          "label": "APA news release: APA Published Updated Guideline for Delirium",
+          "url": "https://www.psychiatry.org/News-room/News-Releases/APA-Published-Updated-Guideline-for-Delirium"
+        }
+      ]
+    },
+    {
+      "agent": "Melatonin or ramelteon",
+      "drugClass": "Melatonin receptor agonists",
+      "use": "Proposed for prevention of delirium in hospitalized older adults",
+      "evidence": "limited",
+      "notes": "Commonly used, but trial results are mixed, and the 2025 APA guideline suggests NOT using melatonin or ramelteon to prevent or treat delirium. Listed here for awareness because of how often it is used.",
+      "references": [
+        {
+          "label": "APA news release: APA Published Updated Guideline for Delirium",
+          "url": "https://www.psychiatry.org/News-room/News-Releases/APA-Published-Updated-Guideline-for-Delirium"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}
