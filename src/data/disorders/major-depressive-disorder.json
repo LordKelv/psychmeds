@@ -1799,8 +1799,7 @@
       "drugId": "olanzapine",
       "generic": "olanzapine (with fluoxetine)",
       "brands": [
-        "Zyprexa",
-        "Prozac"
+        "Zyprexa + Prozac (given together)"
       ],
       "drugClass": "Atypical antipsychotic (used with an SSRI)",
       "section": "Treatment-resistant depression",
