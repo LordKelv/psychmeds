@@ -1,0 +1,131 @@
+{
+  "id": "hypoactive-sexual-desire-disorder",
+  "name": "Hypoactive sexual desire disorder",
+  "aliases": [
+    "HSDD",
+    "Female sexual interest/arousal disorder"
+  ],
+  "category": "Sexual dysfunctions",
+  "summary": "Persistent low sexual desire that causes marked distress or interpersonal difficulty and is not better explained by another medical or psychiatric condition, relationship problems, or a medication (DSM-5-TR classifies it in women as female sexual interest/arousal disorder). Two drugs are FDA-approved for acquired, generalized HSDD in women: flibanserin (Addyi), daily at bedtime, expanded in December 2025 to women under 65 including postmenopausal women; and bremelanotide (Vyleesi), an as-needed injection, for premenopausal women only.",
+  "plainSummary": "Hypoactive sexual desire disorder means having very low interest in sex that causes distress and is not caused by another health problem, a relationship problem, or a medicine. A daily pill or an as-needed shot is approved for some women.",
+  "approved": [
+    {
+      "drugId": "flibanserin",
+      "generic": "flibanserin",
+      "brands": [
+        "Addyi"
+      ],
+      "drugClass": "Serotonin 5-HT1A agonist / 5-HT2A antagonist",
+      "indication": "Treatment of women less than 65 years of age with acquired, generalized HSDD (low sexual desire causing marked distress or interpersonal difficulty) not due to a co-existing medical or psychiatric condition, relationship problems, or effects of a medication or drug. Not indicated in men or to enhance sexual performance.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Women younger than 65 years (premenopausal and postmenopausal)",
+        "pediatric": false
+      },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "100 mg once daily at bedtime",
+        "target": "100 mg once daily at bedtime",
+        "max": "100 mg/day",
+        "notes": "Bedtime only, because daytime dosing raises the risk of hypotension, syncope, injury, and CNS depression. Stop after 8 weeks if there is no improvement. Alcohol: wait at least 2 hours after 1–2 standard drinks before the bedtime dose; skip the dose after 3 or more drinks that evening. Start 2 weeks after the last moderate/strong CYP3A4 inhibitor dose; start such an inhibitor 2 days after the last flibanserin dose."
+      },
+      "formulations": [
+        "Oral tablets 100 mg"
+      ],
+      "boxedWarnings": [
+        "Hypotension and syncope with alcohol taken close in time to the dose",
+        "Hypotension and syncope with moderate or strong CYP3A4 inhibitors (contraindicated)",
+        "Hypotension and syncope in hepatic impairment (contraindicated)"
+      ],
+      "contraindications": [
+        "Moderate or strong CYP3A4 inhibitors",
+        "Hepatic impairment",
+        "Hypersensitivity to flibanserin or its components"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Flibanserin is a pill taken every night at bedtime to help with low sexual desire in women under 65. Drinking alcohol too close to the dose can cause fainting from low blood pressure.",
+      "source": {
+        "label": "DailyMed: Addyi (flibanserin) tablets prescribing information (indication revised 12/2025)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3819daf3-e935-2c53-c527-e1d57922f394"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication (Recent Major Changes 12/2025: expanded from premenopausal women to women under 65, based on trials in naturally postmenopausal women), dosing, boxed warning, and contraindications confirmed on the DailyMed label effective 2025-12-22. REMS: the current label makes no reference to a REMS, and secondary sources (MDedge 2019; manufacturer timeline) report that the prescriber/pharmacy certification REMS was removed in 2019. REMS@FDA was not checked directly (fetch failed), so 'rems: null' is not confirmed from the primary source. Generic availability not confirmed (none found on DailyMed). Approval year 2015 is the initial US approval (premenopausal); the expansion to under-65 came in 2025."
+      }
+    },
+    {
+      "drugId": "bremelanotide",
+      "generic": "bremelanotide",
+      "brands": [
+        "Vyleesi"
+      ],
+      "drugClass": "Melanocortin receptor agonist",
+      "indication": "Treatment of premenopausal women with acquired, generalized HSDD (low sexual desire causing marked distress or interpersonal difficulty) not due to a co-existing medical or psychiatric condition, relationship problems, or effects of a medication or drug. Not indicated for postmenopausal women, men, or to enhance sexual performance.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Premenopausal adult women",
+        "pediatric": false
+      },
+      "approvalYear": 2019,
+      "dosing": {
+        "start": "1.75 mg subcutaneously (abdomen or thigh) as needed, at least 45 minutes before anticipated sexual activity",
+        "target": "1.75 mg per dose as needed",
+        "max": "1 dose per 24 hours; more than 8 doses per month not recommended",
+        "notes": "Single-dose autoinjector. Transient blood pressure increase and heart rate decrease after each dose. Nausea is common, mostly with the first dose. Focal hyperpigmentation risk rises with more frequent use. May significantly decrease exposure to oral naltrexone; avoid with oral naltrexone products for alcohol or opioid addiction."
+      },
+      "formulations": [
+        "Subcutaneous injection 1.75 mg/0.3 mL single-dose autoinjector"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Uncontrolled hypertension",
+        "Known cardiovascular disease"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Bremelanotide is a shot given under the skin before sex to help with low sexual desire in women who have not gone through menopause. Nausea is common, and it should not be used by people with uncontrolled high blood pressure or heart disease.",
+      "source": {
+        "label": "DailyMed: Vyleesi (bremelanotide injection) prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, limitations of use, dosing, dosage form, contraindications, and the oral naltrexone interaction (section 7.2) confirmed on the DailyMed label effective 2025-11-13. There is no boxed warning. Approval year 2019 is the initial US approval."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Transdermal testosterone (female-appropriate dosing)",
+      "drugClass": "Androgen",
+      "use": "HSDD in postmenopausal women",
+      "evidence": "guideline-recommended",
+      "notes": "The 2019 Global Consensus Position Statement (endorsed by multiple menopause/endocrine societies) supports a trial of transdermal testosterone for postmenopausal women with HSDD, targeting premenopausal physiologic levels. No FDA-approved testosterone product exists for women in the US, so male products are used at a fraction of the dose. Monitor testosterone levels; watch for acne and hirsutism. Long-term safety data (breast and cardiovascular) are limited. Not recommended for premenopausal women.",
+      "references": [
+        {
+          "label": "Davis et al. Global Consensus Position Statement on the Use of Testosterone Therapy for Women. J Clin Endocrinol Metab 2019, PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31498871/"
+        }
+      ]
+    },
+    {
+      "agent": "Bupropion",
+      "drugClass": "Aminoketone antidepressant",
+      "use": "Low desire, including SSRI-associated sexual dysfunction",
+      "evidence": "limited",
+      "notes": "Small placebo-controlled trials of bupropion SR in nondepressed premenopausal women with HSDD showed modest improvements on some sexual function measures. Lowers seizure threshold; contraindicated in seizure and eating disorders. Antidepressant boxed warning applies.",
+      "references": [
+        {
+          "label": "Segraves et al. Bupropion SR for HSDD in premenopausal women. J Clin Psychopharmacol 2004, PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15118489/"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

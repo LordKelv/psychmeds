@@ -48,7 +48,7 @@
       "verified": {
         "date": "2026-10-11",
         "status": "verified",
-        "note": "Indication, boxed warning, dosing adjustments, contraindications (none), C-IV schedule, and strengths confirmed on current DailyMed label (revised 4/2026). Label also advises effective contraception during treatment and for 1 week after (embryo-fetal toxicity). The label does not explicitly say 'monotherapy or adjunctive'; role reflects trial design (with or without existing antidepressant)."
+        "note": "Indication, boxed warning, dosing adjustments, contraindications (none), C-IV schedule, and strengths confirmed on current DailyMed label (revised 4/2026). Label also advises effective contraception during treatment and for 1 week after (embryo-fetal toxicity). The label does not explicitly say 'monotherapy or adjunctive'; role reflects trial design (with or without existing antidepressant). Brexanolone (Zulresso) is intentionally not listed: FDA withdrew approval of NDA 211371 effective April 14, 2025, at Sage's request after marketing stopped (Federal Register 2025-04101, https://www.govinfo.gov/content/pkg/FR-2025-03-14/html/2025-04101.htm). It is no longer an approved US product, so under DATA_GUIDE rule 9 it is omitted and explained in the disorder summary."
       }
     }
   ],

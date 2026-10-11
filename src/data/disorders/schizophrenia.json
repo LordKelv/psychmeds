@@ -1,0 +1,2359 @@
+{
+  "id": "schizophrenia",
+  "name": "Schizophrenia",
+  "aliases": [
+    "Schizophrenic disorder",
+    "Treatment-resistant schizophrenia",
+    "TRS"
+  ],
+  "category": "Psychotic disorders",
+  "summary": "Chronic psychotic disorder with positive symptoms (hallucinations, delusions, disorganization), negative symptoms, and cognitive impairment. Nearly all approved agents are dopamine D2 antagonists or partial agonists; xanomeline-trospium (2024) is the first muscarinic agent, and clozapine is the only drug labeled for treatment-resistant schizophrenia and reducing suicidal behavior.",
+  "plainSummary": "Schizophrenia is a long-term brain illness that can cause hearing voices, false beliefs, and trouble thinking clearly. Many medicines, taken as pills, patches, or shots every few weeks to months, can control symptoms and prevent relapse.",
+  "sections": [
+    "Oral and other non-injectable antipsychotics",
+    "Long-acting injectable antipsychotics",
+    "Short-acting injectables and acute agitation",
+    "Treatment-resistant schizophrenia / suicidal behavior"
+  ],
+  "approved": [
+    {
+      "drugId": "aripiprazole",
+      "generic": "aripiprazole (oral)",
+      "brands": [
+        "Abilify",
+        "Opipza"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia (adults and adolescents 13 years and older).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 13 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2002,
+      "dosing": {
+        "start": "Adults 10–15 mg/day; adolescents 2 mg/day",
+        "target": "Adults 10–15 mg/day; adolescents 10 mg/day (reach by ~day 5)",
+        "max": "30 mg/day",
+        "notes": "Known CYP2D6 poor metabolizers: half the usual dose. Halve dose with strong CYP2D6 or CYP3A4 inhibitors; double with strong CYP3A4 inducers. Opipza oral film dissolves on the tongue."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets (generic)",
+        "Oral solution (generic)",
+        "Oral film (Opipza)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to aripiprazole"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A once-daily pill (or dissolving film) that helps control hallucinations and delusions in schizophrenia in adults and teens 13 and older.",
+      "source": {
+        "label": "DailyMed: ABILIFY (aripiprazole) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Opipza (aripiprazole oral film) label also checked: schizophrenia in patients 13 years and older (DailyMed setid b47ede68-8942-4432-af7e-57afc14b2ba4)."
+      }
+    },
+    {
+      "drugId": "asenapine",
+      "generic": "asenapine (sublingual)",
+      "brands": [
+        "Saphris"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "5 mg sublingually twice daily",
+        "target": "5–10 mg twice daily",
+        "max": "10 mg twice daily",
+        "notes": "Place under the tongue; no food or drink for 10 minutes. No added benefit shown above 5 mg twice daily in short-term trials, with more adverse effects. Pediatric approval (10–17 years) is for bipolar mania only."
+      },
+      "formulations": [
+        "Sublingual tablets (2.5, 5, 10 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Severe hepatic impairment (Child-Pugh C)",
+        "Known hypersensitivity to asenapine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A tablet that dissolves under the tongue, taken twice a day, to treat schizophrenia in adults.",
+      "source": {
+        "label": "DailyMed: SAPHRIS (asenapine) sublingual tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "asenapine",
+      "generic": "asenapine (transdermal system)",
+      "brands": [
+        "Secuado"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of adults with schizophrenia.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2019,
+      "dosing": {
+        "start": "3.8 mg/24 hours (one patch daily)",
+        "target": "3.8–7.6 mg/24 hours",
+        "max": "7.6 mg/24 hours",
+        "notes": "May increase to 5.7 or 7.6 mg/24 h after 1 week. 3.8 mg/24 h corresponds to about 5 mg twice daily sublingual; 7.6 mg/24 h to about 10 mg twice daily. Rotate application sites; avoid external heat sources over the patch."
+      },
+      "formulations": [
+        "Transdermal system (3.8, 5.7, 7.6 mg/24 h)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Severe hepatic impairment (Child-Pugh C)",
+        "Known hypersensitivity to asenapine or patch components"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A once-a-day skin patch that delivers an antipsychotic medicine for adults with schizophrenia.",
+      "source": {
+        "label": "DailyMed: SECUADO (asenapine) transdermal system",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=685eaf44-5944-4f38-afba-0a4fc0b3462b"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "brexpiprazole",
+      "generic": "brexpiprazole",
+      "brands": [
+        "Rexulti"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults and pediatric patients ages 13 years and older.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 13 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "Adults 1 mg/day; ages 13–17: 0.5 mg/day",
+        "target": "2–4 mg/day",
+        "max": "4 mg/day",
+        "notes": "Titrate to 2 mg on days 5–7, then 4 mg on day 8 based on response. Moderate–severe hepatic impairment or CrCl <60 mL/min: max 3 mg/day. CYP2D6 poor metabolizers and strong CYP2D6/CYP3A4 inhibitors: half dose; strong CYP3A4 inducers: double dose."
+      },
+      "formulations": [
+        "Tablets (0.25–4 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to brexpiprazole or any component"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A once-daily pill for schizophrenia in adults and teens 13 and older.",
+      "source": {
+        "label": "DailyMed: REXULTI (brexpiprazole) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d301358-6291-4ec1-bd87-37b4ad9bd850"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Pediatric (13+) indication added in 2021. FDA-approved generic ANDAs exist but US commercial launch was not confirmed, so genericAvailable is false."
+      }
+    },
+    {
+      "drugId": "cariprazine",
+      "generic": "cariprazine",
+      "brands": [
+        "Vraylar"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adult and pediatric patients 13 years of age and older.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 13 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "Adults 1.5 mg/day; ages 13–17: 0.5 mg/day",
+        "target": "Adults 1.5–6 mg/day; ages 13–17: 1.5–4.5 mg/day",
+        "max": "Adults 6 mg/day; ages 13–17: 4.5 mg/day",
+        "notes": "Adults may go to 3 mg on day 2. Pediatric: 1.5 mg on day 3, then 3 mg from day 5 and 4.5 mg from day 8 as needed. Very long half-life (active metabolites): dose changes take weeks to be fully reflected. Halve dose with strong CYP3A4 inhibitors; strong CYP3A4 inducers not recommended. Not recommended in severe hepatic or renal impairment (CrCl <30)."
+      },
+      "formulations": [
+        "Capsules (0.5 mg [pediatric titration], 1.5, 3, 4.5, 6 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to cariprazine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A once-daily capsule for schizophrenia; since late 2025 it is also approved for teens 13 and older.",
+      "source": {
+        "label": "DailyMed: VRAYLAR (cariprazine) capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b5f7c65-aa2d-452a-b3db-bc85c06ff12f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Adult schizophrenia approved 2015; pediatric (13–17) schizophrenia indication added to labeling 12/2025 (Recent Major Changes)."
+      }
+    },
+    {
+      "drugId": "iloperidone",
+      "generic": "iloperidone",
+      "brands": [
+        "Fanapt"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "1 mg twice daily",
+        "target": "6–12 mg twice daily",
+        "max": "12 mg twice daily (24 mg/day)",
+        "notes": "Titrate slowly to reduce orthostatic hypotension (1, 2, 4, 6, 8, 10, 12 mg twice daily on days 1–7). CYP2D6 poor metabolizers and strong CYP2D6/CYP3A4 inhibitors: reduce dose by half. Not recommended in severe hepatic impairment. QT prolongation warning."
+      },
+      "formulations": [
+        "Tablets (1–12 mg)",
+        "Titration pack"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to iloperidone or any component"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A twice-daily pill for schizophrenia in adults that is started at a low dose and slowly increased to avoid dizziness when standing.",
+      "source": {
+        "label": "DailyMed: FANAPT (iloperidone) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=33f60b40-3fca-11de-8f56-0002a5d5c51b"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "lumateperone",
+      "generic": "lumateperone",
+      "brands": [
+        "Caplyta"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2019,
+      "dosing": {
+        "start": "42 mg once daily",
+        "target": "42 mg once daily (no titration)",
+        "max": "42 mg/day",
+        "notes": "Moderate CYP3A4 inhibitors: 21 mg/day; strong CYP3A4 inhibitors: 10.5 mg/day; avoid CYP3A4 inducers. Moderate or severe hepatic impairment: 21 mg/day."
+      },
+      "formulations": [
+        "Capsules (10.5, 21, 42 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to lumateperone or any component"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A once-daily capsule for adults with schizophrenia that does not need a slow start-up.",
+      "source": {
+        "label": "DailyMed: CAPLYTA (lumateperone) capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db730b06-6351-47fd-8183-e61e61bbead5"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "FDA approved an sNDA in April 2026 adding relapse-prevention (maintenance) data for adult schizophrenia (trade-press reports); the indication wording is unchanged, and the DailyMed version checked may not yet include the new clinical-studies data."
+      }
+    },
+    {
+      "drugId": "lurasidone",
+      "generic": "lurasidone",
+      "brands": [
+        "Latuda"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of adult and adolescent patients (13 to 17 years) with schizophrenia.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and adolescents 13–17 years",
+        "pediatric": true
+      },
+      "approvalYear": 2010,
+      "dosing": {
+        "start": "40 mg once daily with food",
+        "target": "Adults 40–160 mg/day; adolescents 40–80 mg/day",
+        "max": "Adults 160 mg/day; adolescents 80 mg/day",
+        "notes": "Take with at least 350 calories. Moderate–severe renal or moderate hepatic impairment: start 20 mg, max 80 mg/day; severe hepatic impairment: max 40 mg/day. Moderate CYP3A4 inhibitors: start 20 mg, max 80 mg/day."
+      },
+      "formulations": [
+        "Tablets (20–120 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to lurasidone",
+        "Concomitant strong CYP3A4 inhibitors (e.g., ketoconazole)",
+        "Concomitant strong CYP3A4 inducers (e.g., rifampin)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A once-daily pill taken with a meal to treat schizophrenia in adults and teens 13 and older.",
+      "source": {
+        "label": "DailyMed: LATUDA (lurasidone) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "milsaperidone",
+      "generic": "milsaperidone",
+      "brands": [
+        "Bysanti"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2026,
+      "dosing": {
+        "start": "1 mg twice daily",
+        "target": "6–12 mg twice daily",
+        "max": "12 mg twice daily",
+        "notes": "Titrate to limit orthostatic hypotension (1, 2, 4, 6 mg twice daily on days 1–4, then up to 12 mg twice daily by day 7, or stay at 6 mg twice daily). Separate titration for CYP2D6 poor metabolizers; hepatic and drug-interaction adjustments in label. Milsaperidone is an active metabolite of iloperidone; approval relied partly on iloperidone data."
+      },
+      "formulations": [
+        "Tablets",
+        "Titration kit"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to milsaperidone or inactive ingredients"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A new (2026) twice-daily pill for adults with schizophrenia, closely related to iloperidone.",
+      "source": {
+        "label": "DailyMed: BYSANTI (milsaperidone) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=254a1c01-4a4c-4bdd-85d6-1f23f2e4e6f8"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approved February 20, 2026; commercial launch was planned for Q3 2026 (availability not independently confirmed)."
+      }
+    },
+    {
+      "drugId": "olanzapine",
+      "generic": "olanzapine (oral)",
+      "brands": [
+        "Zyprexa",
+        "Zyprexa Zydis"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia (adults and adolescents 13–17). Label notes that greater weight gain and dyslipidemia in adolescents may lead clinicians to consider other drugs first.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and adolescents 13–17 years",
+        "pediatric": true
+      },
+      "approvalYear": 1996,
+      "dosing": {
+        "start": "Adults 5–10 mg once daily; adolescents 2.5–5 mg once daily",
+        "target": "10 mg/day",
+        "max": "20 mg/day",
+        "notes": "Adjust in 5 mg steps at intervals of at least 1 week. Lower starting dose (5 mg) in debilitated patients or those prone to hypotension or slow metabolism. Smoking (CYP1A2 induction) lowers levels; fluvoxamine raises them."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets (Zydis)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "None for olanzapine monotherapy"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A once-daily pill for schizophrenia in adults and teens; it often causes weight gain, so weight and blood tests are checked.",
+      "source": {
+        "label": "DailyMed: ZYPREXA (olanzapine)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b418946a-1ab4-4d89-a012-d94fc361a3c4"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "olanzapine-samidorphan",
+      "generic": "olanzapine and samidorphan",
+      "brands": [
+        "Lybalvi"
+      ],
+      "drugClass": "Atypical antipsychotic + opioid antagonist combination",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "5 mg/10 mg or 10 mg/10 mg once daily",
+        "target": "10 mg/10 mg to 20 mg/10 mg once daily",
+        "max": "20 mg/10 mg once daily",
+        "notes": "Adjust olanzapine component in 5 mg steps at weekly intervals. Wait at least 7 days after short-acting and 14 days after long-acting opioids before starting. Samidorphan can precipitate opioid withdrawal and blocks opioid analgesia; risk of opioid overdose if opioids are taken to overcome blockade."
+      },
+      "formulations": [
+        "Tablets (5/10, 10/10, 15/10, 20/10 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Patients using opioids",
+        "Patients undergoing acute opioid withdrawal"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A once-daily pill combining olanzapine with a second ingredient meant to reduce weight gain; it cannot be used with opioid pain medicines.",
+      "source": {
+        "label": "DailyMed: LYBALVI (olanzapine and samidorphan) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32ffddd1-4e2b-45d9-9b36-bb730167ec80"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "paliperidone",
+      "generic": "paliperidone (extended-release tablets)",
+      "brands": [
+        "Invega"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia (adults and adolescents 12–17).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and adolescents 12–17 years",
+        "pediatric": true
+      },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "Adults 6 mg once daily; adolescents 3 mg once daily",
+        "target": "Adults 3–12 mg/day; adolescents 3–6 mg/day (<51 kg) or 3–12 mg/day (≥51 kg)",
+        "max": "Adults 12 mg/day; adolescents 6 mg/day (<51 kg) or 12 mg/day (≥51 kg)",
+        "notes": "Renal impairment: CrCl 50 to <80 mL/min start 3 mg, max 6 mg/day; CrCl 10 to <50 mL/min start 1.5 mg, max 3 mg/day. Swallow whole."
+      },
+      "formulations": [
+        "Extended-release tablets (1.5, 3, 6, 9 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to paliperidone, risperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A once-daily extended-release pill for schizophrenia in adults and teens 12 and older.",
+      "source": {
+        "label": "DailyMed: INVEGA (paliperidone) extended-release tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "quetiapine",
+      "generic": "quetiapine (immediate- and extended-release)",
+      "brands": [
+        "Seroquel",
+        "Seroquel XR"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia (efficacy established in adults and in adolescents 13–17 years).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and adolescents 13–17 years",
+        "pediatric": true
+      },
+      "approvalYear": 1997,
+      "dosing": {
+        "start": "IR adults: 25 mg twice daily (day 1); XR adults: 300 mg once daily; adolescents: 50 mg/day (IR 25 mg twice daily or XR 50 mg)",
+        "target": "IR adults 150–750 mg/day; XR 400–800 mg/day; adolescents 400–800 mg/day",
+        "max": "IR adults 750 mg/day; XR 800 mg/day; adolescents 800 mg/day",
+        "notes": "IR: increase by 25–50 mg divided 2–3 times daily on days 2–3 to 300–400 mg/day by day 4. XR: once daily in the evening, increase by up to 300 mg/day. Reduce dose by one-sixth with strong CYP3A4 inhibitors; increase up to 5-fold with strong inducers. Lower starting doses in elderly and hepatic impairment."
+      },
+      "formulations": [
+        "Tablets (IR)",
+        "Extended-release tablets (XR)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to quetiapine or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A pill taken once or twice a day for schizophrenia in adults and teens 13 and older; it can cause sleepiness and weight gain.",
+      "source": {
+        "label": "DailyMed: SEROQUEL (quetiapine) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0584dda8-bc3c-48fe-1a90-79608f78e8a0"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Seroquel XR label also checked (setid ab959a35-d0ba-4f18-8f2e-6619d88b16e3): schizophrenia adults and adolescents 13–17, 300 mg start (adults), 400–800 mg/day, max 800 mg/day."
+      }
+    },
+    {
+      "drugId": "risperidone",
+      "generic": "risperidone (oral)",
+      "brands": [
+        "Risperdal",
+        "Risperdal M-Tab"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia (efficacy established in adults and adolescents 13–17 years).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and adolescents 13–17 years",
+        "pediatric": true
+      },
+      "approvalYear": 1993,
+      "dosing": {
+        "start": "Adults 2 mg/day; adolescents 0.5 mg/day",
+        "target": "Adults 4–8 mg/day; adolescents 3 mg/day (range 1–6)",
+        "max": "Adults 16 mg/day; adolescents 6 mg/day",
+        "notes": "Adults: increase by 1–2 mg/day at intervals of ≥24 hours. Adolescents: increase by 0.5–1 mg/day at ≥24-hour intervals. Severe renal or hepatic impairment: start 0.5 mg twice daily, increase by ≤0.5 mg twice daily, slower above 1.5 mg twice daily."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets",
+        "Oral solution 1 mg/mL"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to risperidone, paliperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A pill or liquid taken once or twice a day for schizophrenia in adults and teens 13 and older; it can raise prolactin and cause movement side effects.",
+      "source": {
+        "label": "DailyMed: RISPERDAL (risperidone)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "ziprasidone",
+      "generic": "ziprasidone (oral)",
+      "brands": [
+        "Geodon"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults. Label advises considering ziprasidone's greater QT-prolonging capacity when choosing among treatments.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2001,
+      "dosing": {
+        "start": "20 mg twice daily with food",
+        "target": "20–80 mg twice daily",
+        "max": "80 mg twice daily",
+        "notes": "Adjust at intervals of no less than 2 days. Must be taken with food (≥500 calories) for adequate absorption. Avoid in patients with QT prolongation risk; check electrolytes."
+      },
+      "formulations": [
+        "Capsules (20, 40, 60, 80 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known history of QT prolongation (including congenital long QT syndrome)",
+        "Recent acute myocardial infarction",
+        "Uncompensated heart failure",
+        "Combination with other drugs that prolong the QT interval",
+        "Known hypersensitivity to ziprasidone",
+        "Use with or within 14 days of MAOIs"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A capsule taken twice a day with meals for adults with schizophrenia; it can affect heart rhythm.",
+      "source": {
+        "label": "DailyMed: GEODON (ziprasidone)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a2b4cc65-6a6d-49c4-adfc-a4458562a167"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "xanomeline-trospium",
+      "generic": "xanomeline and trospium chloride",
+      "brands": [
+        "Cobenfy"
+      ],
+      "drugClass": "Muscarinic agonist + peripheral muscarinic antagonist (non-dopamine-blocking antipsychotic)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2024,
+      "dosing": {
+        "start": "50 mg/20 mg twice daily for at least 2 days",
+        "target": "100 mg/20 mg twice daily (for at least 5 days), may increase to 125 mg/30 mg twice daily",
+        "max": "125 mg/30 mg twice daily",
+        "notes": "Take at least 1 hour before or 2 hours after a meal; do not open capsules. Check liver enzymes/bilirubin and heart rate at baseline. Geriatric patients: start 50/20 mg twice daily, slower titration, max 100/20 mg twice daily. Anticholinergic and cholinergic GI effects (nausea, constipation, dyspepsia) are common. No boxed warning."
+      },
+      "formulations": [
+        "Capsules (50/20, 100/20, 125/30 mg)",
+        "Titration kit"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Urinary retention",
+        "Moderate (Child-Pugh B) or severe (Child-Pugh C) hepatic impairment",
+        "Gastric retention",
+        "History of hypersensitivity to Cobenfy or trospium (angioedema reported)",
+        "Untreated narrow-angle glaucoma"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A newer (2024) twice-daily capsule that treats schizophrenia through acetylcholine receptors instead of blocking dopamine, so it causes fewer movement and weight side effects but more stomach upset.",
+      "source": {
+        "label": "DailyMed: COBENFY (xanomeline and trospium chloride) capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f0e73bf-6025-44f6-ab64-0983322de0df"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "haloperidol",
+      "generic": "haloperidol (oral)",
+      "brands": [
+        "generic only (Haldol brand oral discontinued)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (butyrophenone)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Management of manifestations of psychotic disorders.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults; label provides pediatric dosing for psychotic disorders in children 3–12 years (15–40 kg)",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Moderate symptoms 0.5–2 mg two or three times daily; severe 3–5 mg two or three times daily",
+        "target": "Individualized; lowest effective maintenance dose",
+        "max": "Up to 100 mg/day has been needed in some severely resistant patients (limited safety data at such doses)",
+        "notes": "Children 3–12 years: 0.05–0.15 mg/kg/day in divided doses, starting 0.5 mg/day. Not for children under 3. QT prolongation and torsades reported, especially IV or high doses."
+      },
+      "formulations": [
+        "Tablets (0.5–20 mg)",
+        "Oral concentrate 2 mg/mL"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Severe toxic CNS depression or comatose states",
+        "Parkinson's disease",
+        "Known hypersensitivity to haloperidol"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic pill used for many decades; it works well for psychosis but often causes stiffness or restlessness.",
+      "source": {
+        "label": "DailyMed: Haloperidol tablets (Ajanta)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31e33656-2f53-49e6-9816-261ea2e6961a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "fluphenazine",
+      "generic": "fluphenazine hydrochloride (oral)",
+      "brands": [
+        "generic only"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (phenothiazine)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Management of manifestations of psychotic disorders.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "2.5–10 mg/day divided every 6–8 hours",
+        "target": "Often under 20 mg/day; maintenance 1–5 mg/day",
+        "max": "Up to 40 mg/day in severely disturbed patients",
+        "notes": "Oral dose is about 2–3 times the parenteral dose. Short-acting fluphenazine HCl injection is also available."
+      },
+      "formulations": [
+        "Tablets (1, 2.5, 5, 10 mg)",
+        "Oral elixir/concentrate",
+        "Injection 2.5 mg/mL (short-acting)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Suspected or established subcortical brain damage",
+        "Large doses of hypnotics",
+        "Comatose or severely depressed states",
+        "Blood dyscrasia or liver damage",
+        "Known hypersensitivity to fluphenazine (possible phenothiazine cross-sensitivity)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older, potent antipsychotic pill that is effective but can cause muscle stiffness and restlessness.",
+      "source": {
+        "label": "DailyMed: Fluphenazine hydrochloride tablets (Amneal)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b443b30-5682-4cf3-9ed0-716efddbc865"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "perphenazine",
+      "generic": "perphenazine",
+      "brands": [
+        "generic only"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (phenothiazine)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia (also labeled for severe nausea and vomiting in adults).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and children over 12 years (lowest adult dose)",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Outpatients 4–8 mg three times daily; hospitalized 8–16 mg two to four times daily",
+        "target": "Lowest effective dose",
+        "max": "64 mg/day",
+        "notes": "Doses above 24 mg/day long-term should be reserved for hospitalized or closely observed patients. CYP2D6 poor metabolizers have higher levels."
+      },
+      "formulations": [
+        "Tablets (2, 4, 8, 16 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Comatose or greatly depressed states / large doses of CNS depressants",
+        "Blood dyscrasias, bone marrow depression, or liver damage",
+        "Known hypersensitivity to phenothiazines",
+        "Subcortical brain damage"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic pill; in a large US study (CATIE) it worked about as well as several newer medicines.",
+      "source": {
+        "label": "DailyMed: Perphenazine tablets (Par)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fbfe9da-26e8-4705-98f3-42acd3d7b439"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "perphenazine-amitriptyline",
+      "generic": "perphenazine and amitriptyline",
+      "brands": [
+        "generic only"
+      ],
+      "drugClass": "Phenothiazine antipsychotic + tricyclic antidepressant combination",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Label: \"Schizophrenic patients who have associated depressive symptoms should be considered for therapy\" (primary indications are anxiety/agitation with depression).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (not recommended for children)",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "More severely ill schizophrenia: 4 mg/25 mg, two tablets three times daily",
+        "target": "Optional fourth dose at bedtime; reduce to lowest effective maintenance",
+        "max": "Four tablets of 4/50 mg or eight tablets of any other strength per day",
+        "notes": "Rarely used today; combines antipsychotic and tricyclic risks (anticholinergic, cardiac conduction, overdose toxicity)."
+      },
+      "formulations": [
+        "Tablets (2/10, 2/25, 4/10, 4/25, 4/50 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+      ],
+      "contraindications": [
+        "CNS depression from drugs",
+        "Bone marrow depression",
+        "Known hypersensitivity to phenothiazines or amitriptyline",
+        "Use with or within 14 days of MAOIs"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older combination pill with an antipsychotic and an antidepressant, sometimes used when schizophrenia comes with depression.",
+      "source": {
+        "label": "DailyMed: Perphenazine and amitriptyline tablets (Mylan)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e2937445-c015-c9a5-52f8-a2959da97290"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication and schizophrenia dosing confirmed; contraindication list was only partially reviewed (label also lists cardiac contraindications for amitriptyline). Approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "chlorpromazine",
+      "generic": "chlorpromazine",
+      "brands": [
+        "generic only (Thorazine discontinued)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (phenothiazine)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia; management of manifestations of psychotic disorders.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (label pediatric dosing, 6 months–12 years, is for other indications)",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Outpatients 10 mg three or four times daily or 25 mg two or three times daily; more severe 25 mg three times daily",
+        "target": "Usually about 400 mg/day (hospitalized)",
+        "max": "Little gain beyond 1,000 mg/day for extended periods",
+        "notes": "Increase by 20–50 mg/day semiweekly. IM chlorpromazine for prompt control of severe symptoms. Lower doses in elderly/debilitated. Sedation, orthostasis, anticholinergic effects."
+      },
+      "formulations": [
+        "Tablets (10–200 mg)",
+        "Injection 25 mg/mL"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to phenothiazines",
+        "Comatose states or large amounts of CNS depressants"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "The first antipsychotic medicine (1950s); it is sedating and now used less often.",
+      "source": {
+        "label": "DailyMed: Chlorpromazine hydrochloride tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d43718e5-66d7-44f9-9fc8-80d38d3e41ce"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "thiothixene",
+      "generic": "thiothixene",
+      "brands": [
+        "generic only (Navane discontinued)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (thioxanthene)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Management of schizophrenia.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (use under 12 years not recommended)",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Milder: 2 mg three times daily; more severe: 5 mg twice daily",
+        "target": "Usually 20–30 mg/day",
+        "max": "60 mg/day",
+        "notes": "Some patients can be maintained on once-daily dosing."
+      },
+      "formulations": [
+        "Capsules (1, 2, 5, 10 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Circulatory collapse",
+        "Comatose states or CNS depression from any cause",
+        "Blood dyscrasias",
+        "Known hypersensitivity to thiothixene"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic capsule for schizophrenia.",
+      "source": {
+        "label": "DailyMed: Thiothixene capsules (Amneal)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=81c40311-7dc4-4332-8920-a39a8466aea6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "trifluoperazine",
+      "generic": "trifluoperazine",
+      "brands": [
+        "generic only (Stelazine discontinued)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (phenothiazine)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Management of schizophrenia (also labeled for short-term non-psychotic anxiety).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults; children 6–12 years who are hospitalized or closely supervised",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Adults 2–5 mg twice daily; children 6–12: 1 mg once or twice daily",
+        "target": "Adults 15–20 mg/day; children usually ≤15 mg/day",
+        "max": "Some adults need 40 mg/day or more",
+        "notes": "Optimal dose usually reached within 2–3 weeks."
+      },
+      "formulations": [
+        "Tablets (1, 2, 5, 10 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Comatose or greatly depressed states / large doses of CNS depressants",
+        "Blood dyscrasias, bone marrow depression, or liver damage",
+        "Known hypersensitivity to phenothiazines"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic pill for schizophrenia.",
+      "source": {
+        "label": "DailyMed: Trifluoperazine hydrochloride tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=069d3469-138b-4e4f-a7bb-6acac5f86abb"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "loxapine",
+      "generic": "loxapine (oral)",
+      "brands": [
+        "generic only (Loxitane discontinued)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (dibenzoxazepine)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "10 mg twice daily (up to 50 mg/day in severely disturbed patients)",
+        "target": "60–100 mg/day in divided doses",
+        "max": "250 mg/day",
+        "notes": "Increase fairly rapidly over 7–10 days."
+      },
+      "formulations": [
+        "Capsules (5, 10, 25, 50 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Comatose or severe drug-induced depressed states",
+        "Known hypersensitivity to dibenzoxazepines"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic capsule for schizophrenia.",
+      "source": {
+        "label": "DailyMed: Loxapine capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ce8c5a31-7600-4525-a0c7-b3adc9ec2977"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "molindone",
+      "generic": "molindone",
+      "brands": [
+        "generic only"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (dihydroindolone)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Management of schizophrenia.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "50–75 mg/day, increase to 100 mg/day in 3–4 days",
+        "target": "Maintenance 15–100 mg/day (5–25 mg three or four times daily)",
+        "max": "225 mg/day",
+        "notes": "Lower starting doses in elderly or debilitated patients. Relatively weight-neutral."
+      },
+      "formulations": [
+        "Tablets (5, 10, 25, 50 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Severe CNS depression or comatose states",
+        "Known hypersensitivity to molindone"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic pill for schizophrenia that tends to cause less weight gain.",
+      "source": {
+        "label": "DailyMed: Molindone hydrochloride tablets (Epic)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1275e92f-9573-4d0c-8e77-1c9ac47696d2"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "prochlorperazine",
+      "generic": "prochlorperazine",
+      "brands": [
+        "generic only (Compazine brand name discontinued)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (phenothiazine)",
+      "section": "Oral and other non-injectable antipsychotics",
+      "indication": "Treatment of schizophrenia (also labeled for severe nausea/vomiting and short-term non-psychotic anxiety).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and children 2–12 years (not under 2 years or 20 lb)",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Adults mild: 5–10 mg three or four times daily; moderate–severe: 10 mg three or four times daily. Children: 2.5 mg two or three times daily (≤10 mg on day 1)",
+        "target": "Adults 50–150 mg/day",
+        "max": "Adults ~150 mg/day; children 2–5 y: 20 mg/day; 6–12 y: 25 mg/day",
+        "notes": "Rarely used for schizophrenia today. Extrapyramidal reactions are common in children."
+      },
+      "formulations": [
+        "Tablets (5, 10 mg)",
+        "Injection",
+        "Suppositories"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to phenothiazines",
+        "Comatose states or large amounts of CNS depressants",
+        "Pediatric surgery",
+        "Children under 2 years or under 20 lb"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Best known as an anti-nausea medicine, it is also approved, at higher doses, for schizophrenia.",
+      "source": {
+        "label": "DailyMed: Prochlorperazine maleate tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=459fbfd6-f6fe-4589-894f-acd69b413de6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "thioridazine",
+      "generic": "thioridazine",
+      "brands": [
+        "generic only (Mellaril discontinued)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic (phenothiazine)",
+      "section": "Treatment-resistant schizophrenia / suicidal behavior",
+      "indication": "Management of schizophrenic patients who fail to respond adequately to treatment with other antipsychotic drugs (reserved because of QTc prolongation risk; label recommends at least two prior antipsychotic trials).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients (age range not specified in label)",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Adults 50–100 mg three times daily; pediatric 0.5 mg/kg/day in divided doses",
+        "target": "Adults 200–800 mg/day in 2–4 divided doses",
+        "max": "Adults 800 mg/day; pediatric 3 mg/kg/day",
+        "notes": "Baseline ECG and potassium required; do not use if QTc >450 ms; stop if QTc >500 ms. Pigmentary retinopathy at high doses."
+      },
+      "formulations": [
+        "Tablets (10, 25, 50, 100 mg)"
+      ],
+      "boxedWarnings": [
+        "Dose-related QTc prolongation, torsades de pointes, and sudden death",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Use with other QTc-prolonging drugs",
+        "Use with CYP2D6 inhibitors (e.g., fluoxetine, paroxetine), fluvoxamine, propranolol, or pindolol",
+        "Reduced CYP2D6 activity",
+        "Congenital long QT syndrome or history of cardiac arrhythmias",
+        "Severe CNS depression or comatose states"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic now reserved for people who did not improve with other medicines, because it can cause dangerous heart rhythm changes.",
+      "source": {
+        "label": "DailyMed: Thioridazine hydrochloride tablets (Mylan)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=56b3f4c2-52af-4947-b225-6808ae9f26f5"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Molecule approved before the modern labeling era; indication-specific approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "aripiprazole",
+      "generic": "aripiprazole monohydrate (1-month injection)",
+      "brands": [
+        "Abilify Maintena"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2013,
+      "dosing": {
+        "start": "400 mg IM monthly; initiate with two 400 mg injections plus one oral 20 mg dose (1-day start) or one injection plus 14 days of oral aripiprazole 10–20 mg",
+        "target": "400 mg monthly (300 mg if adverse reactions)",
+        "max": "400 mg monthly",
+        "notes": "Establish tolerability with oral aripiprazole if naive. Deltoid or gluteal. CYP2D6 poor metabolizers: 300 mg; dose reductions with strong CYP2D6/CYP3A4 inhibitors; avoid CYP3A4 inducers >14 days."
+      },
+      "formulations": [
+        "Extended-release injectable suspension (300, 400 mg) vial or prefilled dual-chamber syringe"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to aripiprazole"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A monthly aripiprazole shot given by a clinician, so a daily pill is not needed.",
+      "source": {
+        "label": "DailyMed: ABILIFY MAINTENA (aripiprazole)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee49f3b1-1650-47ff-9fb1-ea53fe0b92b6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "aripiprazole",
+      "generic": "aripiprazole monohydrate (2-month injection)",
+      "brands": [
+        "Abilify Asimtufii"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2023,
+      "dosing": {
+        "start": "960 mg IM (gluteal) every 2 months; 1-day start (960 mg + Abilify Maintena 400 mg + oral 20 mg) or 14 days of oral aripiprazole with first injection",
+        "target": "960 mg every 2 months (720 mg if adverse reactions)",
+        "max": "960 mg every 2 months",
+        "notes": "Patients on Abilify Maintena can switch at the next scheduled monthly dose. CYP2D6 poor metabolizers: 720 mg."
+      },
+      "formulations": [
+        "Extended-release injectable suspension, prefilled syringe (720, 960 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to aripiprazole or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An aripiprazole shot given once every two months.",
+      "source": {
+        "label": "DailyMed: ABILIFY ASIMTUFII (aripiprazole)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "aripiprazole-lauroxil",
+      "generic": "aripiprazole lauroxil",
+      "brands": [
+        "Aristada",
+        "Aristada Initio"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults (Aristada Initio, with oral aripiprazole, is indicated for initiation of Aristada).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "Initiate with Aristada Initio 675 mg + single oral aripiprazole 30 mg, or 21 days of oral aripiprazole, with first Aristada dose",
+        "target": "441, 662, or 882 mg monthly; 882 mg every 6 weeks; or 1064 mg every 2 months",
+        "max": "882 mg monthly or 1064 mg every 2 months",
+        "notes": "441 mg may be given deltoid or gluteal; higher doses gluteal. Oral 10/15/≥20 mg/day correspond to 441/662/882 mg monthly. Adjust for CYP2D6 poor metabolizers and CYP3A4/2D6 inhibitors."
+      },
+      "formulations": [
+        "Extended-release injectable suspension (441, 662, 882, 1064 mg)",
+        "Aristada Initio 675 mg"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to aripiprazole"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An aripiprazole-based shot that can be given monthly, every 6 weeks, or every 2 months.",
+      "source": {
+        "label": "DailyMed: ARISTADA (aripiprazole lauroxil)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=17a8d11b-73b0-4833-a0b4-cf1ef85edefb"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Aristada Initio label also checked (setid b18fdfd9-31cd-4a2f-9f1c-ebc70d7a9403). Approval year refers to Aristada (Initio approved later)."
+      }
+    },
+    {
+      "drugId": "haloperidol-decanoate",
+      "generic": "haloperidol decanoate",
+      "brands": [
+        "generic only (Haldol Decanoate)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults who were previously taking a stable dosage of an immediate-release oral haloperidol product.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "10–15 times the previous daily oral haloperidol dose IM (max initial injection 100 mg; give remainder 3–7 days later)",
+        "target": "10–15 times the oral daily dose every 4 weeks; typical 50–200 mg every 4 weeks",
+        "max": "Experience above 450 mg every 4 weeks is limited",
+        "notes": "Deep IM (gluteal) every 4 weeks, max 3 mL per site; increase by ≤50 mg every 4 weeks. Use lower end in age ≥65 or hepatic impairment."
+      },
+      "formulations": [
+        "Injection 50 mg/mL and 100 mg/mL (sesame oil)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Severe toxic CNS depression or comatose states",
+        "Known hypersensitivity to haloperidol",
+        "Parkinson's disease",
+        "Dementia with Lewy bodies"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic shot given every 4 weeks for people already doing well on haloperidol pills.",
+      "source": {
+        "label": "DailyMed: Haloperidol decanoate injection (Zydus)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d2d7612-ad47-4ee7-a42c-945c976d947b"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approval year of the schizophrenia indication not confirmed (label lists initial US approval 1986)."
+      }
+    },
+    {
+      "drugId": "fluphenazine-decanoate",
+      "generic": "fluphenazine decanoate",
+      "brands": [
+        "generic only"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Management of patients requiring prolonged parenteral neuroleptic therapy (e.g., chronic schizophrenia).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (contraindicated under 12 years)",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "12.5–25 mg IM or SC",
+        "target": "Individualized; one injection often controls symptoms for 4 weeks or longer (up to 6 weeks)",
+        "max": "100 mg per dose",
+        "notes": "Increase in 12.5 mg steps when needed; use a dry syringe and ≥21-gauge needle."
+      },
+      "formulations": [
+        "Injection 25 mg/mL (sesame oil)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Suspected or established subcortical brain damage",
+        "Large doses of hypnotics",
+        "Comatose or severely depressed states",
+        "Blood dyscrasia or liver damage",
+        "Children under 12 years",
+        "Known hypersensitivity to fluphenazine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An older antipsychotic shot usually given every few weeks.",
+      "source": {
+        "label": "DailyMed: Fluphenazine decanoate injection (Sagent)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1842a678-c32b-4e81-998e-597fc370fb9e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "olanzapine-pamoate",
+      "generic": "olanzapine pamoate (IM long-acting)",
+      "brands": [
+        "Zyprexa Relprevv"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia (efficacy established in adults).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "Based on oral dose: 10 mg/day → 210 mg q2wk or 405 mg q4wk; 15 mg/day → 300 mg q2wk; 20 mg/day → 300 mg q2wk (first 8 weeks)",
+        "target": "After 8 weeks: 150 mg q2wk or 300 mg q4wk (from 10 mg); 210 mg q2wk or 405 mg q4wk (from 15 mg); 300 mg q2wk (from 20 mg)",
+        "max": "300 mg every 2 weeks or 405 mg every 4 weeks",
+        "notes": "Deep gluteal injection only. Must be given in a REMS-certified healthcare setting with observation for at least 3 hours after each injection for post-injection delirium/sedation syndrome."
+      },
+      "formulations": [
+        "Extended-release injectable suspension kit (210, 300, 405 mg)"
+      ],
+      "boxedWarnings": [
+        "Post-injection delirium/sedation syndrome (3-hour observation required)",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "None"
+      ],
+      "rems": "Zyprexa Relprevv REMS",
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A long-acting olanzapine shot given every 2 or 4 weeks; patients must be watched for 3 hours afterward because of a rare reaction causing extreme sleepiness or confusion.",
+      "source": {
+        "label": "DailyMed: ZYPREXA RELPREVV (olanzapine pamoate)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11544cba-64a9-49cb-8d74-da228053b252"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "olanzapine",
+      "generic": "olanzapine (subcutaneous long-acting)",
+      "brands": [
+        "Weltruza"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults (per Teva announcement of FDA approval, October 9, 2026).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2026,
+      "dosing": {
+        "start": "Once-monthly SC injection matched to oral dose: 318 mg (≈10 mg/day), 425 mg (≈15 mg/day), or 531 mg (≈20 mg/day)",
+        "target": "318–531 mg SC once monthly",
+        "max": "531 mg monthly",
+        "notes": "Per manufacturer: no loading dose, no oral supplementation, and no post-injection monitoring requirement. Labeling reportedly still warns about post-injection delirium/sedation syndrome (none observed in the SOLARIS trial). Expected US availability in the weeks after approval."
+      },
+      "formulations": [
+        "Extended-release injectable suspension for subcutaneous use (318, 425, 531 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A brand-new (October 2026) monthly olanzapine shot given under the skin that, unlike the older olanzapine shot, does not require a 3-hour watch afterward.",
+      "source": {
+        "label": "Teva press release: FDA approval of WELTRUZA (October 9, 2026)",
+        "url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-U-S--Food-and-Drug-Administration-FDA-Approval-of-WELTRUZA-Olanzapine-For-Extended-Release-Injectable-Suspension-as-the-First-and-Only-Once-Monthly-Subcutaneous-Injectable-Olanzapine-for-Adults-with-Schizophrenia/default.aspx"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Approved Oct 9, 2026; no DailyMed SPL or FDA label was available yet. Indication, strengths, and boxed warning (dementia-related psychosis mortality) taken from the manufacturer press release; contraindications, REMS status, renal/hepatic dosing, and exact dosing conversions not confirmed against the prescribing information."
+      }
+    },
+    {
+      "drugId": "paliperidone-palmitate",
+      "generic": "paliperidone palmitate (1-month injection)",
+      "brands": [
+        "Invega Sustenna"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "234 mg IM (deltoid) day 1, then 156 mg IM (deltoid) day 8",
+        "target": "117 mg monthly (range 39–234 mg), starting 5 weeks after the first injection",
+        "max": "234 mg monthly",
+        "notes": "Mild renal impairment (CrCl 50 to <80): 156 mg day 1, 117 mg day 8, then 78 mg monthly; not recommended if CrCl <50. Missed-dose re-initiation regimens in label."
+      },
+      "formulations": [
+        "Extended-release injectable suspension, prefilled syringe (39–234 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to paliperidone, risperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A monthly paliperidone shot used to prevent relapse without daily pills.",
+      "source": {
+        "label": "DailyMed: INVEGA SUSTENNA (paliperidone palmitate)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1af14e42-951d-414d-8564-5d5fce138554"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "A generic paliperidone palmitate (Tolmar) has a DailyMed listing; US market availability not independently confirmed."
+      }
+    },
+    {
+      "drugId": "paliperidone-palmitate",
+      "generic": "paliperidone palmitate (1-month injection, Erzofri)",
+      "brands": [
+        "Erzofri"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2024,
+      "dosing": {
+        "start": "351 mg IM (deltoid) on day 1 (single initiation injection)",
+        "target": "117 mg monthly (range 39–234 mg), starting 4 weeks after the first injection",
+        "max": "234 mg monthly",
+        "notes": "Establish tolerability with oral paliperidone or risperidone first. Mild renal impairment: lower initiation (234 mg day 1) and maintenance per label."
+      },
+      "formulations": [
+        "Extended-release injectable suspension, prefilled syringe (39–351 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to paliperidone, risperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A monthly paliperidone shot that starts with one larger dose instead of two starting shots.",
+      "source": {
+        "label": "DailyMed: ERZOFRI (paliperidone palmitate)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=492bf9dd-868e-421a-92db-8cca8973aac1"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "paliperidone-palmitate",
+      "generic": "paliperidone palmitate (3-month injection)",
+      "brands": [
+        "Invega Trinza"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in patients after they have been adequately treated with Invega Sustenna (1-month paliperidone palmitate) for at least four months.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "At next scheduled monthly dose: 3.5 times the last 1-month dose (78→273, 117→410, 156→546, 234→819 mg)",
+        "target": "273–819 mg IM every 3 months",
+        "max": "819 mg every 3 months",
+        "notes": "Last two monthly doses should be the same strength. Not recommended if CrCl <50; mild renal impairment adjustments per label."
+      },
+      "formulations": [
+        "Extended-release injectable suspension (273, 410, 546, 819 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to paliperidone, risperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A paliperidone shot given every 3 months after a person is stable on the monthly shot.",
+      "source": {
+        "label": "DailyMed: INVEGA TRINZA (paliperidone palmitate)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c39e65d7-fa44-4e4c-8b12-a654d3ed0eae"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "paliperidone-palmitate",
+      "generic": "paliperidone palmitate (6-month injection)",
+      "brands": [
+        "Invega Hafyera"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults after adequate treatment with a 1-month paliperidone palmitate for at least four months or a 3-month paliperidone palmitate for at least one 3-month cycle.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "1,092 mg (from 156 mg monthly or 546 mg 3-monthly) or 1,560 mg (from 234 mg monthly or 819 mg 3-monthly) IM gluteal",
+        "target": "1,092 or 1,560 mg every 6 months",
+        "max": "1,560 mg every 6 months",
+        "notes": "Not studied/recommended for patients stable on lower monthly or 3-monthly doses; not recommended if CrCl <50."
+      },
+      "formulations": [
+        "Extended-release injectable suspension (1,092, 1,560 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to paliperidone, risperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A paliperidone shot given only twice a year for people already stable on monthly or 3-month shots.",
+      "source": {
+        "label": "DailyMed: INVEGA HAFYERA (paliperidone palmitate)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6cd61892-d2cb-434d-83ed-5c1b2c4e7a0b"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "risperidone",
+      "generic": "risperidone microspheres (IM every 2 weeks)",
+      "brands": [
+        "Risperdal Consta",
+        "generic risperidone for extended-release injectable suspension"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "25 mg IM every 2 weeks, with oral risperidone (or other antipsychotic) continued for 3 weeks",
+        "target": "25–50 mg every 2 weeks",
+        "max": "50 mg every 2 weeks",
+        "notes": "Dose increases no more often than every 4 weeks. Renal/hepatic impairment: titrate oral risperidone first; consider 12.5 mg start. Refrigerated storage."
+      },
+      "formulations": [
+        "Extended-release microspheres for injectable suspension (12.5, 25, 37.5, 50 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to risperidone, paliperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A risperidone shot given every 2 weeks; pills are continued for the first 3 weeks while it starts working.",
+      "source": {
+        "label": "DailyMed: RISPERDAL CONSTA (risperidone)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb34ee82-d2c2-43b8-ba21-2825c0954691"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Generic versions (Amneal, approved Sept 2025; also Lupin and Teva) are on DailyMed with the same indication."
+      }
+    },
+    {
+      "drugId": "risperidone",
+      "generic": "risperidone extended-release microspheres (Rykindo, IM every 2 weeks)",
+      "brands": [
+        "Rykindo"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2023,
+      "dosing": {
+        "start": "25 mg IM (gluteal) every 2 weeks, with 7 days of oral risperidone after the first dose",
+        "target": "25–50 mg every 2 weeks",
+        "max": "50 mg every 2 weeks",
+        "notes": "Titrate no more often than every 4 weeks. Renal/hepatic impairment: titrate oral risperidone to at least 2 mg first."
+      },
+      "formulations": [
+        "Extended-release microspheres for injectable suspension kit (12.5, 25, 37.5, 50 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to risperidone, paliperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A risperidone shot given every 2 weeks that needs only one week of overlapping pills.",
+      "source": {
+        "label": "DailyMed: RYKINDO (risperidone)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=58534c96-96f5-4c2e-a061-92d4506aee91"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "risperidone",
+      "generic": "risperidone extended-release subcutaneous (Uzedy)",
+      "brands": [
+        "Uzedy"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2023,
+      "dosing": {
+        "start": "Based on oral dose: 2/3/4/5 mg/day → 50/75/100/125 mg monthly or 100/150/200/250 mg every 2 months",
+        "target": "50–125 mg SC monthly or 100–250 mg SC every 2 months",
+        "max": "125 mg monthly or 250 mg every 2 months",
+        "notes": "No loading dose or oral overlap; start the day after the last oral dose. Abdominal or upper-arm SC injection. Establish tolerability with oral risperidone if naive."
+      },
+      "formulations": [
+        "Extended-release injectable suspension, prefilled syringe (50–250 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to risperidone, paliperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A risperidone shot under the skin given every 1 or 2 months, with no need for overlapping pills.",
+      "source": {
+        "label": "DailyMed: UZEDY (risperidone)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=734eb776-4be0-4808-834b-0d8b0f9e021e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "risperidone",
+      "generic": "risperidone ISM (IM monthly, Risvan)",
+      "brands": [
+        "Risvan"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic, long-acting injectable",
+      "section": "Long-acting injectable antipsychotics",
+      "indication": "Treatment of schizophrenia in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2024,
+      "dosing": {
+        "start": "75 mg or 100 mg IM (gluteal or deltoid) once monthly",
+        "target": "75–100 mg monthly",
+        "max": "100 mg monthly (no more than one dose per month)",
+        "notes": "Establish tolerability with oral risperidone; no oral supplementation needed. Patients stable on oral doses <3 mg or >4 mg/day may not be candidates. Renal/hepatic impairment: titrate oral risperidone to ≥3 mg, then 75 mg monthly."
+      },
+      "formulations": [
+        "Extended-release injectable suspension, prefilled syringes (75, 100 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to risperidone, paliperidone, or other components"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A monthly risperidone shot that reaches working levels quickly, without needing overlapping pills.",
+      "source": {
+        "label": "FDA label (Drugs@FDA), RISVAN NDA 214835, 3/2024",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/214835s000lbl.pdf"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, dosing, and contraindications confirmed from the FDA-approved label PDF and approval letter (March 29, 2024), but no DailyMed SPL was found and US commercial availability could not be confirmed."
+      }
+    },
+    {
+      "drugId": "haloperidol",
+      "generic": "haloperidol lactate (short-acting IM)",
+      "brands": [
+        "generic only (Haldol injection)"
+      ],
+      "drugClass": "Typical (first-generation) antipsychotic",
+      "section": "Short-acting injectables and acute agitation",
+      "indication": "Treatment of patients with schizophrenia.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "2–5 mg IM",
+        "target": "Repeat as often as every hour if needed, though every 4–8 hours may be satisfactory",
+        "max": "20 mg/day",
+        "notes": "For prompt control of acutely agitated patients; switch to oral as soon as feasible. Not for IV use per label; QT prolongation and torsades reported, especially with IV or high doses. Pediatric IM safety not established."
+      },
+      "formulations": [
+        "Injection 5 mg/mL"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Severe toxic CNS depression or comatose states",
+        "Known hypersensitivity to haloperidol",
+        "Parkinson's disease",
+        "Dementia with Lewy bodies"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A fast-acting haloperidol shot used in hospitals or emergency settings for severe psychotic symptoms or agitation.",
+      "source": {
+        "label": "DailyMed: Haloperidol injection (Fresenius Kabi)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b1ad2abd-a9d6-44e3-957b-36a73260f4f5"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approval year not confirmed."
+      }
+    },
+    {
+      "drugId": "olanzapine",
+      "generic": "olanzapine (short-acting IM)",
+      "brands": [
+        "Zyprexa IntraMuscular"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Short-acting injectables and acute agitation",
+      "indication": "Treatment of acute agitation associated with schizophrenia and bipolar I mania (efficacy established in adults).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "10 mg IM (consider 5–7.5 mg; 5 mg in elderly, 2.5 mg if debilitated)",
+        "target": "Up to 3 doses 2–4 hours apart",
+        "max": "30 mg/day",
+        "notes": "Concomitant parenteral benzodiazepine is not recommended (cardiorespiratory depression). Check for orthostatic hypotension before repeat doses."
+      },
+      "formulations": [
+        "Powder for injection 10 mg vial"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "None for olanzapine monotherapy"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A fast-acting olanzapine shot used to calm severe agitation.",
+      "source": {
+        "label": "DailyMed: ZYPREXA / ZYPREXA IntraMuscular (olanzapine)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b418946a-1ab4-4d89-a012-d94fc361a3c4"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approval year (2004) from memory, not re-confirmed against FDA records."
+      }
+    },
+    {
+      "drugId": "ziprasidone",
+      "generic": "ziprasidone mesylate (short-acting IM)",
+      "brands": [
+        "Geodon for injection"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Short-acting injectables and acute agitation",
+      "indication": "Acute agitation in schizophrenic patients.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2002,
+      "dosing": {
+        "start": "10–20 mg IM",
+        "target": "10 mg every 2 hours or 20 mg every 4 hours as needed",
+        "max": "40 mg/day; IM use beyond 3 consecutive days not studied",
+        "notes": "Switch to oral as soon as possible. Same QT-related contraindications as oral ziprasidone."
+      },
+      "formulations": [
+        "Powder for injection 20 mg/mL (after reconstitution)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known history of QT prolongation",
+        "Recent acute myocardial infarction",
+        "Uncompensated heart failure",
+        "Other QT-prolonging drugs",
+        "Known hypersensitivity to ziprasidone",
+        "Use with or within 14 days of MAOIs"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A fast-acting ziprasidone shot used to calm acute agitation in schizophrenia.",
+      "source": {
+        "label": "DailyMed: GEODON (ziprasidone)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a2b4cc65-6a6d-49c4-adfc-a4458562a167"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approval year (2002) from memory, not re-confirmed against FDA records."
+      }
+    },
+    {
+      "drugId": "loxapine",
+      "generic": "loxapine (inhalation powder)",
+      "brands": [
+        "Adasuve"
+      ],
+      "drugClass": "Typical antipsychotic (inhaled)",
+      "section": "Short-acting injectables and acute agitation",
+      "indication": "Acute treatment of agitation associated with schizophrenia or bipolar I disorder in adults; must be administered only in a certified healthcare setting.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2012,
+      "dosing": {
+        "start": "10 mg by oral inhalation (single dose)",
+        "target": "Single dose",
+        "max": "One 10 mg dose per 24 hours",
+        "notes": "Screen for airway disease (history, chest auscultation) before use; monitor for bronchospasm for at least 1 hour after dosing; short-acting bronchodilator must be available."
+      },
+      "formulations": [
+        "Single-use inhaler 10 mg"
+      ],
+      "boxedWarnings": [
+        "Bronchospasm (restricted to certified healthcare settings under REMS)",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Asthma, COPD, or other lung disease associated with bronchospasm",
+        "Acute respiratory signs/symptoms (e.g., wheezing)",
+        "Current use of medications for airways disease",
+        "History of bronchospasm after Adasuve",
+        "Known hypersensitivity to loxapine or amoxapine"
+      ],
+      "rems": "ADASUVE REMS",
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "An inhaled antipsychotic given once by a clinician to quickly calm agitation; it cannot be used by people with asthma or COPD.",
+      "source": {
+        "label": "DailyMed: ADASUVE (loxapine) inhalation powder",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50e11732-7387-452d-b3e6-db3a431d5c4a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "dexmedetomidine",
+      "generic": "dexmedetomidine (sublingual film)",
+      "brands": [
+        "Igalmi"
+      ],
+      "drugClass": "Alpha-2 adrenergic agonist",
+      "section": "Short-acting injectables and acute agitation",
+      "indication": "Acute treatment of agitation associated with schizophrenia or bipolar I or II disorder in adults. Safety and effectiveness beyond 24 hours from the first dose not established.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2022,
+      "dosing": {
+        "start": "120 mcg (mild–moderate agitation) or 180 mcg (severe); 120 mcg in patients ≥65",
+        "target": "Up to two additional doses (60 or 90 mcg) at least 2 hours apart if needed",
+        "max": "240 mcg/day (mild–moderate) or 360 mcg/day (severe); lower in hepatic impairment and elderly",
+        "notes": "Give sublingually or buccally under supervision; monitor vital signs and alertness (hypotension, bradycardia, somnolence). Avoid in patients with hypotension, bradycardia, or QT risk. Hepatic impairment requires lower doses."
+      },
+      "formulations": [
+        "Sublingual film (120, 180 mcg)"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "None"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A thin film that dissolves under the tongue to calm agitation in schizophrenia or bipolar disorder; it is not an antipsychotic.",
+      "source": {
+        "label": "DailyMed: IGALMI (dexmedetomidine) sublingual film",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99476e8c-2527-4cb0-9d67-9f9cd91343c6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "clozapine",
+      "generic": "clozapine",
+      "brands": [
+        "Clozaril",
+        "Versacloz"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Treatment-resistant schizophrenia / suicidal behavior",
+      "indication": "Treatment of severely ill patients with schizophrenia who fail to respond adequately to standard antipsychotic treatment.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1989,
+      "dosing": {
+        "start": "12.5 mg once or twice daily",
+        "target": "300–450 mg/day in divided doses by end of week 2 (increase by 25–50 mg/day); further increases of ≤100 mg once or twice weekly",
+        "max": "900 mg/day",
+        "notes": "Baseline ANC required; do not start if ANC <1500/μL (<1000/μL with benign ethnic neutropenia); ANC monitoring per label (weekly for 6 months, every 2 weeks for months 6–12, then monthly). Re-titrate if ≥2 days missed. Reduce dose with strong CYP1A2 inhibitors (e.g., fluvoxamine); smoking lowers levels. The Clozapine REMS was eliminated by FDA effective June 2025; prescriber/pharmacy/patient enrollment and ANC reporting are no longer required, but labeled ANC monitoring remains."
+      },
+      "formulations": [
+        "Tablets (25–200 mg)",
+        "Orally disintegrating tablets (generic)",
+        "Oral suspension 50 mg/mL (Versacloz)"
+      ],
+      "boxedWarnings": [
+        "Severe neutropenia",
+        "Orthostatic hypotension, bradycardia, and syncope",
+        "Seizures",
+        "Myocarditis, pericarditis, and cardiomyopathy",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known serious hypersensitivity to clozapine (e.g., photosensitivity, vasculitis, erythema multiforme, Stevens-Johnson syndrome) or any component"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Clozapine is the most effective medicine for schizophrenia that has not improved with other treatments; it needs regular blood tests to check white blood cells.",
+      "source": {
+        "label": "DailyMed: CLOZARIL (clozapine) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Versacloz label also checked (setid 2592c9a8-fd74-4e0d-a895-b07b014cf355). REMS removal confirmed by FDA Drug Safety Communication (2025)."
+      }
+    },
+    {
+      "drugId": "clozapine",
+      "generic": "clozapine",
+      "brands": [
+        "Clozaril",
+        "Versacloz"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Treatment-resistant schizophrenia / suicidal behavior",
+      "indication": "Reducing the risk of recurrent suicidal behavior in patients with schizophrenia or schizoaffective disorder who are judged to be at chronic risk for re-experiencing suicidal behavior.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2002,
+      "dosing": {
+        "start": "12.5 mg once or twice daily",
+        "target": "300–450 mg/day in divided doses by end of week 2",
+        "max": "900 mg/day",
+        "notes": "Label suggests treatment for at least 2 years for this indication. Baseline ANC required; do not start if ANC <1500/μL (<1000/μL with benign ethnic neutropenia); ANC monitoring per label (weekly for 6 months, every 2 weeks for months 6–12, then monthly). Re-titrate if ≥2 days missed. Reduce dose with strong CYP1A2 inhibitors (e.g., fluvoxamine); smoking lowers levels. The Clozapine REMS was eliminated by FDA effective June 2025; prescriber/pharmacy/patient enrollment and ANC reporting are no longer required, but labeled ANC monitoring remains."
+      },
+      "formulations": [
+        "Tablets (25–200 mg)",
+        "Orally disintegrating tablets (generic)",
+        "Oral suspension 50 mg/mL (Versacloz)"
+      ],
+      "boxedWarnings": [
+        "Severe neutropenia",
+        "Orthostatic hypotension, bradycardia, and syncope",
+        "Seizures",
+        "Myocarditis, pericarditis, and cardiomyopathy",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known serious hypersensitivity to clozapine (e.g., photosensitivity, vasculitis, erythema multiforme, Stevens-Johnson syndrome) or any component"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Clozapine is also the only medicine approved to lower the risk of repeated suicide attempts in schizophrenia.",
+      "source": {
+        "label": "DailyMed: CLOZARIL (clozapine) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Aripiprazole added to clozapine",
+      "drugClass": "Atypical antipsychotic (augmentation)",
+      "use": "Partial response to clozapine (clozapine-resistant symptoms) and mitigation of clozapine-associated weight/metabolic effects",
+      "evidence": "RCT-supported",
+      "notes": "Among augmentation agents, aripiprazole had one of the larger pooled effects on total symptoms in a network meta-analysis, though many trials were small or low quality; an RCT showed weight and lipid benefits with modest symptom effects. Antipsychotic polypharmacy adds adverse-effect burden; confirm adequate clozapine levels and adherence first.",
+      "references": [
+        {
+          "label": "Siskind DJ et al. Augmentation strategies for clozapine refractory schizophrenia: systematic review and meta-analysis. Aust N Z J Psychiatry 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29732913/"
+        },
+        {
+          "label": "Fleischhacker WW et al. Adjunctive aripiprazole in clozapine-treated patients: randomized trial. Int J Neuropsychopharmacol 2010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20459883/"
+        }
+      ]
+    },
+    {
+      "agent": "Valproate (divalproex) added to an antipsychotic or clozapine",
+      "drugClass": "Anticonvulsant mood stabilizer",
+      "use": "Adjunct for partial response, persistent hostility/aggression, or clozapine-induced seizure prophylaxis",
+      "evidence": "limited",
+      "notes": "Cochrane review found a response benefit that disappeared when open-label trials were excluded; more sedation and dizziness. Hepatotoxicity, pancreatitis, thrombocytopenia, weight gain, and major teratogenicity (avoid in people who may become pregnant when alternatives exist); may raise or lower clozapine levels.",
+      "references": [
+        {
+          "label": "Wang Y et al. Valproate for schizophrenia. Cochrane Database Syst Rev 2016 (CD004028)",
+          "url": "https://www.cochrane.org/evidence/CD004028_valproate-schizophrenia"
+        },
+        {
+          "label": "Siskind DJ et al. Aust N Z J Psychiatry 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29732913/"
+        }
+      ]
+    },
+    {
+      "agent": "Antidepressants (e.g., SSRIs, mirtazapine) added to an antipsychotic",
+      "drugClass": "Antidepressants",
+      "use": "Persistent negative symptoms or comorbid depressive symptoms",
+      "evidence": "RCT-supported",
+      "notes": "Meta-analysis of 82 RCTs showed small benefits for negative and depressive symptoms without increased psychosis exacerbation; more GI, dizziness, and anticholinergic effects. Watch CYP2D6/1A2 interactions (e.g., fluvoxamine or fluoxetine raising clozapine or other antipsychotic levels) and QT effects.",
+      "references": [
+        {
+          "label": "Helfer B et al. Antidepressants added to antipsychotics for schizophrenia: systematic review and meta-analysis. Am J Psychiatry 2016",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27282362/"
+        }
+      ]
+    },
+    {
+      "agent": "Clozapine",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Treatment-resistant schizophrenia in children and adolescents (clozapine is not FDA-approved under 18)",
+      "evidence": "guideline-recommended",
+      "notes": "AACAP practice parameter supports clozapine for youth with treatment-refractory schizophrenia. Youth may have higher rates of neutropenia, seizures, and metabolic effects; requires ANC monitoring and specialist oversight.",
+      "references": [
+        {
+          "label": "McClellan J et al. AACAP practice parameter for children and adolescents with schizophrenia. J Am Acad Child Adolesc Psychiatry 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23972700/"
+        }
+      ]
+    },
+    {
+      "agent": "Clozapine",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Persistent substantial aggressive behavior in schizophrenia (outside the labeled treatment-resistance and suicidality indications)",
+      "evidence": "guideline-recommended",
+      "notes": "The APA 2020 guideline suggests clozapine for patients with schizophrenia who have substantial or persistent aggressive behavior despite other treatments. Same neutropenia, myocarditis, seizure, and metabolic monitoring as for labeled use.",
+      "references": [
+        {
+          "label": "Keepers GA et al. APA Practice Guideline for the Treatment of Patients With Schizophrenia, 3rd ed. Am J Psychiatry 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32867516/"
+        }
+      ]
+    },
+    {
+      "agent": "Lorazepam (oral or IM)",
+      "drugClass": "Benzodiazepine",
+      "use": "Acute agitation in psychosis, alone or with an antipsychotic",
+      "evidence": "guideline-recommended",
+      "notes": "Recommended in the AAEP Project BETA consensus as an option for agitation, particularly when cause is uncertain. Risk of respiratory depression and oversedation, especially with alcohol, opioids, or parenteral olanzapine (concurrent use not recommended).",
+      "references": [
+        {
+          "label": "Wilson MP et al. Psychopharmacology of agitation: AAEP Project BETA consensus. West J Emerg Med 2012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22461918/"
+        }
+      ]
+    },
+    {
+      "agent": "Lorazepam",
+      "drugClass": "Benzodiazepine",
+      "use": "Catatonia occurring in schizophrenia (lorazepam challenge and treatment)",
+      "evidence": "guideline-recommended",
+      "notes": "The 2023 British Association for Psychopharmacology consensus guideline names benzodiazepines (lorazepam preferred) and/or ECT as first-line; evidence is mostly observational. Antipsychotics may worsen catatonia or raise NMS risk in some patients; monitor sedation and respiration.",
+      "references": [
+        {
+          "label": "Rogers JP et al. Catatonia: BAP consensus guidelines. J Psychopharmacol 2023 (PMC full text)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10101189/"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}
