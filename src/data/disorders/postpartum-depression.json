@@ -1,0 +1,66 @@
+{
+  "id": "postpartum-depression",
+  "name": "Postpartum depression",
+  "aliases": ["Perinatal depression", "PPD", "Major depressive disorder with peripartum onset"],
+  "category": "Depressive disorders",
+  "summary": "Major depressive episode with onset in pregnancy or within the first weeks to months after delivery (DSM-5-TR: MDD with peripartum onset). Zuranolone (Zurzuvae) is the only FDA-approved PPD-specific drug currently marketed; brexanolone (Zulresso) was withdrawn from the US market (approval withdrawn April 14, 2025). Standard antidepressants, especially SSRIs, remain widely used and are guideline-recommended.",
+  "plainSummary": "Postpartum depression is depression that starts during pregnancy or after having a baby. It is common and treatable with talk therapy, medicine, or both.",
+  "approved": [
+    {
+      "drugId": "zuranolone",
+      "generic": "zuranolone",
+      "brands": ["Zurzuvae"],
+      "drugClass": "Neuroactive steroid GABA-A receptor positive modulator",
+      "indication": "Treatment of postpartum depression (PPD) in adults.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2023,
+      "dosing": {
+        "start": "50 mg once daily in the evening with fat-containing food",
+        "target": "50 mg once daily for 14 days",
+        "max": "50 mg/day; single 14-day course",
+        "notes": "Reduce to 40 mg once daily if CNS depressant effects occur. Use 30 mg once daily with strong CYP3A4 inhibitors, severe hepatic impairment (Child-Pugh C), or eGFR <60 mL/min/1.73 m2. Avoid CYP3A4 inducers. Safety and efficacy beyond 14 days not established. Used alone or with an existing oral antidepressant in trials (label does not restrict)."
+      },
+      "formulations": ["Oral capsules 20 mg, 25 mg, 30 mg"],
+      "boxedWarnings": ["Impaired ability to drive or engage in other potentially hazardous activities (do not drive for at least 12 hours after each dose)"],
+      "contraindications": [],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": false,
+      "plainSummary": "Zuranolone is a pill taken once each evening for two weeks to treat depression after childbirth. It can cause strong sleepiness, so people should not drive for at least 12 hours after each dose.",
+      "source": {
+        "label": "DailyMed: Zurzuvae (zuranolone) capsules prescribing information (revised 4/2026)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f18e53b0-d0bb-422d-8de7-ab64b7292b29"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, boxed warning, dosing adjustments, contraindications (none), C-IV schedule, and strengths confirmed on current DailyMed label (revised 4/2026). Label also advises effective contraception during treatment and for 1 week after (embryo-fetal toxicity). The label does not explicitly say 'monotherapy or adjunctive'; role reflects trial design (with or without existing antidepressant)."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Sertraline, escitalopram, and other SSRIs",
+      "drugClass": "Selective serotonin reuptake inhibitor",
+      "use": "First-line pharmacotherapy for perinatal/postpartum depression (approved for MDD, not PPD-specific)",
+      "evidence": "guideline-recommended",
+      "notes": "ACOG Clinical Practice Guideline No. 5 names SSRIs (sertraline and escitalopram commonly cited) as first-line pharmacotherapy for perinatal depression. These drugs are FDA-approved for major depressive disorder, which includes peripartum onset, but carry no PPD-specific labeling. Cochrane review found low-certainty evidence that SSRIs improve response and remission versus placebo. Consider lactation data, neonatal adaptation in late-pregnancy exposure, and the antidepressant boxed warning for suicidal thoughts in young adults.",
+      "references": [
+        { "label": "ACOG Clinical Practice Guideline No. 5 (Obstet Gynecol 2023), PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/37486661/" },
+        { "label": "Brown et al. Antidepressant treatment for postnatal depression. Cochrane 2021, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/33580709/" }
+      ]
+    },
+    {
+      "agent": "Brexanolone (Zulresso), discontinued",
+      "drugClass": "Neuroactive steroid GABA-A receptor positive modulator (IV)",
+      "use": "Historical: IV infusion for PPD (patients 15 years and older); no longer available in the US",
+      "evidence": "RCT-supported",
+      "notes": "Not off-label, but listed here for context because it no longer has US approval. Brexanolone was FDA-approved in 2019 as a 60-hour continuous IV infusion under a REMS for excessive sedation and loss of consciousness. Sage stopped marketing it in late 2024, and FDA withdrew approval (NDA 211371) effective April 14, 2025, for commercial reasons, not safety or efficacy.",
+      "references": [
+        { "label": "Federal Register 2025-04101: withdrawal of approval of Zulresso (NDA 211371)", "url": "https://www.govinfo.gov/content/pkg/FR-2025-03-14/html/2025-04101.htm" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}
