@@ -514,7 +514,7 @@ ul.tight {
 .offlabel {
   border: 1px solid var(--offlabel-border);
   border-left-width: 5px;
-  background: linear-gradient(var(--offlabel-soft), var(--offlabel-soft)) top / 100% 3.2rem no-repeat, var(--surface);
+  background: color-mix(in srgb, var(--offlabel-soft) 45%, var(--surface));
 }
 
 .offlabel p {

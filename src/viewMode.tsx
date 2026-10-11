@@ -13,7 +13,9 @@ export function ViewModeProvider({ children }: { children: ReactNode }) {
   const [mode, setMode] = useState<ViewMode>(() =>
     localStorage.getItem(STORAGE_KEY) === 'plain' ? 'plain' : 'clinician',
   );
-  useEffect(() => localStorage.setItem(STORAGE_KEY, mode), [mode]);
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEY, mode);
+  }, [mode]);
   return <ViewModeContext.Provider value={{ mode, setMode }}>{children}</ViewModeContext.Provider>;
 }
 
