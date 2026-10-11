@@ -1,0 +1,49 @@
+{
+  "id": "binge-eating-disorder",
+  "name": "Binge-eating disorder",
+  "aliases": ["BED"],
+  "category": "Feeding & eating disorders",
+  "summary": "Recurrent episodes of eating unusually large amounts of food with loss of control, without regular compensatory behaviors. Psychotherapy (CBT) is first-line. Lisdexamfetamine is the only FDA-approved medication (adults, moderate to severe BED); no new eating-disorder drug approvals were found for 2024–2026.",
+  "plainSummary": "People with binge-eating disorder often eat a lot of food quickly and feel out of control and upset afterward. Talk therapy helps most people, and one medicine is approved for adults.",
+  "approved": [
+    {
+      "drugId": "lisdexamfetamine",
+      "generic": "lisdexamfetamine",
+      "brands": ["Vyvanse"],
+      "drugClass": "CNS stimulant (amphetamine prodrug)",
+      "indication": "Treatment of moderate to severe binge eating disorder (BED) in adults. Limitation of Use: not indicated or recommended for weight loss; safety and effectiveness for obesity not established.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "30 mg once every morning",
+        "target": "50–70 mg/day; titrate by 20 mg weekly",
+        "max": "70 mg/day",
+        "notes": "Severe renal impairment: max 50 mg/day; ESRD: max 30 mg/day. Avoid afternoon doses. Assess cardiac risk before starting."
+      },
+      "formulations": ["Capsule 10–70 mg", "Chewable tablet 10–60 mg"],
+      "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
+      "contraindications": ["Hypersensitivity to amphetamine products or other ingredients", "MAOI use or within 14 days of stopping an MAOI (including linezolid or IV methylene blue)"],
+      "rems": null,
+      "controlledSubstance": "C-II",
+      "genericAvailable": true,
+      "plainSummary": "A once-daily stimulant that can reduce the number of binge days in adults; it is a controlled medicine and is not meant for weight loss.",
+      "source": { "label": "DailyMed: Vyvanse (lisdexamfetamine dimesylate) capsules and chewable tablets", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=704e4378-ca83-445c-8b45-3cfa51c1ecad" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Label effective 4/2026 checked (indication, BED dosing table, renal limits, contraindications)." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Topiramate",
+      "drugClass": "Anticonvulsant",
+      "use": "Reducing binge frequency, often with obesity",
+      "evidence": "RCT-supported",
+      "notes": "Placebo-controlled trials showed fewer binge episodes and weight loss, but discontinuation for adverse effects was higher (paresthesia, cognitive slowing, word-finding difficulty, kidney stones). Teratogenic risk (oral clefts) in pregnancy.",
+      "references": [
+        { "label": "McElroy SL et al. Topiramate for BED associated with obesity: placebo-controlled study. Biol Psychiatry 2007 (PMID 17258690)", "url": "https://pubmed.ncbi.nlm.nih.gov/17258690/" },
+        { "label": "Hirsch D et al. Approved and pipeline pharmacological interventions for eating disorders (2010–2025). CNS Drugs 2025", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12855243/" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

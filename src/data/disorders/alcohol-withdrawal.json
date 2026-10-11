@@ -1,0 +1,187 @@
+{
+  "id": "alcohol-withdrawal",
+  "name": "Alcohol withdrawal",
+  "aliases": ["Alcohol withdrawal syndrome", "AWS", "Delirium tremens", "Alcohol detoxification"],
+  "category": "Substance-related & addictive disorders",
+  "summary": "Benzodiazepines are first-line. Chlordiazepoxide, diazepam (oral and injectable), clorazepate, and oxazepam carry labeled alcohol-withdrawal indications; lorazepam does not. ASAM (2020) lists carbamazepine and gabapentin as alternatives for mild–moderate withdrawal and phenobarbital for experienced clinicians, usually inpatients. Symptom-triggered dosing (e.g., CIWA-Ar) is common, and thiamine should be given to prevent Wernicke encephalopathy.",
+  "plainSummary": "Stopping heavy drinking suddenly can cause shakiness, sweating, anxiety, seizures, and sometimes a dangerous confusion called delirium tremens. Calming medicines, usually benzodiazepines, keep withdrawal safe while the body adjusts.",
+  "sections": ["Benzodiazepines", "Other labeled agents"],
+  "approved": [
+    {
+      "drugId": "chlordiazepoxide",
+      "generic": "chlordiazepoxide",
+      "brands": ["Librium"],
+      "drugClass": "Benzodiazepine (long-acting)",
+      "section": "Benzodiazepines",
+      "indication": "Relief of withdrawal symptoms of acute alcoholism (also labeled for anxiety disorders and preoperative apprehension).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults (not recommended under 6 years; alcohol-withdrawal dosing is for adults)", "pediatric": false },
+      "approvalYear": 1960,
+      "dosing": {
+        "start": "50–100 mg orally",
+        "target": "Repeat as needed until agitation is controlled, then reduce to maintenance levels and taper",
+        "max": "300 mg/day",
+        "notes": "The label notes that parenteral therapy is usually used first, but chlordiazepoxide injection is no longer marketed. Long-acting metabolites accumulate in hepatic impairment and in older adults; consider oxazepam or lorazepam instead. Taper gradually to avoid benzodiazepine withdrawal."
+      },
+      "formulations": ["Capsules 5 mg, 10 mg, 25 mg"],
+      "boxedWarnings": ["Risks from concomitant use with opioids", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+      "contraindications": ["Hypersensitivity to chlordiazepoxide"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Chlordiazepoxide is a long-acting calming medicine used for a few days to prevent dangerous alcohol withdrawal, with the dose lowered as symptoms settle.",
+      "source": { "label": "DailyMed: Chlordiazepoxide HCl capsules USP (Teva)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e3ff8641-ae8a-4016-acb1-cb1b7890f5ed" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Librium capsules (Bausch ANDA) are listed as marketed in Drugs@FDA; Librium injection is discontinued. The approval year (1960) comes from historical sources." }
+    },
+    {
+      "drugId": "diazepam",
+      "generic": "diazepam (oral and injection)",
+      "brands": ["Valium"],
+      "drugClass": "Benzodiazepine (long-acting)",
+      "section": "Benzodiazepines",
+      "indication": "Treatment of tremor, acute agitation, hallucinosis, and impending delirium tremens or delirium tremens in acute alcohol withdrawal (oral). Injection: symptomatic relief of acute agitation, tremor, impending or acute delirium tremens, and hallucinosis in acute alcohol withdrawal.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 1963,
+      "dosing": {
+        "start": "Oral: 10 mg three to four times in the first 24 hours. IV/IM: 10 mg initially",
+        "target": "Oral: then 5 mg three to four times daily as needed. IV/IM: 5–10 mg in 3–4 hours if necessary",
+        "max": "No fixed maximum in the label; some patients need higher doses (increase gradually)",
+        "notes": "Long half-life allows self-tapering. Use caution in hepatic impairment, older adults, and respiratory compromise. IV: inject slowly and watch for respiratory depression and hypotension."
+      },
+      "formulations": ["Tablets 2 mg, 5 mg, 10 mg", "Oral solution", "Injection 5 mg/mL (IV/IM)"],
+      "boxedWarnings": ["Risks from concomitant use with opioids", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+      "contraindications": ["Hypersensitivity to diazepam or excipients", "Acute narrow-angle glaucoma", "Injection: untreated open-angle glaucoma"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Diazepam is a calming medicine that can be taken by mouth or given by injection to control shaking, agitation, and the risk of delirium during alcohol withdrawal.",
+      "source": { "label": "DailyMed: VALIUM (diazepam) tablets", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Valium label (PLR format, rev. 10/2026) and generic diazepam injection label (https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f466f8a3-f31c-44f4-b0e8-444464f20f66) were both checked. Boxed warnings are from the benzodiazepine class labeling and were not re-read on this label." }
+    },
+    {
+      "drugId": "clorazepate",
+      "generic": "clorazepate dipotassium",
+      "brands": ["Tranxene T-Tab"],
+      "drugClass": "Benzodiazepine (long-acting prodrug)",
+      "section": "Benzodiazepines",
+      "indication": "Symptomatic relief of acute alcohol withdrawal (also labeled for anxiety and as adjunct for partial seizures).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 1972,
+      "dosing": {
+        "start": "Day 1: 30 mg, then 30–60 mg in divided doses",
+        "target": "Day 2: 45–90 mg; Day 3: 22.5–45 mg; Day 4: 15–30 mg (divided doses); then reduce to 7.5–15 mg/day and stop when stable",
+        "max": "90 mg/day",
+        "notes": "Avoid excessive reductions in total dose on successive days. Converted to desmethyldiazepam, which accumulates in older adults and in hepatic impairment."
+      },
+      "formulations": ["Tablets 3.75 mg, 7.5 mg, 15 mg"],
+      "boxedWarnings": ["Risks from concomitant use with opioids", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+      "contraindications": ["Hypersensitivity to clorazepate", "Acute narrow-angle glaucoma"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Clorazepate is a long-acting calming pill that can be used on a set, day-by-day lowering schedule to manage alcohol withdrawal.",
+      "source": { "label": "DailyMed: Clorazepate dipotassium tablets (Sun Pharma)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=499a6989-8912-44b7-b1eb-ee8f85ae378f" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Drugs@FDA shows Tranxene T-Tab 7.5 mg as still listed for prescription; other Tranxene strengths are discontinued. The approval year (1972) comes from historical sources." }
+    },
+    {
+      "drugId": "oxazepam",
+      "generic": "oxazepam",
+      "brands": [],
+      "drugClass": "Benzodiazepine (short-to-intermediate acting, no active metabolites)",
+      "section": "Benzodiazepines",
+      "indication": "Label states: 'Alcoholics with acute tremulousness, inebriation, or with anxiety associated with alcohol withdrawal are responsive to therapy' (within its anxiety indications).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 1965,
+      "dosing": {
+        "start": "15–30 mg three or four times daily",
+        "target": "15–30 mg three or four times daily, then taper",
+        "max": "120 mg/day (30 mg four times daily)",
+        "notes": "Glucuronidated without active metabolites, so often preferred in hepatic impairment and in older adults. Slower oral absorption makes it less suited to rapid symptom control."
+      },
+      "formulations": ["Capsules 10 mg, 15 mg, 30 mg"],
+      "boxedWarnings": ["Risks from concomitant use with opioids", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+      "contraindications": ["Hypersensitivity to oxazepam", "Not indicated in psychoses"],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Oxazepam is a shorter-acting calming pill for alcohol withdrawal that is often chosen for people with liver problems or older adults.",
+      "source": { "label": "DailyMed: Oxazepam capsules USP (Epic Pharma)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb6d9142-3647-4591-8f84-31b61b755634" },
+      "verified": { "date": "2026-10-11", "status": "partially-verified", "note": "Alcohol-withdrawal wording and dosing were confirmed, but the label's phrasing is descriptive rather than a standalone indication. The 120 mg/day maximum is inferred from the labeled 30 mg four-times-daily dosing. Available strengths and the approval year (1965) were not confirmed on this label. The Serax brand is no longer marketed." }
+    },
+    {
+      "drugId": "hydroxyzine",
+      "generic": "hydroxyzine hydrochloride (intramuscular)",
+      "brands": [],
+      "drugClass": "Antihistamine (H1 antagonist) with anxiolytic/sedative effects",
+      "section": "Other labeled agents",
+      "indication": "Hydroxyzine IM solution is useful in treating 'the acute or chronic alcoholic with anxiety withdrawal symptoms or delirium tremens' when intramuscular administration is indicated.",
+      "role": "adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": null,
+      "dosing": {
+        "start": "50–100 mg IM stat",
+        "target": "50–100 mg IM every 4–6 hours as needed",
+        "max": "Not specified in label",
+        "notes": "IM only; never SC, intra-arterial, or IV. Does not prevent withdrawal seizures or delirium tremens and is not a substitute for benzodiazepines; rarely used for this purpose today. Risks include QT prolongation and anticholinergic effects that can worsen delirium."
+      },
+      "formulations": ["Injection 25 mg/mL, 50 mg/mL (IM)"],
+      "boxedWarnings": [],
+      "contraindications": ["Prolonged QT interval", "Hypersensitivity to hydroxyzine", "Early pregnancy", "SC, intra-arterial, or IV injection"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A hydroxyzine shot can calm anxiety during alcohol withdrawal, but it does not prevent seizures, so it is used only as an add-on.",
+      "source": { "label": "DailyMed: Hydroxyzine hydrochloride injection USP (American Regent)", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8af7e5ce-d9d9-44cc-9f2f-4ddbc89e758a" },
+      "verified": { "date": "2026-10-11", "status": "partially-verified", "note": "Indication wording, IM dosing, and contraindications were confirmed on the label (rev. 6/2024). Approval year and available strengths were not confirmed. Classified as adjunctive by editorial judgment, since it lacks anticonvulsant protection." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Lorazepam",
+      "drugClass": "Benzodiazepine (intermediate-acting, no active metabolites)",
+      "use": "Alcohol withdrawal, especially with hepatic impairment, in older adults, or when IV/IM dosing is needed",
+      "evidence": "guideline-recommended",
+      "notes": "Lorazepam is not labeled for alcohol withdrawal but is widely used and accepted by ASAM 2020 as a benzodiazepine option. Its shorter half-life can cause breakthrough symptoms. High-dose IV infusions carry propylene glycol toxicity risk. Benzodiazepine boxed warnings apply.",
+      "references": [
+        { "label": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management (2020), pocket guide", "url": "https://eguideline.guidelinecentral.com/i/1254278/16" },
+        { "label": "Amato L, et al. Efficacy and safety of pharmacological interventions for the treatment of the alcohol withdrawal syndrome. Cochrane 2011", "url": "https://pubmed.ncbi.nlm.nih.gov/21678378/" }
+      ]
+    },
+    {
+      "agent": "Phenobarbital",
+      "drugClass": "Barbiturate",
+      "use": "Monotherapy or adjunct for moderate–severe or benzodiazepine-resistant alcohol withdrawal (inpatient/ICU)",
+      "evidence": "guideline-recommended",
+      "notes": "ASAM 2020 limits it to clinicians experienced in its use, mainly in inpatient or monitored settings, because of a narrow therapeutic window and respiratory depression (especially combined with benzodiazepines). Loading-dose protocols vary. Most phenobarbital products are marketed without FDA approval.",
+      "references": [
+        { "label": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management (2020), pocket guide", "url": "https://eguideline.guidelinecentral.com/i/1254278/16" },
+        { "label": "J Hosp Med summary of ASAM alcohol withdrawal guideline", "url": "https://cdn.mdedge.com/files/s3fs-public/JHMVol16No12_Ganatra08011215e.PDF" }
+      ]
+    },
+    {
+      "agent": "Carbamazepine",
+      "drugClass": "Anticonvulsant",
+      "use": "Alternative to benzodiazepines for mild–moderate withdrawal (ambulatory), or as an adjunct",
+      "evidence": "guideline-recommended",
+      "notes": "ASAM 2020 lists it as an appropriate alternative when benzodiazepines are contraindicated or undesirable (e.g., about 600–800 mg/day tapered over 4–9 days). It has not been shown to prevent withdrawal seizures or delirium in severe withdrawal. Cautions: CYP3A4 induction and drug interactions, hyponatremia, blood dyscrasias, SJS/TEN (screen for HLA-B*15:02 in at-risk ancestry), and teratogenicity.",
+      "references": [
+        { "label": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management (2020), pocket guide", "url": "https://eguideline.guidelinecentral.com/i/1254278/16" },
+        { "label": "Minozzi S, et al. Anticonvulsants for alcohol withdrawal. Cochrane 2010", "url": "https://pubmed.ncbi.nlm.nih.gov/20238337/" }
+      ]
+    },
+    {
+      "agent": "Gabapentin",
+      "drugClass": "Anticonvulsant (alpha-2-delta ligand)",
+      "use": "Alternative or adjunct for mild–moderate withdrawal, especially when continuing it afterward for AUD",
+      "evidence": "guideline-recommended",
+      "notes": "ASAM 2020 lists it as an alternative for mild–moderate withdrawal, with regimens such as a 1200 mg load then 600 mg every 6 h, tapering over 4–7 days. It is not adequate alone for severe withdrawal or a history of seizures or delirium tremens. Cautions: sedation, misuse potential, and renal dosing.",
+      "references": [
+        { "label": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management (2020), pocket guide", "url": "https://eguideline.guidelinecentral.com/i/1254278/16" }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}
