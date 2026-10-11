@@ -1,0 +1,193 @@
+{
+  "id": "posttraumatic-stress-disorder",
+  "name": "Posttraumatic stress disorder",
+  "aliases": [
+    "PTSD"
+  ],
+  "category": "Trauma- & stressor-related disorders",
+  "summary": "Intrusion, avoidance, negative mood/cognition, and hyperarousal after trauma lasting more than 1 month. Only sertraline and paroxetine are FDA-labeled for PTSD. Trauma-focused psychotherapy is preferred over medication in VA/DoD 2023. FDA declined MDMA-assisted therapy (CRL, Aug 2024) and brexpiprazole plus sertraline (CRL, Sept 2025). Methylone (TSND-201) received a priority voucher in 2026 but has no approval.",
+  "plainSummary": "PTSD can follow a frightening or dangerous event. It brings upsetting memories, nightmares, avoiding reminders, and feeling on edge. Trauma-focused therapy works best, and some antidepressants also help.",
+  "approved": [
+    {
+      "drugId": "sertraline",
+      "generic": "sertraline",
+      "brands": [
+        "Zoloft"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of posttraumatic stress disorder (PTSD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1999,
+      "dosing": {
+        "start": "25 mg once daily for 1 week, then 50 mg",
+        "target": "50–200 mg/day",
+        "max": "200 mg/day",
+        "notes": "Increase by 25–50 mg/day once weekly. Mild hepatic impairment: half the usual dose; not recommended in moderate or severe impairment."
+      },
+      "formulations": [
+        "Tablets 25, 50, 100 mg",
+        "Oral concentrate 20 mg/mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Pimozide",
+        "Hypersensitivity to sertraline",
+        "Disulfiram (oral concentrate only)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Sertraline is a daily antidepressant (SSRI) approved for PTSD in adults. It can ease intrusive memories, avoidance, and feeling on edge.",
+      "source": {
+        "label": "DailyMed: Zoloft (sertraline) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approval year from Drugs@FDA efficacy supplement (Dec 1999)."
+      }
+    },
+    {
+      "drugId": "paroxetine",
+      "generic": "paroxetine",
+      "brands": [
+        "Paxil"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of posttraumatic stress disorder (PTSD) in adults (Paxil immediate-release; Paxil CR is not labeled for PTSD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2001,
+      "dosing": {
+        "start": "20 mg once daily",
+        "target": "Increase by 10 mg/day weekly as needed",
+        "max": "50 mg/day",
+        "notes": "Geriatric, severe renal or hepatic impairment: start 10 mg/day, max 40 mg/day. Taper to stop."
+      },
+      "formulations": [
+        "Tablets 10, 20, 30, 40 mg",
+        "Oral suspension 10 mg/5 mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Drugs that prolong the QTc interval and are CYP2D6 substrates (e.g., thioridazine, pimozide)",
+        "Hypersensitivity to paroxetine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Paroxetine is a daily antidepressant (SSRI) approved for PTSD in adults. Stopping it suddenly can cause withdrawal-like symptoms.",
+      "source": {
+        "label": "DailyMed: Paxil (paroxetine) tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ef3b5cbe-f9e1-c1ac-79da-cfe14e3a7e7e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label reformatted Sept 2026; maximum for PTSD listed as 50 mg/day."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Venlafaxine extended-release",
+      "drugClass": "SNRI",
+      "use": "PTSD (monotherapy)",
+      "evidence": "guideline-recommended",
+      "notes": "VA/DoD 2023 gives a strong recommendation for paroxetine, sertraline, or venlafaxine; the American Psychological Association 2017 guideline also conditionally recommends it. Not FDA-labeled for PTSD. Can raise blood pressure; discontinuation symptoms.",
+      "references": [
+        {
+          "label": "VA/DoD Clinical Practice Guideline for PTSD and Acute Stress Disorder (2023)",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Full-CPG-Edited-111624-V5-81825.pdf"
+        },
+        {
+          "label": "American Psychological Association 2017 PTSD guideline (summary, Am Psychol 2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31305099/"
+        }
+      ]
+    },
+    {
+      "agent": "Fluoxetine",
+      "drugClass": "SSRI",
+      "use": "PTSD (monotherapy)",
+      "evidence": "guideline-recommended",
+      "notes": "Conditionally recommended by the American Psychological Association (2017). VA/DoD 2023 downgraded fluoxetine to insufficient evidence (neither for nor against). Not FDA-labeled for PTSD.",
+      "references": [
+        {
+          "label": "American Psychological Association 2017 PTSD guideline (summary, Am Psychol 2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31305099/"
+        },
+        {
+          "label": "VA/DoD Clinical Practice Guideline for PTSD and Acute Stress Disorder (2023)",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Full-CPG-Edited-111624-V5-81825.pdf"
+        }
+      ]
+    },
+    {
+      "agent": "Prazosin",
+      "drugClass": "Alpha-1 adrenergic antagonist",
+      "use": "PTSD-associated nightmares",
+      "evidence": "guideline-recommended",
+      "notes": "VA/DoD 2023 suggests prazosin for PTSD nightmares (weak for) but suggests against it for overall PTSD symptoms. A large VA trial (Raskind 2018) found no benefit over placebo; AASM 2018 lists it as 'may be used'. Titrate slowly from a low bedtime dose; cautions: orthostatic hypotension, first-dose syncope, dizziness.",
+      "references": [
+        {
+          "label": "VA/DoD Clinical Practice Guideline for PTSD and Acute Stress Disorder (2023)",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Full-CPG-Edited-111624-V5-81825.pdf"
+        },
+        {
+          "label": "Raskind et al. 2018, NEJM: Trial of prazosin for PTSD in military veterans",
+          "url": "https://ce.massmed.nejm.org/content/trial-prazosin-post-traumatic-stress-disorder-military-veterans"
+        },
+        {
+          "label": "AASM 2018 position paper: Treatment of nightmare disorder in adults",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29852917/"
+        }
+      ]
+    },
+    {
+      "agent": "Topiramate",
+      "drugClass": "Anticonvulsant",
+      "use": "PTSD symptoms (monotherapy or adjunct), sometimes with comorbid alcohol use disorder",
+      "evidence": "limited",
+      "notes": "Small, mixed RCTs; meta-analyses suggest at most a small effect on hyperarousal. VA/DoD 2023: insufficient evidence for or against. Cautions: cognitive slowing, paresthesias, kidney stones, metabolic acidosis, angle-closure glaucoma, teratogenicity.",
+      "references": [
+        {
+          "label": "Varma et al.: Topiramate as monotherapy or adjunctive treatment for PTSD, meta-analysis",
+          "url": "https://scholars.uky.edu/en/publications/topiramate-as-monotherapy-or-adjunctive-treatment-for-posttraumat/"
+        },
+        {
+          "label": "VA/DoD Clinical Practice Guideline for PTSD and Acute Stress Disorder (2023)",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Full-CPG-Edited-111624-V5-81825.pdf"
+        }
+      ]
+    },
+    {
+      "agent": "Second-generation antipsychotic augmentation (e.g., risperidone, quetiapine)",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "Augmentation for residual PTSD symptoms",
+      "evidence": "limited",
+      "notes": "Commonly used, but VA/DoD 2023 suggests against antipsychotic augmentation (weak against), including brexpiprazole. The FDA issued a Complete Response Letter (Sept 2025) for brexpiprazole plus sertraline for PTSD after a 1–10 advisory committee vote on efficacy. Cautions: weight gain, metabolic effects, sedation, EPS/tardive dyskinesia.",
+      "references": [
+        {
+          "label": "VA/DoD Clinical Practice Guideline for PTSD and Acute Stress Disorder (2023)",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/ptsd/VA-DoD-CPG-PTSD-Full-CPG-Edited-111624-V5-81825.pdf"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}
