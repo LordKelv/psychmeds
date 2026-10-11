@@ -1,0 +1,84 @@
+{
+  "id": "idiopathic-hypersomnia",
+  "name": "Idiopathic hypersomnia",
+  "aliases": ["IH"],
+  "category": "Sleep-wake disorders",
+  "summary": "Idiopathic hypersomnia is a central disorder of hypersomnolence with excessive daytime sleepiness, often long, unrefreshing sleep, and severe sleep inertia, without cataplexy. Low-sodium oxybate (Xywav) is the only FDA-approved treatment. Modafinil, methylphenidate, pitolisant, sodium oxybate, and clarithromycin are used off-label per AASM 2021. FDA refused to file pitolisant's IH sNDA (February 2025), and once-nightly sodium oxybate (Lumryz) had a positive phase 3 trial in 2026 but is not approved for IH.",
+  "plainSummary": "Idiopathic hypersomnia causes heavy sleepiness during the day even after a long night's sleep, and it can be very hard to wake up. One medicine is FDA-approved for it, and doctors sometimes use others.",
+  "approved": [
+    {
+      "drugId": "calcium-magnesium-potassium-sodium-oxybates",
+      "generic": "calcium, magnesium, potassium, and sodium oxybates (low-sodium oxybate)",
+      "brands": ["Xywav"],
+      "drugClass": "CNS depressant (mixed GHB salts)",
+      "indication": "Treatment of idiopathic hypersomnia (IH) in adults.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "Twice nightly: 4.5 g/night or less, divided. Once nightly: 3 g or less",
+        "target": "Individualized; titrate by up to 1.5 g/night per week",
+        "max": "9 g/night (twice nightly); 6 g/night (once nightly)",
+        "notes": "Take at least 2 hours after eating, in bed. Doses may be divided equally or unequally. Hepatic impairment: start at half dose. Switch from Xyrem gram for gram."
+      },
+      "formulations": ["Oral solution: 0.5 g/mL total salts"],
+      "boxedWarnings": ["CNS depression, including respiratory depression and obtundation", "Abuse and misuse (GHB); available only through a restricted REMS program"],
+      "contraindications": ["Use with sedative-hypnotics", "Use with alcohol", "Succinic semialdehyde dehydrogenase deficiency"],
+      "rems": "XYWAV and XYREM REMS",
+      "controlledSubstance": "C-III",
+      "genericAvailable": false,
+      "plainSummary": "Xywav is a low-salt liquid medicine taken at night that helps adults with idiopathic hypersomnia feel less sleepy during the day. It is strictly controlled because it can slow breathing.",
+      "source": { "label": "DailyMed: Xywav prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e0ae43a-037f-42af-8e23-a0e51d75abe8" },
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Section 1.2 and the IH dosing (section 2.3) were checked on the Jazz SPL (effective July 2025). Approval year (2021) is from FDA approval history." }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Modafinil",
+      "drugClass": "Wake-promoting agent",
+      "use": "Excessive daytime sleepiness in IH",
+      "evidence": "guideline-recommended",
+      "notes": "AASM 2021 gives a strong recommendation for adults with IH. Cautions: headache, anxiety, insomnia, rare serious rash, and reduced hormonal contraceptive efficacy.",
+      "references": [{ "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" }]
+    },
+    {
+      "agent": "Methylphenidate",
+      "drugClass": "CNS stimulant",
+      "use": "Excessive daytime sleepiness in IH",
+      "evidence": "guideline-recommended",
+      "notes": "Conditional AASM 2021 recommendation for adults. Cautions: misuse potential (C-II, boxed warning), elevated blood pressure and heart rate, insomnia, anxiety, and appetite loss.",
+      "references": [{ "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" }]
+    },
+    {
+      "agent": "Pitolisant",
+      "drugClass": "H3 receptor antagonist/inverse agonist",
+      "use": "Excessive daytime sleepiness in IH",
+      "evidence": "guideline-recommended",
+      "notes": "Conditional AASM 2021 recommendation. The phase 3 INTUNE study missed its primary endpoint, and FDA issued a refusal-to-file letter for the IH sNDA in February 2025. Cautions: insomnia, headache, QT prolongation, CYP2D6/CYP3A4 interactions, and reduced hormonal contraceptive efficacy.",
+      "references": [
+        { "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" },
+        { "label": "NeurologyLive: FDA refuses to file Harmony sNDA for pitolisant in idiopathic hypersomnia (2025)", "url": "https://www.neurologylive.com/view/fda-refuses-file-harmony-supplemental-nda-pitolisant-idiopathic-hypersomnia" }
+      ]
+    },
+    {
+      "agent": "Sodium oxybate (Xyrem, generics, or once-nightly Lumryz)",
+      "drugClass": "CNS depressant (GHB salt)",
+      "use": "IH symptoms, including sleepiness and sleep inertia",
+      "evidence": "guideline-recommended",
+      "notes": "Conditional AASM 2021 recommendation. Lumryz met its primary endpoint in the phase 3 REVITALYZ IH trial (May 2026), with an sNDA planned by end of 2026, but it is not FDA-approved for IH. Cautions: REMS restriction, respiratory depression, contraindicated with alcohol and sedative-hypnotics, high sodium load, and misuse potential.",
+      "references": [
+        { "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" },
+        { "label": "Alkermes: positive topline results from REVITALYZ phase 3 study of Lumryz in IH (2026)", "url": "https://investor.alkermes.com/news-releases/news-release-details/alkermes-announces-positive-topline-results-revitalyzsm-phase-3" }
+      ]
+    },
+    {
+      "agent": "Clarithromycin",
+      "drugClass": "Macrolide antibiotic (proposed GABA-A negative modulation)",
+      "use": "IH refractory to standard wake-promoting agents",
+      "evidence": "guideline-recommended",
+      "notes": "Conditional AASM 2021 recommendation based on limited data. Cautions: GI upset, taste disturbance, QT prolongation, strong CYP3A4 inhibition with many interactions, C. difficile risk, and antimicrobial-resistance concerns with long-term use.",
+      "references": [{ "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" }]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}
