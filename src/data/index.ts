@@ -28,6 +28,9 @@ for (const disorder of disorders) {
       drug = { drugId: treatment.drugId, generic: treatment.generic, brands: [], drugClass: treatment.drugClass, indications: [] };
       drugs.set(treatment.drugId, drug);
     }
+    // Entries qualify the generic by formulation, e.g. "olanzapine (short-acting IM)"; show the plainest name.
+    const base = treatment.generic.replace(/\s*\(.*?\)\s*/g, ' ').trim();
+    if (base.length < drug.generic.length) drug.generic = base;
     for (const brand of treatment.brands) if (!drug.brands.includes(brand)) drug.brands.push(brand);
     drug.indications.push({ disorder, treatment });
   }

@@ -23,7 +23,7 @@ const check = async (url) => {
       signal: AbortSignal.timeout(20000),
       headers: { 'User-Agent': 'Mozilla/5.0 (link check)' },
     });
-    return res.status;
+    return res.ok ? 200 : res.status;
   } catch (e) {
     return e.name === 'TimeoutError' ? 'timeout' : e.message;
   }

@@ -22,7 +22,7 @@
   "approved": [
     {
       "drugId": "lithium",
-      "generic": "Lithium carbonate / lithium citrate",
+      "generic": "lithium carbonate / lithium citrate",
       "brands": [
         "Lithobid"
       ],
@@ -69,7 +69,7 @@
     },
     {
       "drugId": "divalproex",
-      "generic": "Divalproex sodium (valproate)",
+      "generic": "divalproex sodium (valproate)",
       "brands": [
         "Depakote",
         "Depakote ER"
@@ -121,7 +121,7 @@
     },
     {
       "drugId": "carbamazepine",
-      "generic": "Carbamazepine extended-release capsules",
+      "generic": "carbamazepine extended-release capsules",
       "brands": [
         "Equetro"
       ],
@@ -171,7 +171,7 @@
     },
     {
       "drugId": "chlorpromazine",
-      "generic": "Chlorpromazine hydrochloride",
+      "generic": "chlorpromazine hydrochloride",
       "brands": [
         "Thorazine (discontinued)"
       ],
@@ -217,7 +217,7 @@
     },
     {
       "drugId": "aripiprazole",
-      "generic": "Aripiprazole (oral)",
+      "generic": "aripiprazole (oral)",
       "brands": [
         "Abilify"
       ],
@@ -264,7 +264,7 @@
     },
     {
       "drugId": "asenapine",
-      "generic": "Asenapine",
+      "generic": "asenapine",
       "brands": [
         "Saphris"
       ],
@@ -309,7 +309,7 @@
     },
     {
       "drugId": "cariprazine",
-      "generic": "Cariprazine",
+      "generic": "cariprazine",
       "brands": [
         "Vraylar"
       ],
@@ -354,7 +354,7 @@
     },
     {
       "drugId": "iloperidone",
-      "generic": "Iloperidone",
+      "generic": "iloperidone",
       "brands": [
         "Fanapt"
       ],
@@ -398,7 +398,7 @@
     },
     {
       "drugId": "milsaperidone",
-      "generic": "Milsaperidone",
+      "generic": "milsaperidone",
       "brands": [
         "Bysanti"
       ],
@@ -442,7 +442,7 @@
     },
     {
       "drugId": "olanzapine",
-      "generic": "Olanzapine (oral)",
+      "generic": "olanzapine (oral)",
       "brands": [
         "Zyprexa",
         "Zyprexa Zydis"
@@ -488,7 +488,7 @@
     },
     {
       "drugId": "olanzapine-samidorphan",
-      "generic": "Olanzapine and samidorphan",
+      "generic": "olanzapine and samidorphan",
       "brands": [
         "Lybalvi"
       ],
@@ -532,7 +532,7 @@
     },
     {
       "drugId": "quetiapine",
-      "generic": "Quetiapine (immediate- and extended-release)",
+      "generic": "quetiapine (immediate- and extended-release)",
       "brands": [
         "Seroquel",
         "Seroquel XR"
@@ -579,7 +579,7 @@
     },
     {
       "drugId": "risperidone",
-      "generic": "Risperidone (oral)",
+      "generic": "risperidone (oral)",
       "brands": [
         "Risperdal",
         "Risperdal M-Tab"
@@ -626,7 +626,7 @@
     },
     {
       "drugId": "ziprasidone",
-      "generic": "Ziprasidone (oral)",
+      "generic": "ziprasidone (oral)",
       "brands": [
         "Geodon"
       ],
@@ -674,7 +674,7 @@
     },
     {
       "drugId": "quetiapine",
-      "generic": "Quetiapine (immediate- and extended-release)",
+      "generic": "quetiapine (immediate- and extended-release)",
       "brands": [
         "Seroquel",
         "Seroquel XR"
@@ -721,7 +721,7 @@
     },
     {
       "drugId": "lurasidone",
-      "generic": "Lurasidone",
+      "generic": "lurasidone",
       "brands": [
         "Latuda"
       ],
@@ -768,7 +768,7 @@
     },
     {
       "drugId": "cariprazine",
-      "generic": "Cariprazine",
+      "generic": "cariprazine",
       "brands": [
         "Vraylar"
       ],
@@ -812,7 +812,7 @@
     },
     {
       "drugId": "lumateperone",
-      "generic": "Lumateperone",
+      "generic": "lumateperone",
       "brands": [
         "Caplyta"
       ],
@@ -857,7 +857,7 @@
     },
     {
       "drugId": "olanzapine-fluoxetine",
-      "generic": "Olanzapine and fluoxetine",
+      "generic": "olanzapine and fluoxetine",
       "brands": [
         "Symbyax (discontinued)"
       ],
@@ -905,7 +905,7 @@
     },
     {
       "drugId": "lithium",
-      "generic": "Lithium carbonate / lithium citrate",
+      "generic": "lithium carbonate / lithium citrate",
       "brands": [
         "Lithobid"
       ],
@@ -952,7 +952,7 @@
     },
     {
       "drugId": "lamotrigine",
-      "generic": "Lamotrigine",
+      "generic": "lamotrigine",
       "brands": [
         "Lamictal",
         "Lamictal ODT"
@@ -999,7 +999,7 @@
     },
     {
       "drugId": "aripiprazole",
-      "generic": "Aripiprazole monohydrate (monthly long-acting injectable)",
+      "generic": "aripiprazole monohydrate (monthly long-acting injectable)",
       "brands": [
         "Abilify Maintena"
       ],
@@ -1043,7 +1043,7 @@
     },
     {
       "drugId": "aripiprazole",
-      "generic": "Aripiprazole (2-month long-acting injectable)",
+      "generic": "aripiprazole (2-month long-acting injectable)",
       "brands": [
         "Abilify Asimtufii"
       ],
@@ -1087,7 +1087,7 @@
     },
     {
       "drugId": "asenapine",
-      "generic": "Asenapine",
+      "generic": "asenapine",
       "brands": [
         "Saphris"
       ],
@@ -1131,7 +1131,7 @@
     },
     {
       "drugId": "olanzapine",
-      "generic": "Olanzapine (oral)",
+      "generic": "olanzapine (oral)",
       "brands": [
         "Zyprexa",
         "Zyprexa Zydis"
@@ -1177,7 +1177,7 @@
     },
     {
       "drugId": "olanzapine-samidorphan",
-      "generic": "Olanzapine and samidorphan",
+      "generic": "olanzapine and samidorphan",
       "brands": [
         "Lybalvi"
       ],
@@ -1221,7 +1221,7 @@
     },
     {
       "drugId": "quetiapine",
-      "generic": "Quetiapine (immediate- and extended-release)",
+      "generic": "quetiapine (immediate- and extended-release)",
       "brands": [
         "Seroquel",
         "Seroquel XR"
@@ -1268,7 +1268,7 @@
     },
     {
       "drugId": "risperidone",
-      "generic": "Risperidone (2-week intramuscular long-acting injectable)",
+      "generic": "risperidone (2-week intramuscular long-acting injectable)",
       "brands": [
         "Risperdal Consta",
         "Rykindo"
@@ -1313,7 +1313,7 @@
     },
     {
       "drugId": "risperidone",
-      "generic": "Risperidone (monthly subcutaneous extended-release injectable)",
+      "generic": "risperidone (monthly subcutaneous extended-release injectable)",
       "brands": [
         "Uzedy"
       ],
@@ -1357,7 +1357,7 @@
     },
     {
       "drugId": "ziprasidone",
-      "generic": "Ziprasidone (oral)",
+      "generic": "ziprasidone (oral)",
       "brands": [
         "Geodon"
       ],
@@ -1405,7 +1405,7 @@
     },
     {
       "drugId": "olanzapine",
-      "generic": "Olanzapine (intramuscular, short-acting)",
+      "generic": "olanzapine (intramuscular, short-acting)",
       "brands": [
         "Zyprexa IntraMuscular"
       ],
@@ -1449,7 +1449,7 @@
     },
     {
       "drugId": "loxapine",
-      "generic": "Loxapine (inhalation powder)",
+      "generic": "loxapine (inhalation powder)",
       "brands": [
         "Adasuve"
       ],
@@ -1497,7 +1497,7 @@
     },
     {
       "drugId": "dexmedetomidine",
-      "generic": "Dexmedetomidine (sublingual film)",
+      "generic": "dexmedetomidine (sublingual film)",
       "brands": [
         "Igalmi"
       ],
