@@ -2303,7 +2303,7 @@
       ]
     },
     {
-      "agent": "Clozapine",
+      "agent": "Clozapine in patients under 18",
       "drugClass": "Atypical antipsychotic",
       "use": "Treatment-resistant schizophrenia in children and adolescents (clozapine is not FDA-approved under 18)",
       "evidence": "guideline-recommended",
@@ -2316,7 +2316,7 @@
       ]
     },
     {
-      "agent": "Clozapine",
+      "agent": "Clozapine for persistent aggression (without treatment resistance)",
       "drugClass": "Atypical antipsychotic",
       "use": "Persistent substantial aggressive behavior in schizophrenia (outside the labeled treatment-resistance and suicidality indications)",
       "evidence": "guideline-recommended",

@@ -13,6 +13,16 @@ function groupBySection(treatments: ApprovedTreatment[], sections?: string[]) {
     .filter((g) => g.treatments.length > 0);
 }
 
+const baseName = (generic: string) => generic.replace(/\s*\(.*?\)\s*/g, ' ').trim();
+
+/** The approved entry for the drug an off-label card is about, e.g. "Clozapine in patients under 18" -> clozapine. */
+function approvedForAgent(agent: string, approved: ApprovedTreatment[]) {
+  const name = agent.toLowerCase();
+  const startsWithWord = (key: string) => name === key || (name.startsWith(key) && !/[a-z]/.test(name[key.length]));
+  // Match on the drugId too, since generics often carry a salt ("lithium carbonate" vs. "Lithium").
+  return approved.find((t) => startsWithWord(baseName(t.generic).toLowerCase()) || startsWithWord(t.drugId.replace(/-/g, ' ')));
+}
+
 export default function DisorderPage() {
   const { id } = useParams();
   const [params] = useSearchParams();
@@ -91,7 +101,16 @@ export default function DisorderPage() {
         {disorder.offLabel.length === 0 ? (
           <p className="muted">No commonly used off-label options listed.</p>
         ) : (
-          disorder.offLabel.map((use) => <OffLabelCard key={`${use.agent}-${use.use}`} use={use} />)
+          disorder.offLabel.map((use) => {
+            const match = approvedForAgent(use.agent, disorder.approved);
+            return (
+              <OffLabelCard
+                key={`${use.agent}-${use.use}`}
+                use={use}
+                approved={match && { generic: baseName(match.generic), link: `/d/${disorder.id}?drug=${match.drugId}` }}
+              />
+            );
+          })
         )}
       </section>
 

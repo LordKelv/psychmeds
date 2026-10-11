@@ -579,3 +579,10 @@ ul.tight {
     font-size: 2rem;
   }
 }
+
+.also-approved {
+  background: var(--approved-soft);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+}

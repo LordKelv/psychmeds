@@ -1,4 +1,5 @@
 import { useEffect, useRef, type ReactNode } from 'react';
+import { Link } from 'react-router-dom';
 import type { ApprovedTreatment, OffLabelUse } from '../types';
 import { useViewMode } from '../viewMode';
 
@@ -136,15 +137,22 @@ export function ApprovedCard({ treatment: t, highlighted }: { treatment: Approve
   );
 }
 
-export function OffLabelCard({ use }: { use: OffLabelUse }) {
+/** `approved` is set when the same drug also has an FDA-approved indication for this condition. */
+export function OffLabelCard({ use, approved }: { use: OffLabelUse; approved?: { generic: string; link: string } }) {
   return (
     <div className="card offlabel">
       <div className="badges">
-        <span className="badge badge-offlabel">Off-label · not FDA-approved</span>
+        <span className="badge badge-offlabel">Off-label use · not FDA-approved</span>
         <span className={`badge evidence-${use.evidence}`}>{EVIDENCE_LABEL[use.evidence]}</span>
       </div>
       <div className="treatment-name">{use.agent}</div>
       {use.drugClass && <div className="small muted">{use.drugClass}</div>}
+      {approved && (
+        <p className="also-approved small">
+          {approved.generic[0].toUpperCase() + approved.generic.slice(1)} <strong>is</strong> FDA-approved for this condition. This card covers a different,
+          off-label use. <Link to={approved.link}>See the approved indication</Link>
+        </p>
+      )}
       <p>
         <strong>Used for:</strong> {use.use}
       </p>
