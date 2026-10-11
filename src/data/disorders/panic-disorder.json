@@ -1,0 +1,352 @@
+{
+  "id": "panic-disorder",
+  "name": "Panic Disorder",
+  "aliases": [
+    "Panic disorder with or without agoraphobia"
+  ],
+  "category": "Anxiety disorders",
+  "summary": "Recurrent unexpected panic attacks with persistent worry or avoidance. FDA-labeled options are fluoxetine, paroxetine (IR/CR), sertraline, venlafaxine XR, alprazolam (IR/ODT/XR), and clonazepam. Benzodiazepines carry boxed warnings for opioid co-use, misuse, and dependence/withdrawal.",
+  "plainSummary": "Panic disorder causes sudden waves of intense fear with a racing heart, shortness of breath, or dizziness, plus worry about the next attack. Therapy (CBT) and daily medicines can help.",
+  "approved": [
+    {
+      "drugId": "fluoxetine",
+      "generic": "fluoxetine",
+      "brands": [
+        "Prozac"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Acute treatment of Panic Disorder, with or without agoraphobia.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "10 mg/day for 1 week, then 20 mg/day",
+        "target": "20 mg/day",
+        "max": "60 mg/day (doses above 60 mg not systematically evaluated)",
+        "notes": "Consider increase after several weeks if no improvement. Long half-life (norfluoxetine); lower or less frequent dosing in hepatic impairment and the elderly."
+      },
+      "formulations": [
+        "Capsules 10, 20, 40 mg",
+        "Tablets (generic)",
+        "Oral solution 20 mg/5 mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs concurrently, within 5 weeks of stopping fluoxetine, or within 14 days of stopping an MAOI; starting in patients on linezolid or IV methylene blue",
+        "Pimozide",
+        "Thioridazine (and within 5 weeks of stopping fluoxetine)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Fluoxetine is a daily antidepressant (SSRI) approved to treat panic disorder in adults. It is started at a low dose to avoid feeling jittery.",
+      "source": {
+        "label": "DailyMed: Prozac (fluoxetine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Drugs@FDA lists Prozac capsule products as discontinued, though the Prozac label remains on DailyMed (Jan 2026); generic fluoxetine is widely available. Panic indication approved Jan 2003 (Drugs@FDA efficacy supplement)."
+      }
+    },
+    {
+      "drugId": "paroxetine",
+      "generic": "paroxetine (immediate- and controlled-release)",
+      "brands": [
+        "Paxil",
+        "Paxil CR"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of panic disorder (PD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1996,
+      "dosing": {
+        "start": "IR: 10 mg once daily; CR: 12.5 mg once daily",
+        "target": "Titrate weekly (IR by 10 mg/day; CR by 12.5 mg/day) to response",
+        "max": "IR: 60 mg/day; CR: 75 mg/day",
+        "notes": "Geriatric, severe renal or hepatic impairment: IR start 10 mg, max 40 mg/day; CR start 12.5 mg, max 50 mg/day. Swallow CR tablets whole. Taper to stop."
+      },
+      "formulations": [
+        "Tablets 10, 20, 30, 40 mg",
+        "Oral suspension 10 mg/5 mL",
+        "Controlled-release tablets 12.5, 25, 37.5 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Drugs that prolong the QTc interval and are CYP2D6 substrates (e.g., thioridazine, pimozide)",
+        "Hypersensitivity to paroxetine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Paroxetine is a daily antidepressant (SSRI) approved for panic disorder in adults. Stopping it suddenly can cause withdrawal-like symptoms.",
+      "source": {
+        "label": "DailyMed: Paxil (paroxetine) tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ef3b5cbe-f9e1-c1ac-79da-cfe14e3a7e7e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Paxil CR panic indication and dosing confirmed on the Paxil CR label (https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c). Approval year is for Paxil IR (1996)."
+      }
+    },
+    {
+      "drugId": "sertraline",
+      "generic": "sertraline",
+      "brands": [
+        "Zoloft"
+      ],
+      "drugClass": "SSRI",
+      "indication": "Treatment of panic disorder (PD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1997,
+      "dosing": {
+        "start": "25 mg once daily for 1 week, then 50 mg",
+        "target": "50–200 mg/day",
+        "max": "200 mg/day",
+        "notes": "Increase by 25–50 mg/day once weekly. Mild hepatic impairment: half the usual dose; not recommended in moderate or severe impairment. Oral concentrate must be diluted."
+      },
+      "formulations": [
+        "Tablets 25, 50, 100 mg",
+        "Oral concentrate 20 mg/mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Pimozide",
+        "Hypersensitivity to sertraline",
+        "Disulfiram (oral concentrate only)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Sertraline is a daily antidepressant (SSRI) approved for panic disorder in adults. It is started low and raised slowly.",
+      "source": {
+        "label": "DailyMed: Zoloft (sertraline) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "venlafaxine",
+      "generic": "venlafaxine extended-release",
+      "brands": [
+        "Effexor XR"
+      ],
+      "drugClass": "SNRI",
+      "indication": "Treatment of Panic Disorder (PD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2005,
+      "dosing": {
+        "start": "37.5 mg/day for 7 days",
+        "target": "75 mg/day",
+        "max": "225 mg/day",
+        "notes": "Increase by up to 75 mg/day at intervals of at least 7 days. Hepatic impairment: reduce dose by 50% or more. Renal impairment: reduce 25–50% (50% or more in severe impairment/dialysis). Monitor blood pressure."
+      },
+      "formulations": [
+        "Extended-release capsules 37.5, 75, 150 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to venlafaxine or desvenlafaxine",
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Venlafaxine XR is a once-daily antidepressant (SNRI) approved for panic disorder in adults.",
+      "source": {
+        "label": "DailyMed: Effexor XR (venlafaxine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c848a5d8-ba94-4c84-80e3-0bf35fb8e32e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Venlafaxine ER tablets and IR tablets are not labeled for panic disorder."
+      }
+    },
+    {
+      "drugId": "alprazolam",
+      "generic": "alprazolam (immediate-release, ODT, extended-release)",
+      "brands": [
+        "Xanax",
+        "Xanax XR",
+        "Niravam (discontinued)"
+      ],
+      "drugClass": "Benzodiazepine",
+      "indication": "Treatment of panic disorder (PD), with or without agoraphobia, in adults (Xanax and Xanax XR).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1990,
+      "dosing": {
+        "start": "IR/ODT: 0.5 mg three times daily; XR: 0.5–1 mg once daily (morning)",
+        "target": "IR: individualized (trial mean about 5–6 mg/day); XR: 3–6 mg once daily",
+        "max": "Up to 10 mg/day in occasional patients (trial range 1–10 mg/day)",
+        "notes": "Increase by no more than 1 mg/day every 3–4 days. Reassess and consider dose reduction above 4 mg/day. Taper by no more than 0.5 mg every 3 days (often slower). Geriatric, hepatic impairment, and ritonavir require lower doses. Swallow XR whole."
+      },
+      "formulations": [
+        "Tablets 0.25, 0.5, 1, 2 mg",
+        "Orally disintegrating tablets (generic)",
+        "Extended-release tablets 0.5, 1, 2, 3 mg"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "Hypersensitivity to alprazolam or other benzodiazepines",
+        "Strong CYP3A inhibitors (e.g., ketoconazole, itraconazole), except ritonavir"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Alprazolam is a benzodiazepine approved for panic disorder in adults. It works quickly but can cause dependence, and stopping it must be done slowly.",
+      "source": {
+        "label": "DailyMed: Xanax (alprazolam) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb5cf72e-3a41-41a8-9a38-80f974eca33f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Xanax XR (https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c8990714-c2f5-4b0c-9f1c-91d77156d962) and generic alprazolam ODT labels also checked. Approval year is for Xanax panic indication (1990); Xanax XR approved 2003."
+      }
+    },
+    {
+      "drugId": "clonazepam",
+      "generic": "clonazepam",
+      "brands": [
+        "Klonopin"
+      ],
+      "drugClass": "Benzodiazepine",
+      "indication": "Treatment of panic disorder, with or without agoraphobia (also labeled for seizure disorders).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1997,
+      "dosing": {
+        "start": "0.25 mg twice daily",
+        "target": "1 mg/day (may increase after 3 days)",
+        "max": "4 mg/day",
+        "notes": "Higher fixed doses were less effective than 1 mg/day in trials. If needed, increase by 0.125–0.25 mg twice daily every 3 days. Taper by 0.125 mg twice daily every 3 days. No trial experience under 18 years."
+      },
+      "formulations": [
+        "Tablets 0.5, 1, 2 mg",
+        "Orally disintegrating tablets (generic)"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "History of sensitivity to benzodiazepines",
+        "Clinical or biochemical evidence of significant liver disease",
+        "Acute narrow-angle glaucoma"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Clonazepam is a longer-acting benzodiazepine approved for panic disorder in adults. It can cause sleepiness and dependence and should be stopped slowly.",
+      "source": {
+        "label": "DailyMed: Klonopin (clonazepam) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Escitalopram or citalopram",
+      "drugClass": "SSRI",
+      "use": "Panic disorder",
+      "evidence": "guideline-recommended",
+      "notes": "SSRIs are first-line in APA and NICE guidance; escitalopram and citalopram are licensed for panic disorder in the UK but not FDA-labeled for it. Start low to limit early jitteriness. Citalopram has dose-related QT prolongation.",
+      "references": [
+        {
+          "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations"
+        },
+        {
+          "label": "APA Practice Guideline for Panic Disorder, 2nd ed. (2009; legacy guideline)",
+          "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines/legacy-practice-guidelines-for-panic-disorder"
+        },
+        {
+          "label": "Bighelli et al. 2018, Cochrane: Antidepressants versus placebo for panic disorder in adults",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010676.pub2/information"
+        }
+      ]
+    },
+    {
+      "agent": "Imipramine or clomipramine",
+      "drugClass": "Tricyclic antidepressant",
+      "use": "Panic disorder when SSRIs are unsuitable or ineffective",
+      "evidence": "guideline-recommended",
+      "notes": "NICE: consider if an SSRI is unsuitable or there is no improvement after 12 weeks. Cautions: anticholinergic effects, orthostasis, cardiac conduction effects, lethality in overdose.",
+      "references": [
+        {
+          "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations"
+        },
+        {
+          "label": "APA Practice Guideline for Panic Disorder, 2nd ed. (2009; legacy guideline)",
+          "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines/legacy-practice-guidelines-for-panic-disorder"
+        }
+      ]
+    },
+    {
+      "agent": "Other benzodiazepines (e.g., lorazepam, diazepam)",
+      "drugClass": "Benzodiazepine",
+      "use": "Panic disorder (short-term or adjunctive)",
+      "evidence": "RCT-supported",
+      "notes": "Labeled for 'anxiety disorders' rather than panic disorder specifically. APA lists benzodiazepines as an option, but NICE advises against them for panic disorder because of poorer long-term outcomes. Same boxed warnings as other benzodiazepines (opioids; misuse; dependence and withdrawal).",
+      "references": [
+        {
+          "label": "APA Practice Guideline for Panic Disorder, 2nd ed. (2009; legacy guideline)",
+          "url": "https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines/legacy-practice-guidelines-for-panic-disorder"
+        },
+        {
+          "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

@@ -1,0 +1,348 @@
+{
+  "id": "alzheimers-disease",
+  "name": "Alzheimer's disease (cognitive symptoms)",
+  "aliases": [
+    "Alzheimer's dementia",
+    "Dementia of the Alzheimer's type",
+    "Major neurocognitive disorder due to Alzheimer's disease",
+    "Early Alzheimer's disease",
+    "Mild cognitive impairment due to Alzheimer's disease"
+  ],
+  "category": "Neurocognitive disorders",
+  "summary": "FDA-labeled options include symptomatic cholinesterase inhibitors (donepezil, rivastigmine, galantamine, benzgalantamine), the NMDA antagonist memantine, the memantine-donepezil combination, and the anti-amyloid monoclonal antibodies lecanemab (IV and, since 2025–2026, subcutaneous autoinjector) and donanemab, which are started only in mild cognitive impairment or mild dementia with confirmed amyloid pathology and carry boxed warnings for ARIA.",
+  "plainSummary": "Alzheimer's disease slowly damages memory and thinking. Some pills and patches can help symptoms for a while, and newer antibody treatments given by infusion or injection can modestly slow the disease in its early stage but need regular brain scans for safety.",
+  "sections": [
+    "Cholinesterase inhibitors",
+    "NMDA receptor antagonist",
+    "Combination therapy",
+    "Anti-amyloid monoclonal antibodies"
+  ],
+  "approved": [
+    {
+      "drugId": "donepezil",
+      "generic": "donepezil",
+      "brands": ["Aricept", "Aricept ODT", "Adlarity (transdermal; discontinued)"],
+      "drugClass": "Cholinesterase inhibitor",
+      "section": "Cholinesterase inhibitors",
+      "indication": "Treatment of dementia of the Alzheimer's type (mild, moderate, and severe stages; 23 mg/day studied in moderate-to-severe disease).",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 1996,
+      "dosing": {
+        "start": "5 mg once daily in the evening",
+        "target": "10 mg once daily (after 4–6 weeks at 5 mg)",
+        "max": "10 mg/day for mild-to-moderate AD; 23 mg/day for moderate-to-severe AD (only after ≥3 months at 10 mg/day per label)",
+        "notes": "Monitor for bradycardia/syncope, GI effects, and weight loss, especially at 23 mg."
+      },
+      "formulations": [
+        "Tablets 5, 10, 23 mg",
+        "Orally disintegrating tablets 5, 10 mg",
+        "Oral solution"
+      ],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to donepezil hydrochloride"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Donepezil is a once-a-day pill that can help memory and daily function for a while in people with Alzheimer's disease. It does not stop the disease from progressing.",
+      "source": {
+        "label": "DailyMed: ARICEPT / ARICEPT ODT (donepezil) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, starting dose, 10 mg and 23 mg maximums, and contraindication confirmed on the Aricept label (revised 12/2021). The '≥3 months at 10 mg' wording before 23 mg is from memory; the fetched text said only that 23 mg should not be given until patients have been on 10 mg. Adlarity (weekly donepezil patch, approved 2022) is listed as discontinued in the Orange Book per aggregator sources and has no current DailyMed label."
+      }
+    },
+    {
+      "drugId": "rivastigmine",
+      "generic": "rivastigmine (oral capsules)",
+      "brands": ["Exelon"],
+      "drugClass": "Cholinesterase inhibitor (acetylcholinesterase and butyrylcholinesterase)",
+      "section": "Cholinesterase inhibitors",
+      "indication": "Treatment of mild-to-moderate dementia of the Alzheimer's type (also labeled for mild-to-moderate Parkinson's disease dementia).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2000,
+      "dosing": {
+        "start": "1.5 mg twice daily with meals",
+        "target": "6–12 mg/day in 2 divided doses (increase by 1.5 mg/dose every ≥2 weeks as tolerated)",
+        "max": "6 mg twice daily (12 mg/day)",
+        "notes": "If treatment is interrupted for more than 3 days, restart at 1.5 mg twice daily and re-titrate. Patients with moderate–severe renal or mild–moderate hepatic impairment may tolerate only lower doses."
+      },
+      "formulations": ["Capsules 1.5, 3, 4.5, 6 mg"],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Known hypersensitivity to rivastigmine, other carbamate derivatives, or formulation components",
+        "Prior application-site reaction to the rivastigmine patch suggestive of allergic contact dermatitis (unless allergy testing is negative)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Rivastigmine capsules, taken twice a day with food, can help memory and daily function for a while in mild to moderate Alzheimer's disease. Nausea and vomiting are common, so the dose is raised slowly.",
+      "source": {
+        "label": "DailyMed: rivastigmine tartrate capsules (Aurobindo) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c246a0e5-1e77-41ee-a7b3-384f21f2f2e0"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked on a generic capsule label (updated 6/2024). Only a repackager Exelon capsule label appears on DailyMed, so current US marketing of the Exelon brand capsule was not confirmed; generics are marketed."
+      }
+    },
+    {
+      "drugId": "rivastigmine",
+      "generic": "rivastigmine (transdermal patch)",
+      "brands": ["Exelon Patch"],
+      "drugClass": "Cholinesterase inhibitor (acetylcholinesterase and butyrylcholinesterase)",
+      "section": "Cholinesterase inhibitors",
+      "indication": "Treatment of dementia of the Alzheimer's type; efficacy demonstrated in mild, moderate, and severe Alzheimer's disease (also labeled for mild-to-moderate Parkinson's disease dementia).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2007,
+      "dosing": {
+        "start": "4.6 mg/24 hours patch once daily",
+        "target": "9.5 mg/24 hours or 13.3 mg/24 hours (mild–moderate AD); 13.3 mg/24 hours (severe AD); increase only after ≥4 weeks at the prior dose if tolerated",
+        "max": "13.3 mg/24 hours",
+        "notes": "Rotate application sites. Wear only one patch at a time; medication errors with multiple patches have caused serious toxicity."
+      },
+      "formulations": ["Transdermal patch 4.6, 9.5, 13.3 mg/24 hours"],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Known hypersensitivity to rivastigmine, other carbamate derivatives, or formulation components",
+        "History of application-site reactions with the rivastigmine patch suggestive of allergic contact dermatitis"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "The rivastigmine patch is changed once a day and can help memory and daily function in Alzheimer's disease, including the severe stage. It tends to cause less stomach upset than the capsules.",
+      "source": {
+        "label": "DailyMed: EXELON PATCH (rivastigmine transdermal system) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=07c12e14-bbd5-4ec8-84e4-fbe7b5ba10e0"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication (including severe AD), titration, and contraindications checked on the Exelon Patch label (revised 5/2024). approvalYear reflects the original 2007 patch approval; the severe-AD extension came later and its year was not confirmed from a primary source."
+      }
+    },
+    {
+      "drugId": "galantamine",
+      "generic": "galantamine",
+      "brands": ["Razadyne", "Razadyne ER"],
+      "drugClass": "Cholinesterase inhibitor (also nicotinic receptor allosteric modulator)",
+      "section": "Cholinesterase inhibitors",
+      "indication": "Treatment of mild-to-moderate dementia of the Alzheimer's type.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2001,
+      "dosing": {
+        "start": "ER capsules: 8 mg once daily in the morning with food (IR tablets/solution: 4 mg twice daily)",
+        "target": "16 mg/day after ≥4 weeks; 16–24 mg/day effective range",
+        "max": "24 mg/day (after ≥4 weeks at 16 mg/day)",
+        "notes": "Moderate hepatic impairment (Child-Pugh 7–9) or CrCl 9–59 mL/min: generally ≤16 mg/day. Not recommended in severe hepatic impairment or CrCl <9 mL/min. If interrupted for several days, restart at the lowest dose and re-titrate. Converting IR to ER: same total daily dose."
+      },
+      "formulations": [
+        "Extended-release capsules 8, 16, 24 mg",
+        "Tablets 4, 8, 12 mg",
+        "Oral solution 4 mg/mL"
+      ],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to galantamine hydrobromide or any excipient"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Galantamine is a pill or liquid that can help memory and daily function for a while in mild to moderate Alzheimer's disease. It is started at a low dose and raised slowly to limit nausea.",
+      "source": {
+        "label": "DailyMed: galantamine hydrobromide extended-release capsules (Sun Pharma) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d1697161-ebe8-42b0-83e7-c9de4412546c"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, ER titration, maximum, and hepatic/renal limits confirmed on a generic ER label (revised 10/2023). IR tablet/solution dosing (4 mg twice daily start) and IR strengths were not re-checked on an IR label. Only a repackager Razadyne label appears on DailyMed, so current brand marketing status was not confirmed; generics are marketed."
+      }
+    },
+    {
+      "drugId": "benzgalantamine",
+      "generic": "benzgalantamine",
+      "brands": ["Zunveyl"],
+      "drugClass": "Cholinesterase inhibitor (galantamine prodrug)",
+      "section": "Cholinesterase inhibitors",
+      "indication": "Treatment of mild-to-moderate dementia of the Alzheimer's type in adults.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2024,
+      "dosing": {
+        "start": "5 mg twice daily (10 mg/day)",
+        "target": "10 mg twice daily (20 mg/day) after ≥4 weeks",
+        "max": "15 mg twice daily (30 mg/day) after ≥4 weeks at 10 mg twice daily",
+        "notes": "Moderate hepatic impairment (Child-Pugh 7–9) or CrCl 9–59 mL/min: generally ≤10 mg twice daily. Not recommended in severe hepatic impairment or CrCl <9 mL/min."
+      },
+      "formulations": ["Delayed-release (enteric-coated) tablets 5, 10, 15 mg"],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to benzgalantamine, galantamine, or any inactive ingredient"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Benzgalantamine is a newer twice-daily form of galantamine designed to cause less stomach upset. It can help memory and daily function for a while in mild to moderate Alzheimer's disease.",
+      "source": {
+        "label": "DailyMed: ZUNVEYL (benzgalantamine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af47bf67-1f07-4650-8064-24c38afc4656"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked on the Zunveyl label (revised 4/2026). Label shows 'Initial U.S. Approval: 2001' (galantamine moiety); Zunveyl itself was approved in July 2024 (per news coverage)."
+      }
+    },
+    {
+      "drugId": "memantine",
+      "generic": "memantine",
+      "brands": ["Namenda (discontinued)", "Namenda XR (discontinued)"],
+      "drugClass": "NMDA receptor antagonist",
+      "section": "NMDA receptor antagonist",
+      "indication": "Treatment of moderate-to-severe dementia of the Alzheimer's type.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "IR: 5 mg once daily; ER: 7 mg once daily",
+        "target": "IR: 10 mg twice daily (20 mg/day), increasing by 5 mg/day weekly; ER: 28 mg once daily, increasing by 7 mg weekly",
+        "max": "IR 20 mg/day; ER 28 mg/day",
+        "notes": "Severe renal impairment (CrCl 5–29 mL/min): IR target 5 mg twice daily; ER target/max 14 mg/day."
+      },
+      "formulations": [
+        "Tablets 5, 10 mg",
+        "Oral solution",
+        "Extended-release capsules 7, 14, 21, 28 mg"
+      ],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to memantine hydrochloride or any excipient"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Memantine is a pill used in moderate to severe Alzheimer's disease, often together with donepezil. It may help with daily function and thinking for a while.",
+      "source": {
+        "label": "DailyMed: memantine hydrochloride tablets (Amneal) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f73e0df0-4af4-42f1-bde6-3cccb47ca378"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "IR dosing checked on a generic tablet label (revised 12/2023); ER dosing checked on a generic ER capsule label (Zydus, setid eac265e6-6ea4-4368-acff-2efe6a8dd40a). Namenda tablets were discontinued in 2014; Namenda XR is listed as discontinued per Orange Book aggregator data (not confirmed directly with FDA). Generics are marketed."
+      }
+    },
+    {
+      "drugId": "memantine-donepezil",
+      "generic": "memantine-donepezil",
+      "brands": ["Namzaric"],
+      "drugClass": "NMDA receptor antagonist + cholinesterase inhibitor (fixed-dose combination)",
+      "section": "Combination therapy",
+      "indication": "Treatment of moderate-to-severe dementia of the Alzheimer's type in patients stabilized on donepezil 10 mg once daily.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2014,
+      "dosing": {
+        "start": "Patients on donepezil 10 mg (not on memantine): 7 mg/10 mg once daily in the evening",
+        "target": "Increase by 7 mg memantine at intervals of ≥1 week to 28 mg/10 mg once daily; patients already on memantine + donepezil can switch directly to 28 mg/10 mg",
+        "max": "28 mg/10 mg once daily",
+        "notes": "Severe renal impairment (CrCl 5–29 mL/min): maintenance 14 mg/10 mg once daily. Start the day after the last dose of separate memantine and donepezil."
+      },
+      "formulations": ["Extended-release capsules 7/10, 14/10, 21/10, 28/10 mg (memantine/donepezil)", "Titration kit"],
+      "boxedWarnings": [],
+      "contraindications": ["Known hypersensitivity to memantine, donepezil, piperidine derivatives, or any excipient"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Namzaric combines memantine and donepezil in one daily capsule for people with moderate to severe Alzheimer's disease who are already taking donepezil.",
+      "source": {
+        "label": "DailyMed: NAMZARIC (memantine and donepezil) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90fedc32-19e5-480c-afc6-f35a5cf4b9aa"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked on the Namzaric label (revised 3/2026). A generic memantine/donepezil ER capsule label (Vitruvias) is on DailyMed."
+      }
+    },
+    {
+      "drugId": "lecanemab",
+      "generic": "lecanemab-irmb",
+      "brands": ["Leqembi", "Leqembi Iqlik"],
+      "drugClass": "Anti-amyloid beta monoclonal antibody (protofibril-directed)",
+      "section": "Anti-amyloid monoclonal antibodies",
+      "indication": "Treatment of Alzheimer's disease. Initiate in patients with mild cognitive impairment or mild dementia stage of disease (the population studied); confirm amyloid beta pathology before starting.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2023,
+      "dosing": {
+        "start": "IV: 10 mg/kg every 2 weeks (about 1-hour infusion); SC (Leqembi Iqlik autoinjector): 500 mg once weekly (two 250 mg injections)",
+        "target": "After 18 months: IV 10 mg/kg every 4 weeks (or continue every 2 weeks) or SC 360 mg once weekly",
+        "max": "10 mg/kg IV every 2 weeks; 500 mg SC weekly during initiation",
+        "notes": "Baseline brain MRI and scheduled MRIs during the first 6 months of treatment (see label). Patients may switch between IV and SC routes. ApoE ε4 testing is recommended before starting. Caution with antithrombotics; avoid thrombolytics unless clearly needed (ARIA-H/hemorrhage risk)."
+      },
+      "formulations": [
+        "IV solution 500 mg/5 mL and 200 mg/2 mL single-dose vials",
+        "Subcutaneous autoinjector (Leqembi Iqlik) 250 mg/1.25 mL and 360 mg/1.8 mL"
+      ],
+      "boxedWarnings": [
+        "Amyloid-related imaging abnormalities (ARIA), which can be serious or fatal; intracerebral hemorrhages >1 cm have occurred with this class",
+        "ApoE ε4 homozygotes have a higher incidence of ARIA, including symptomatic and serious ARIA; test ApoE ε4 status before treatment"
+      ],
+      "contraindications": ["Serious hypersensitivity to lecanemab-irmb or any excipient"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Lecanemab is an antibody given by IV infusion or a weekly shot under the skin that removes amyloid from the brain and can modestly slow early Alzheimer's disease. It can cause brain swelling or small bleeds, so regular MRI scans are needed.",
+      "source": {
+        "label": "DailyMed: LEQEMBI / LEQEMBI IQLIK (lecanemab-irmb) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d1ff786-e577-410a-a273-c4d7d0e4e975"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked on the label revised 7/2026. Accelerated approval January 2023, traditional approval July 2023. SC maintenance (Leqembi Iqlik 360 mg weekly) approved August 2025; SC initiation dosing (500 mg weekly) approved July 13, 2026. Exact MRI timepoints changed in recent revisions; confirm the current schedule on the label."
+      }
+    },
+    {
+      "drugId": "donanemab",
+      "generic": "donanemab-azbt",
+      "brands": ["Kisunla"],
+      "drugClass": "Anti-amyloid beta monoclonal antibody (plaque-directed, N3pG)",
+      "section": "Anti-amyloid monoclonal antibodies",
+      "indication": "Treatment of Alzheimer's disease. Initiate in patients with mild cognitive impairment or mild dementia stage of disease; confirm amyloid beta pathology before starting.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2024,
+      "dosing": {
+        "start": "350 mg IV (infusion 1), then 700 mg (infusion 2), 1,050 mg (infusion 3), every 4 weeks",
+        "target": "1,400 mg IV every 4 weeks from infusion 4",
+        "max": "1,400 mg every 4 weeks",
+        "notes": "Modified titration approved July 2025 to lower ARIA-E risk. Baseline MRI, then MRI before the 2nd, 3rd, 4th, and 7th infusions. Consider stopping when amyloid plaque is reduced to minimal levels on amyloid PET. ApoE ε4 testing before starting."
+      },
+      "formulations": ["IV solution 350 mg/20 mL (17.5 mg/mL) single-dose vial"],
+      "boxedWarnings": [
+        "Amyloid-related imaging abnormalities (ARIA), which can be serious or fatal; intracerebral hemorrhages >1 cm have occurred with this class",
+        "ApoE ε4 homozygotes have a higher incidence of ARIA; test ApoE ε4 status before treatment"
+      ],
+      "contraindications": ["Known serious hypersensitivity to donanemab-azbt or any excipient"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Donanemab is a monthly IV antibody that clears amyloid from the brain and can modestly slow early Alzheimer's disease, and it may be stopped once the amyloid is cleared. Like lecanemab, it needs regular MRI scans to check for brain swelling or bleeding.",
+      "source": {
+        "label": "DailyMed: KISUNLA (donanemab-azbt) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=190352d4-ef62-4679-b4fa-e846e2766afa"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked on the label revised 7/2025 (current DailyMed version published January 2026)."
+      }
+    }
+  ],
+  "offLabel": [],
+  "lastReviewed": "2026-10-11"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "parkinsons-disease-psychosis",
+  "name": "Parkinson's disease psychosis",
+  "aliases": ["PDP", "Psychosis associated with Parkinson's disease", "Hallucinations and delusions in Parkinson's disease"],
+  "category": "Psychotic disorders",
+  "summary": "Pimavanserin, a selective 5-HT2A inverse agonist without dopamine-blocking activity, is the only FDA-labeled treatment for hallucinations and delusions associated with Parkinson's disease psychosis. Low-dose clozapine and quetiapine are used off-label; most other antipsychotics worsen motor symptoms.",
+  "plainSummary": "Some people with Parkinson's disease begin to see or believe things that aren't real. One medicine is approved for this, and it does not make movement problems worse.",
+  "approved": [
+    {
+      "drugId": "pimavanserin",
+      "generic": "pimavanserin",
+      "brands": ["Nuplazid"],
+      "drugClass": "Atypical antipsychotic (selective serotonin 5-HT2A inverse agonist/antagonist)",
+      "indication": "Treatment of hallucinations and delusions associated with Parkinson's disease psychosis.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2016,
+      "dosing": {
+        "start": "34 mg once daily (no titration)",
+        "target": "34 mg once daily",
+        "max": "34 mg once daily",
+        "notes": "10 mg once daily with strong CYP3A4 inhibitors. Avoid strong or moderate CYP3A4 inducers. No dose adjustment for renal or hepatic impairment. QT prolongation: avoid with other QT-prolonging drugs and in patients with known QT prolongation or arrhythmia history."
+      },
+      "formulations": ["Capsules 34 mg", "Tablets 10 mg"],
+      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+      "contraindications": ["History of hypersensitivity reaction to pimavanserin or any component"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Pimavanserin is a once-a-day medicine that can reduce hallucinations and false beliefs in Parkinson's disease without worsening tremor or stiffness. It carries a warning about higher risk of death in older adults with dementia-related psychosis.",
+      "source": {
+        "label": "DailyMed: NUPLAZID (pimavanserin) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e6bea44-57d6-4bac-9328-46e1ee59f83b"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, dosing, CYP3A4 adjustments, boxed warning, and contraindication checked on the label revised 4/2026. QT warning wording is summarized from Warnings and Precautions and was not re-quoted. No 2024–2026 changes to the PDP indication were found."
+      }
+    }
+  ],
+  "offLabel": [],
+  "lastReviewed": "2026-10-11"
+}

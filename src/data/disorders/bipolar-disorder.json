@@ -1,0 +1,1727 @@
+{
+  "id": "bipolar-disorder",
+  "name": "Bipolar disorder",
+  "aliases": [
+    "Bipolar I disorder",
+    "Bipolar II disorder",
+    "Manic depression",
+    "Manic-depressive illness",
+    "Bipolar affective disorder",
+    "Bipolar mania",
+    "Bipolar depression"
+  ],
+  "category": "Bipolar disorders",
+  "summary": "Recurrent mood disorder with manic or mixed episodes (bipolar I) or hypomanic and major depressive episodes (bipolar II). Many FDA-approved drugs cover acute mania (bipolar I), bipolar depression (mostly bipolar I; quetiapine and lumateperone also cover bipolar II), and maintenance, with phase-specific, age-specific, and monotherapy-vs-adjunct labeling that differs between agents.",
+  "plainSummary": "Bipolar disorder causes big mood swings between highs (mania or hypomania) and lows (depression). Medicines can treat each kind of episode and help prevent new ones.",
+  "sections": [
+    "Acute manic or mixed episodes",
+    "Bipolar depression",
+    "Maintenance",
+    "Agitation associated with bipolar disorder"
+  ],
+  "approved": [
+    {
+      "drugId": "lithium",
+      "generic": "Lithium carbonate / lithium citrate",
+      "brands": [
+        "Lithobid"
+      ],
+      "drugClass": "Mood stabilizer (lithium salt)",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Monotherapy for bipolar I disorder: treatment of acute manic and mixed episodes in patients 7 years and older (IR and oral solution labels); Lithobid/ER labels: treatment of manic episodes of bipolar disorder.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Patients 7 years and older (IR tablets/capsules and oral solution); extended-release tablets (Lithobid and generics) carry older labeling that does not recommend use under 12 years",
+        "pediatric": true
+      },
+      "approvalYear": 1970,
+      "dosing": {
+        "start": "Adults and children >30 kg: 300 mg three times daily; children 20–30 kg: 300 mg twice daily (IR)",
+        "target": "Serum lithium 0.8–1.2 mEq/L (adults/>30 kg usually 600 mg two to three times daily; 20–30 kg: 600–1500 mg/day in divided doses)",
+        "max": "Titrate to serum level and clinical response; no fixed mg ceiling",
+        "notes": "Increase by 300 mg every 3 days (>30 kg) or weekly (20–30 kg). Check 12-hour trough after 3 days and regularly until stable. Screen renal, thyroid, electrolytes, and pregnancy status first. CrCl 30–89 mL/min: start lower and titrate slowly; CrCl <30 mL/min: avoid. Lithobid ER: usually 1800 mg/day for acute mania."
+      },
+      "formulations": [
+        "Immediate-release capsules",
+        "Immediate-release tablets",
+        "Oral solution (lithium citrate, 8 mEq/5 mL)",
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Lithium toxicity closely related to serum concentrations; can occur at therapeutic doses"
+      ],
+      "contraindications": [
+        "Hypersensitivity to any inactive ingredient in the product"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Lithium is a long-used mood stabilizer that calms mania. It needs regular blood tests because the safe and toxic levels are close together.",
+      "source": {
+        "label": "DailyMed: Lithium carbonate tablets and capsules (Hikma)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, ages, and dosing confirmed on current DailyMed labels for IR lithium carbonate (Hikma, setid b839ff4b), lithium oral solution (setid a12d50fb-2c2f-4105-ad17-adbf90d439d4), and Lithobid ER (setid f7f5b69a-c2a1-4586-a189-1475d41387c0). Lithobid/ER generics use older non-PLR labeling ('manic episodes of Bipolar Disorder'; maintenance), with pediatric use not recommended under 12 years. Approval year is the label's initial US approval (1970)."
+      }
+    },
+    {
+      "drugId": "divalproex",
+      "generic": "Divalproex sodium (valproate)",
+      "brands": [
+        "Depakote",
+        "Depakote ER"
+      ],
+      "drugClass": "Anticonvulsant mood stabilizer (valproate)",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Depakote (delayed-release): treatment of the manic episodes associated with bipolar disorder. Depakote ER: acute treatment of manic or mixed episodes associated with bipolar disorder, with or without psychotic features. Long-term (>3 weeks) effectiveness has not been established in controlled trials.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (efficacy in a pediatric 10–17 mania trial of Depakote ER was not established)",
+        "pediatric": false
+      },
+      "approvalYear": 1995,
+      "dosing": {
+        "start": "Delayed-release: 750 mg/day in divided doses; ER: 25 mg/kg/day once daily",
+        "target": "Lowest effective dose; trials dosed to trough plasma levels of 50–125 mcg/mL (DR) and 85–125 mcg/mL (ER)",
+        "max": "60 mg/kg/day",
+        "notes": "Increase as rapidly as possible to response or target level. Swallow tablets whole. Monitor LFTs, platelets, and ammonia if symptomatic. Avoid in women who are pregnant or planning pregnancy unless alternatives are unacceptable."
+      },
+      "formulations": [
+        "Delayed-release tablets",
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Hepatotoxicity, including fatal hepatic failure (higher risk under age 2 and with POLG mitochondrial disorders)",
+        "Fetal risk: major congenital malformations (including neural tube defects), decreased IQ, and neurodevelopmental disorders",
+        "Pancreatitis, including fatal hemorrhagic cases"
+      ],
+      "contraindications": [
+        "Hepatic disease or significant hepatic dysfunction",
+        "Known mitochondrial disorders caused by POLG mutations; children under 2 suspected of a POLG-related disorder",
+        "Known hypersensitivity to divalproex, valproate, or valproic acid",
+        "Urea cycle disorders",
+        "Migraine prophylaxis in pregnancy or in women of childbearing potential not using effective contraception"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Divalproex is an anti-seizure medicine that also treats mania. It can harm an unborn baby and the liver, so it needs blood tests and careful pregnancy planning.",
+      "source": {
+        "label": "DailyMed: Depakote (divalproex sodium) delayed-release tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08a65cf4-7749-4ceb-6895-8f4805e2b01f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication and dosing confirmed on Depakote (setid 08a65cf4) and Depakote ER (setid 0dc024ce-efc8-4690-7cb5-639c728fccac) labels. Depakote Sprinkle Capsules and valproic acid capsules/solution (Depakene generics) are labeled for epilepsy only, not mania. Approval year 1995 for Depakote mania is from published histories (Drugs@FDA supplement record not located); Depakote ER mania was approved in 2005."
+      }
+    },
+    {
+      "drugId": "carbamazepine",
+      "generic": "Carbamazepine extended-release capsules",
+      "brands": [
+        "Equetro"
+      ],
+      "drugClass": "Anticonvulsant mood stabilizer",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Treatment of patients with acute manic or mixed episodes associated with bipolar I disorder.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (safety and effectiveness not established in pediatric patients)",
+        "pediatric": false
+      },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "200 mg twice daily",
+        "target": "Increase by 200 mg/day to optimal response",
+        "max": "1600 mg/day (higher doses not studied in mania)",
+        "notes": "Test for HLA-B*1502 in at-risk ancestry before starting. Obtain baseline CBC and LFTs. Strong CYP3A4 inducer (autoinduction; many interactions, including hormonal contraceptives). Capsules may be opened and sprinkled on food; do not crush or chew."
+      },
+      "formulations": [
+        "Extended-release capsules"
+      ],
+      "boxedWarnings": [
+        "Serious dermatologic reactions (SJS/TEN) strongly associated with HLA-B*1502; test at-risk ancestry before starting",
+        "Aplastic anemia and agranulocytosis"
+      ],
+      "contraindications": [
+        "Bone marrow depression",
+        "Known hypersensitivity to carbamazepine",
+        "Known hypersensitivity to tricyclic compounds",
+        "Concomitant MAOIs or use within 14 days of stopping an MAOI",
+        "Concomitant nefazodone",
+        "Concomitant delavirdine or other NNRTIs that are CYP3A4 substrates"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Equetro is a long-acting form of carbamazepine approved for mania. It can cause rare but serious skin and blood reactions, so blood tests and sometimes a genetic test are needed.",
+      "source": {
+        "label": "DailyMed: Equetro (carbamazepine) extended-release capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be478f3c-40f6-47cc-8ab9-f420a9372b1c"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Only Equetro carries the bipolar indication. Generic carbamazepine IR/ER tablets and ER capsules (Carbatrol generics) checked on DailyMed are labeled for epilepsy and trigeminal neuralgia only, so genericAvailable=false for this indication."
+      }
+    },
+    {
+      "drugId": "chlorpromazine",
+      "generic": "Chlorpromazine hydrochloride",
+      "brands": [
+        "Thorazine (discontinued)"
+      ],
+      "drugClass": "First-generation (phenothiazine) antipsychotic",
+      "section": "Acute manic or mixed episodes",
+      "indication": "To control the manifestations of the manic type of manic-depressive illness.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (label gives no mania-specific pediatric dosing)",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Hospitalized acute manic states: initial IM, then oral; outpatients 10 mg three to four times daily or 25 mg two to three times daily",
+        "target": "Usually 400–500 mg/day; increase by 20–50 mg semiweekly until calm",
+        "max": "Up to 2000 mg/day may be needed in hospitalized patients; little gain above 1000 mg/day for extended periods",
+        "notes": "Lower doses and slower titration in elderly, emaciated, or debilitated patients. Reduce to lowest effective maintenance dose after control."
+      },
+      "formulations": [
+        "Tablets",
+        "Injection"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Hypersensitivity to phenothiazines",
+        "Comatose states or presence of large amounts of CNS depressants"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Chlorpromazine is an older antipsychotic that can calm mania. It often causes sleepiness, low blood pressure, and movement side effects.",
+      "source": {
+        "label": "DailyMed: Chlorpromazine hydrochloride tablets (Amneal)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa086a21-de85-4b03-af58-49b70acf8cf0"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Old-format generic label; indication and dosing confirmed. Brand Thorazine is no longer marketed. Mania-indication approval year could not be confirmed from a primary source (published histories cite 1973)."
+      }
+    },
+    {
+      "drugId": "aripiprazole",
+      "generic": "Aripiprazole (oral)",
+      "brands": [
+        "Abilify"
+      ],
+      "drugClass": "Second-generation antipsychotic (D2 partial agonist)",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Acute treatment of manic and mixed episodes associated with bipolar I disorder, as monotherapy or as adjunctive therapy with lithium or valproate.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults and pediatric patients 10–17 years",
+        "pediatric": true
+      },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "Adults: 15 mg/day monotherapy; 10–15 mg/day adjunctive. Pediatric 10–17: 2 mg/day",
+        "target": "Adults 15 mg/day; pediatric 10 mg/day (2 mg → 5 mg after 2 days → 10 mg after 2 more days)",
+        "max": "30 mg/day",
+        "notes": "Pediatric increases in 5 mg/day steps. Known CYP2D6 poor metabolizers: half the usual dose; adjust for strong CYP2D6/CYP3A4 inhibitors and CYP3A4 inducers."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets (generic)",
+        "Oral solution (generic)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to aripiprazole"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Aripiprazole is an antipsychotic that treats mania in adults and children 10 and older. Common side effects include restlessness and nausea.",
+      "source": {
+        "label": "DailyMed: Abilify (aripiprazole) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Current Abilify label section 1 lists only acute manic/mixed episodes for bipolar I; the earlier oral maintenance indication is no longer listed in section 1 (maintenance trials remain described in Clinical Studies). Abilify Discmelt brand is discontinued. Opipza (aripiprazole oral film) has no bipolar indication. Pediatric indication approved 2008."
+      }
+    },
+    {
+      "drugId": "asenapine",
+      "generic": "Asenapine",
+      "brands": [
+        "Saphris"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Bipolar I disorder: acute monotherapy of manic or mixed episodes in adults and pediatric patients 10–17 years; adjunctive treatment to lithium or valproate in adults.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults (monotherapy or adjunctive); pediatric patients 10–17 years (monotherapy only)",
+        "pediatric": true
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "Adults: 5–10 mg sublingually twice daily (monotherapy); 5 mg twice daily (adjunctive). Pediatric: 2.5 mg twice daily",
+        "target": "Adults 5–10 mg twice daily; pediatric 2.5–10 mg twice daily",
+        "max": "10 mg twice daily",
+        "notes": "Sublingual only: do not swallow; no food or drink for 10 minutes. Pediatric: increase to 5 mg twice daily after 3 days, then 10 mg twice daily after 3 more days (faster escalation raises dystonia risk)."
+      },
+      "formulations": [
+        "Sublingual tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Severe hepatic impairment (Child-Pugh C)",
+        "Hypersensitivity to asenapine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Asenapine is a tablet that dissolves under the tongue and treats mania. It can cause sleepiness, mouth numbness, and weight gain.",
+      "source": {
+        "label": "DailyMed: Saphris (asenapine) sublingual tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Pediatric (10–17) monotherapy approved 2015. Secuado (asenapine transdermal) is labeled for schizophrenia only."
+      }
+    },
+    {
+      "drugId": "cariprazine",
+      "generic": "Cariprazine",
+      "brands": [
+        "Vraylar"
+      ],
+      "drugClass": "Second-generation antipsychotic (D3/D2 partial agonist)",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Acute treatment of manic or mixed episodes associated with bipolar I disorder in adult and pediatric patients 10 years of age and older.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 10 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2015,
+      "dosing": {
+        "start": "Adults: 1.5 mg/day, 3 mg on Day 2; pediatric 10–17: 0.5 mg/day",
+        "target": "Adults 3–6 mg/day; pediatric 3 or 4.5 mg/day (1.5 mg Day 3, 3 mg Day 5, 4.5 mg from Day 8 if needed)",
+        "max": "Adults 6 mg/day; pediatric 4.5 mg/day",
+        "notes": "Long half-life: dose changes take weeks to reach steady state; monitor for delayed adverse effects. Reduce dose with strong or moderate CYP3A4 inhibitors; CYP3A4 inducers not recommended."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to cariprazine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Cariprazine is a once-daily antipsychotic that treats mania in adults and children 10 and older. Restlessness (akathisia) is a common side effect.",
+      "source": {
+        "label": "DailyMed: Vraylar (cariprazine) capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b5f7c65-aa2d-452a-b3db-bc85c06ff12f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Adult indication approved 2015; pediatric extension (10–17 for bipolar mania, 13–17 for schizophrenia) approved December 2025 (Drugs@FDA efficacy supplements dated 2025-12-18)."
+      }
+    },
+    {
+      "drugId": "iloperidone",
+      "generic": "Iloperidone",
+      "brands": [
+        "Fanapt"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Acute treatment of manic or mixed episodes associated with bipolar I disorder in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2024,
+      "dosing": {
+        "start": "1 mg twice daily (Titration Pack B)",
+        "target": "12 mg twice daily (1, 3, 6, 9, 12 mg twice daily on Days 1–5)",
+        "max": "12 mg twice daily",
+        "notes": "Titrate to reduce orthostatic hypotension. CYP2D6 poor metabolizers or strong CYP2D6/CYP3A4 inhibitors: reduce dose by half. QT prolongation warning."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to iloperidone or formulation components"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Iloperidone is an antipsychotic approved in 2024 to treat mania in adults. The dose is raised slowly to avoid dizziness from low blood pressure.",
+      "source": {
+        "label": "DailyMed: Fanapt (iloperidone) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=33f60b40-3fca-11de-8f56-0002a5d5c51b"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Bipolar indication approved April 2, 2024 (Drugs@FDA S-023). Generic iloperidone tablets exist but the generic label checked (Mylan) lists schizophrenia only, so genericAvailable=false for this indication."
+      }
+    },
+    {
+      "drugId": "milsaperidone",
+      "generic": "Milsaperidone",
+      "brands": [
+        "Bysanti"
+      ],
+      "drugClass": "Second-generation antipsychotic (interconverts with iloperidone)",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Acute treatment of manic or mixed episodes associated with bipolar I disorder in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2026,
+      "dosing": {
+        "start": "1 mg twice daily",
+        "target": "12 mg twice daily after titration (1, 3, 6, 9, 12 mg twice daily on Days 1–5)",
+        "max": "12 mg twice daily",
+        "notes": "Titrate to reduce orthostatic hypotension. Consider CYP2D6 genotyping; poor metabolizers follow a reduced schedule. Halve maintenance dose with strong CYP2D6 or CYP3A4 inhibitors. Milsaperidone and iloperidone interconvert in vivo."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to milsaperidone or inactive ingredients"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Milsaperidone is a new antipsychotic approved in 2026 to treat mania in adults. It is closely related to iloperidone, and the dose is raised slowly.",
+      "source": {
+        "label": "DailyMed: Bysanti (milsaperidone) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=254a1c01-4a4c-4bdd-85d6-1f23f2e4e6f8"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "New NDA 220358 approved February 20, 2026 (FDA approval letter: https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220358Orig1s000ltr.pdf). Pediatric studies (ages 10–17) are required postmarketing. Commercial availability should be confirmed."
+      }
+    },
+    {
+      "drugId": "olanzapine",
+      "generic": "Olanzapine (oral)",
+      "brands": [
+        "Zyprexa",
+        "Zyprexa Zydis"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Oral olanzapine: acute treatment of manic or mixed episodes associated with bipolar I disorder (monotherapy; adults and adolescents 13–17), and as an adjunct to lithium or valproate for manic or mixed episodes (adults).",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults (monotherapy or adjunctive); adolescents 13–17 years (monotherapy)",
+        "pediatric": true
+      },
+      "approvalYear": 2000,
+      "dosing": {
+        "start": "Adults: 10–15 mg once daily (monotherapy) or 10 mg (adjunctive); adolescents 2.5–5 mg once daily",
+        "target": "Adults 5–20 mg/day; adolescents 10 mg/day target (2.5–20 mg/day studied)",
+        "max": "20 mg/day (higher doses not evaluated)",
+        "notes": "Adjust in 5 mg steps no more often than every 24 hours (adults). Label advises considering other drugs first in adolescents because of greater weight gain and dyslipidemia. Lower starting dose in debilitated or slow-metabolizing patients."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "None for olanzapine monotherapy (see lithium/valproate or fluoxetine labels when combined)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Olanzapine is an antipsychotic that treats mania in adults and teens. Weight gain, sleepiness, and higher blood sugar and cholesterol are common.",
+      "source": {
+        "label": "DailyMed: Zyprexa / Zyprexa Zydis / Zyprexa IntraMuscular (olanzapine)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b418946a-1ab4-4d89-a012-d94fc361a3c4"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Adjunctive indication approved 2003; adolescent indication 2009."
+      }
+    },
+    {
+      "drugId": "olanzapine-samidorphan",
+      "generic": "Olanzapine and samidorphan",
+      "brands": [
+        "Lybalvi"
+      ],
+      "drugClass": "Second-generation antipsychotic plus opioid antagonist",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Bipolar I disorder in adults: acute treatment of manic or mixed episodes as monotherapy and as adjunct to lithium or valproate.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "Monotherapy: 10 mg/10 mg or 15 mg/10 mg once daily; adjunctive: 10 mg/10 mg",
+        "target": "10/10, 15/10, or 20/10 mg once daily",
+        "max": "20 mg/10 mg once daily",
+        "notes": "Adjust in 5 mg olanzapine steps at intervals of at least 24 hours. Do not start within 7 days of short-acting or 14 days of long-acting opioid use; precipitated withdrawal risk. Patients may not respond to opioid analgesics during treatment."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Current opioid use",
+        "Acute opioid withdrawal"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Lybalvi combines olanzapine with samidorphan, which lessens weight gain. It must not be taken with opioid medicines.",
+      "source": {
+        "label": "DailyMed: Lybalvi (olanzapine and samidorphan) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32ffddd1-4e2b-45d9-9b36-bb730167ec80"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "quetiapine",
+      "generic": "Quetiapine (immediate- and extended-release)",
+      "brands": [
+        "Seroquel",
+        "Seroquel XR"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Acute treatment of manic episodes (IR) or manic or mixed episodes (XR) associated with bipolar I disorder, both as monotherapy and as an adjunct to lithium or divalproex; monotherapy in pediatric patients 10–17 years.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults (monotherapy or adjunctive); pediatric patients 10–17 years (monotherapy)",
+        "pediatric": true
+      },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "Adults IR: 50 mg twice daily (100 mg/day Day 1); XR: 300 mg/day Day 1. Pediatric IR: 25 mg twice daily; XR: 50 mg/day",
+        "target": "Adults 400–800 mg/day; pediatric 400–600 mg/day",
+        "max": "Adults 800 mg/day; pediatric 600 mg/day",
+        "notes": "IR: increase to 400 mg/day by Day 4 and up to 800 mg/day by Day 6 (steps ≤200 mg/day). XR: once daily in the evening; 300 mg Day 1, 600 mg Day 2, then 400–800 mg/day from Day 3. Pediatric XR: 50, 100, 200, 300, 400 mg on Days 1–5. Lower start and slower titration in elderly or hepatic impairment; adjust with strong CYP3A4 inhibitors/inducers."
+      },
+      "formulations": [
+        "Immediate-release tablets",
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to quetiapine or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Quetiapine is an antipsychotic that treats mania in adults and children 10 and older. Sleepiness, dizziness, and weight gain are common.",
+      "source": {
+        "label": "DailyMed: Seroquel (quetiapine) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ae62aaf-f8c5-417f-baac-0098369ca322"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Seroquel XR label: DailyMed setid ab959a35-d0ba-4f18-8f2e-6619d88b16e3. Seroquel XR mania approved 2008; pediatric (IR) 2009."
+      }
+    },
+    {
+      "drugId": "risperidone",
+      "generic": "Risperidone (oral)",
+      "brands": [
+        "Risperdal",
+        "Risperdal M-Tab"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Treatment of acute manic or mixed episodes associated with bipolar I disorder, as monotherapy (adults and children/adolescents 10–17) or as adjunctive therapy with lithium or valproate (adults).",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults (monotherapy or adjunctive); pediatric patients 10–17 years (monotherapy)",
+        "pediatric": true
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "Adults: 2–3 mg once daily; pediatric: 0.5 mg once daily",
+        "target": "Adults 1–6 mg/day (increase 1 mg/day); pediatric 1–2.5 mg/day (increase 0.5–1 mg/day)",
+        "max": "6 mg/day",
+        "notes": "Severe renal or hepatic impairment: start 0.5 mg twice daily, increase slowly. Adjust with strong CYP2D6 inhibitors or enzyme inducers."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets",
+        "Oral solution"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Hypersensitivity to risperidone, paliperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Risperidone is an antipsychotic that treats mania in adults and children 10 and older. It can raise prolactin and cause weight gain and movement side effects.",
+      "source": {
+        "label": "DailyMed: Risperdal (risperidone) tablets, M-Tab, oral solution",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Pediatric (10–17) indication approved 2007."
+      }
+    },
+    {
+      "drugId": "ziprasidone",
+      "generic": "Ziprasidone (oral)",
+      "brands": [
+        "Geodon"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Acute manic or mixed episodes",
+      "indication": "Monotherapy for the acute treatment of adults with manic or mixed episodes associated with bipolar I disorder.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (pediatric safety and effectiveness not established)",
+        "pediatric": false
+      },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "40 mg twice daily with food",
+        "target": "Increase to 60 or 80 mg twice daily on Day 2; 40–80 mg twice daily",
+        "max": "80 mg twice daily",
+        "notes": "Take with food (absorption roughly doubles). Dose-related QTc prolongation; check electrolytes and cardiac history."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known history of QT prolongation (including congenital long QT syndrome)",
+        "Recent acute myocardial infarction",
+        "Uncompensated heart failure",
+        "Use with other drugs that prolong the QT interval",
+        "Hypersensitivity to ziprasidone",
+        "Concomitant MAOIs or use within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Ziprasidone is an antipsychotic that treats mania in adults. It must be taken with meals and can affect heart rhythm.",
+      "source": {
+        "label": "DailyMed: Geodon (ziprasidone) capsules and injection",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8326928a-2cb6-4f7f-9712-03a425a14c37"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "quetiapine",
+      "generic": "Quetiapine (immediate- and extended-release)",
+      "brands": [
+        "Seroquel",
+        "Seroquel XR"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Bipolar depression",
+      "indication": "Monotherapy for the acute treatment of depressive episodes associated with bipolar disorder (efficacy established in adults with bipolar I and bipolar II disorder).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "50 mg at bedtime (Day 1)",
+        "target": "300 mg/day by Day 4 (50, 100, 200, 300 mg)",
+        "max": "300 mg/day",
+        "notes": "IR given once daily at bedtime; XR once daily in the evening. Lower start in elderly or hepatic impairment."
+      },
+      "formulations": [
+        "Immediate-release tablets",
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to quetiapine or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Quetiapine treats depression in bipolar I and bipolar II disorder in adults. It is taken at night and often causes sleepiness.",
+      "source": {
+        "label": "DailyMed: Seroquel (quetiapine) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ae62aaf-f8c5-417f-baac-0098369ca322"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Seroquel XR label: DailyMed setid ab959a35-d0ba-4f18-8f2e-6619d88b16e3. Covers both bipolar I and II depression. Seroquel XR bipolar depression approved 2008."
+      }
+    },
+    {
+      "drugId": "lurasidone",
+      "generic": "Lurasidone",
+      "brands": [
+        "Latuda"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Bipolar depression",
+      "indication": "Major depressive episode associated with bipolar I disorder (bipolar depression): monotherapy in adults and pediatric patients 10–17 years; adjunctive treatment with lithium or valproate in adults.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults (monotherapy or adjunctive); pediatric patients 10–17 years (monotherapy)",
+        "pediatric": true
+      },
+      "approvalYear": 2013,
+      "dosing": {
+        "start": "20 mg once daily with food (≥350 calories)",
+        "target": "Adults 20–120 mg/day; pediatric 20–80 mg/day",
+        "max": "Adults 120 mg/day; pediatric 80 mg/day",
+        "notes": "No titration required. Moderate/severe renal or moderate hepatic impairment: max 80 mg/day; severe hepatic: max 40 mg/day. Moderate CYP3A4 inhibitor: halve dose, max 80 mg/day."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to lurasidone",
+        "Concomitant strong CYP3A4 inhibitors",
+        "Concomitant strong CYP3A4 inducers"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Lurasidone treats depression in bipolar I disorder in adults and children 10 and older. It must be taken with food.",
+      "source": {
+        "label": "DailyMed: Latuda (lurasidone) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Pediatric (10–17) monotherapy indication approved 2018. Labeled for bipolar I depression only."
+      }
+    },
+    {
+      "drugId": "cariprazine",
+      "generic": "Cariprazine",
+      "brands": [
+        "Vraylar"
+      ],
+      "drugClass": "Second-generation antipsychotic (D3/D2 partial agonist)",
+      "section": "Bipolar depression",
+      "indication": "Treatment of depressive episodes associated with bipolar I disorder (bipolar depression) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2019,
+      "dosing": {
+        "start": "1.5 mg once daily",
+        "target": "1.5 or 3 mg/day (may increase to 3 mg on Day 15)",
+        "max": "3 mg/day",
+        "notes": "Long half-life; effects of dose changes appear over weeks. Reduce dose with strong or moderate CYP3A4 inhibitors; CYP3A4 inducers not recommended."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to cariprazine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Cariprazine treats depression in bipolar I disorder in adults. Restlessness and nausea are common side effects.",
+      "source": {
+        "label": "DailyMed: Vraylar (cariprazine) capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b5f7c65-aa2d-452a-b3db-bc85c06ff12f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "lumateperone",
+      "generic": "Lumateperone",
+      "brands": [
+        "Caplyta"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Bipolar depression",
+      "indication": "Treatment of depressive episodes associated with bipolar I or II disorder (bipolar depression) in adults, as monotherapy and as adjunctive therapy with lithium or valproate.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "42 mg once daily",
+        "target": "42 mg once daily (no titration)",
+        "max": "42 mg/day",
+        "notes": "Moderate CYP3A4 inhibitors: 21 mg/day; strong CYP3A4 inhibitors: 10.5 mg/day; avoid CYP3A4 inducers. Moderate or severe hepatic impairment: 21 mg/day."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to lumateperone or any component"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Lumateperone is a once-daily capsule for depression in bipolar I or bipolar II disorder in adults. Sleepiness and dizziness are common.",
+      "source": {
+        "label": "DailyMed: Caplyta (lumateperone) capsules",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db730b06-6351-47fd-8183-e61e61bbead5"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "One of two drugs (with quetiapine) labeled for bipolar II depression. Later Caplyta approvals (adjunctive MDD, Nov 2025; schizophrenia relapse prevention, Apr 2026) do not change the bipolar indication. No pediatric indication."
+      }
+    },
+    {
+      "drugId": "olanzapine-fluoxetine",
+      "generic": "Olanzapine and fluoxetine",
+      "brands": [
+        "Symbyax (discontinued)"
+      ],
+      "drugClass": "Second-generation antipsychotic plus SSRI combination",
+      "section": "Bipolar depression",
+      "indication": "Treatment of acute depressive episodes associated with bipolar I disorder.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 10–17 years",
+        "pediatric": true
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "Adults: 6 mg/25 mg once daily in the evening; pediatric 10–17: 3 mg/25 mg",
+        "target": "Adults 6–12 mg olanzapine / 25–50 mg fluoxetine; pediatric within 6/25 to 12/50",
+        "max": "12 mg/50 mg once daily (safety above 18/75 not evaluated in adults or above 12/50 in pediatric patients)",
+        "notes": "Start 3/25 to 6/25 mg if prone to hypotension, hepatic impairment, or slow metabolism. Olanzapine monotherapy is not indicated for bipolar depression; Zyprexa plus fluoxetine given separately is labeled equivalently."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "MAOIs for psychiatric disorders concurrently, within 5 weeks of stopping, or within 14 days before starting",
+        "Starting in patients on linezolid or IV methylene blue",
+        "Pimozide",
+        "Thioridazine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "This capsule combines olanzapine with the antidepressant fluoxetine to treat bipolar I depression in adults and children 10 and older. Weight gain and sleepiness are common.",
+      "source": {
+        "label": "DailyMed: Olanzapine and fluoxetine capsules (Par)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f6ceda3-3edc-4427-98a6-23e3c930c44d"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Brand Symbyax is listed as discontinued in Drugs@FDA; generic capsules are marketed. Pediatric 10–17 indication approved 2013."
+      }
+    },
+    {
+      "drugId": "lithium",
+      "generic": "Lithium carbonate / lithium citrate",
+      "brands": [
+        "Lithobid"
+      ],
+      "drugClass": "Mood stabilizer (lithium salt)",
+      "section": "Maintenance",
+      "indication": "Monotherapy for maintenance treatment of bipolar I disorder in patients 7 years and older (IR and oral solution labels); Lithobid/ER labels: maintenance treatment for individuals with bipolar disorder.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Patients 7 years and older (IR tablets/capsules and oral solution); extended-release tablets (Lithobid and generics) carry older labeling that does not recommend use under 12 years",
+        "pediatric": true
+      },
+      "approvalYear": 1974,
+      "dosing": {
+        "start": "Continue from acute dosing",
+        "target": "Serum lithium 0.8–1.0 mEq/L (adults/>30 kg usually 300–600 mg two to three times daily; 20–30 kg: 600–1200 mg/day)",
+        "max": "Titrate to serum level; no fixed mg ceiling",
+        "notes": "Monitor serum levels after any dose or interacting-drug change (diuretics, NSAIDs, ACE inhibitors/ARBs, metronidazole) and periodically; monitor renal and thyroid function and calcium. Lithobid labeling cites 0.6–1.2 mEq/L, usually 900–1200 mg/day."
+      },
+      "formulations": [
+        "Immediate-release capsules",
+        "Immediate-release tablets",
+        "Oral solution (lithium citrate, 8 mEq/5 mL)",
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Lithium toxicity closely related to serum concentrations; can occur at therapeutic doses"
+      ],
+      "contraindications": [
+        "Hypersensitivity to any inactive ingredient in the product"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Taken long term, lithium lowers the chance of new mood episodes and is linked to lower suicide risk. Regular blood tests check the level and kidney and thyroid health.",
+      "source": {
+        "label": "DailyMed: Lithium carbonate tablets and capsules (Hikma)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b839ff4b-f62d-41ab-a823-550a756d58ec"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, ages, and dosing confirmed on current DailyMed labels for IR lithium carbonate (Hikma, setid b839ff4b), lithium oral solution (setid a12d50fb-2c2f-4105-ad17-adbf90d439d4), and Lithobid ER (setid f7f5b69a-c2a1-4586-a189-1475d41387c0). Lithobid/ER generics use older non-PLR labeling ('manic episodes of Bipolar Disorder'; maintenance), with pediatric use not recommended under 12 years. Maintenance approval year (1974) is from published histories, not a primary FDA record."
+      }
+    },
+    {
+      "drugId": "lamotrigine",
+      "generic": "Lamotrigine",
+      "brands": [
+        "Lamictal",
+        "Lamictal ODT"
+      ],
+      "drugClass": "Anticonvulsant mood stabilizer",
+      "section": "Maintenance",
+      "indication": "Maintenance treatment of bipolar I disorder to delay the time to occurrence of mood episodes (depression, mania, hypomania, mixed episodes) in patients treated for acute mood episodes with standard therapy. Not recommended for acute manic or mixed episodes; effectiveness in acute mood episodes not established.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults (pediatric 10–17 maintenance trial did not establish efficacy)",
+        "pediatric": false
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "25 mg/day for weeks 1–2 (12.5 mg/day or 25 mg every other day with valproate; 50 mg/day with carbamazepine-type inducers)",
+        "target": "200 mg/day (100 mg/day with valproate; up to 400 mg/day with enzyme inducers), reached at week 6–7",
+        "max": "200 mg/day recommended (400 mg/day showed no added benefit)",
+        "notes": "Standard escalation: 25 mg weeks 1–2, 50 mg weeks 3–4, 100 mg week 5, 200 mg week 6. Do not exceed the titration (rash risk). Adjust when adding/stopping valproate, inducers, or estrogen-containing contraceptives. Restart titration if stopped for more than 5 half-lives."
+      },
+      "formulations": [
+        "Tablets",
+        "Chewable dispersible tablets",
+        "Orally disintegrating tablets"
+      ],
+      "boxedWarnings": [
+        "Serious skin rashes, including Stevens-Johnson syndrome (higher risk in children, with valproate, or with faster-than-recommended titration)"
+      ],
+      "contraindications": [
+        "Hypersensitivity (e.g., rash, angioedema, urticaria) to lamotrigine or its ingredients"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Lamotrigine is taken long term to help prevent future mood episodes, especially depression, in bipolar I disorder. The dose must be raised slowly to lower the risk of a serious rash.",
+      "source": {
+        "label": "DailyMed: Lamictal (lamotrigine) tablets, chewable dispersible tablets, ODT",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7e3572d-56fe-4727-2bb4-013ccca22678"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Lamictal XR is labeled for epilepsy only (no bipolar indication). Role reflects the trial design (added to or after standard therapy); label wording does not specify monotherapy vs adjunct."
+      }
+    },
+    {
+      "drugId": "aripiprazole",
+      "generic": "Aripiprazole monohydrate (monthly long-acting injectable)",
+      "brands": [
+        "Abilify Maintena"
+      ],
+      "drugClass": "Second-generation antipsychotic (long-acting injectable)",
+      "section": "Maintenance",
+      "indication": "Maintenance monotherapy treatment of bipolar I disorder in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2017,
+      "dosing": {
+        "start": "400 mg IM monthly, with either 2 injections + 20 mg oral on Day 1 or 14 days of oral aripiprazole 10–20 mg",
+        "target": "400 mg IM monthly (300 mg if adverse reactions)",
+        "max": "400 mg monthly",
+        "notes": "Establish oral tolerability first in aripiprazole-naive patients. Deltoid or gluteal. CYP2D6 poor metabolizers: 300 mg monthly; further reductions with strong CYP2D6/CYP3A4 inhibitors; avoid CYP3A4 inducers >14 days. Missed-dose rules apply."
+      },
+      "formulations": [
+        "Extended-release injectable suspension (IM)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to aripiprazole"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "This is a once-a-month aripiprazole shot that helps prevent new mood episodes in adults with bipolar I disorder.",
+      "source": {
+        "label": "DailyMed: Abilify Maintena (aripiprazole) extended-release injectable",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee49f3b1-1650-47ff-9fb1-ea53fe0b92b6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Bipolar I maintenance approved July 2017 (Drugs@FDA S-010)."
+      }
+    },
+    {
+      "drugId": "aripiprazole",
+      "generic": "Aripiprazole (2-month long-acting injectable)",
+      "brands": [
+        "Abilify Asimtufii"
+      ],
+      "drugClass": "Second-generation antipsychotic (long-acting injectable)",
+      "section": "Maintenance",
+      "indication": "Maintenance monotherapy treatment of bipolar I disorder in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2023,
+      "dosing": {
+        "start": "960 mg IM gluteal once, with either Abilify Maintena 400 mg + oral 20 mg on Day 1 or 14 days of oral aripiprazole 10–20 mg",
+        "target": "960 mg every 2 months (720 mg if adverse reactions)",
+        "max": "960 mg every 2 months",
+        "notes": "Patients on Abilify Maintena can switch at the next scheduled injection. CYP2D6 poor metabolizers: 720 mg every 2 months. Gluteal only."
+      },
+      "formulations": [
+        "Extended-release injectable suspension (IM)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to aripiprazole or excipients"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "This aripiprazole shot is given every 2 months to help prevent new mood episodes in adults with bipolar I disorder.",
+      "source": {
+        "label": "DailyMed: Abilify Asimtufii (aripiprazole) extended-release injectable",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Approved April 2023 for schizophrenia and bipolar I maintenance."
+      }
+    },
+    {
+      "drugId": "asenapine",
+      "generic": "Asenapine",
+      "brands": [
+        "Saphris"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Maintenance",
+      "indication": "Bipolar I disorder: maintenance monotherapy treatment in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2017,
+      "dosing": {
+        "start": "Continue dose used for acute stabilization",
+        "target": "5–10 mg sublingually twice daily",
+        "max": "10 mg twice daily",
+        "notes": "Sublingual; no food or drink for 10 minutes after. Periodically reassess need for continued treatment."
+      },
+      "formulations": [
+        "Sublingual tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Severe hepatic impairment (Child-Pugh C)",
+        "Hypersensitivity to asenapine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Asenapine can be continued long term to help prevent new mood episodes in adults with bipolar I disorder.",
+      "source": {
+        "label": "DailyMed: Saphris (asenapine) sublingual tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "olanzapine",
+      "generic": "Olanzapine (oral)",
+      "brands": [
+        "Zyprexa",
+        "Zyprexa Zydis"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Maintenance",
+      "indication": "Oral olanzapine monotherapy: maintenance treatment of bipolar I disorder.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (efficacy established in an adult trial; label extrapolates maintenance to adolescents 13–17 who respond acutely)",
+        "pediatric": true
+      },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "Continue dose that achieved response",
+        "target": "5–20 mg/day",
+        "max": "20 mg/day",
+        "notes": "Periodically reevaluate long-term usefulness. In adolescents, label advises continuing responders at the lowest effective dose and considering other agents first because of metabolic risk."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "None for olanzapine monotherapy (see lithium/valproate or fluoxetine labels when combined)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Olanzapine can be continued long term to help prevent new mood episodes. Weight and blood sugar need regular checks.",
+      "source": {
+        "label": "DailyMed: Zyprexa / Zyprexa Zydis / Zyprexa IntraMuscular (olanzapine)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b418946a-1ab4-4d89-a012-d94fc361a3c4"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Adolescent maintenance is extrapolated in the label (Dosage 2.2), not established in a pediatric trial; pediatric=true reflects this label guidance."
+      }
+    },
+    {
+      "drugId": "olanzapine-samidorphan",
+      "generic": "Olanzapine and samidorphan",
+      "brands": [
+        "Lybalvi"
+      ],
+      "drugClass": "Second-generation antipsychotic plus opioid antagonist",
+      "section": "Maintenance",
+      "indication": "Bipolar I disorder in adults: maintenance monotherapy treatment.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "Continue from acute treatment",
+        "target": "5/10, 10/10, 15/10, or 20/10 mg once daily",
+        "max": "20 mg/10 mg once daily",
+        "notes": "Contraindicated with opioids; warn about overdose risk if opioids are taken after stopping Lybalvi."
+      },
+      "formulations": [
+        "Tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Current opioid use",
+        "Acute opioid withdrawal"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Lybalvi can be taken long term to help prevent new mood episodes in adults with bipolar I disorder. It must not be combined with opioid medicines.",
+      "source": {
+        "label": "DailyMed: Lybalvi (olanzapine and samidorphan) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32ffddd1-4e2b-45d9-9b36-bb730167ec80"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "quetiapine",
+      "generic": "Quetiapine (immediate- and extended-release)",
+      "brands": [
+        "Seroquel",
+        "Seroquel XR"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Maintenance",
+      "indication": "Maintenance treatment of bipolar I disorder, as an adjunct to lithium or divalproex (monotherapy maintenance not systematically evaluated).",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2008,
+      "dosing": {
+        "start": "Continue dose on which patient was stabilized",
+        "target": "400–800 mg/day (IR twice daily; XR once daily)",
+        "max": "800 mg/day",
+        "notes": "Periodically reassess need for maintenance. Monitor metabolic parameters."
+      },
+      "formulations": [
+        "Immediate-release tablets",
+        "Extended-release tablets"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to quetiapine or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Quetiapine added to lithium or divalproex helps prevent new mood episodes in adults with bipolar I disorder.",
+      "source": {
+        "label": "DailyMed: Seroquel (quetiapine) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ae62aaf-f8c5-417f-baac-0098369ca322"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Seroquel XR label: DailyMed setid ab959a35-d0ba-4f18-8f2e-6619d88b16e3. Labeled for adjunctive maintenance only; quetiapine monotherapy maintenance is off-label."
+      }
+    },
+    {
+      "drugId": "risperidone",
+      "generic": "Risperidone (2-week intramuscular long-acting injectable)",
+      "brands": [
+        "Risperdal Consta",
+        "Rykindo"
+      ],
+      "drugClass": "Second-generation antipsychotic (long-acting injectable)",
+      "section": "Maintenance",
+      "indication": "Monotherapy or adjunctive therapy to lithium or valproate for the maintenance treatment of bipolar I disorder.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "25 mg IM every 2 weeks (Consta: oral risperidone for 3 weeks after first injection; Rykindo: 7 days oral)",
+        "target": "25 mg every 2 weeks (some benefit from 37.5 or 50 mg)",
+        "max": "50 mg every 2 weeks",
+        "notes": "Establish oral tolerability first. Dose increases no more often than every 4 weeks. 12.5 mg may be appropriate in hepatic/renal impairment or with interacting drugs (Consta)."
+      },
+      "formulations": [
+        "Extended-release microspheres for injectable suspension (IM)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Hypersensitivity to risperidone, paliperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "This risperidone shot is given every 2 weeks to help prevent new mood episodes in bipolar I disorder.",
+      "source": {
+        "label": "DailyMed: Risperdal Consta (risperidone) long-acting injection",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb34ee82-d2c2-43b8-ba21-2825c0954691"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Generic risperidone extended-release injectable kits (e.g., Teva, setid 32c0f081-b418-4c1c-b39e-eb5c344043c7) carry the same bipolar indication. Rykindo label (setid 58534c96-96f5-4c2e-a061-92d4506aee91) has the same indication (approved 2023), but Drugs@FDA lists Rykindo products as discontinued; confirm availability. Perseris has no bipolar indication."
+      }
+    },
+    {
+      "drugId": "risperidone",
+      "generic": "Risperidone (monthly subcutaneous extended-release injectable)",
+      "brands": [
+        "Uzedy"
+      ],
+      "drugClass": "Second-generation antipsychotic (long-acting injectable)",
+      "section": "Maintenance",
+      "indication": "Monotherapy or adjunctive therapy to lithium or valproate for the maintenance treatment of bipolar I disorder in adults.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2025,
+      "dosing": {
+        "start": "Once monthly dose matched to oral risperidone: 2 mg/day → 50 mg, 3 mg/day → 75 mg, 4 mg/day → 100 mg",
+        "target": "50–100 mg subcutaneously once monthly",
+        "max": "100 mg once monthly for bipolar I (every-2-month dosing is for schizophrenia only)",
+        "notes": "Establish oral tolerability first. From 2-week IM risperidone LAI: start Uzedy at least 5 weeks after last dose (25 → 50 mg, 37.5 → 75 mg, 50 → 100 mg). Abdominal or upper-arm SC injection by a healthcare professional."
+      },
+      "formulations": [
+        "Extended-release injectable suspension (subcutaneous)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Hypersensitivity to risperidone, paliperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Uzedy is a monthly risperidone shot under the skin that helps prevent new mood episodes in adults with bipolar I disorder.",
+      "source": {
+        "label": "DailyMed: Uzedy (risperidone) extended-release injectable suspension",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=734eb776-4be0-4808-834b-0d8b0f9e021e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Bipolar I maintenance approved October 10, 2025 (Drugs@FDA S-008), based on existing data plus model-informed drug development."
+      }
+    },
+    {
+      "drugId": "ziprasidone",
+      "generic": "Ziprasidone (oral)",
+      "brands": [
+        "Geodon"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Maintenance",
+      "indication": "Adjunct to lithium or valproate for the maintenance treatment of bipolar I disorder in adults.",
+      "role": "adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "Continue dose on which patient was stabilized",
+        "target": "40–80 mg twice daily with food",
+        "max": "80 mg twice daily",
+        "notes": "Take with food. QTc prolongation risk; avoid other QT-prolonging drugs."
+      },
+      "formulations": [
+        "Capsules"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known history of QT prolongation (including congenital long QT syndrome)",
+        "Recent acute myocardial infarction",
+        "Uncompensated heart failure",
+        "Use with other drugs that prolong the QT interval",
+        "Hypersensitivity to ziprasidone",
+        "Concomitant MAOIs or use within 14 days of stopping an MAOI"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Ziprasidone added to lithium or valproate helps prevent new mood episodes in adults with bipolar I disorder. It must be taken with meals.",
+      "source": {
+        "label": "DailyMed: Geodon (ziprasidone) capsules and injection",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8326928a-2cb6-4f7f-9712-03a425a14c37"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "olanzapine",
+      "generic": "Olanzapine (intramuscular, short-acting)",
+      "brands": [
+        "Zyprexa IntraMuscular"
+      ],
+      "drugClass": "Second-generation antipsychotic",
+      "section": "Agitation associated with bipolar disorder",
+      "indication": "Treatment of acute agitation associated with schizophrenia and bipolar I mania.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "10 mg IM (5 or 7.5 mg when clinically warranted)",
+        "target": "10 mg; repeat doses up to 10 mg if needed",
+        "max": "30 mg/day (e.g., 3 doses 2–4 hours apart)",
+        "notes": "Assess for orthostatic hypotension before repeat doses. Avoid combining with parenteral benzodiazepines (cardiorespiratory depression reported)."
+      },
+      "formulations": [
+        "Powder for intramuscular injection"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "None for olanzapine monotherapy (see lithium/valproate or fluoxetine labels when combined)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "An olanzapine injection can quickly calm severe agitation during mania. It can lower blood pressure and cause sleepiness.",
+      "source": {
+        "label": "DailyMed: Zyprexa / Zyprexa Zydis / Zyprexa IntraMuscular (olanzapine)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b418946a-1ab4-4d89-a012-d94fc361a3c4"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Zyprexa Relprevv (olanzapine pamoate LAI) is labeled for schizophrenia only."
+      }
+    },
+    {
+      "drugId": "loxapine",
+      "generic": "Loxapine (inhalation powder)",
+      "brands": [
+        "Adasuve"
+      ],
+      "drugClass": "First-generation antipsychotic (inhaled)",
+      "section": "Agitation associated with bipolar disorder",
+      "indication": "Acute treatment of agitation associated with schizophrenia or bipolar I disorder in adults. Must be administered only in an enrolled healthcare facility under the REMS.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2012,
+      "dosing": {
+        "start": "10 mg by oral inhalation (single-use inhaler)",
+        "target": "10 mg",
+        "max": "One dose per 24 hours",
+        "notes": "Screen for asthma/COPD and auscultate before use; monitor for bronchospasm for at least 1 hour; short-acting bronchodilator must be on site."
+      },
+      "formulations": [
+        "Inhalation powder"
+      ],
+      "boxedWarnings": [
+        "Bronchospasm that can lead to respiratory distress and arrest",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Current or past asthma, COPD, or other lung disease with bronchospasm",
+        "Acute respiratory signs (e.g., wheezing)",
+        "Current use of medications for airways disease",
+        "History of bronchospasm after Adasuve",
+        "Known hypersensitivity to loxapine or amoxapine"
+      ],
+      "rems": "ADASUVE REMS",
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Adasuve is an inhaled medicine used in a clinic or hospital to calm agitation quickly. It can cause breathing problems, so it is not for people with lung disease.",
+      "source": {
+        "label": "DailyMed: Adasuve (loxapine) inhalation powder",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50e11732-7387-452d-b3e6-db3a431d5c4a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "dexmedetomidine",
+      "generic": "Dexmedetomidine (sublingual film)",
+      "brands": [
+        "Igalmi"
+      ],
+      "drugClass": "Alpha-2 adrenergic agonist",
+      "section": "Agitation associated with bipolar disorder",
+      "indication": "Acute treatment of agitation associated with schizophrenia or bipolar I or II disorder in adults. Safety and effectiveness beyond 24 hours from the first dose not established.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2022,
+      "dosing": {
+        "start": "Mild/moderate agitation: 120 mcg; severe: 180 mcg (lower in hepatic impairment and age ≥65: 120 mcg)",
+        "target": "Up to 2 additional doses (60 or 90 mcg) at least 2 hours apart if agitation persists",
+        "max": "240 mcg/day (mild/moderate) or 360 mcg/day (severe) in adults",
+        "notes": "Give under healthcare-provider supervision; check vital signs and orthostatics before repeat doses; no repeat if SBP <90, DBP <60, HR <60, or orthostatic drop. Sublingual or buccal; do not chew or swallow."
+      },
+      "formulations": [
+        "Sublingual/buccal film"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "None"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Igalmi is a film placed under the tongue or in the cheek to calm agitation in bipolar I or II disorder. It can lower blood pressure and heart rate.",
+      "source": {
+        "label": "DailyMed: Igalmi (dexmedetomidine) sublingual film",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99476e8c-2527-4cb0-9d67-9f9cd91343c6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "An sNDA for at-home use was submitted January 2026 (PDUFA date reported as November 14, 2026) and is not approved; current labeling requires healthcare-provider supervision. The label lists no contraindications."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Lithium",
+      "drugClass": "Mood stabilizer",
+      "use": "Acute bipolar I depression",
+      "evidence": "guideline-recommended",
+      "notes": "Not labeled for acute depression, but CANMAT/ISBD 2018 lists lithium monotherapy as a first-line option for acute bipolar I depression, based mainly on older and mixed trial data. Antidepressant onset may be slow. Same narrow therapeutic index, renal, thyroid, and drug-interaction cautions as for its labeled uses.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "VA/DoD Clinical Practice Guideline for the Management of Bipolar Disorder (2023)",
+          "url": "https://www.healthquality.va.gov/guidelines/MH/bd/"
+        }
+      ]
+    },
+    {
+      "agent": "Lamotrigine",
+      "drugClass": "Anticonvulsant mood stabilizer",
+      "use": "Acute bipolar depression (monotherapy or adjunctive)",
+      "evidence": "guideline-recommended",
+      "notes": "CANMAT/ISBD 2018 lists lamotrigine as first-line for acute bipolar I depression, though individual RCTs were negative and pooled effects are modest (larger in more severe depression). Required slow titration means benefit takes weeks. Serious rash risk; halve dosing with valproate.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "Geddes JR et al. Lamotrigine for bipolar depression: individual patient data meta-analysis of five RCTs. Br J Psychiatry 2009",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19118318/"
+        }
+      ]
+    },
+    {
+      "agent": "Divalproex / valproate",
+      "drugClass": "Anticonvulsant mood stabilizer",
+      "use": "Acute bipolar depression",
+      "evidence": "guideline-recommended",
+      "notes": "CANMAT/ISBD 2018 lists divalproex as a second-line option for acute bipolar I depression, based on small placebo-controlled trials pooled in meta-analysis. Major teratogenicity (avoid in people who may become pregnant unless alternatives are unacceptable), hepatotoxicity, pancreatitis, weight gain, and polycystic ovary concerns apply.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "Bond DJ et al. Divalproex sodium versus placebo in acute bipolar depression: systematic review and meta-analysis. J Affect Disord 2010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20044142/"
+        }
+      ]
+    },
+    {
+      "agent": "Divalproex / valproate",
+      "drugClass": "Anticonvulsant mood stabilizer",
+      "use": "Maintenance treatment of bipolar I disorder",
+      "evidence": "guideline-recommended",
+      "notes": "Labeling states long-term (>3 weeks) effectiveness has not been shown in controlled trials, yet divalproex is widely used for maintenance and CANMAT/ISBD 2018 lists it as first-line maintenance. Trial evidence for relapse prevention is weaker than for lithium. Same teratogenicity and hepatic cautions.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "Miura T et al. Comparative efficacy and tolerability of pharmacological treatments in the maintenance treatment of bipolar disorder: network meta-analysis. Lancet Psychiatry 2014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26360999/"
+        }
+      ]
+    },
+    {
+      "agent": "Adjunctive antidepressants (SSRIs, bupropion)",
+      "drugClass": "Antidepressants",
+      "use": "Acute bipolar I depression, added to a mood stabilizer or antipsychotic",
+      "evidence": "guideline-recommended",
+      "notes": "CANMAT/ISBD 2018 lists SSRIs (except paroxetine) or bupropion added to lithium/valproate or an atypical antipsychotic as second-line for bipolar I depression. Meta-analyses show small benefit. The ISBD task force advises against antidepressant monotherapy in bipolar I, avoiding them with mixed features, rapid cycling, or prior antidepressant-induced switch, and noting a higher switch risk with SNRIs and tricyclics. Monitor for emerging mania/hypomania and suicidality.",
+      "references": [
+        {
+          "label": "Pacchiarotti I et al. ISBD task force report on antidepressant use in bipolar disorders. Am J Psychiatry 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24030475/"
+        },
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "McGirr A et al. Adjunctive second-generation antidepressants with a mood stabiliser or atypical antipsychotic in acute bipolar depression: systematic review and meta-analysis. Lancet Psychiatry 2016",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28100425/"
+        }
+      ]
+    },
+    {
+      "agent": "Sertraline or venlafaxine (monotherapy)",
+      "drugClass": "Antidepressants",
+      "use": "Acute bipolar II depression",
+      "evidence": "guideline-recommended",
+      "notes": "CANMAT/ISBD 2018 lists sertraline and venlafaxine as second-line monotherapy for bipolar II depression. In an RCT comparing sertraline, lithium, and the combination, response rates were similar and switch rates low, but hypomania can still occur. Monitor for mood elevation and mixed features. Bipolar II depression has FDA-labeled options (quetiapine, lumateperone).",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "Altshuler LL et al. Switch rates during acute treatment for bipolar II depression with lithium, sertraline, or both. Am J Psychiatry 2017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28135846/"
+        }
+      ]
+    },
+    {
+      "agent": "Quetiapine (monotherapy)",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "Maintenance treatment of bipolar I disorder without lithium/divalproex",
+      "evidence": "guideline-recommended",
+      "notes": "Labeled only for maintenance as an adjunct to lithium or divalproex, but CANMAT/ISBD 2018 lists quetiapine monotherapy as a first-line maintenance option based on a randomized-withdrawal trial. Long-term metabolic effects (weight, glucose, lipids), sedation, and QT cautions apply.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "Miura T et al. Network meta-analysis of maintenance treatments in bipolar disorder. Lancet Psychiatry 2014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26360999/"
+        }
+      ]
+    },
+    {
+      "agent": "Carbamazepine (immediate-release or non-Equetro extended-release)",
+      "drugClass": "Anticonvulsant mood stabilizer",
+      "use": "Acute mania and maintenance treatment",
+      "evidence": "guideline-recommended",
+      "notes": "Only Equetro is labeled, and only for acute mania. CANMAT/ISBD 2018 lists carbamazepine as second-line for acute mania and maintenance. It induces CYP3A4 and its own metabolism, which lowers levels of many drugs including hormonal contraceptives and several antipsychotics. HLA-B*1502 testing in at-risk ancestry; risk of blood dyscrasias, hyponatremia, and teratogenicity.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        }
+      ]
+    },
+    {
+      "agent": "Haloperidol",
+      "drugClass": "First-generation antipsychotic",
+      "use": "Acute mania",
+      "evidence": "guideline-recommended",
+      "notes": "Not labeled for mania, but CANMAT/ISBD 2018 lists haloperidol as second-line, and a multiple-treatments meta-analysis ranked it among the most effective antimanic drugs. High risk of extrapyramidal symptoms and tardive dyskinesia; generally used short term. IM forms are used for acute agitation.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "Cipriani A et al. Comparative efficacy and acceptability of antimanic drugs in acute mania: multiple-treatments meta-analysis. Lancet 2011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21851976/"
+        }
+      ]
+    },
+    {
+      "agent": "Paliperidone ER",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "Acute mania (monotherapy)",
+      "evidence": "guideline-recommended",
+      "notes": "Not FDA-approved for bipolar disorder. CANMAT/ISBD 2018 lists paliperidone (>6 mg/day) as a first-line monotherapy for acute mania based on RCTs. Prolactin elevation, EPS, and QT cautions; dose-adjust for renal impairment.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        }
+      ]
+    },
+    {
+      "agent": "Clozapine",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "Treatment-refractory bipolar disorder (mania or maintenance)",
+      "evidence": "guideline-recommended",
+      "notes": "Used for illness that has not responded to several standard agents. CANMAT/ISBD 2018 lists it as third-line for acute mania and maintenance. Evidence is mostly open-label, observational, and from one randomized open trial (systematic review). Requires absolute neutrophil count (ANC) monitoring per current labeling. Risks include agranulocytosis, myocarditis, seizures, severe constipation, and metabolic effects.",
+      "references": [
+        {
+          "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29536616/"
+        },
+        {
+          "label": "Li XB et al. Clozapine for treatment-resistant bipolar disorder: a systematic review. Bipolar Disord 2015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25346322/"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

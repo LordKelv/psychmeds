@@ -1,0 +1,313 @@
+{
+  "id": "premenstrual-dysphoric-disorder",
+  "name": "Premenstrual dysphoric disorder",
+  "aliases": [
+    "PMDD"
+  ],
+  "category": "Depressive disorders",
+  "summary": "Severe, cyclical mood symptoms (irritability, depressed mood, anxiety, affective lability) in the luteal phase that remit shortly after menses onset and cause marked impairment; diagnosis requires prospective daily ratings over at least two cycles. FDA-approved options are three serotonergic antidepressants (fluoxetine, sertraline, paroxetine controlled-release) and drospirenone/ethinyl estradiol 3 mg/0.02 mg oral contraceptives for those who choose an oral contraceptive. No new PMDD approvals were found for 2024 to 2026.",
+  "plainSummary": "PMDD is a condition where mood symptoms like irritability, sadness, or anxiety become severe in the week or two before a period and get better once the period starts. Certain antidepressants and some birth control pills can help.",
+  "approved": [
+    {
+      "drugId": "fluoxetine",
+      "generic": "fluoxetine",
+      "brands": [
+        "Sarafem (discontinued)",
+        "Fluoxetine tablets 10 mg/20 mg (Torrent, PMDD-labeled generic)"
+      ],
+      "drugClass": "Selective serotonin reuptake inhibitor (SSRI)",
+      "indication": "Treatment of premenstrual dysphoric disorder (PMDD). Effectiveness beyond 6 months has not been systematically evaluated in placebo-controlled trials.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (not approved in pediatric patients)",
+        "pediatric": false
+      },
+      "approvalYear": 2000,
+      "dosing": {
+        "start": "20 mg/day",
+        "target": "20 mg/day, continuously (every day) or intermittently (start 14 days before expected menses through the first full day of menses, each cycle)",
+        "max": "80 mg/day (doses above 60 mg/day not studied in PMDD; 60 mg/day showed no added benefit over 20 mg/day)",
+        "notes": "Use a lower or less frequent dose in hepatic impairment. Long half-life: allow 5 weeks after stopping before starting an MAOI or thioridazine."
+      },
+      "formulations": [
+        "Oral tablets 10 mg, 20 mg (PMDD-labeled)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs for psychiatric disorders (concurrently, within 5 weeks after stopping fluoxetine, or within 14 days after stopping the MAOI); linezolid or IV methylene blue",
+        "Pimozide",
+        "Thioridazine (including within 5 weeks after stopping fluoxetine)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Fluoxetine is an antidepressant that can ease PMDD symptoms when taken every day or only in the two weeks before a period.",
+      "source": {
+        "label": "DailyMed: Fluoxetine tablets (Torrent Pharmaceuticals), PMDD-labeled",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcebc7cf-6f95-4f7a-a22b-c7d2e0f04d74"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label text (effective 2024-12) checked for indication, dosing, boxed warning, and contraindications. Brand Sarafem is gone: FDA withdrew Sarafem capsules (NDA 018936) effective April 22, 2024 (Federal Register 2024-05982), and Sarafem tablets (NDA 021860) are listed as discontinued in Drugs@FDA. Searching all ~245 fluoxetine SPLs on DailyMed found only this Torrent fluoxetine tablet label carrying PMDD; Prozac and generic fluoxetine capsules/tablets referencing Prozac do not list PMDD. Prescribers should know that PMDD labeling depends on the specific product, though fluoxetine 20 mg is the same molecule. Approval year (2000, Sarafem) comes from secondary sources."
+      }
+    },
+    {
+      "drugId": "sertraline",
+      "generic": "sertraline",
+      "brands": [
+        "Zoloft"
+      ],
+      "drugClass": "Selective serotonin reuptake inhibitor (SSRI)",
+      "indication": "Treatment of premenstrual dysphoric disorder (PMDD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adult women",
+        "pediatric": false
+      },
+      "approvalYear": 2002,
+      "dosing": {
+        "start": "50 mg/day (continuous or luteal phase only)",
+        "target": "50–150 mg/day continuous; 50–100 mg/day luteal phase",
+        "max": "150 mg/day continuous; 100 mg/day intermittent (luteal phase)",
+        "notes": "Continuous: increase by 50 mg per menstrual cycle as needed. Intermittent: start 14 days before expected menses through onset of menses; if needed, use 50 mg/day for the first 3 days then 100 mg/day for the rest of each luteal-phase course. Mild hepatic impairment: halve the dose; moderate or severe hepatic impairment: not recommended. Oral solution must be diluted and is contraindicated with disulfiram."
+      },
+      "formulations": [
+        "Oral tablets 25 mg, 50 mg, 100 mg",
+        "Oral solution 20 mg/mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs, including linezolid and IV methylene blue (concurrently or within 14 days)",
+        "Pimozide",
+        "Hypersensitivity to sertraline",
+        "Disulfiram (oral solution only)"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Sertraline is an antidepressant that can be taken daily or only in the two weeks before a period to reduce PMDD symptoms.",
+      "source": {
+        "label": "DailyMed: Zoloft (sertraline) tablets and oral solution prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, PMDD dosing (continuous and luteal-phase), boxed warning, and contraindications confirmed on the current Zoloft label. Approval year (2002) comes from secondary sources."
+      }
+    },
+    {
+      "drugId": "paroxetine",
+      "generic": "paroxetine (controlled-release / extended-release)",
+      "brands": [
+        "Paxil CR"
+      ],
+      "drugClass": "Selective serotonin reuptake inhibitor (SSRI)",
+      "indication": "Treatment of premenstrual dysphoric disorder (PMDD) in adults. (Only the controlled-release formulation carries PMDD; immediate-release paroxetine does not.)",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "12.5 mg once daily in the morning (continuous or luteal phase only)",
+        "target": "12.5–25 mg/day",
+        "max": "25 mg/day",
+        "notes": "May increase by 12.5 mg/day at weekly intervals. Luteal-phase dosing starts 14 days before expected menses and continues through onset of menses. Same 25 mg/day maximum in patients 65 and older and in severe renal or hepatic impairment. Swallow whole; do not chew or crush. Taper when stopping."
+      },
+      "formulations": [
+        "Extended-release tablets 12.5 mg, 25 mg, 37.5 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs, including linezolid and IV methylene blue (concurrently or within 14 days)",
+        "Drugs that prolong the QTc interval and are CYP2D6 substrates",
+        "Hypersensitivity to paroxetine or inactive ingredients"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Paroxetine CR is a once-daily, slow-release antidepressant that can reduce PMDD symptoms when taken every day or just before periods.",
+      "source": {
+        "label": "DailyMed: Paxil CR (paroxetine) extended-release tablets prescribing information (Apotex)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, PMDD dosing, boxed warning, and contraindications confirmed on the Paxil CR label (effective 2026-09-30). The current label's contraindications list 'drugs that prolong QTc and are CYP2D6 substrates' and no longer names thioridazine/pimozide separately. Generic paroxetine ER tablets are on DailyMed. Approval year (2003) comes from secondary sources."
+      }
+    },
+    {
+      "drugId": "drospirenone-ethinyl-estradiol",
+      "generic": "drospirenone 3 mg / ethinyl estradiol 0.02 mg (24/4 regimen)",
+      "brands": [
+        "Yaz",
+        "Nikki",
+        "Vestura"
+      ],
+      "drugClass": "Combined oral contraceptive (progestin/estrogen)",
+      "indication": "Treatment of symptoms of PMDD in females of reproductive potential who choose to use an oral contraceptive as their method of contraception. Effectiveness for PMDD beyond 3 menstrual cycles has not been evaluated; not evaluated for premenstrual syndrome (PMS).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Females of reproductive potential (postmenarchal)",
+        "pediatric": false
+      },
+      "approvalYear": 2006,
+      "dosing": {
+        "start": "1 tablet daily (24 active tablets then 4 inert tablets per 28-day pack)",
+        "target": "1 tablet daily at the same time each day",
+        "max": "1 tablet daily",
+        "notes": "Day 1 or Sunday start; take in blister-pack order. Back-up contraception for the first 7 days if not started on Day 1. Drospirenone has antimineralocorticoid activity: check potassium in patients on drugs that raise potassium. Yasmin (3 mg/0.03 mg) is not PMDD-indicated."
+      },
+      "formulations": [
+        "Oral tablets (28-day blister pack: 24 active 3 mg DRSP/0.02 mg EE + 4 inert)"
+      ],
+      "boxedWarnings": [
+        "Cigarette smoking and serious cardiovascular events (do not use in women over 35 who smoke)"
+      ],
+      "contraindications": [
+        "Renal impairment",
+        "Adrenal insufficiency",
+        "High risk of arterial or venous thrombosis (e.g., smoker over 35, DVT/PE, cerebrovascular or coronary disease, thrombogenic valvular/rhythm disease, hypercoagulopathy, uncontrolled hypertension, diabetes with vascular disease, migraine with focal neurologic symptoms or migraine if over 35)",
+        "Undiagnosed abnormal uterine bleeding",
+        "Breast cancer (current or past)",
+        "Liver tumors or liver disease",
+        "Hepatitis C regimens containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Yaz is a birth control pill that can also ease PMDD symptoms for people who want to use the pill for birth control. It should not be used by smokers over 35.",
+      "source": {
+        "label": "DailyMed: Yaz (drospirenone/ethinyl estradiol) tablets prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=065f33e4-b587-4e66-b896-ca9ab7b7c876"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication (section 1.2), dosing, boxed warning, and contraindications confirmed on the Yaz label (effective 2025-05). Generic 3 mg/0.02 mg products Nikki (Lupin) and Vestura (Teva) confirmed to carry PMDD on DailyMed; other generics were not individually checked. Approval year (2006) comes from secondary sources."
+      }
+    },
+    {
+      "drugId": "drospirenone-ethinyl-estradiol-levomefolate",
+      "generic": "drospirenone 3 mg / ethinyl estradiol 0.02 mg / levomefolate calcium 0.451 mg",
+      "brands": [
+        "Beyaz"
+      ],
+      "drugClass": "Combined oral contraceptive with folate",
+      "indication": "Treatment of symptoms of PMDD in females of reproductive potential who choose to use an oral contraceptive as their method of contraception (also indicated to raise folate levels). Effectiveness for PMDD beyond 3 cycles not evaluated.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Females of reproductive potential (postmenarchal)",
+        "pediatric": false
+      },
+      "approvalYear": 2010,
+      "dosing": {
+        "start": "1 tablet daily (24 active tablets then 4 levomefolate-only tablets)",
+        "target": "1 tablet daily at the same time each day",
+        "max": "1 tablet daily",
+        "notes": "Same regimen and cautions as Yaz. Safyral and its generics (3 mg/0.03 mg with folate) are not PMDD-indicated."
+      },
+      "formulations": [
+        "Oral tablets (28-day blister pack: 24 active DRSP/EE/levomefolate + 4 levomefolate calcium 0.451 mg)"
+      ],
+      "boxedWarnings": [
+        "Cigarette smoking and serious cardiovascular events (do not use in women over 35 who smoke)"
+      ],
+      "contraindications": [
+        "Renal impairment",
+        "Adrenal insufficiency",
+        "High risk of arterial or venous thrombosis",
+        "Undiagnosed abnormal uterine bleeding",
+        "Breast cancer (current or past)",
+        "Liver tumors or liver disease",
+        "Hepatitis C regimens containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Beyaz is a birth control pill with added folate that can also ease PMDD symptoms for people who want to use the pill for birth control.",
+      "source": {
+        "label": "DailyMed: Beyaz (drospirenone/ethinyl estradiol/levomefolate calcium) prescribing information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8132454a-6135-4bac-b206-83a55eb8dbc6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "PMDD indication, dosing (1 tablet daily in pack order, Day 1 or Sunday start), strengths, boxed warning, and contraindications confirmed on the Beyaz label (effective 2026-03). Drugs@FDA lists NDA 022532 (approved 2010-09-24) as still marketed; approval year is the original NDA approval, and it was not separately confirmed that PMDD was part of that first approval. A generic (DailyMed setid 48f4301c-0426-43cd-af37-c4d8fc7aeb67) also carries PMDD."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Escitalopram, citalopram (other SSRIs)",
+      "drugClass": "Selective serotonin reuptake inhibitor",
+      "use": "Continuous or luteal-phase treatment of PMDD",
+      "evidence": "guideline-recommended",
+      "notes": "ACOG Clinical Practice Guideline No. 7 (2023) recommends SSRIs as a class (continuous or intermittent) for affective premenstrual symptoms. The 2024 Cochrane review found SSRIs effective for PMS/PMDD, with continuous dosing possibly more effective than intermittent. Common adverse effects include nausea, fatigue, and sexual dysfunction. Antidepressant boxed warning applies to adolescents and young adults.",
+      "references": [
+        {
+          "label": "ACOG Clinical Practice Guideline No. 7: Management of Premenstrual Disorders (2023)",
+          "url": "https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2023/12/management-of-premenstrual-disorders"
+        },
+        {
+          "label": "Jespersen et al. SSRIs for PMS and PMDD. Cochrane 2024, PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39140320/"
+        }
+      ]
+    },
+    {
+      "agent": "Venlafaxine",
+      "drugClass": "Serotonin-norepinephrine reuptake inhibitor",
+      "use": "PMDD when SSRIs are not tolerated or not effective",
+      "evidence": "RCT-supported",
+      "notes": "A placebo-controlled RCT (Freeman 2001, n=164, 50–200 mg/day) showed benefit. Watch for blood pressure increases, discontinuation symptoms with intermittent dosing, and the antidepressant boxed warning.",
+      "references": [
+        {
+          "label": "Freeman et al. Venlafaxine in the treatment of PMDD. Obstet Gynecol 2001, PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11704162/"
+        }
+      ]
+    },
+    {
+      "agent": "GnRH agonists (e.g., leuprolide) with estrogen/progestin add-back",
+      "drugClass": "Gonadotropin-releasing hormone agonist",
+      "use": "Severe, treatment-refractory PMDD (ovarian suppression)",
+      "evidence": "guideline-recommended",
+      "notes": "ACOG suggests GnRH agonists with combined hormonal add-back for adults with severe symptoms; not suggested for adolescents. Risks: hypoestrogenic effects (vasomotor symptoms, bone density loss), cost; add-back hormones can sometimes bring symptoms back. Usually managed with gynecology.",
+      "references": [
+        {
+          "label": "ACOG Clinical Practice Guideline No. 7: Management of Premenstrual Disorders (2023)",
+          "url": "https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2023/12/management-of-premenstrual-disorders"
+        },
+        {
+          "label": "AAFP summary of ACOG premenstrual disorders guideline (2024)",
+          "url": "https://www.aafp.org/afp/2024/1200/practice-guidelines-premenstrual-disorders"
+        }
+      ]
+    },
+    {
+      "agent": "Other combined hormonal contraceptives (including continuous or extended-cycle regimens)",
+      "drugClass": "Combined oral contraceptive",
+      "use": "PMDD symptoms in patients who also want contraception",
+      "evidence": "guideline-recommended",
+      "notes": "ACOG notes COCs moderately improve premenstrual symptoms other than depressive symptoms. Only drospirenone 3 mg/EE 0.02 mg products carry PMDD labeling. Mood may worsen with some progestins. Usual COC thrombosis and smoking cautions apply.",
+      "references": [
+        {
+          "label": "AAFP summary of ACOG premenstrual disorders guideline (2024)",
+          "url": "https://www.aafp.org/afp/2024/1200/practice-guidelines-premenstrual-disorders"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

@@ -1,0 +1,161 @@
+{
+  "id": "acute-agitation",
+  "name": "Acute agitation in schizophrenia or bipolar disorder",
+  "aliases": [
+    "Acute agitation",
+    "Agitation associated with schizophrenia",
+    "Agitation associated with bipolar mania",
+    "Psychiatric agitation"
+  ],
+  "category": "Psychotic disorders",
+  "summary": "Several rapid-acting formulations are FDA-labeled for acute agitation associated with schizophrenia and/or bipolar disorder in adults: IM olanzapine, IM ziprasidone (schizophrenia only), inhaled loxapine (REMS, certified settings), and sublingual dexmedetomidine. IM aripiprazole was removed from the US Abilify label in January 2025 and is no longer a US option.",
+  "plainSummary": "Some people with schizophrenia or bipolar disorder can become very restless, upset, or aggressive. Fast-acting medicines given as a shot, an inhaled powder, or a film under the tongue can help calm these episodes in a medical setting.",
+  "approved": [
+    {
+      "drugId": "olanzapine",
+      "generic": "olanzapine (short-acting intramuscular)",
+      "brands": ["Zyprexa IntraMuscular"],
+      "drugClass": "Second-generation (atypical) antipsychotic",
+      "indication": "Treatment of acute agitation associated with schizophrenia and bipolar I mania (efficacy established in 24-hour IM trials in agitated adult inpatients).",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2004,
+      "dosing": {
+        "start": "10 mg IM (consider 5–7.5 mg when clinically warranted; 5 mg in geriatric patients; 2.5 mg if debilitated or prone to hypotension)",
+        "target": "10 mg IM; additional doses up to 10 mg may be given (2nd dose ≥2 hours after the first, 3rd ≥4 hours after the second)",
+        "max": "Total daily doses >30 mg (e.g., 3 × 10 mg given 2–4 hours apart) have not been evaluated",
+        "notes": "Check orthostatic vital signs before any additional dose. Concomitant IM olanzapine and parenteral benzodiazepine is not recommended (excessive sedation, cardiorespiratory depression). Switch to oral therapy when clinically appropriate."
+      },
+      "formulations": ["Powder for solution for intramuscular injection, 10 mg single-dose vial"],
+      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+      "contraindications": ["None with olanzapine monotherapy (see lithium/valproate/fluoxetine labels when combined)"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A shot of olanzapine can calm severe agitation in adults with schizophrenia or bipolar mania. It can cause sleepiness and low blood pressure, so staff check vital signs before giving more.",
+      "source": {
+        "label": "DailyMed: ZYPREXA / ZYPREXA ZYDIS / ZYPREXA IntraMuscular (olanzapine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b418946a-1ab4-4d89-a012-d94fc361a3c4"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Section 1.4 and 2.4 checked on the Zyprexa label (revised 10/2026). Generic short-acting olanzapine IM labels exist on DailyMed (e.g., PAI Pharma, UBI Pharma)."
+      }
+    },
+    {
+      "drugId": "ziprasidone",
+      "generic": "ziprasidone mesylate (intramuscular)",
+      "brands": ["Geodon for injection"],
+      "drugClass": "Second-generation (atypical) antipsychotic",
+      "indication": "Treatment of acute agitation in adult patients with schizophrenia. Not labeled for agitation in bipolar disorder.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2002,
+      "dosing": {
+        "start": "10–20 mg IM as required",
+        "target": "10 mg may be repeated every 2 hours, or 20 mg every 4 hours",
+        "max": "40 mg/day",
+        "notes": "IM use for more than 3 consecutive days has not been studied. Co-administration with oral ziprasidone is not recommended. Switch to oral therapy as soon as possible."
+      },
+      "formulations": ["Lyophilized powder for injection, 20 mg/mL after reconstitution (single-dose vial)"],
+      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+      "contraindications": [
+        "Known history of QT prolongation (including congenital long QT syndrome)",
+        "Recent acute myocardial infarction",
+        "Uncompensated heart failure",
+        "Use with other drugs that prolong the QT interval (e.g., dofetilide, sotalol, thioridazine)",
+        "Taking, or within 14 days of stopping, MAOIs (including linezolid or IV methylene blue)",
+        "Known hypersensitivity to ziprasidone"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A ziprasidone shot can calm severe agitation in adults with schizophrenia. It is not used in people with certain heart rhythm problems.",
+      "source": {
+        "label": "DailyMed: GEODON (ziprasidone) capsules and injection label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a2b4cc65-6a6d-49c4-adfc-a4458562a167"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, dosing, and contraindications checked on the Geodon label (revised 1/2025). Generic ziprasidone mesylate injection labels are on DailyMed."
+      }
+    },
+    {
+      "drugId": "loxapine",
+      "generic": "loxapine (inhalation powder)",
+      "brands": ["Adasuve"],
+      "drugClass": "First-generation (typical) antipsychotic",
+      "indication": "Acute treatment of agitation associated with schizophrenia or bipolar I disorder in adults. Must be administered only in an enrolled healthcare setting certified under the ADASUVE REMS.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2012,
+      "dosing": {
+        "start": "10 mg by oral inhalation (single-use inhaler)",
+        "target": "10 mg once",
+        "max": "One 10 mg dose per 24 hours",
+        "notes": "Screen for asthma/COPD and other airway disease before use; observe for signs of bronchospasm for at least 1 hour after the dose, with immediate access to a short-acting bronchodilator (per REMS)."
+      },
+      "formulations": ["Inhalation powder, 10 mg single-use inhaler"],
+      "boxedWarnings": [
+        "Bronchospasm (available only through a restricted REMS program)",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Current or history of asthma, COPD, or other lung disease associated with bronchospasm",
+        "Acute respiratory signs or symptoms (e.g., wheezing)",
+        "Current use of medications to treat airways disease",
+        "History of bronchospasm after ADASUVE",
+        "Known hypersensitivity to loxapine or amoxapine"
+      ],
+      "rems": "ADASUVE REMS",
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Inhaled loxapine is breathed in once to calm agitation in adults with schizophrenia or bipolar I disorder. It can tighten the airways, so it is only given in certified clinics and not to people with asthma or COPD.",
+      "source": {
+        "label": "DailyMed: ADASUVE (loxapine) inhalation powder label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50e11732-7387-452d-b3e6-db3a431d5c4a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, single-dose limit, boxed warnings, contraindications, and REMS checked on the current label (revised 5/2026). The 1-hour post-dose monitoring detail comes from REMS requirements and was not re-quoted from the label."
+      }
+    },
+    {
+      "drugId": "dexmedetomidine",
+      "generic": "dexmedetomidine (sublingual film)",
+      "brands": ["Igalmi"],
+      "drugClass": "Alpha-2 adrenergic receptor agonist",
+      "indication": "Acute treatment of agitation associated with schizophrenia or bipolar I or II disorder in adults. Safety and effectiveness have not been established beyond 24 hours from the first dose.",
+      "role": "monotherapy",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2022,
+      "dosing": {
+        "start": "Mild–moderate agitation: 120 mcg; severe agitation: 180 mcg (sublingual or buccal)",
+        "target": "Up to 2 additional half-doses (60 mcg or 90 mcg) at least 2 hours apart if agitation persists",
+        "max": "240 mcg/day (mild–moderate) or 360 mcg/day (severe)",
+        "notes": "Lower doses in hepatic impairment (e.g., severe impairment: initial 60–90 mcg, max 180–210 mcg/day) and in patients ≥65 years (initial 120 mcg, max 240 mcg/day). Do not give additional doses if SBP <90 mmHg, DBP <60 mmHg, HR <60 bpm, or significant orthostatic drop. Must be administered under the supervision of a healthcare provider."
+      },
+      "formulations": ["Sublingual film, 120 mcg and 180 mcg (may be cut in half for 60 mcg / 90 mcg doses)"],
+      "boxedWarnings": [],
+      "contraindications": ["None"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Dexmedetomidine comes as a thin film that dissolves under the tongue or in the cheek and can calm agitation in adults with schizophrenia or bipolar disorder. It can lower blood pressure and heart rate, so it is given with a healthcare provider present.",
+      "source": {
+        "label": "DailyMed: IGALMI (dexmedetomidine) sublingual film label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99476e8c-2527-4cb0-9d67-9f9cd91343c6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Indication, limitation of use, dosing, and contraindications checked on the label (revised 11/2025). A supplemental NDA for at-home use without healthcare-provider supervision has a PDUFA date of 2026-11-14 and is NOT approved as of this review."
+      }
+    }
+  ],
+  "offLabel": [],
+  "lastReviewed": "2026-10-11"
+}

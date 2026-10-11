@@ -1,0 +1,262 @@
+{
+  "id": "schizoaffective-disorder",
+  "name": "Schizoaffective disorder",
+  "aliases": [
+    "Schizoaffective disorder, bipolar type",
+    "Schizoaffective disorder, depressive type",
+    "SCHAFF"
+  ],
+  "category": "Psychotic disorders",
+  "summary": "Psychotic illness meeting criteria for schizophrenia with concurrent major mood episodes, plus at least 2 weeks of psychosis without mood symptoms. Only oral paliperidone and monthly paliperidone palmitate (Invega Sustenna, Erzofri) carry a specific FDA indication; clozapine is labeled for reducing recurrent suicidal behavior in schizoaffective disorder.",
+  "plainSummary": "Schizoaffective disorder combines symptoms of psychosis, like hearing voices or false beliefs, with mood episodes such as depression or mania. Only a few medicines are FDA-approved specifically for it, but others are often used.",
+  "sections": [
+    "Acute and maintenance treatment",
+    "Long-acting injectables",
+    "Reducing suicidal behavior"
+  ],
+  "approved": [
+    {
+      "drugId": "paliperidone",
+      "generic": "paliperidone (extended-release tablets)",
+      "brands": [
+        "Invega"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Acute and maintenance treatment",
+      "indication": "Treatment of schizoaffective disorder as monotherapy and as an adjunct to mood stabilizers and/or antidepressants (efficacy established in two 6-week trials in adults).",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults (schizoaffective indication studied in adults only)",
+        "pediatric": false
+      },
+      "approvalYear": 2009,
+      "dosing": {
+        "start": "6 mg once daily (no titration required)",
+        "target": "3–12 mg once daily",
+        "max": "12 mg/day",
+        "notes": "Increase in 3 mg/day steps at intervals of more than 4 days. Renal impairment: CrCl 50 to <80 mL/min start 3 mg, max 6 mg/day; CrCl 10 to <50 mL/min start 1.5 mg, max 3 mg/day; not recommended if CrCl <10 mL/min. Swallow whole."
+      },
+      "formulations": [
+        "Extended-release tablets (1.5, 3, 6, 9 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to paliperidone, risperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A once-daily pill that treats the psychosis and mood symptoms of schizoaffective disorder, alone or with a mood stabilizer or antidepressant.",
+      "source": {
+        "label": "DailyMed: INVEGA (paliperidone) extended-release tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "paliperidone-palmitate",
+      "generic": "paliperidone palmitate (1-month injection)",
+      "brands": [
+        "Invega Sustenna"
+      ],
+      "drugClass": "Atypical antipsychotic, long-acting injectable",
+      "section": "Long-acting injectables",
+      "indication": "Treatment of schizoaffective disorder in adults as monotherapy and as an adjunct to mood stabilizers or antidepressants.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2014,
+      "dosing": {
+        "start": "234 mg IM (deltoid) on day 1, then 156 mg IM (deltoid) on day 8",
+        "target": "78–234 mg IM monthly (deltoid or gluteal), starting 5 weeks after the first injection",
+        "max": "234 mg monthly",
+        "notes": "Establish tolerability with oral paliperidone or risperidone first. Mild renal impairment (CrCl 50 to <80 mL/min): 156 mg day 1, 117 mg day 8, then 78 mg monthly; not recommended if CrCl <50 mL/min. Missed-dose regimens in label."
+      },
+      "formulations": [
+        "Extended-release injectable suspension, prefilled syringe (39, 78, 117, 156, 234 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to paliperidone, risperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "A shot given once a month by a health professional that treats schizoaffective disorder without needing a daily pill.",
+      "source": {
+        "label": "DailyMed: INVEGA SUSTENNA (paliperidone palmitate)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1af14e42-951d-414d-8564-5d5fce138554"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Generic paliperidone palmitate (e.g., Tolmar) has a DailyMed listing, but US market availability of generic 1-month injection was not independently confirmed."
+      }
+    },
+    {
+      "drugId": "paliperidone-palmitate",
+      "generic": "paliperidone palmitate (1-month injection, Erzofri)",
+      "brands": [
+        "Erzofri"
+      ],
+      "drugClass": "Atypical antipsychotic, long-acting injectable",
+      "section": "Long-acting injectables",
+      "indication": "Treatment of schizoaffective disorder in adults as monotherapy and as an adjunct to mood stabilizers or antidepressants.",
+      "role": "monotherapy or adjunctive",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2024,
+      "dosing": {
+        "start": "351 mg IM (deltoid) on day 1 (single initiation injection)",
+        "target": "78–234 mg IM monthly (deltoid or gluteal), starting 4 weeks after the first injection",
+        "max": "234 mg monthly",
+        "notes": "Establish tolerability with oral paliperidone or risperidone first. Unlike Invega Sustenna, no day-8 injection. Mild renal impairment uses a lower initiation (234 mg day 1) and maintenance dose per label; the 39 mg strength was not studied in the long-term schizoaffective trial."
+      },
+      "formulations": [
+        "Extended-release injectable suspension, prefilled syringe (39, 78, 117, 156, 234, 351 mg)"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to paliperidone, risperidone, or any excipient"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "A monthly paliperidone shot that starts with a single larger first dose instead of two starting shots.",
+      "source": {
+        "label": "DailyMed: ERZOFRI (paliperidone palmitate)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=492bf9dd-868e-421a-92db-8cca8973aac1"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "clozapine",
+      "generic": "clozapine",
+      "brands": [
+        "Clozaril",
+        "Versacloz"
+      ],
+      "drugClass": "Atypical (second-generation) antipsychotic",
+      "section": "Reducing suicidal behavior",
+      "indication": "Reducing the risk of recurrent suicidal behavior in patients with schizophrenia or schizoaffective disorder who are judged to be at chronic risk for re-experiencing suicidal behavior.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2002,
+      "dosing": {
+        "start": "12.5 mg once or twice daily",
+        "target": "300–450 mg/day in divided doses by the end of week 2 (increase by 25–50 mg/day)",
+        "max": "900 mg/day",
+        "notes": "Baseline ANC required; do not start if ANC <1500/μL (<1000/μL with benign ethnic neutropenia); ANC monitoring per label schedule. Label suggests continuing at least 2 years for suicidal behavior. Re-titrate after ≥2 days missed. Reduce dose with strong CYP1A2 inhibitors. The Clozapine REMS was eliminated in 2025; ANC monitoring recommendations remain in labeling."
+      },
+      "formulations": [
+        "Tablets",
+        "Orally disintegrating tablets (generic)",
+        "Oral suspension 50 mg/mL (Versacloz)"
+      ],
+      "boxedWarnings": [
+        "Severe neutropenia",
+        "Orthostatic hypotension, bradycardia, and syncope",
+        "Seizures",
+        "Myocarditis, pericarditis, and cardiomyopathy",
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Known serious hypersensitivity to clozapine (e.g., photosensitivity, vasculitis, erythema multiforme, Stevens-Johnson syndrome) or any component"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Clozapine is the one medicine approved to lower the risk of repeated suicide attempts in schizophrenia and schizoaffective disorder; it needs regular blood tests.",
+      "source": {
+        "label": "DailyMed: CLOZARIL (clozapine) tablets",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Other second-generation antipsychotics (e.g., risperidone, olanzapine, aripiprazole, ziprasidone) including their long-acting injectables",
+      "drugClass": "Atypical antipsychotics",
+      "use": "Primary antipsychotic treatment of schizoaffective disorder (labeled for schizophrenia and/or bipolar disorder but not specifically for schizoaffective disorder)",
+      "evidence": "RCT-supported",
+      "notes": "Trials of these agents often enrolled mixed schizophrenia/schizoaffective samples; treatment is commonly extrapolated from schizophrenia and bipolar data. In a Finnish/Swedish nationwide cohort, LAIs and clozapine were associated with the lowest psychosis rehospitalization risk, while quetiapine was not associated with reduced risk. Usual antipsychotic metabolic, movement, and prolactin monitoring applies.",
+      "references": [
+        {
+          "label": "Lintunen J et al. Long-term real-world effectiveness of pharmacotherapies for schizoaffective disorder. Schizophr Bull 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33533399/"
+        }
+      ]
+    },
+    {
+      "agent": "Mood stabilizers (lithium, valproate/divalproex, lamotrigine) added to an antipsychotic",
+      "drugClass": "Mood stabilizers",
+      "use": "Adjunct for mood symptoms, especially bipolar-type schizoaffective disorder",
+      "evidence": "limited",
+      "notes": "Evidence is mainly observational and extrapolated from bipolar disorder; combination with antipsychotics was associated with reduced psychosis rehospitalization in a nationwide cohort. Lithium requires serum level, renal, and thyroid monitoring; valproate carries hepatotoxicity, pancreatitis, and teratogenicity warnings (avoid in people who may become pregnant when alternatives exist).",
+      "references": [
+        {
+          "label": "Lintunen J et al. Schizophr Bull 2021 (nationwide cohorts)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33533399/"
+        },
+        {
+          "label": "APA Practice Guideline for the Treatment of Patients With Schizophrenia, 3rd ed. Am J Psychiatry 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32867516/"
+        }
+      ]
+    },
+    {
+      "agent": "Antidepressants (e.g., SSRIs) added to an antipsychotic",
+      "drugClass": "Antidepressants",
+      "use": "Adjunct for depressive episodes in depressive-type schizoaffective disorder",
+      "evidence": "limited",
+      "notes": "Data are largely extrapolated from schizophrenia trials (small benefit for depressive and negative symptoms) and observational cohorts with inconsistent results. Monitor for activation, mania/switching in bipolar-type illness, QT prolongation with some combinations, and CYP2D6 interactions with antipsychotics.",
+      "references": [
+        {
+          "label": "Helfer B et al. Antidepressants added to antipsychotics for schizophrenia: meta-analysis. Am J Psychiatry 2016",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27282362/"
+        },
+        {
+          "label": "Lintunen J et al. Schizophr Bull 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33533399/"
+        }
+      ]
+    },
+    {
+      "agent": "Clozapine",
+      "drugClass": "Atypical antipsychotic",
+      "use": "Treatment-resistant schizoaffective disorder (clozapine is labeled only for treatment-resistant schizophrenia and for suicidal behavior in schizoaffective disorder)",
+      "evidence": "limited",
+      "notes": "Observational nationwide data associate clozapine with the lowest risk of psychosis rehospitalization in schizoaffective disorder. Requires ANC monitoring and attention to myocarditis, seizures, orthostasis, constipation/ileus, and metabolic effects.",
+      "references": [
+        {
+          "label": "Lintunen J et al. Schizophr Bull 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33533399/"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

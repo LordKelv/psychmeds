@@ -1,0 +1,766 @@
+{
+  "id": "generalized-anxiety-disorder",
+  "name": "Generalized Anxiety Disorder",
+  "aliases": [
+    "GAD"
+  ],
+  "category": "Anxiety disorders",
+  "summary": "Chronic, excessive worry with somatic symptoms lasting at least 6 months. SSRIs and SNRIs (escitalopram, paroxetine, duloxetine, venlafaxine XR) carry specific GAD labeling. Buspirone and several older benzodiazepines and other anxiolytics carry broader 'anxiety disorders / symptoms of anxiety' labeling.",
+  "plainSummary": "Generalized anxiety disorder means worrying too much, most days, about many things, often with tension, poor sleep, and trouble focusing. Talk therapy and daily medicines can both help.",
+  "sections": [
+    "Labeled for GAD",
+    "Labeled for anxiety disorders / short-term relief of anxiety"
+  ],
+  "approved": [
+    {
+      "drugId": "escitalopram",
+      "generic": "escitalopram",
+      "brands": [
+        "Lexapro"
+      ],
+      "drugClass": "SSRI",
+      "section": "Labeled for GAD",
+      "indication": "Treatment of generalized anxiety disorder (GAD) in adults and pediatric patients 7 years of age and older.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 7 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2003,
+      "dosing": {
+        "start": "10 mg once daily",
+        "target": "10 mg once daily",
+        "max": "20 mg/day",
+        "notes": "Increase to 20 mg no sooner than 1 week (adults) or 2 weeks (pediatric). Elderly and hepatic impairment: 10 mg/day. Escitalopram 15 mg capsules are labeled for GAD in adults <65 only and are not for initiation/titration."
+      },
+      "formulations": [
+        "Tablets 5, 10, 20 mg",
+        "Oral solution 1 mg/mL (generic)",
+        "Capsules 15 mg (not for initiation)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Pimozide",
+        "Hypersensitivity to escitalopram or citalopram"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Escitalopram is a daily antidepressant (SSRI) approved to treat generalized anxiety in adults and children 7 and older. It usually takes a few weeks to help.",
+      "source": {
+        "label": "DailyMed: Lexapro (escitalopram) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13bb8267-1cab-43e5-acae-55a4d957630a"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Pediatric GAD (ages 7+) added May 2023 (Drugs@FDA efficacy supplement). Escitalopram 15 mg capsule label also checked."
+      }
+    },
+    {
+      "drugId": "paroxetine",
+      "generic": "paroxetine",
+      "brands": [
+        "Paxil"
+      ],
+      "drugClass": "SSRI",
+      "section": "Labeled for GAD",
+      "indication": "Treatment of generalized anxiety disorder (GAD) in adults (Paxil immediate-release; Paxil CR is not labeled for GAD).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2001,
+      "dosing": {
+        "start": "10 mg once daily for 1 week, then 20 mg once daily",
+        "target": "20 mg once daily",
+        "max": "50 mg/day",
+        "notes": "Increase by 10 mg/day at weekly intervals if needed; no clear added benefit above 20 mg/day. Geriatric, severe renal or hepatic impairment: start 10 mg/day, max 40 mg/day. Taper on discontinuation."
+      },
+      "formulations": [
+        "Tablets 10, 20, 30, 40 mg",
+        "Oral suspension 10 mg/5 mL"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days",
+        "Drugs that prolong the QTc interval and are CYP2D6 substrates (e.g., thioridazine, pimozide)",
+        "Hypersensitivity to paroxetine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Paroxetine is a daily antidepressant (SSRI) approved for generalized anxiety in adults. Stopping it suddenly can cause withdrawal-like symptoms.",
+      "source": {
+        "label": "DailyMed: Paxil (paroxetine) tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ef3b5cbe-f9e1-c1ac-79da-cfe14e3a7e7e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Label reformatted Sept 2026 (Apotex); dosing reflects current label."
+      }
+    },
+    {
+      "drugId": "duloxetine",
+      "generic": "duloxetine",
+      "brands": [
+        "Cymbalta",
+        "Drizalma Sprinkle"
+      ],
+      "drugClass": "SNRI",
+      "section": "Labeled for GAD",
+      "indication": "Treatment of generalized anxiety disorder in adults and pediatric patients 7 years of age and older.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 7 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 2007,
+      "dosing": {
+        "start": "Adults: 60 mg once daily (or 30 mg once daily for 1 week); geriatric and pediatric: 30 mg once daily",
+        "target": "60 mg once daily (pediatric 30–60 mg)",
+        "max": "120 mg/day",
+        "notes": "Increase in 30 mg increments if going above 60 mg/day; no clear added benefit above 60 mg/day. Geriatric: 30 mg for 2 weeks before increasing. 80/90/120 mg capsules are not for initiation or titration. Avoid in severe renal impairment or hepatic insufficiency (label)."
+      },
+      "formulations": [
+        "Delayed-release capsules 20, 30, 40, 60 mg",
+        "Delayed-release capsules 80, 90, 120 mg (not for initiation)",
+        "Drizalma Sprinkle delayed-release capsules (can be sprinkled on applesauce or given via NG tube)"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "MAOIs intended to treat psychiatric disorders concurrently, within 5 days of stopping duloxetine, or within 14 days of stopping the MAOI",
+        "Starting duloxetine in patients on linezolid or IV methylene blue"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Duloxetine is a daily antidepressant (SNRI) approved for generalized anxiety in adults and children 7 and older.",
+      "source": {
+        "label": "DailyMed: Drizalma Sprinkle (duloxetine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b41423b8-dfec-4d79-ba3c-e43a87803d85"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked against Drizalma Sprinkle and a 2026 generic duloxetine delayed-release label. The Lilly Cymbalta label was not found on DailyMed on the check date (Drugs@FDA still lists Cymbalta NDA 022148 as a prescription product). Pediatric GAD (7–17) added in 2014 per Drugs@FDA supplement dates."
+      }
+    },
+    {
+      "drugId": "venlafaxine",
+      "generic": "venlafaxine extended-release",
+      "brands": [
+        "Effexor XR"
+      ],
+      "drugClass": "SNRI",
+      "section": "Labeled for GAD",
+      "indication": "Treatment of Generalized Anxiety Disorder (GAD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1999,
+      "dosing": {
+        "start": "75 mg once daily with food (or 37.5 mg/day for 4–7 days)",
+        "target": "75 mg/day",
+        "max": "225 mg/day",
+        "notes": "Increase by up to 75 mg/day at intervals of at least 4 days. Hepatic impairment: reduce dose by 50% (more in severe/cirrhosis). Renal impairment: reduce 25–50%; 50% or more in severe impairment/dialysis. Can raise blood pressure. Venlafaxine ER tablets and IR tablets are not labeled for GAD."
+      },
+      "formulations": [
+        "Extended-release capsules 37.5, 75, 150 mg"
+      ],
+      "boxedWarnings": [
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+      ],
+      "contraindications": [
+        "Hypersensitivity to venlafaxine or desvenlafaxine",
+        "MAOIs (including linezolid or IV methylene blue) concurrently or within 14 days"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Venlafaxine XR is a once-daily antidepressant (SNRI) approved for generalized anxiety in adults. It can raise blood pressure, so blood pressure is checked.",
+      "source": {
+        "label": "DailyMed: Effexor XR (venlafaxine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c848a5d8-ba94-4c84-80e3-0bf35fb8e32e"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "alprazolam",
+      "generic": "alprazolam",
+      "brands": [
+        "Xanax"
+      ],
+      "drugClass": "Benzodiazepine",
+      "section": "Labeled for GAD",
+      "indication": "Acute treatment of generalized anxiety disorder (GAD) in adults.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1981,
+      "dosing": {
+        "start": "0.25–0.5 mg three times daily",
+        "target": "Lowest effective dose; adjust every 3–4 days",
+        "max": "4 mg/day in divided doses",
+        "notes": "Frequently reassess need for continued treatment. Taper by no more than 0.5 mg every 3 days. Geriatric, debilitated, or hepatic impairment: start 0.25 mg two or three times daily. Reduce dose with ritonavir. Xanax XR is labeled only for panic disorder."
+      },
+      "formulations": [
+        "Tablets 0.25, 0.5, 1, 2 mg",
+        "Orally disintegrating tablets (generic)"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "Hypersensitivity to alprazolam or other benzodiazepines",
+        "Strong CYP3A inhibitors (e.g., ketoconazole, itraconazole), except ritonavir",
+        "Acute narrow-angle glaucoma (listed on generic ODT label)"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Alprazolam is a fast-acting benzodiazepine approved for short-term treatment of generalized anxiety in adults. It can cause dependence, and it is dangerous with opioids or alcohol.",
+      "source": {
+        "label": "DailyMed: Xanax (alprazolam) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb5cf72e-3a41-41a8-9a38-80f974eca33f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Current Xanax label wording is 'acute treatment of GAD'; older generic ODT labels say 'treatment of generalized anxiety disorder'."
+      }
+    },
+    {
+      "drugId": "buspirone",
+      "generic": "buspirone",
+      "brands": [
+        "BuSpar (discontinued)"
+      ],
+      "drugClass": "Azapirone (5-HT1A partial agonist)",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Indicated for the management of anxiety disorders or the short-term relief of the symptoms of anxiety. Label notes efficacy was shown in outpatients whose diagnosis roughly corresponds to GAD.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 1986,
+      "dosing": {
+        "start": "7.5 mg twice daily (15 mg/day)",
+        "target": "20–30 mg/day in divided doses",
+        "max": "60 mg/day",
+        "notes": "Increase by 5 mg/day every 2–3 days as needed. Take consistently with or without food. Lower dose with strong CYP3A4 inhibitors. Onset over weeks; not useful as needed."
+      },
+      "formulations": [
+        "Tablets 5, 7.5, 10, 15, 30 mg"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Hypersensitivity to buspirone",
+        "MAOIs concurrently or within 14 days; starting buspirone in patients on linezolid or IV methylene blue"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Buspirone is a non-habit-forming anxiety medicine taken every day. It takes a few weeks to work and is not used for sudden anxiety.",
+      "source": {
+        "label": "DailyMed: buspirone hydrochloride tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=55810b17-4796-49d0-90e4-8e075d62eda4"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "BuSpar brand discontinued (Drugs@FDA). Approval year from brand history, not re-confirmed."
+      }
+    },
+    {
+      "drugId": "lorazepam",
+      "generic": "lorazepam",
+      "brands": [
+        "Ativan"
+      ],
+      "drugClass": "Benzodiazepine",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Management of anxiety disorders or for the short-term relief of the symptoms of anxiety or anxiety associated with depressive symptoms.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (label: safety and effectiveness not established under 12 years)",
+        "pediatric": false
+      },
+      "approvalYear": 1977,
+      "dosing": {
+        "start": "2–3 mg/day in 2–3 divided doses",
+        "target": "2–6 mg/day in divided doses",
+        "max": "10 mg/day",
+        "notes": "Largest dose at bedtime. Elderly or debilitated: start 1–2 mg/day. Increase gradually; use a gradual taper to stop. Label wording is 'anxiety disorders'/'symptoms of anxiety' (pre-DSM-III era), not GAD specifically. Long-term (>4 months) effectiveness not systematically assessed per label."
+      },
+      "formulations": [
+        "Tablets 0.5, 1, 2 mg",
+        "Oral concentrate 2 mg/mL (generic)"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "Hypersensitivity to benzodiazepines",
+        "Acute narrow-angle glaucoma"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Lorazepam is a benzodiazepine used for short-term relief of anxiety. It can cause sleepiness and dependence, and it is dangerous with opioids or alcohol.",
+      "source": {
+        "label": "DailyMed: Ativan (lorazepam) tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=89057c93-8155-4040-acec-64e877bd2b4c"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "lorazepam",
+      "generic": "lorazepam extended-release",
+      "brands": [
+        "Loreev XR"
+      ],
+      "drugClass": "Benzodiazepine",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Treatment of anxiety disorders in adults who are receiving stable, evenly divided, three times daily dosing with lorazepam tablets.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": 2021,
+      "dosing": {
+        "start": "Once daily in the morning at a dose equal to the total daily dose of lorazepam tablets",
+        "target": "Same as prior total daily lorazepam dose",
+        "max": "N/A (dose is converted from the stable lorazepam tablet regimen)",
+        "notes": "Not for initiation. To change dose, switch back to lorazepam tablets. Capsules may be opened and sprinkled on applesauce; do not crush or chew."
+      },
+      "formulations": [
+        "Extended-release capsules"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "Hypersensitivity to benzodiazepines or product ingredients",
+        "Acute narrow-angle glaucoma"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": false,
+      "plainSummary": "Loreev XR is a once-a-day form of lorazepam for adults already taking lorazepam three times a day at a steady dose.",
+      "source": {
+        "label": "DailyMed: Loreev XR (lorazepam) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified"
+      }
+    },
+    {
+      "drugId": "diazepam",
+      "generic": "diazepam",
+      "brands": [
+        "Valium"
+      ],
+      "drugClass": "Benzodiazepine",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Treatment of anxiety disorders; short-term treatment of anxiety symptoms (also labeled for alcohol withdrawal, muscle spasm, and adjunctive seizure treatment).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and pediatric patients 6 months and older",
+        "pediatric": true
+      },
+      "approvalYear": 1963,
+      "dosing": {
+        "start": "2–10 mg two to four times daily (adults); 2–2.5 mg once or twice daily in geriatric/debilitated patients",
+        "target": "2–10 mg two to four times daily, by severity",
+        "max": "40 mg/day (10 mg four times daily, upper end of labeled range)",
+        "notes": "Pediatric (6 months and older): 1–2.5 mg three or four times daily initially, increase as tolerated. Long-term use (>4 months) not evaluated. Gradual taper to stop."
+      },
+      "formulations": [
+        "Tablets 2, 5, 10 mg",
+        "Oral solution 5 mg/5 mL and concentrate 5 mg/mL (generic)"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "Hypersensitivity to diazepam",
+        "Acute narrow-angle glaucoma"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Diazepam is a long-acting benzodiazepine used for anxiety and several other conditions. It can cause sleepiness and dependence, and it is dangerous with opioids or alcohol.",
+      "source": {
+        "label": "DailyMed: Valium (diazepam) tablets label (Waylis, Oct 2026)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication and adult dosing confirmed on the Oct 2026 Valium label. Pediatric starting dose taken from the prior Roche-format Valium label; the new label refers to section 2.2 for pediatric dosing, which was not fully reviewed. The older label also listed myasthenia gravis, severe respiratory or hepatic insufficiency, and sleep apnea as contraindications; the new label lists only hypersensitivity and acute narrow-angle glaucoma."
+      }
+    },
+    {
+      "drugId": "chlordiazepoxide",
+      "generic": "chlordiazepoxide",
+      "brands": [
+        "Librium"
+      ],
+      "drugClass": "Benzodiazepine",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Management of anxiety disorders or for the short-term relief of symptoms of anxiety, withdrawal symptoms of acute alcoholism, and preoperative apprehension and anxiety.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and children 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 1960,
+      "dosing": {
+        "start": "Mild–moderate anxiety: 5–10 mg three or four times daily",
+        "target": "5–25 mg three or four times daily, by severity",
+        "max": "Severe anxiety: 20–25 mg three or four times daily (label upper range for anxiety)",
+        "notes": "Geriatric/debilitated: 5 mg two to four times daily. Children 6 years and older: 5 mg two to four times daily (may increase to 10 mg two or three times daily); not recommended under 6. Label wording is 'anxiety disorders'/'symptoms of anxiety' (pre-DSM-III era), not GAD specifically. Long-term (>4 months) effectiveness not systematically assessed per label."
+      },
+      "formulations": [
+        "Capsules 5, 10, 25 mg"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "Hypersensitivity to chlordiazepoxide"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Chlordiazepoxide is an older, long-acting benzodiazepine used for anxiety and alcohol withdrawal. It can cause dependence and is dangerous with opioids or alcohol.",
+      "source": {
+        "label": "DailyMed: chlordiazepoxide hydrochloride capsules label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1eb5eb7a-8c5f-43a3-9b9f-6321cdb6f6c7"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Librium brand listed as a prescription product in Drugs@FDA."
+      }
+    },
+    {
+      "drugId": "clorazepate",
+      "generic": "clorazepate",
+      "brands": [
+        "Tranxene T-Tab"
+      ],
+      "drugClass": "Benzodiazepine",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Management of anxiety disorders or for the short-term relief of the symptoms of anxiety (also adjunctive therapy for partial seizures and symptomatic relief of acute alcohol withdrawal).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (not recommended under 9 years)",
+        "pediatric": false
+      },
+      "approvalYear": 1972,
+      "dosing": {
+        "start": "15 mg/day (divided, or as a single bedtime dose); 7.5–15 mg/day in elderly or debilitated patients",
+        "target": "30 mg/day in divided doses",
+        "max": "60 mg/day",
+        "notes": "Adjust gradually within 15–60 mg/day. Label wording is 'anxiety disorders'/'symptoms of anxiety' (pre-DSM-III era), not GAD specifically. Long-term (>4 months) effectiveness not systematically assessed per label."
+      },
+      "formulations": [
+        "Tablets 3.75, 7.5, 15 mg"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "Hypersensitivity to clorazepate",
+        "Acute narrow-angle glaucoma"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Clorazepate is a long-acting benzodiazepine used for anxiety. It can cause dependence and is dangerous with opioids or alcohol.",
+      "source": {
+        "label": "DailyMed: clorazepate dipotassium tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=499a6989-8912-44b7-b1eb-ee8f85ae378f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Pediatric statement refers to label warning (not recommended under 9 years); no pediatric anxiety dosing given. Approval year from brand history, not re-confirmed."
+      }
+    },
+    {
+      "drugId": "oxazepam",
+      "generic": "oxazepam",
+      "brands": [
+        "Serax (discontinued)"
+      ],
+      "drugClass": "Benzodiazepine",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Management of anxiety disorders or for the short-term relief of the symptoms of anxiety. Anxiety associated with depression is also responsive to oxazepam therapy.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults (not indicated under 6 years; dosing for ages 6–12 not established)",
+        "pediatric": false
+      },
+      "approvalYear": 1965,
+      "dosing": {
+        "start": "Mild–moderate: 10–15 mg three or four times daily; older patients 10 mg three times daily",
+        "target": "10–30 mg three or four times daily, by severity",
+        "max": "Severe anxiety: 15–30 mg three or four times daily (label upper range)",
+        "notes": "Short half-life, no active metabolites (glucuronidated). Label wording is 'anxiety disorders'/'symptoms of anxiety' (pre-DSM-III era), not GAD specifically. Long-term (>4 months) effectiveness not systematically assessed per label."
+      },
+      "formulations": [
+        "Capsules 10, 15, 30 mg"
+      ],
+      "boxedWarnings": [
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
+      ],
+      "contraindications": [
+        "Hypersensitivity to oxazepam",
+        "Not indicated in psychoses"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Oxazepam is a shorter-acting benzodiazepine used for anxiety. It can cause dependence and is dangerous with opioids or alcohol.",
+      "source": {
+        "label": "DailyMed: oxazepam capsules label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb6d9142-3647-4591-8f84-31b61b755634"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Serax brand discontinued (Drugs@FDA). Approval year from brand history, not re-confirmed."
+      }
+    },
+    {
+      "drugId": "hydroxyzine",
+      "generic": "hydroxyzine (hydrochloride or pamoate)",
+      "brands": [
+        "Atarax (discontinued)",
+        "Vistaril (discontinued)"
+      ],
+      "drugClass": "First-generation antihistamine",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "For symptomatic relief of anxiety and tension associated with psychoneurosis and as an adjunct in organic disease states in which anxiety is manifested.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and children",
+        "pediatric": true
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "Adults: 50–100 mg four times daily (label range)",
+        "target": "Adults: 50–100 mg four times daily",
+        "max": "400 mg/day (label upper range)",
+        "notes": "Children under 6: 50 mg/day in divided doses; over 6: 50–100 mg/day in divided doses. Effectiveness beyond 4 months not assessed. Sedating and anticholinergic; QT prolongation risk."
+      },
+      "formulations": [
+        "Hydroxyzine HCl tablets 10, 25, 50 mg",
+        "Hydroxyzine pamoate capsules 25, 50, 100 mg",
+        "Hydroxyzine HCl oral solution (generic)"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Prolonged QT interval",
+        "Early pregnancy",
+        "Hypersensitivity to hydroxyzine, cetirizine, or levocetirizine"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Hydroxyzine is a sedating antihistamine that is not habit-forming and can relieve anxiety and tension. It often causes drowsiness.",
+      "source": {
+        "label": "DailyMed: hydroxyzine hydrochloride tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4d274ce-d616-4835-80ce-76270524ed36"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication, dosing, and contraindications confirmed on hydroxyzine HCl tablet and pamoate capsule labels. Original approval year for this indication not confirmed. Atarax and Vistaril oral brands are listed as discontinued in Drugs@FDA."
+      }
+    },
+    {
+      "drugId": "meprobamate",
+      "generic": "meprobamate",
+      "brands": [
+        "Miltown (discontinued)"
+      ],
+      "drugClass": "Carbamate anxiolytic",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Management of anxiety disorders or for the short-term relief of the symptoms of anxiety.",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults and children 6 years and older",
+        "pediatric": true
+      },
+      "approvalYear": 1955,
+      "dosing": {
+        "start": "1200–1600 mg/day in 3 or 4 divided doses",
+        "target": "1200–1600 mg/day",
+        "max": "2400 mg/day",
+        "notes": "Children 6–12 years: 200–600 mg/day in 2 or 3 divided doses; not for children under 6. Habit-forming; overdose can be fatal. Long-term (>4 months) effectiveness not assessed."
+      },
+      "formulations": [
+        "Tablets 200, 400 mg"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Acute intermittent porphyria",
+        "Allergic or idiosyncratic reactions to meprobamate or related compounds (e.g., carisoprodol)"
+      ],
+      "rems": null,
+      "controlledSubstance": "C-IV",
+      "genericAvailable": true,
+      "plainSummary": "Meprobamate is an old anxiety medicine that is rarely used now because it can be habit-forming and is dangerous in overdose.",
+      "source": {
+        "label": "DailyMed: meprobamate tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=17d814e2-b277-4dce-8615-e7fd7cab773f"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Miltown brand discontinued (Drugs@FDA). Approval year from brand history, not re-confirmed."
+      }
+    },
+    {
+      "drugId": "trifluoperazine",
+      "generic": "trifluoperazine",
+      "brands": [
+        "Stelazine (discontinued)"
+      ],
+      "drugClass": "First-generation antipsychotic (phenothiazine)",
+      "section": "Labeled for anxiety disorders / short-term relief of anxiety",
+      "indication": "Effective for the short-term treatment of generalized non-psychotic anxiety; not the first drug to be used for most patients with non-psychotic anxiety. Do not exceed 6 mg/day or 12 weeks for this use (also labeled for schizophrenia).",
+      "role": "monotherapy",
+      "population": {
+        "ages": "Adults",
+        "pediatric": false
+      },
+      "approvalYear": null,
+      "dosing": {
+        "start": "1–2 mg twice daily",
+        "target": "1–2 mg twice daily",
+        "max": "6 mg/day, for no longer than 12 weeks",
+        "notes": "Higher doses or longer use for anxiety may cause persistent, possibly irreversible tardive dyskinesia (label)."
+      },
+      "formulations": [
+        "Tablets 1, 2, 5, 10 mg"
+      ],
+      "boxedWarnings": [
+        "Increased mortality in elderly patients with dementia-related psychosis"
+      ],
+      "contraindications": [
+        "Hypersensitivity to phenothiazines",
+        "Comatose or greatly depressed states due to CNS depressants",
+        "Blood dyscrasias, bone marrow depression, or preexisting liver damage"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": true,
+      "plainSummary": "Trifluoperazine is an older antipsychotic that is labeled for short-term use at low doses for anxiety, but it is rarely used this way because of movement side effects.",
+      "source": {
+        "label": "DailyMed: trifluoperazine hydrochloride tablets label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c2575a86-19e5-44df-8603-ff066bb9c9c5"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "partially-verified",
+        "note": "Indication and dosing confirmed. Year the non-psychotic anxiety indication was added could not be confirmed. Stelazine brand discontinued (Drugs@FDA)."
+      }
+    }
+  ],
+  "offLabel": [
+    {
+      "agent": "Sertraline",
+      "drugClass": "SSRI",
+      "use": "First-line GAD treatment (not FDA-labeled for GAD)",
+      "evidence": "guideline-recommended",
+      "notes": "NICE suggests sertraline first when drug treatment is chosen for GAD. Efficacy supported in network meta-analysis. Usual SSRI cautions: early activation, GI upset, sexual dysfunction, discontinuation symptoms, boxed suicidality warning in young people.",
+      "references": [
+        {
+          "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations"
+        },
+        {
+          "label": "Slee et al. 2019, Lancet: Pharmacological treatments for GAD, network meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30712879/"
+        }
+      ]
+    },
+    {
+      "agent": "Pregabalin",
+      "drugClass": "Gabapentinoid (C-V)",
+      "use": "GAD, especially when SSRIs/SNRIs are not tolerated",
+      "evidence": "guideline-recommended",
+      "notes": "Not FDA-approved for GAD in the US (approved in the EU/UK). NICE: consider if SSRIs/SNRIs not tolerated. Cautions: dizziness, sedation, weight gain, edema, misuse potential, respiratory depression with opioids or other CNS depressants, dose adjustment in renal impairment, taper to stop.",
+      "references": [
+        {
+          "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations"
+        },
+        {
+          "label": "Slee et al. 2019, Lancet: Pharmacological treatments for GAD, network meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30712879/"
+        }
+      ]
+    },
+    {
+      "agent": "Quetiapine extended-release",
+      "drugClass": "Second-generation antipsychotic",
+      "use": "GAD (monotherapy)",
+      "evidence": "RCT-supported",
+      "notes": "Effective in RCTs and network meta-analysis, but an FDA application for GAD was not approved, and NICE advises against antipsychotics for GAD in primary care. Cautions: sedation, weight gain and metabolic effects, tardive dyskinesia, boxed warnings (dementia mortality; suicidality).",
+      "references": [
+        {
+          "label": "Slee et al. 2019, Lancet: Pharmacological treatments for GAD, network meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30712879/"
+        },
+        {
+          "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
+          "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-11"
+}

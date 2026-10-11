@@ -1,0 +1,86 @@
+{
+  "id": "tardive-dyskinesia",
+  "name": "Tardive dyskinesia",
+  "aliases": ["TD", "Tardive dyskinesia (medication-induced)", "Antipsychotic-induced tardive dyskinesia"],
+  "category": "Medication-induced movement disorders",
+  "summary": "Tardive dyskinesia is a persistent hyperkinetic movement disorder after dopamine-receptor-blocking agents. Two VMAT2 inhibitors are FDA-labeled for TD in adults: valbenazine (capsules and sprinkle capsules) and deutetrabenazine (twice-daily tablets and once-daily XR tablets). No new TD drugs were approved in 2024–2026; Ingrezza Sprinkle (2024) was a new formulation.",
+  "plainSummary": "Tardive dyskinesia causes movements a person can't control, often of the mouth, face, or limbs, after long-term use of some psychiatric or stomach medicines. Two daily medicines can reduce these movements.",
+  "approved": [
+    {
+      "drugId": "valbenazine",
+      "generic": "valbenazine",
+      "brands": ["Ingrezza", "Ingrezza Sprinkle"],
+      "drugClass": "Vesicular monoamine transporter 2 (VMAT2) inhibitor",
+      "indication": "Treatment of adults with tardive dyskinesia.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2017,
+      "dosing": {
+        "start": "40 mg once daily",
+        "target": "80 mg once daily after 1 week (40 or 60 mg once daily may be considered based on response and tolerability)",
+        "max": "80 mg once daily",
+        "notes": "40 mg once daily for known CYP2D6 poor metabolizers, with strong CYP3A4 inhibitors, or in moderate–severe hepatic impairment. Avoid strong CYP3A4 inducers. Sprinkle capsules may be opened onto soft food. Can be continued with antipsychotics."
+      },
+      "formulations": ["Capsules 40, 60, 80 mg", "Sprinkle capsules 40, 60, 80 mg (Ingrezza Sprinkle)", "Initiation kit"],
+      "boxedWarnings": [],
+      "contraindications": ["History of hypersensitivity to valbenazine or any component"],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Valbenazine is a once-a-day capsule that can reduce the uncontrolled movements of tardive dyskinesia. The sprinkle version can be opened and mixed into soft food.",
+      "source": {
+        "label": "DailyMed: INGREZZA / INGREZZA SPRINKLE (valbenazine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c970164-cafb-421f-9eb5-c226ef0a3417"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked on the label revised 4/2026. The label's boxed warning (depression and suicidality) applies to the Huntington's chorea indication, not TD. A generic valbenazine ANDA (Zydus) received FDA approval in 2024, but no generic label appears on DailyMed and no US launch was confirmed."
+      }
+    },
+    {
+      "drugId": "deutetrabenazine",
+      "generic": "deutetrabenazine",
+      "brands": ["Austedo", "Austedo XR"],
+      "drugClass": "Vesicular monoamine transporter 2 (VMAT2) inhibitor",
+      "indication": "Treatment of tardive dyskinesia in adults.",
+      "role": "monotherapy or adjunctive",
+      "population": { "ages": "Adults", "pediatric": false },
+      "approvalYear": 2017,
+      "dosing": {
+        "start": "12 mg/day (Austedo XR 12 mg once daily, or Austedo 6 mg twice daily with food)",
+        "target": "Increase by 6 mg/day at weekly intervals based on TD reduction and tolerability",
+        "max": "48 mg/day",
+        "notes": "Max 36 mg/day in CYP2D6 poor metabolizers or with strong CYP2D6 inhibitors. Austedo total daily doses ≥12 mg are split twice daily. When switching from tetrabenazine, stop tetrabenazine and start deutetrabenazine the next day."
+      },
+      "formulations": [
+        "Tablets 6, 9, 12 mg (Austedo)",
+        "Extended-release tablets 6, 12, 18, 24, 30, 36, 42, 48 mg (Austedo XR)",
+        "Titration kit"
+      ],
+      "boxedWarnings": [],
+      "contraindications": [
+        "Hepatic impairment",
+        "Taking reserpine (wait at least 20 days after stopping)",
+        "Taking MAOIs or within 14 days of stopping an MAOI",
+        "Taking tetrabenazine or valbenazine",
+        "Huntington's disease with suicidality or untreated/inadequately treated depression"
+      ],
+      "rems": null,
+      "controlledSubstance": null,
+      "genericAvailable": false,
+      "plainSummary": "Deutetrabenazine is a pill taken once or twice a day that can reduce the uncontrolled movements of tardive dyskinesia. The dose is raised slowly each week.",
+      "source": {
+        "label": "DailyMed: AUSTEDO / AUSTEDO XR (deutetrabenazine) label",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7ea3c60a-45c7-44cc-afc2-d87fa53993c0"
+      },
+      "verified": {
+        "date": "2026-10-11",
+        "status": "verified",
+        "note": "Checked on the label revised 2/2025. Boxed warning (depression and suicidality) applies to Huntington's disease patients, not the TD indication. Austedo XR was approved in 2023."
+      }
+    }
+  ],
+  "offLabel": [],
+  "lastReviewed": "2026-10-11"
+}
