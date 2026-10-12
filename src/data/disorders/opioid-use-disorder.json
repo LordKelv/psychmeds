@@ -141,7 +141,7 @@
       "rems": "BRIXADI REMS",
       "controlledSubstance": "C-III",
       "genericAvailable": false,
-      "plainSummary": "Brixadi is a buprenorphine shot given under the skin by a clinician once a week or once a month. It can be started after a single test dose of buprenorphine.",
+      "plainSummary": "Brixadi is a buprenorphine shot given under the skin once a week or once a month. New patients can start the weekly product after a test dose; the monthly product is for patients already receiving buprenorphine.",
       "source": { "label": "DailyMed: BRIXADI (buprenorphine) extended-release injection", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5d8a8fd0-8619-422a-a664-d1d2e8970f48" },
       "verified": { "date": "2026-10-11", "status": "verified" }
     },

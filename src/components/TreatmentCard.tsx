@@ -47,6 +47,7 @@ export function ApprovedCard({ treatment: t, highlighted }: { treatment: Approve
           {t.population.pediatric && <span className="badge badge-peds">Pediatric</span>}
           {t.boxedWarnings.length > 0 && <span className="badge badge-boxed">Boxed warning</span>}
           {t.controlledSubstance && <span className="badge">{t.controlledSubstance}</span>}
+          {t.controlledSubstancePending && <span className="badge">DEA schedule pending</span>}
           {t.rems && <span className="badge">REMS</span>}
           {t.genericAvailable && <span className="badge badge-subtle">Generic</span>}
         </div>
@@ -118,7 +119,7 @@ export function ApprovedCard({ treatment: t, highlighted }: { treatment: Approve
           <dt>Generic available</dt>
           <dd>{t.genericAvailable ? 'Yes' : 'No'}</dd>
           <dt>Controlled substance</dt>
-          <dd>{t.controlledSubstance ?? 'No'}</dd>
+          <dd>{t.controlledSubstance ?? (t.controlledSubstancePending ? 'Pending DEA scheduling' : 'No')}</dd>
           <dt>REMS</dt>
           <dd>{t.rems ?? 'None'}</dd>
         </dl>
@@ -142,7 +143,7 @@ export function OffLabelCard({ use, approved }: { use: OffLabelUse; approved?: {
   return (
     <div className="card offlabel">
       <div className="badges">
-        <span className="badge badge-offlabel">Off-label use · not FDA-approved</span>
+        <span className="badge badge-offlabel">Off-label use</span>
         <span className={`badge evidence-${use.evidence}`}>{EVIDENCE_LABEL[use.evidence]}</span>
       </div>
       <div className="treatment-name">{use.agent}</div>

@@ -9,7 +9,7 @@
     {
       "drugId": "aripiprazole",
       "generic": "aripiprazole",
-      "brands": ["Abilify"],
+      "brands": ["Abilify", "Opipza"],
       "drugClass": "Second-generation (atypical) antipsychotic; dopamine D2 partial agonist",
       "indication": "Treatment of Tourette's disorder in pediatric patients 6 to 18 years.",
       "role": "monotherapy",
@@ -21,7 +21,7 @@
         "max": "10 mg/day (under 50 kg); 20 mg/day (50 kg or more)",
         "notes": "Adjust at intervals of at least 1 week. CYP2D6 poor metabolizers: half the usual dose; adjust for strong CYP2D6/CYP3A4 inhibitors and CYP3A4 inducers."
       },
-      "formulations": ["Tablet", "Orally disintegrating tablet (generic)", "Oral solution 1 mg/mL (generic)"],
+      "formulations": ["Tablets", "Orally disintegrating tablet (generic)", "Oral solution 1 mg/mL (generic)", "Orally disintegrating film (Opipza)"],
       "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors with antidepressant drugs (children, adolescents, and young adults)"],
       "contraindications": ["Known hypersensitivity to aripiprazole"],
       "rems": null,
@@ -29,7 +29,7 @@
       "genericAvailable": true,
       "plainSummary": "An antipsychotic medicine taken once a day that can reduce tics in children and teens; weight and blood sugar need monitoring.",
       "source": { "label": "DailyMed: Abilify (aripiprazole) tablets, Otsuka", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac" },
-      "verified": { "date": "2026-10-11", "status": "verified", "note": "Label effective 1/2025 checked (indication and section 2.5 weight-based dosing)." }
+      "verified": { "date": "2026-10-11", "status": "verified", "note": "Abilify label effective 1/2025 and Opipza label (DailyMed setid b47ede68-8942-4432-af7e-57afc14b2ba4) checked; both list pediatric Tourette’s disorder. Opipza formulation-specific dosing may differ; consult its label." }
     },
     {
       "drugId": "haloperidol",

@@ -66,6 +66,8 @@ export interface ApprovedTreatment {
   rems: string | null;
   /** DEA schedule, e.g. "C-II"; null if not controlled. */
   controlledSubstance: string | null;
+  /** True when DEA scheduling is pending, rather than the drug being unscheduled. */
+  controlledSubstancePending?: boolean;
   genericAvailable: boolean;
   /** One or two plain-language sentences for patients and families. */
   plainSummary: string;

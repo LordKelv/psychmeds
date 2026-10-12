@@ -158,8 +158,8 @@
       "indication": "Treatment of symptoms of PMDD in females of reproductive potential who choose to use an oral contraceptive as their method of contraception. Effectiveness for PMDD beyond 3 menstrual cycles has not been evaluated; not evaluated for premenstrual syndrome (PMS).",
       "role": "monotherapy",
       "population": {
-        "ages": "Females of reproductive potential (postmenarchal)",
-        "pediatric": false
+        "ages": "Females of reproductive potential (postmenarchal; efficacy expected in postpubertal adolescents under 18)",
+        "pediatric": true
       },
       "approvalYear": 2006,
       "dosing": {
@@ -207,8 +207,8 @@
       "indication": "Treatment of symptoms of PMDD in females of reproductive potential who choose to use an oral contraceptive as their method of contraception (also indicated to raise folate levels). Effectiveness for PMDD beyond 3 cycles not evaluated.",
       "role": "monotherapy",
       "population": {
-        "ages": "Females of reproductive potential (postmenarchal)",
-        "pediatric": false
+        "ages": "Females of reproductive potential (postmenarchal; efficacy expected in postpubertal adolescents under 18)",
+        "pediatric": true
       },
       "approvalYear": 2010,
       "dosing": {

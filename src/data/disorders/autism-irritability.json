@@ -38,7 +38,7 @@
     {
       "drugId": "aripiprazole",
       "generic": "aripiprazole",
-      "brands": ["Abilify"],
+      "brands": ["Abilify", "Opipza"],
       "drugClass": "Second-generation (atypical) antipsychotic; dopamine D2 partial agonist",
       "indication": "Treatment of irritability associated with autistic disorder in pediatric patients 6 to 17 years.",
       "role": "monotherapy",
@@ -50,7 +50,7 @@
         "max": "15 mg/day",
         "notes": "Known CYP2D6 poor metabolizers: half the usual dose. Adjust for strong CYP2D6/CYP3A4 inhibitors or CYP3A4 inducers. Monitor weight, metabolic parameters, and EPS."
       },
-      "formulations": ["Tablet", "Orally disintegrating tablet (generic)", "Oral solution 1 mg/mL (generic)"],
+      "formulations": ["Tablets", "Orally disintegrating tablet (generic)", "Oral solution 1 mg/mL (generic)", "Orally disintegrating film (Opipza)"],
       "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors with antidepressant drugs (children, adolescents, and young adults)"],
       "contraindications": ["Known hypersensitivity to aripiprazole"],
       "rems": null,
@@ -61,7 +61,7 @@
       "verified": {
         "date": "2026-10-11",
         "status": "verified",
-        "note": "Label effective 1/2025 checked (indication, 2.4 dosing, CYP2D6 adjustment, boxed warning). Brand oral solution/Discmelt availability not confirmed; generics listed instead."
+        "note": "Label effective 1/2025 checked (indication, 2.4 dosing, CYP2D6 adjustment, boxed warning). Abilify oral solution and Discmelt availability not confirmed; generic forms are marketed. Opipza oral-film label also lists irritability associated with autistic disorder in pediatric patients 6–17."
       }
     }
   ],

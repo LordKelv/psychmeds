@@ -453,7 +453,7 @@
       ],
       "drugClass": "Aminoketone (norepinephrine-dopamine reuptake inhibitor)",
       "section": "Antidepressants (monotherapy)",
-      "indication": "Treatment of major depressive disorder (MDD), as defined by the DSM (all bupropion HCl IR/SR/XL and bupropion HBr formulations).",
+      "indication": "Treatment of major depressive disorder (MDD), as defined by the DSM, with bupropion products labeled for depression (IR/SR/XL HCl and XL HBr). Smoking-cessation-only SR products are not indicated for depression.",
       "role": "monotherapy",
       "population": {
         "ages": "Adults",

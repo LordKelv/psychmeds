@@ -92,11 +92,11 @@ export default function DisorderPage() {
       </section>
 
       <section id="off-label" ref={offLabelRef} className="offlabel-section">
-        <h2 className="block-title offlabel-title">Off-label uses: NOT FDA-approved for this condition</h2>
+        <h2 className="block-title offlabel-title">Off-label uses</h2>
         <div className="callout callout-offlabel">
-          These medications are used in clinical practice for this condition, but the FDA has <strong>not</strong>{' '}
-          approved them for it. Evidence ranges from guideline-endorsed to limited, safety data may be sparse, and they
-          should be used only after weighing the risks and benefits with a clinician.
+          Off-label means the FDA label does not cover the particular use shown below. A medicine may still be approved
+          for a related diagnosis or a different phase of illness; individual notes explain those distinctions. Evidence
+          ranges from guideline-endorsed to limited, and safety data may be sparse.
         </div>
         {disorder.offLabel.length === 0 ? (
           <p className="muted">No commonly used off-label options listed.</p>

@@ -5,7 +5,7 @@
   "category": "Neurocognitive disorders",
   "summary": "Delirium is an acute, fluctuating disturbance of attention and awareness caused by an underlying medical condition, substance, or medication. Management centers on identifying and treating causes and on multicomponent nonpharmacologic measures; the 2025 APA practice guideline limits medications to severe distress or danger after de-escalation fails and advises against antipsychotics for prevention or to hasten resolution.",
   "plainSummary": "Delirium is sudden confusion, often in people who are very sick, in the hospital, or after surgery. The main treatment is finding and fixing the cause and helping the person feel safe and oriented; medicines are used only in limited situations.",
-  "noApprovedNote": "No medication is FDA-approved to prevent or treat delirium. All drug use for delirium is off-label. A search for 2024–2026 FDA approvals found none.",
+  "noApprovedNote": "No medication is FDA-approved specifically to prevent or treat general medical, postoperative, or ICU delirium. Alcohol-withdrawal delirium (delirium tremens) is a distinct condition; medicines such as diazepam are FDA-labeled for alcohol withdrawal. A search for 2024–2026 approvals for general delirium found none.",
   "approved": [],
   "offLabel": [
     {

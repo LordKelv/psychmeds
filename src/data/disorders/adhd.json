@@ -401,8 +401,7 @@
       "drugId": "amphetamine",
       "generic": "amphetamine sulfate (immediate-release)",
       "brands": [
-        "Evekeo",
-        "Evekeo ODT (discontinued)"
+        "Evekeo"
       ],
       "drugClass": "CNS stimulant (racemic amphetamine)",
       "section": "Amphetamine-based stimulants",
@@ -440,7 +439,7 @@
       "verified": {
         "date": "2026-10-11",
         "status": "partially-verified",
-        "note": "Indication, ages, and dosing confirmed on Evekeo label (effective 10/2025). The contraindication list was not re-read in full for this label and is based on the standard older-format amphetamine labeling; confirm. Drugs@FDA lists Evekeo ODT (NDA 209905) as discontinued."
+        "note": "Indication, ages, and dosing confirmed on Evekeo tablet label (effective 10/2025). Evekeo ODT (discontinued) had a separate ADHD-only indication for ages 6–17; it is not included here because it is no longer marketed. The contraindication list was not re-read in full for the Evekeo tablet label."
       }
     },
     {
@@ -800,6 +799,7 @@
       ],
       "rems": null,
       "controlledSubstance": null,
+      "controlledSubstancePending": true,
       "genericAvailable": false,
       "plainSummary": "A new once-daily ADHD capsule approved in 2026 that works on three brain chemicals; it is not yet available in pharmacies while its controlled-substance status is set.",
       "source": {

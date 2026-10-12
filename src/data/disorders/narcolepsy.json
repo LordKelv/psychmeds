@@ -418,6 +418,7 @@
       "contraindications": ["Concomitant strong CYP3A inhibitors"],
       "rems": null,
       "controlledSubstance": null,
+      "controlledSubstancePending": true,
       "genericAvailable": false,
       "plainSummary": "Oveporexton is the first medicine that replaces the missing orexin signal in narcolepsy type 1. It is a pill taken twice in the morning and early afternoon, and it can cause trouble sleeping and frequent urination.",
       "source": { "label": "FDA label: Orzeyful (oveporexton) prescribing information, August 2026 (Drugs@FDA)", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220860Orig1s000lbl.pdf" },

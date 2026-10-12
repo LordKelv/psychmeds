@@ -82,7 +82,7 @@
       "generic": "amantadine (immediate-release)",
       "brands": [],
       "drugClass": "NMDA receptor antagonist / dopaminergic agent",
-      "indication": "Treatment of drug-induced extrapyramidal reactions (also labeled for parkinsonism). Extended-release products (Gocovri, Osmolex ER) carry different Parkinson's disease indications.",
+      "indication": "Treatment of drug-induced extrapyramidal reactions (also labeled for parkinsonism). Osmolex ER also carried this indication but was discontinued in 2024; Gocovri is labeled for Parkinson's disease dyskinesia, not drug-induced extrapyramidal reactions.",
       "role": "monotherapy or adjunctive",
       "population": { "ages": "Adults", "pediatric": false },
       "approvalYear": null,
@@ -106,7 +106,7 @@
       "verified": {
         "date": "2026-10-11",
         "status": "verified",
-        "note": "Indication, dose, max, and renal dosing checked on a generic capsule label (revised 6/2025). Tablet and oral solution strengths were not individually checked. The brand Symmetrel is no longer marketed; generics only. Original approval year for this indication not confirmed."
+        "note": "Indication, dose, max, and renal dosing checked on a generic capsule label (revised 6/2025). Tablet and oral solution strengths were not individually checked. The brand Symmetrel is no longer marketed; generics only. Osmolex ER previously carried the adult drug-induced extrapyramidal-reaction indication but distribution was discontinued in 2024. Original approval year for this indication not confirmed."
       }
     },
     {
