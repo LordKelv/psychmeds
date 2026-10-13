@@ -42,6 +42,18 @@ export default function AboutPage() {
         Because the FDA label does not cover these uses, the dosing comes from the cited guidelines and trials (checked
         against the drug&apos;s labeling for other indications), not from label text.
       </p>
+      <h2>Generic manufacturing</h2>
+      <p>
+        Cards for medications with a generic version link to ProPublica&apos;s{' '}
+        <a href="https://projects.propublica.org/rx-inspector/" target="_blank" rel="noreferrer">
+          Rx Inspector
+        </a>
+        , which matches a generic product to the factory that made it and shows that factory&apos;s FDA inspection
+        history (warning letters, import alerts, and inspector observations). Those findings belong to individual
+        facilities and products and change over time, so PsychMeds does not copy or summarize them. A poor inspection
+        record does not mean a particular medication is unsafe, and patients should not stop a medication without
+        talking to their prescriber or pharmacist.
+      </p>
       <h2>Limitations</h2>
       <p>
         Labels change. Dosing here is summarized and indication-specific, and it leaves out many details (renal and

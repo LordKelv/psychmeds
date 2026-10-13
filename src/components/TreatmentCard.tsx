@@ -15,6 +15,8 @@ const EVIDENCE_LABEL = {
   limited: 'Limited evidence',
 } as const;
 
+const RX_INSPECTOR_URL = 'https://projects.propublica.org/rx-inspector/';
+
 const formatDate = (iso: string) =>
   new Date(`${iso}T00:00:00`).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
 
@@ -112,6 +114,8 @@ export function ApprovedCard({ treatment: t, highlighted }: { treatment: Approve
             </ul>
           </Field>
         )}
+
+        {t.genericAvailable && <GenericSourceNote />}
 
         <dl className="facts small">
           <dt>Indication approved</dt>
@@ -273,6 +277,8 @@ export function OffLabelCard({ use, approved }: { use: OffLabelUse; approved?: A
           </Field>
         )}
 
+        {d.genericAvailable && <GenericSourceNote />}
+
         <dl className="facts small">
           <dt>Generic available</dt>
           <dd>{d.genericAvailable ? 'Yes' : 'No'}</dd>
@@ -285,6 +291,21 @@ export function OffLabelCard({ use, approved }: { use: OffLabelUse; approved?: A
         <Field label="References">{references}</Field>
       </div>
     </details>
+  );
+}
+
+/** Static pointer to ProPublica's Rx Inspector; it makes no claim about any specific product or manufacturer. */
+function GenericSourceNote() {
+  return (
+    <p className="generic-note small">
+      <strong>Generic source:</strong> Generics can be made at different factories, and FDA inspection findings differ by
+      facility. ProPublica&apos;s{' '}
+      <a href={RX_INSPECTOR_URL} target="_blank" rel="noreferrer">
+        Rx Inspector ↗
+      </a>{' '}
+      shows where a generic was made and its inspection history. A poor inspection record does not mean a particular
+      pill is unsafe. Don&apos;t stop a medication without talking to your prescriber or pharmacist.
+    </p>
   );
 }
 
