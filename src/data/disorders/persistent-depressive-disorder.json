@@ -14,6 +14,23 @@
       "use": "First-line pharmacotherapy for chronic depressive symptoms/dysthymia, alone or combined with CBT",
       "evidence": "guideline-recommended",
       "notes": "NICE NG222 (1.10.2) lists SSRIs, SNRIs, TCAs, CBT, or CBT plus an SSRI or TCA as options for chronic depressive symptoms that impair functioning. If one SSRI is not tolerated, NICE suggests trying another SSRI. A network meta-analysis (Kriston 2014) found SSRIs better than placebo for PDD. Responses are slower and smaller than in episodic MDD. Antidepressant boxed warning applies to youth and young adults.",
+      "details": {
+        "labeledFor": "SSRIs are FDA-approved for major depressive disorder; none is specifically labeled for persistent depressive disorder (dysthymia).",
+        "dosing": {
+          "start": "Sertraline 25–50 mg, fluoxetine 10–20 mg, escitalopram 5–10 mg, or paroxetine 10 mg",
+          "target": "Usual MDD ranges (sertraline 50–200, fluoxetine 20–60, escitalopram 10–20, paroxetine 20–50 mg)",
+          "max": "Labeled maximums apply",
+          "notes": "Response is slower; allow 8–12 weeks."
+        },
+        "formulations": ["Sertraline tablets", "Fluoxetine capsules/tablets", "Escitalopram tablets", "Paroxetine tablets"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "SSRIs are the usual first medicines for long-lasting low mood. Improvement is often slower and smaller than in short depressive episodes."
+      },
       "references": [
         { "label": "NICE NG222 Depression in adults (2022), section 1.10 Chronic depressive symptoms", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" },
         { "label": "Kriston et al. Acute treatments for persistent depressive disorder: network meta-analysis. Depress Anxiety 2014, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/24448972/" }
@@ -25,6 +42,23 @@
       "use": "Chronic depressive symptoms/dysthymia",
       "evidence": "guideline-recommended",
       "notes": "NICE NG222 lists SNRIs among first options for chronic depressive symptoms. PDD-specific RCT data are thinner than for SSRIs or TCAs. Watch blood pressure (venlafaxine) and discontinuation symptoms. Antidepressant boxed warning applies.",
+      "details": {
+        "labeledFor": "Venlafaxine and duloxetine are FDA-approved for major depressive disorder (and anxiety); not specifically for persistent depressive disorder.",
+        "dosing": {
+          "start": "Venlafaxine XR 37.5–75 mg/day; duloxetine 30 mg/day",
+          "target": "Venlafaxine XR 75–225 mg/day; duloxetine 60 mg/day",
+          "max": "Venlafaxine XR 225 mg/day; duloxetine 120 mg/day",
+          "notes": "Check blood pressure (venlafaxine); taper to stop."
+        },
+        "formulations": ["Capsules ER 37.5, 75, 150 mg", "ER tablets 37.5, 75, 150, 225 mg", "Duloxetine DR capsules 20, 30, 60 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Hypersensitivity to venlafaxine", "Duloxetine: uncontrolled narrow-angle glaucoma"],
+        "warnings": ["Dose-related increases in blood pressure", "Discontinuation symptoms; taper gradually", "Hyponatremia, bleeding risk, serotonin syndrome", "Mydriasis/angle-closure glaucoma"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "SNRI antidepressants are another option for long-lasting depression; blood pressure should be checked."
+      },
       "references": [
         { "label": "NICE NG222 Depression in adults (2022), section 1.10", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" }
       ]
@@ -35,6 +69,23 @@
       "use": "Chronic depression/dysthymia, including after SSRI non-response",
       "evidence": "guideline-recommended",
       "notes": "NICE NG222 lists TCAs as an option but warns that they are dangerous in overdose. In a large RCT in chronic depression, sertraline and imipramine were similarly effective, with sertraline better tolerated. Cautions: anticholinergic effects, orthostasis, cardiac conduction effects; check ECG in at-risk patients; limit amounts dispensed when suicide risk is present.",
+      "details": {
+        "labeledFor": "Imipramine is FDA-approved for depression and childhood enuresis; not specifically for persistent depressive disorder.",
+        "dosing": {
+          "start": "25 mg/day at bedtime",
+          "target": "100–200 mg/day (trials used up to about 200 mg)",
+          "max": "300 mg/day (inpatients; outpatients 200 mg)",
+          "notes": "ECG in at-risk patients; limit dispensed quantity when suicide risk is present."
+        },
+        "formulations": ["Tablets 10, 25, 50 mg", "Capsules (pamoate) 75, 100, 125, 150 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Acute recovery period after myocardial infarction", "Hypersensitivity to the drug"],
+        "warnings": ["Anticholinergic effects (dry mouth, constipation, urinary retention, confusion)", "Orthostasis and cardiac conduction effects; ECG in at-risk patients", "Lowers the seizure threshold; may trigger mania", "Highly toxic in overdose; limit quantities"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An older antidepressant that works about as well as an SSRI for long-lasting depression but has more side effects and is dangerous in overdose."
+      },
       "references": [
         { "label": "NICE NG222 Depression in adults (2022), section 1.10", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" },
         { "label": "Keller et al. Treatment of chronic depression, part 2: sertraline vs imipramine RCT. J Clin Psychiatry 1998, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/9862606/" }
@@ -46,6 +97,23 @@
       "use": "Chronic depressive symptoms not responding to SSRIs/SNRIs, in specialist settings",
       "evidence": "guideline-recommended",
       "notes": "NICE NG222 (1.10.6) lists irreversible MAOIs as alternatives in specialist settings after non-response to SSRIs/SNRIs. Requires dietary tyramine restriction, careful interaction management, and adequate washout periods when switching (serotonin syndrome, hypertensive crisis risk).",
+      "details": {
+        "labeledFor": "Phenelzine is FDA-approved for atypical or treatment-resistant depression; not specifically for persistent depressive disorder.",
+        "dosing": {
+          "start": "15 mg once to three times daily",
+          "target": "45–90 mg/day in divided doses",
+          "max": "90 mg/day",
+          "notes": "Tyramine-restricted diet; at least 14 days washout from other antidepressants (5 weeks from fluoxetine)."
+        },
+        "formulations": ["Tablets 15 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Pheochromocytoma, heart failure, liver disease or abnormal liver tests", "Sympathomimetics, SSRIs, SNRIs, tricyclics, bupropion, buspirone, dextromethorphan, meperidine", "Foods high in tyramine", "Hypersensitivity"],
+        "warnings": ["Hypertensive crisis with tyramine or sympathomimetics", "Serotonin syndrome with serotonergic drugs", "Orthostatic hypotension, insomnia, weight gain", "Specialist use only"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A strong older antidepressant reserved for specialist care. It requires a strict diet and careful checking of other medicines to avoid dangerous reactions."
+      },
       "references": [
         { "label": "NICE NG222 Depression in adults (2022), section 1.10", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" }
       ]
@@ -56,6 +124,23 @@
       "use": "Dysthymia/chronic depressive symptoms (outside the US)",
       "evidence": "guideline-recommended",
       "notes": "NICE NG222 lists low-dose amisulpride (max 50 mg/day) as an alternative in specialist settings, and network meta-analysis supports efficacy in PDD. Oral amisulpride for psychiatric use is not marketed in the US (only an IV antiemetic product exists). Risks include hyperprolactinemia and QT prolongation, and higher doses may worsen depression.",
+      "details": {
+        "labeledFor": "Oral amisulpride is not marketed in the US (an IV formulation is approved for postoperative nausea/vomiting); available elsewhere for schizophrenia.",
+        "dosing": {
+          "start": "50 mg/day",
+          "target": "50 mg/day",
+          "max": "50 mg/day (higher doses are antipsychotic-range and may worsen depression)",
+          "notes": "Not available as an oral psychiatric drug in the US."
+        },
+        "formulations": ["Outside the US: tablets 50, 100, 200, 400 mg; oral solution"],
+        "boxedWarnings": [],
+        "contraindications": ["Not applicable in the US; outside the US: phaeochromocytoma, prolactin-dependent tumors, QT-prolonging drugs"],
+        "warnings": ["Hyperprolactinemia", "QT prolongation", "Renal dose adjustment", "Class warning: increased mortality in older adults with dementia"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": false,
+        "plainSummary": "A low-dose antipsychotic used for long-lasting low mood in some countries. It is not available as a pill for this use in the US."
+      },
       "references": [
         { "label": "NICE NG222 Depression in adults (2022), section 1.10", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" },
         { "label": "Kriston et al. Network meta-analysis of acute PDD treatments. Depress Anxiety 2014, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/24448972/" }

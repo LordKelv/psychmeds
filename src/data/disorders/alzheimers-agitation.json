@@ -95,6 +95,23 @@
       "use": "Agitation in Alzheimer's disease",
       "evidence": "RCT-supported",
       "notes": "The CitAD randomized trial (n=186; target 30 mg/day) found modestly lower agitation scores than placebo, but was associated with worsening cognition and QTc prolongation (about 18 ms longer than placebo at week 3). US labeling limits citalopram to 20 mg/day in patients older than 60 because of dose-dependent QT prolongation. Other cautions: hyponatremia, falls, bleeding risk, and drug interactions. The trial authors did not recommend the 30 mg dose as a general alternative. Non-drug interventions and evaluation for medical or environmental triggers are generally tried first. Not FDA-labeled for this use.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder; not for agitation in dementia.",
+        "dosing": {
+          "start": "10 mg once daily",
+          "target": "10–20 mg/day (the CitAD trial titrated to 30 mg/day)",
+          "max": "20 mg/day in patients older than 60 (FDA QT limit); 40 mg/day in younger adults",
+          "notes": "Obtain an ECG if risk factors for QT prolongation are present."
+        },
+        "formulations": ["Tablets 10, 20, 40 mg", "Oral solution 10 mg/5 mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide", "Hypersensitivity to citalopram or escitalopram"],
+        "warnings": ["Dose-dependent QT prolongation (CitAD: about 18 ms)", "Worsened cognition in the CitAD trial", "Hyponatremia, falls, and bleeding risk, especially in older adults", "Serotonin syndrome with other serotonergic drugs"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant that modestly reduced agitation in a trial of people with Alzheimer's disease. It can affect heart rhythm and thinking, so the dose is kept low in older adults."
+      },
       "references": [
         {
           "label": "Porsteinsson AP et al. Effect of citalopram on agitation in Alzheimer disease: the CitAD randomized clinical trial. JAMA 2014",
@@ -112,6 +129,23 @@
       "use": "Severe, persistent aggression or psychosis in dementia when non-drug approaches have failed and there is risk of harm",
       "evidence": "guideline-recommended",
       "notes": "Not approved for dementia-related symptoms in the US; the US label carries a boxed warning for increased mortality in elderly patients with dementia-related psychosis and states it is not approved for dementia-related psychosis. It is licensed in the UK for short-term (up to 6 weeks) treatment of persistent aggression in moderate to severe Alzheimer's dementia unresponsive to non-drug approaches when there is risk of harm. The APA 2016 guideline advises antipsychotics only for severe, dangerous, or very distressing symptoms, at the lowest effective dose, with reassessment and attempts to taper. Other cautions: stroke, falls, extrapyramidal symptoms, sedation, and metabolic effects. Non-drug interventions are first-line.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar I mania, and irritability in autism; not approved for dementia-related psychosis or behavior (boxed warning).",
+        "dosing": {
+          "start": "0.25 mg once daily at bedtime (or 0.25 mg twice daily)",
+          "target": "0.5–1 mg/day; dementia trials found benefit at about 0.5–1 mg/day",
+          "max": "Usually no more than 2 mg/day (higher doses add parkinsonism without more benefit)",
+          "notes": "Reassess the need every few months and try to taper."
+        },
+        "formulations": ["Tablets 0.25, 0.5, 1, 2, 3, 4 mg", "Orally disintegrating tablets 0.25–4 mg", "Oral solution 1 mg/mL"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Hypersensitivity to risperidone or paliperidone"],
+        "warnings": ["Stroke and other cerebrovascular events (higher in dementia)", "Orthostatic hypotension and falls", "Parkinsonism, tardive dyskinesia, sedation", "Metabolic effects; dysphagia and aspiration"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antipsychotic sometimes used for severe, dangerous agitation or aggression in dementia when other approaches have failed. It raises the risk of stroke and death in older adults with dementia, so it is used at the lowest dose for the shortest time."
+      },
       "references": [
         {
           "label": "Reus VI et al. APA practice guideline on the use of antipsychotics to treat agitation or psychosis in patients with dementia. Am J Psychiatry 2016 (record)",

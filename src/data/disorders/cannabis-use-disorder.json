@@ -14,6 +14,23 @@
       "use": "Reduce cannabis use and withdrawal symptoms (sleep, craving)",
       "evidence": "limited",
       "notes": "A small 12-week proof-of-concept RCT (1200 mg/day) found reduced use and withdrawal symptoms, but it has not been replicated in large trials. Cautions: sedation, misuse potential (especially with opioids), and renal dosing.",
+      "details": {
+        "labeledFor": "FDA-approved for postherpetic neuralgia and adjunctive partial-onset seizures; not for cannabis use disorder.",
+        "dosing": {
+          "start": "300 mg/day, increased over several days",
+          "target": "1,200 mg/day in divided doses (the 12-week trial dose)",
+          "max": "1,200 mg/day in the trial (labeled seizure maximum 3,600 mg/day)",
+          "notes": "Titrate to tolerability; reduce for renal impairment."
+        },
+        "formulations": ["Capsules 100, 300, 400 mg", "Tablets 600, 800 mg", "Oral solution 250 mg/5 mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to gabapentin"],
+        "warnings": ["Sedation and dizziness", "Respiratory depression with opioids or other CNS depressants", "Misuse potential; renal dose adjustment", "Suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A nerve-pain and seizure medicine that reduced cannabis use and withdrawal symptoms in a small trial. Larger trials have not confirmed it."
+      },
       "references": [
         { "label": "Mason BJ, et al. A proof-of-concept randomized controlled study of gabapentin in cannabis dependence. Neuropsychopharmacology 2012", "url": "https://pubmed.ncbi.nlm.nih.gov/22373942/" },
         { "label": "Nielsen S, et al. Pharmacotherapies for cannabis dependence. Cochrane 2019", "url": "https://pubmed.ncbi.nlm.nih.gov/30687936/" }
@@ -25,6 +42,23 @@
       "use": "Adjunct to contingency management, mainly studied in adolescents",
       "evidence": "limited",
       "notes": "A 2012 adolescent RCT (1200 mg twice daily) doubled the odds of negative urine tests, but a large adult trial and a 2025 youth trial did not confirm benefit. Generally well tolerated (GI upset).",
+      "details": {
+        "labeledFor": "Dietary supplement in the US; prescription acetylcysteine is FDA-approved for acetaminophen overdose and as a mucolytic. Not for cannabis use disorder.",
+        "dosing": {
+          "start": "1,200 mg twice daily",
+          "target": "2,400 mg/day (1,200 mg twice daily, adolescent trial)",
+          "max": "2,400 mg/day (trial dose)",
+          "notes": "Added to contingency management in the positive adolescent trial; adult and later youth trials were negative."
+        },
+        "formulations": ["Over-the-counter capsules and tablets 500–1,200 mg", "Effervescent tablets 600 mg", "Prescription oral solution and IV (other indications)"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to acetylcysteine"],
+        "warnings": ["GI upset, nausea, and sulfur odor", "Bronchospasm in people with asthma (inhaled form)", "Anaphylactoid reactions (IV form)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An over-the-counter supplement studied to cut cannabis use in teens. Results were mixed."
+      },
       "references": [
         { "label": "Gray KM, et al. N-acetylcysteine in cannabis-dependent adolescents. Am J Psychiatry 2012", "url": "https://pubmed.ncbi.nlm.nih.gov/22706327/" },
         { "label": "N-acetylcysteine for youth cannabis use disorder: randomized controlled trial main findings. Neuropsychopharmacology 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39910268/" }
@@ -36,6 +70,23 @@
       "use": "Reduce cannabis withdrawal symptoms",
       "evidence": "limited",
       "notes": "A 2019 Cochrane review found that THC preparations (including nabiximols, not available in the US) may reduce withdrawal and improve retention but do not clearly increase abstinence. Cautions: dronabinol is C-III and nabilone C-II; sedation, psychoactive effects, and misuse potential.",
+      "details": {
+        "labeledFor": "Dronabinol (Marinol, Syndros) is FDA-approved for chemotherapy-induced nausea/vomiting and AIDS-related anorexia; nabilone (Cesamet) for chemotherapy nausea/vomiting. Not for cannabis withdrawal.",
+        "dosing": {
+          "start": "Dronabinol 2.5–5 mg twice daily; nabilone 0.5–1 mg at bedtime",
+          "target": "Dronabinol up to about 20 mg twice daily in trials; nabilone about 6 mg/day in a small study",
+          "max": "Dronabinol 40 mg/day and nabilone 6 mg/day (trial maxima)",
+          "notes": "Supervised use in specialty programs; avoid driving."
+        },
+        "formulations": ["Dronabinol capsules 2.5, 5, 10 mg; oral solution 5 mg/mL", "Nabilone capsules 1 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Dronabinol capsules: hypersensitivity to dronabinol or sesame oil", "Dronabinol solution: disulfiram or metronidazole use (contains alcohol)", "Nabilone: hypersensitivity to cannabinoids"],
+        "warnings": ["Psychosis, mania, and anxiety", "Tachycardia and orthostatic hypotension", "Additive sedation with CNS depressants", "Misuse potential"],
+        "rems": null,
+        "controlledSubstance": "C-III (dronabinol); C-II (nabilone)",
+        "genericAvailable": true,
+        "plainSummary": "Lab-made THC medicines that may ease cannabis withdrawal but do not clearly help people stop. They can cause sleepiness and a high."
+      },
       "references": [
         { "label": "Nielsen S, et al. Pharmacotherapies for cannabis dependence. Cochrane 2019", "url": "https://pubmed.ncbi.nlm.nih.gov/30687936/" }
       ]
@@ -46,6 +97,23 @@
       "use": "Reduce cannabis use",
       "evidence": "limited",
       "notes": "A 2026 phase 2 RCT (n=174) found no effect overall, with reduced use in men but not women. Evidence is insufficient to support routine use. Cautions: nausea and abnormal dreams. May be reasonable to consider when tobacco is co-used.",
+      "details": {
+        "labeledFor": "FDA-approved as an aid to smoking cessation; not for cannabis use disorder.",
+        "dosing": {
+          "start": "0.5 mg daily for 3 days, then 0.5 mg twice daily for 4 days",
+          "target": "1 mg twice daily",
+          "max": "2 mg/day; 0.5 mg twice daily at most if CrCl below 30 mL/min",
+          "notes": "Take with food and water to limit nausea."
+        },
+        "formulations": ["Tablets 0.5, 1 mg", "Generic varenicline tablets"],
+        "boxedWarnings": [],
+        "contraindications": ["Serious hypersensitivity or skin reactions to varenicline"],
+        "warnings": ["Nausea, abnormal dreams, insomnia", "Monitor mood and behavior", "Seizures (rare); cardiovascular events in people with heart disease"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A stop-smoking medicine that did not reduce cannabis use overall in a recent trial. It might be considered when tobacco is also used."
+      },
       "references": [
         { "label": "McRae-Clark AL, et al. Varenicline for cannabis use disorder: a randomized controlled trial. Addiction 2026", "url": "https://pubmed.ncbi.nlm.nih.gov/41536001/" }
       ]

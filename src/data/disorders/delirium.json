@@ -14,6 +14,23 @@
       "use": "Short-term management of severe agitation, distress, or psychotic symptoms of delirium that pose a risk of harm",
       "evidence": "guideline-recommended",
       "notes": "The 2025 APA guideline recommends medications, including antipsychotics, only when verbal and nonverbal de-escalation has failed, contributing causes have been addressed as far as possible, and symptoms cause significant distress or risk of physical harm. It recommends against antipsychotics to prevent delirium or speed its resolution. Cautions: QT prolongation (especially IV haloperidol), extrapyramidal symptoms, oversedation, aspiration, and the boxed warning for increased mortality in older adults with dementia. Use the lowest dose for the shortest time and reassess daily; avoid in Lewy body dementia and Parkinson's disease where possible.",
+      "details": {
+        "labeledFor": "Haloperidol is FDA-approved for schizophrenia and Tourette's disorder, and the others for schizophrenia/bipolar disorder; none is approved for delirium.",
+        "dosing": {
+          "start": "Haloperidol 0.25–0.5 mg (older adults) or 0.5–1 mg; quetiapine 12.5–25 mg; olanzapine 2.5 mg; risperidone 0.25–0.5 mg",
+          "target": "Lowest effective dose, reassessed daily; haloperidol generally 0.5–2 mg per dose",
+          "max": "Total daily doses are usually kept low (haloperidol often at or below about 5 mg/day in older adults)",
+          "notes": "Stop when symptoms resolve; check QTc if IV haloperidol is used."
+        },
+        "formulations": ["Haloperidol tablets, injection (IV use is off-label)", "Quetiapine IR tablets 25–400 mg", "Olanzapine tablets and ODT", "Risperidone tablets, ODT, solution"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Haloperidol: severe CNS depression/coma, Parkinson's disease", "Hypersensitivity to the drug"],
+        "warnings": ["QT prolongation (especially IV haloperidol); stop if QTc >500 ms", "Extrapyramidal symptoms; avoid in Parkinson's disease and Lewy body dementia", "Oversedation and aspiration; falls", "Neuroleptic malignant syndrome"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antipsychotics are used only for short periods when a delirious patient is in severe distress or danger. They do not prevent delirium or shorten it."
+      },
       "references": [
         {
           "label": "APA Practice Guideline for the Prevention and Treatment of Delirium (Am J Psychiatry 2025) – PubMed",
@@ -31,6 +48,23 @@
       "use": "Prevention of delirium in patients undergoing major surgery or mechanically ventilated in critical care, and sedation of mechanically ventilated patients with delirium",
       "evidence": "guideline-recommended",
       "notes": "The 2025 APA guideline suggests (conditional) dexmedetomidine rather than other sedating agents in these ICU and perioperative settings. IV dexmedetomidine is FDA-labeled for ICU and procedural sedation, not for delirium. Cautions: bradycardia, hypotension, and need for monitored settings. The sublingual film (Igalmi) is labeled only for agitation in schizophrenia or bipolar disorder.",
+      "details": {
+        "labeledFor": "FDA-approved (IV) for sedation of intubated and mechanically ventilated patients and procedural sedation; the sublingual film is for agitation in schizophrenia or bipolar disorder. Not for delirium.",
+        "dosing": {
+          "start": "0.2–0.7 mcg/kg/hour IV (loading dose often omitted)",
+          "target": "0.2–1.4 mcg/kg/hour titrated to sedation",
+          "max": "1.4 mcg/kg/hour (labeled maximum rate)",
+          "notes": "Continuous ECG and blood pressure monitoring are required."
+        },
+        "formulations": ["IV infusion premix bags and vials (e.g., 200 mcg/50 mL, 400 mcg/100 mL, 1,000 mcg/250 mL)"],
+        "boxedWarnings": [],
+        "contraindications": [],
+        "warnings": ["Bradycardia and hypotension; transient hypertension with a loading dose", "ICU or monitored settings only", "Withdrawal-type symptoms after prolonged infusions"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An ICU sedative that may prevent delirium in some critically ill or surgical patients. It lowers heart rate and blood pressure and is given only with close monitoring."
+      },
       "references": [
         {
           "label": "APA news release: APA Published Updated Guideline for Delirium",
@@ -44,6 +78,23 @@
       "use": "Delirium due to alcohol or sedative-hypnotic withdrawal, or when another specific indication exists (e.g., seizures)",
       "evidence": "guideline-recommended",
       "notes": "The 2025 APA guideline recommends against benzodiazepines in patients with or at risk for delirium unless there is a specific indication, such as alcohol or benzodiazepine withdrawal. Outside such indications they can cause or worsen delirium, especially in older adults. Cautions: respiratory depression and oversedation, particularly with opioids.",
+      "details": {
+        "labeledFor": "Lorazepam is FDA-approved for anxiety disorders and, as injection, for status epilepticus and preanesthetic sedation; not for delirium.",
+        "dosing": {
+          "start": "0.5–1 mg per dose, only for a specific indication such as alcohol or sedative withdrawal",
+          "target": "Short-term, lowest effective dose, then taper",
+          "max": "Per the indication; avoid in delirium without a clear reason",
+          "notes": "Benzodiazepines can cause or worsen delirium, especially in older adults."
+        },
+        "formulations": ["Tablets 0.5, 1, 2 mg", "Injection 2, 4 mg/mL"],
+        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
+        "warnings": ["Worsening delirium and confusion", "Respiratory depression, especially with opioids", "Falls and oversedation"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "Benzodiazepines usually make delirium worse. They are used only when delirium comes from alcohol or sedative withdrawal or another specific need."
+      },
       "references": [
         {
           "label": "APA news release: APA Published Updated Guideline for Delirium",
@@ -57,6 +108,23 @@
       "use": "Proposed for prevention of delirium in hospitalized older adults",
       "evidence": "limited",
       "notes": "Commonly used, but trial results are mixed, and the 2025 APA guideline suggests NOT using melatonin or ramelteon to prevent or treat delirium. Listed here for awareness because of how often it is used.",
+      "details": {
+        "labeledFor": "Ramelteon is FDA-approved for insomnia (sleep-onset); melatonin is a dietary supplement. Neither is approved for delirium.",
+        "dosing": {
+          "start": "Melatonin 3 mg nightly; ramelteon 8 mg nightly",
+          "target": "Melatonin 3–5 mg or ramelteon 8 mg at bedtime (trial regimens)",
+          "max": "Melatonin up to 10 mg; ramelteon 8 mg/day",
+          "notes": "The 2025 APA guideline suggests not using either for prevention or treatment."
+        },
+        "formulations": ["Melatonin: over-the-counter supplement (content varies)", "Ramelteon tablets 8 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Ramelteon: hypersensitivity; use with fluvoxamine"],
+        "warnings": ["Daytime sleepiness, dizziness", "Fluvoxamine markedly raises ramelteon and melatonin levels", "Mixed trial results; not recommended by the 2025 APA guideline"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Sleep-hormone products are often given to older hospitalized patients to prevent confusion, but studies are mixed and the latest guideline advises against them."
+      },
       "references": [
         {
           "label": "APA news release: APA Published Updated Guideline for Delirium",

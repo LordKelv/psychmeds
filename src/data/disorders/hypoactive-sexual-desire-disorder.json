@@ -106,6 +106,23 @@
       "use": "HSDD in postmenopausal women",
       "evidence": "guideline-recommended",
       "notes": "The 2019 Global Consensus Position Statement (endorsed by multiple menopause/endocrine societies) supports a trial of transdermal testosterone for postmenopausal women with HSDD, targeting premenopausal physiologic levels. No FDA-approved testosterone product exists for women in the US, so male products are used at a fraction of the dose. Monitor testosterone levels; watch for acne and hirsutism. Long-term safety data (breast and cardiovascular) are limited. Not recommended for premenopausal women.",
+      "details": {
+        "labeledFor": "No testosterone product is FDA-approved for women; male testosterone gels and patches are approved for male hypogonadism, not HSDD.",
+        "dosing": {
+          "start": "About one-tenth of the usual male dose, transdermally (the former EU patch delivered 300 mcg/day)",
+          "target": "Adjust to keep total testosterone within the premenopausal physiologic range (check at 3–6 weeks)",
+          "max": "Do not exceed premenopausal levels",
+          "notes": "Review at 3–6 months; stop if no benefit."
+        },
+        "formulations": ["Testosterone 1% or 2% gel; transdermal patches (male products, off-label for women)"],
+        "boxedWarnings": ["Topical gels: virilization of children after secondary exposure"],
+        "contraindications": ["Pregnancy or possible pregnancy", "Androgen-sensitive cancers"],
+        "warnings": ["Acne, hirsutism, voice deepening, clitoral enlargement", "Lipid changes and polycythemia; long-term breast and cardiovascular safety unclear", "Transfer to partners or children through skin contact"],
+        "rems": null,
+        "controlledSubstance": "C-III",
+        "genericAvailable": true,
+        "plainSummary": "Low-dose testosterone is sometimes used for low sexual desire after menopause. It is not approved for women, and long-term safety is not well known."
+      },
       "references": [
         {
           "label": "Davis et al. Global Consensus Position Statement on the Use of Testosterone Therapy for Women. J Clin Endocrinol Metab 2019, PubMed",
@@ -119,6 +136,23 @@
       "use": "Low desire, including SSRI-associated sexual dysfunction",
       "evidence": "limited",
       "notes": "Small placebo-controlled trials of bupropion SR in nondepressed premenopausal women with HSDD showed modest improvements on some sexual function measures. Lowers seizure threshold; contraindicated in seizure and eating disorders. Antidepressant boxed warning applies.",
+      "details": {
+        "labeledFor": "FDA-approved for depression (IR/SR/XL), seasonal affective disorder prevention (XL), and smoking cessation (SR); not for HSDD.",
+        "dosing": {
+          "start": "SR 150 mg once daily",
+          "target": "SR 300–400 mg/day",
+          "max": "SR 400 mg/day; XL 450 mg/day",
+          "notes": "Used in nondepressed premenopausal women in small trials."
+        },
+        "formulations": ["SR tablets 100, 150, 200 mg", "XL tablets 150, 300 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Seizure disorder", "Current or prior bulimia or anorexia nervosa", "Abrupt discontinuation of alcohol or sedatives", "MAOI use within 14 days"],
+        "warnings": ["Lowers the seizure threshold", "Insomnia, anxiety, blood pressure increases", "CYP2D6 inhibition"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant that may modestly raise sexual interest in some women and does not usually cause sexual side effects."
+      },
       "references": [
         {
           "label": "Segraves et al. Bupropion SR for HSDD in premenopausal women. J Clin Psychopharmacol 2004, PubMed",

@@ -119,6 +119,23 @@
       "use": "Delayed sleep-wake phase disorder; Non-24 in blind adults; irregular sleep-wake rhythm disorder in children/adolescents with neurological disorders",
       "evidence": "guideline-recommended",
       "notes": "Melatonin is sold as a dietary supplement in the US. It is not an FDA-approved drug, and product strength and purity can vary. AASM 2015 gives weak recommendations for strategically timed melatonin in these settings. Timing relative to dim-light melatonin onset matters more than dose. AASM suggests against melatonin for older adults with dementia and irregular sleep-wake rhythm. Cautions: sleepiness, headache, and variable product content.",
+      "details": {
+        "labeledFor": "Melatonin is a dietary supplement in the US, not an FDA-approved drug. (Tasimelteon is the approved melatonin-receptor agonist for Non-24.)",
+        "dosing": {
+          "start": "0.5–1 mg, timed relative to the target sleep time",
+          "target": "0.5–5 mg: for delayed sleep-wake phase disorder, about 3–5 hours before desired sleep onset; children with neurologic disorders 2–10 mg at bedtime",
+          "max": "10 mg (higher doses are no more effective and can linger)",
+          "notes": "Timing matters more than dose; pair with morning light and a fixed schedule."
+        },
+        "formulations": ["Over-the-counter tablets, capsules, gummies, liquids (0.5–10 mg; content varies)"],
+        "boxedWarnings": [],
+        "contraindications": [],
+        "warnings": ["Daytime sleepiness, headache, vivid dreams", "Product strength and purity vary", "Accidental pediatric ingestion", "Fluvoxamine raises melatonin levels"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A natural sleep hormone, taken at carefully chosen times, can shift the body clock for night owls and some blind people. Strength varies between brands."
+      },
       "references": [
         { "label": "Auger RR et al. AASM clinical practice guideline for intrinsic circadian rhythm sleep-wake disorders. J Clin Sleep Med 2015", "url": "https://pubmed.ncbi.nlm.nih.gov/26414986/" }
       ]
@@ -129,6 +146,23 @@
       "use": "Daytime sleep after night shifts (shift work disorder)",
       "evidence": "limited",
       "notes": "A Cochrane review found low-quality evidence for a modest increase in daytime sleep length, with no clear effect on sleep onset. It is not an FDA-approved drug, and supplement content varies. Cautions: sedation if taken before driving home, and interactions with sedatives.",
+      "details": {
+        "labeledFor": "Melatonin is a dietary supplement in the US, not an FDA-approved drug. (Modafinil and armodafinil are the approved options for sleepiness in shift work disorder.)",
+        "dosing": {
+          "start": "1–3 mg before the planned daytime sleep",
+          "target": "3 mg before daytime sleep after a night shift",
+          "max": "5 mg; higher doses are not clearly better",
+          "notes": "Avoid taking it before driving home."
+        },
+        "formulations": ["Over-the-counter tablets, capsules, gummies, liquids (content varies)"],
+        "boxedWarnings": [],
+        "contraindications": [],
+        "warnings": ["Sedation if taken before driving", "Product strength and purity vary", "May add to the effect of sedatives"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Melatonin taken before daytime sleep may add a little sleep time for night-shift workers. It should not be taken before driving home."
+      },
       "references": [
         { "label": "Liira J et al. Pharmacological interventions for sleepiness and sleep disturbances caused by shift work. Cochrane Database Syst Rev 2014", "url": "https://pubmed.ncbi.nlm.nih.gov/25113164/" }
       ]

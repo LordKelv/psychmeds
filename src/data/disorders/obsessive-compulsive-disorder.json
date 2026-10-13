@@ -247,6 +247,23 @@
       "use": "SSRI-resistant OCD (added to an SSRI or clomipramine)",
       "evidence": "guideline-recommended",
       "notes": "APA and NICE list antipsychotic augmentation for partial or non-response; meta-analysis supports low-dose risperidone. Benefit is modest (roughly one-third respond). Cautions: weight gain, metabolic effects, hyperprolactinemia, EPS/tardive dyskinesia.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar I mania, and irritability in autism; not for OCD.",
+        "dosing": {
+          "start": "0.25–0.5 mg/day",
+          "target": "0.5–3 mg/day added to an SSRI or clomipramine",
+          "max": "3 mg/day typical ceiling in OCD trials (labeled maximum 16 mg/day)",
+          "notes": "Allow 4–8 weeks at an adequate SSRI dose before augmenting."
+        },
+        "formulations": ["Tablets 0.25–4 mg", "ODT 0.25–4 mg; solution 1 mg/mL"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Hypersensitivity to risperidone or paliperidone"],
+        "warnings": ["Weight gain and metabolic effects", "Hyperprolactinemia, extrapyramidal symptoms, tardive dyskinesia", "Orthostasis"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A low dose of an antipsychotic can strengthen an SSRI when OCD has not fully improved. About a third of people respond."
+      },
       "references": [
         {
           "label": "Veale et al. 2014, BMC Psychiatry: Atypical antipsychotic augmentation in SSRI-refractory OCD, meta-analysis",
@@ -268,6 +285,23 @@
       "use": "SSRI-resistant OCD (added to an SSRI)",
       "evidence": "guideline-recommended",
       "notes": "Supported by small RCTs and meta-analysis; NICE recommends antipsychotic augmentation as a class. Cautions: akathisia, metabolic effects, impulse-control problems. Quetiapine and olanzapine augmentation have weaker evidence.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar disorder, and MDD adjunct; not for OCD.",
+        "dosing": {
+          "start": "2.5–5 mg/day",
+          "target": "5–15 mg/day added to an SSRI",
+          "max": "15 mg/day in OCD trials (labeled maximum 30 mg/day)",
+          "notes": "Watch for akathisia."
+        },
+        "formulations": ["Tablets 2–30 mg", "ODT; oral solution 1 mg/mL; film (Opipza)"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Hypersensitivity to aripiprazole"],
+        "warnings": ["Akathisia, restlessness, insomnia", "Metabolic effects", "Impulse-control problems (gambling, binge eating)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A low dose of aripiprazole added to an SSRI can help OCD that is only partly better. It can cause restlessness and may trigger impulse-control problems."
+      },
       "references": [
         {
           "label": "Veale et al. 2014, BMC Psychiatry: Atypical antipsychotic augmentation in SSRI-refractory OCD, meta-analysis",
@@ -285,6 +319,23 @@
       "use": "Partial response in OCD",
       "evidence": "guideline-recommended",
       "notes": "Higher SSRI doses give modestly greater benefit in OCD, with more dropouts from side effects. APA describes doses above the labeled maximum in some patients with close monitoring. Avoid supratherapeutic citalopram/escitalopram (QT) and watch interactions.",
+      "details": {
+        "labeledFor": "Fluoxetine, fluvoxamine, paroxetine, and sertraline are FDA-approved for OCD at labeled doses; higher doses are off-label.",
+        "dosing": {
+          "start": "Consider only after 8–12 weeks at the maximum tolerated labeled dose",
+          "target": "APA 2007 lists occasionally prescribed maximums such as fluoxetine 120, fluvoxamine 450, paroxetine 100, and sertraline 400 mg/day",
+          "max": "Avoid exceeding FDA limits for citalopram (40 mg/day; 20 mg over age 60) and escitalopram",
+          "notes": "Specialist care with close monitoring and drug-level or ECG checks where relevant."
+        },
+        "formulations": ["Fluoxetine capsules/tablets", "Sertraline tablets 25–100 mg", "Paroxetine tablets", "Fluvoxamine tablets 25, 50, 100 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly", "More dropouts from side effects at high doses", "Fluvoxamine: strong CYP1A2 inhibitor"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Some people with OCD need doses of their SSRI higher than the labeled maximum, which should be done only with close supervision by a specialist."
+      },
       "references": [
         {
           "label": "Bloch et al. 2010, Molecular Psychiatry: Dose-response of SSRIs in OCD, meta-analysis",
@@ -302,6 +353,23 @@
       "use": "OCD",
       "evidence": "guideline-recommended",
       "notes": "NICE lists citalopram among first-line SSRIs for adult OCD; neither is FDA-labeled for OCD. Dose-related QT prolongation with citalopram (FDA max 40 mg/day; 20 mg/day over age 60).",
+      "details": {
+        "labeledFor": "FDA-approved for depression (citalopram, escitalopram) and GAD (escitalopram); neither is approved for OCD.",
+        "dosing": {
+          "start": "Citalopram 20 mg or escitalopram 10 mg daily",
+          "target": "Citalopram 40 mg or escitalopram 20 mg daily",
+          "max": "Citalopram 40 mg/day (20 mg over 60); escitalopram 20 mg/day",
+          "notes": "Do not exceed these limits because of QT prolongation."
+        },
+        "formulations": ["Citalopram tablets 10, 20, 40 mg; solution", "Escitalopram tablets 5, 10, 20 mg; solution"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Pimozide", "Hypersensitivity to the drug"],
+        "warnings": ["Dose-related QT prolongation (citalopram)", "Hyponatremia, bleeding risk", "Serotonin syndrome; discontinuation symptoms"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "These SSRIs are recommended in UK guidelines for OCD even though they are not FDA-approved for it."
+      },
       "references": [
         {
           "label": "NICE CG31: Obsessive-compulsive disorder and body dysmorphic disorder (recommendations)",

@@ -120,6 +120,31 @@ for (const file of files) {
     str(o.use, `${p}.use`);
     if (!EVIDENCE.includes(o.evidence)) err(`${p}.evidence`, `must be one of: ${EVIDENCE.join(' | ')}`);
     str(o.notes, `${p}.notes`);
+    if (o.contextOnly !== undefined && o.contextOnly !== true) err(`${p}.contextOnly`, 'must be true when present');
+    if (o.contextOnly) {
+      if (o.details !== undefined) err(`${p}.details`, 'must be omitted when contextOnly is true');
+    } else if (!o.details || typeof o.details !== 'object') err(`${p}.details`, 'missing (required unless contextOnly)');
+    else {
+      const x = o.details;
+      const dp = `${p}.details`;
+      str(x.labeledFor, `${dp}.labeledFor`);
+      if (!x.dosing || typeof x.dosing !== 'object') err(`${dp}.dosing`, 'missing');
+      else {
+        str(x.dosing.start, `${dp}.dosing.start`);
+        str(x.dosing.target, `${dp}.dosing.target`);
+        str(x.dosing.max, `${dp}.dosing.max`);
+        str(x.dosing.notes, `${dp}.dosing.notes`, { optional: true });
+      }
+      strArr(x.formulations, `${dp}.formulations`, { nonEmpty: true });
+      strArr(x.boxedWarnings, `${dp}.boxedWarnings`);
+      strArr(x.contraindications, `${dp}.contraindications`);
+      strArr(x.warnings, `${dp}.warnings`, { nonEmpty: true });
+      if (x.rems !== null) str(x.rems, `${dp}.rems`);
+      if (x.controlledSubstance !== null && !/^C-(I|II|III|IV|V)\b/.test(x.controlledSubstance ?? ''))
+        err(`${dp}.controlledSubstance`, 'must be null or start with C-I..C-V');
+      if (typeof x.genericAvailable !== 'boolean') err(`${dp}.genericAvailable`, 'must be boolean');
+      str(x.plainSummary, `${dp}.plainSummary`);
+    }
     if (!Array.isArray(o.references) || !o.references.length) err(`${p}.references`, 'needs at least one reference');
     else o.references.forEach((r, j) => link(r, `${p}.references[${j}]`));
   });

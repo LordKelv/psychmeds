@@ -109,6 +109,23 @@
       "use": "PTSD (monotherapy)",
       "evidence": "guideline-recommended",
       "notes": "VA/DoD 2023 gives a strong recommendation for paroxetine, sertraline, or venlafaxine; the American Psychological Association 2017 guideline also conditionally recommends it. Not FDA-labeled for PTSD. Can raise blood pressure; discontinuation symptoms.",
+      "details": {
+        "labeledFor": "FDA-approved for depression and anxiety disorders; not for PTSD.",
+        "dosing": {
+          "start": "37.5 mg/day",
+          "target": "75–225 mg/day (XR)",
+          "max": "225 mg/day",
+          "notes": "Check blood pressure."
+        },
+        "formulations": ["Capsules ER 37.5, 75, 150 mg", "ER tablets 37.5, 75, 150, 225 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Hypersensitivity to venlafaxine"],
+        "warnings": ["Dose-related increases in blood pressure", "Discontinuation symptoms; taper gradually", "Hyponatremia, bleeding risk, serotonin syndrome", "Mydriasis/angle-closure glaucoma"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Venlafaxine is recommended in VA/DoD guidelines for PTSD even though its label does not list it."
+      },
       "references": [
         {
           "label": "VA/DoD Clinical Practice Guideline for PTSD and Acute Stress Disorder (2023)",
@@ -126,6 +143,23 @@
       "use": "PTSD (monotherapy)",
       "evidence": "guideline-recommended",
       "notes": "Conditionally recommended by the American Psychological Association (2017). VA/DoD 2023 downgraded fluoxetine to insufficient evidence (neither for nor against). Not FDA-labeled for PTSD.",
+      "details": {
+        "labeledFor": "FDA-approved for depression, OCD, bulimia, panic disorder, and PMDD; not for PTSD.",
+        "dosing": {
+          "start": "10–20 mg/day",
+          "target": "20–60 mg/day",
+          "max": "80 mg/day (labeled maximum)",
+          "notes": "VA/DoD 2023 finds insufficient evidence either way."
+        },
+        "formulations": ["Capsules 10, 20, 40 mg", "Tablets 10, 20, 60 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug", "Thioridazine or pimozide"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An SSRI sometimes used for PTSD. Guideline groups disagree about how strong the evidence is."
+      },
       "references": [
         {
           "label": "American Psychological Association 2017 PTSD guideline (summary, Am Psychol 2019)",
@@ -143,6 +177,23 @@
       "use": "PTSD-associated nightmares",
       "evidence": "guideline-recommended",
       "notes": "VA/DoD 2023 suggests prazosin for PTSD nightmares (weak for) but suggests against it for overall PTSD symptoms. A large VA trial (Raskind 2018) found no benefit over placebo; AASM 2018 lists it as 'may be used'. Titrate slowly from a low bedtime dose; cautions: orthostatic hypotension, first-dose syncope, dizziness.",
+      "details": {
+        "labeledFor": "FDA-approved for hypertension; not for PTSD nightmares.",
+        "dosing": {
+          "start": "1 mg at bedtime",
+          "target": "Increase every few days; trials reached roughly 3–15 mg at bedtime",
+          "max": "Up to about 20 mg at bedtime in the large VA trial (labeled hypertension maximum 40 mg/day)",
+          "notes": "Warn about first-dose fainting; take at bedtime."
+        },
+        "formulations": ["Capsules 1, 2, 5 mg"],
+        "boxedWarnings": [],
+        "contraindications": [],
+        "warnings": ["First-dose syncope and orthostatic hypotension", "Dizziness; priapism (rare)", "Additive hypotension with PDE5 inhibitors and other blood pressure drugs", "Intraoperative floppy iris syndrome"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A blood-pressure medicine taken at bedtime that may reduce trauma-related nightmares, though a large trial did not show benefit. It can cause fainting when standing."
+      },
       "references": [
         {
           "label": "VA/DoD Clinical Practice Guideline for PTSD and Acute Stress Disorder (2023)",
@@ -164,6 +215,23 @@
       "use": "PTSD symptoms (monotherapy or adjunct), sometimes with comorbid alcohol use disorder",
       "evidence": "limited",
       "notes": "Small, mixed RCTs; meta-analyses suggest at most a small effect on hyperarousal. VA/DoD 2023: insufficient evidence for or against. Cautions: cognitive slowing, paresthesias, kidney stones, metabolic acidosis, angle-closure glaucoma, teratogenicity.",
+      "details": {
+        "labeledFor": "FDA-approved for epilepsy and migraine prevention; not for PTSD.",
+        "dosing": {
+          "start": "25 mg/day",
+          "target": "100–200 mg/day (trials up to 400 mg)",
+          "max": "400 mg/day",
+          "notes": "Slow titration."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to topiramate"],
+        "warnings": ["Cognitive slowing, paresthesias, kidney stones", "Metabolic acidosis; angle-closure glaucoma", "Teratogenic (oral clefts)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An epilepsy medicine that may help a little with hyperarousal in PTSD. Evidence is limited."
+      },
       "references": [
         {
           "label": "Varma et al.: Topiramate as monotherapy or adjunctive treatment for PTSD, meta-analysis",
@@ -181,6 +249,23 @@
       "use": "Augmentation for residual PTSD symptoms",
       "evidence": "limited",
       "notes": "Commonly used, but VA/DoD 2023 suggests against antipsychotic augmentation (weak against), including brexpiprazole. The FDA issued a Complete Response Letter (Sept 2025) for brexpiprazole plus sertraline for PTSD after a 1–10 advisory committee vote on efficacy. Cautions: weight gain, metabolic effects, sedation, EPS/tardive dyskinesia.",
+      "details": {
+        "labeledFor": "Risperidone and quetiapine are FDA-approved for schizophrenia and bipolar disorder; not for PTSD.",
+        "dosing": {
+          "start": "Risperidone 0.25–0.5 mg or quetiapine 25 mg at bedtime",
+          "target": "Risperidone 1–3 mg/day; quetiapine 100–300 mg/day",
+          "max": "Stay well below labeled maximums",
+          "notes": "VA/DoD 2023 suggests against routine augmentation."
+        },
+        "formulations": ["Risperidone tablets 0.25–4 mg", "Quetiapine IR tablets 25–400 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in young people (quetiapine)"],
+        "contraindications": ["Hypersensitivity to the drug"],
+        "warnings": ["Weight gain and metabolic effects", "Sedation and orthostasis", "Extrapyramidal symptoms and tardive dyskinesia"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antipsychotics are sometimes added for lingering PTSD symptoms, but guidelines advise against routine use because of side effects."
+      },
       "references": [
         {
           "label": "VA/DoD Clinical Practice Guideline for PTSD and Acute Stress Disorder (2023)",

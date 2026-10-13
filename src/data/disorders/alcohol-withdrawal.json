@@ -145,6 +145,23 @@
       "use": "Alcohol withdrawal, especially with hepatic impairment, in older adults, or when IV/IM dosing is needed",
       "evidence": "guideline-recommended",
       "notes": "Lorazepam is not labeled for alcohol withdrawal but is widely used and accepted by ASAM 2020 as a benzodiazepine option. Its shorter half-life can cause breakthrough symptoms. High-dose IV infusions carry propylene glycol toxicity risk. Benzodiazepine boxed warnings apply.",
+      "details": {
+        "labeledFor": "FDA-approved for anxiety disorders (tablets, extended-release) and, as injection, for status epilepticus and preanesthetic sedation; not labeled for alcohol withdrawal.",
+        "dosing": {
+          "start": "1–2 mg every 4–6 hours (fixed schedule), or 1–4 mg per dose symptom-triggered by CIWA-Ar",
+          "target": "Titrate to symptom control, then taper over 3–7 days",
+          "max": "No fixed ceiling in monitored settings; avoid prolonged high-dose IV infusions (propylene glycol toxicity)",
+          "notes": "Preferred over long-acting benzodiazepines when liver disease or advanced age impairs metabolism. Give thiamine before glucose."
+        },
+        "formulations": ["Tablets 0.5, 1, 2 mg", "Oral concentrate 2 mg/mL", "Injection 2, 4 mg/mL"],
+        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
+        "warnings": ["Respiratory depression, especially with opioids, alcohol, or other sedatives", "Paradoxical agitation and delirium in older adults", "Propylene glycol toxicity (lactic acidosis, renal injury) with high IV doses", "Concurrent parenteral olanzapine is not recommended"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "A short-acting sedative commonly used to calm the body during alcohol withdrawal, especially in people with liver problems. It is given in a hospital or closely monitored setting and can slow breathing."
+      },
       "references": [
         { "label": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management (2020), pocket guide", "url": "https://eguideline.guidelinecentral.com/i/1254278/16" },
         { "label": "Amato L, et al. Efficacy and safety of pharmacological interventions for the treatment of the alcohol withdrawal syndrome. Cochrane 2011", "url": "https://pubmed.ncbi.nlm.nih.gov/21678378/" }
@@ -156,6 +173,23 @@
       "use": "Monotherapy or adjunct for moderate–severe or benzodiazepine-resistant alcohol withdrawal (inpatient/ICU)",
       "evidence": "guideline-recommended",
       "notes": "ASAM 2020 limits it to clinicians experienced in its use, mainly in inpatient or monitored settings, because of a narrow therapeutic window and respiratory depression (especially combined with benzodiazepines). Loading-dose protocols vary. Most phenobarbital products are marketed without FDA approval.",
+      "details": {
+        "labeledFor": "Phenobarbital tablets and injections are mostly long-marketed unapproved products; labeled historically as a sedative and anticonvulsant. Not labeled for alcohol withdrawal.",
+        "dosing": {
+          "start": "Single IV load of about 10 mg/kg ideal body weight over 30 minutes (ED protocols), or 130–260 mg IV/IM; oral taper protocols often start near 60–130 mg every 8 hours",
+          "target": "Protocols vary: cumulative IV loading of about 10–30 mg/kg ideal body weight in divided doses over 24 hours in ICU settings; the long half-life (about 80–100 hours) self-tapers",
+          "max": "Cumulative loading is usually capped at about 20–30 mg/kg ideal body weight; airway support must be available",
+          "notes": "Hold or reduce doses if sedated. Dosing differs by site; follow local protocol."
+        },
+        "formulations": ["Tablets 15, 16.2, 30, 32.4, 60, 64.8, 97.2, 100 mg", "Elixir 20 mg/5 mL", "Injection 65 mg/mL, 130 mg/mL (unapproved products)"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to barbiturates", "Acute intermittent porphyria", "Severe respiratory disease with dyspnea or obstruction", "Severe hepatic impairment"],
+        "warnings": ["Respiratory depression, especially with benzodiazepines or opioids", "Narrow therapeutic window; accumulates", "Strong CYP inducer (many drug interactions)", "Hypotension with IV use; use in monitored settings only", "Habit-forming; paradoxical excitement in older adults"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "A long-acting sedative used in hospitals for severe alcohol withdrawal or when benzodiazepines are not enough. It can slow breathing and affects many other medicines, so close monitoring is needed."
+      },
       "references": [
         { "label": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management (2020), pocket guide", "url": "https://eguideline.guidelinecentral.com/i/1254278/16" },
         { "label": "J Hosp Med summary of ASAM alcohol withdrawal guideline", "url": "https://cdn.mdedge.com/files/s3fs-public/JHMVol16No12_Ganatra08011215e.PDF" }
@@ -167,6 +201,23 @@
       "use": "Alternative to benzodiazepines for mild–moderate withdrawal (ambulatory), or as an adjunct",
       "evidence": "guideline-recommended",
       "notes": "ASAM 2020 lists it as an appropriate alternative when benzodiazepines are contraindicated or undesirable (e.g., about 600–800 mg/day tapered over 4–9 days). It has not been shown to prevent withdrawal seizures or delirium in severe withdrawal. Cautions: CYP3A4 induction and drug interactions, hyponatremia, blood dyscrasias, SJS/TEN (screen for HLA-B*15:02 in at-risk ancestry), and teratogenicity.",
+      "details": {
+        "labeledFor": "FDA-approved for epilepsy and trigeminal neuralgia (Equetro for bipolar I mania); not for alcohol withdrawal.",
+        "dosing": {
+          "start": "200 mg every 6–8 hours (about 600–800 mg/day) on day 1 in ambulatory protocols",
+          "target": "Hold near 800 mg/day for 1–2 days, then taper by about 200 mg/day over 4–9 days",
+          "max": "1,200 mg/day (labeled epilepsy maximum for adults)",
+          "notes": "Check sodium, liver tests, and blood counts. Not a substitute for a benzodiazepine in severe withdrawal."
+        },
+        "formulations": ["IR tablets 200 mg; chewable 100 mg", "ER tablets 100, 200, 400 mg", "ER capsules 100, 200, 300 mg", "Oral suspension 100 mg/5 mL"],
+        "boxedWarnings": ["Serious dermatologic reactions (SJS/TEN) and the HLA-B*1502 allele", "Aplastic anemia and agranulocytosis"],
+        "contraindications": ["History of bone marrow depression", "Hypersensitivity to carbamazepine or tricyclic compounds", "MAOI use within 14 days", "Nefazodone", "Non-nucleoside reverse transcriptase inhibitors (e.g., delavirdine)"],
+        "warnings": ["Hyponatremia/SIADH", "Strong CYP3A4 inducer (lowers levels of many drugs, including hormonal contraceptives)", "Hepatotoxicity; dizziness and ataxia", "Teratogenic (neural tube defects)", "Suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An anti-seizure medicine that can replace benzodiazepines for mild to moderate alcohol withdrawal in outpatients. It needs blood tests, and it changes the levels of many other medicines."
+      },
       "references": [
         { "label": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management (2020), pocket guide", "url": "https://eguideline.guidelinecentral.com/i/1254278/16" },
         { "label": "Minozzi S, et al. Anticonvulsants for alcohol withdrawal. Cochrane 2010", "url": "https://pubmed.ncbi.nlm.nih.gov/20238337/" }
@@ -178,6 +229,23 @@
       "use": "Alternative or adjunct for mild–moderate withdrawal, especially when continuing it afterward for AUD",
       "evidence": "guideline-recommended",
       "notes": "ASAM 2020 lists it as an alternative for mild–moderate withdrawal, with regimens such as a 1200 mg load then 600 mg every 6 h, tapering over 4–7 days. It is not adequate alone for severe withdrawal or a history of seizures or delirium tremens. Cautions: sedation, misuse potential, and renal dosing.",
+      "details": {
+        "labeledFor": "FDA-approved for postherpetic neuralgia and adjunctive partial-onset seizures; not for alcohol withdrawal.",
+        "dosing": {
+          "start": "1,200 mg load, then 600 mg every 6 hours on day 1 (ASAM example regimen)",
+          "target": "About 2,400 mg/day on day 1, then taper over 4–7 days",
+          "max": "Up to 3,600 mg/day in studies; reduce for renal impairment",
+          "notes": "Not sufficient alone for severe withdrawal or a history of withdrawal seizures or delirium tremens."
+        },
+        "formulations": ["Capsules 100, 300, 400 mg", "Tablets 600, 800 mg", "Oral solution 250 mg/5 mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to gabapentin"],
+        "warnings": ["Sedation, dizziness, and falls", "Respiratory depression with opioids or other CNS depressants (FDA 2019 warning)", "Misuse and diversion potential (scheduled C-V in some states)", "Reduce dose in renal impairment", "Taper rather than stop abruptly; suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An anti-seizure and nerve-pain medicine used to ease mild to moderate alcohol withdrawal. It is not strong enough alone for severe withdrawal and can cause drowsiness."
+      },
       "references": [
         { "label": "ASAM Clinical Practice Guideline on Alcohol Withdrawal Management (2020), pocket guide", "url": "https://eguideline.guidelinecentral.com/i/1254278/16" }
       ]

@@ -14,6 +14,23 @@
       "use": "Reduce methamphetamine use (amphetamine-type stimulant use disorder)",
       "evidence": "guideline-recommended",
       "notes": "In ADAPT-2 (NEJM 2021), XR-naltrexone 380 mg every 3 weeks plus bupropion XL 450 mg/day produced a modest but significant increase in response (methamphetamine-negative urines) versus placebo. ASAM/AAAP 2024 gives it a conditional recommendation (moderate certainty). Cautions: patients must be opioid-free, bupropion lowers the seizure threshold, and naltrexone causes injection-site reactions. Cost and access are barriers.",
+      "details": {
+        "labeledFor": "Naltrexone XR is FDA-approved for alcohol and opioid dependence; bupropion XL for depression and SAD prevention. The combination is not labeled for methamphetamine use disorder.",
+        "dosing": {
+          "start": "Bupropion XL titrated up to 450 mg/day; naltrexone XR 380 mg IM",
+          "target": "Naltrexone XR 380 mg IM every 3 weeks plus bupropion XL 450 mg daily (ADAPT-2)",
+          "max": "Bupropion XL 450 mg/day; naltrexone XR labeled interval is every 4 weeks",
+          "notes": "Patients must be opioid-free for 7–10 days."
+        },
+        "formulations": ["Naltrexone ER injectable suspension 380 mg", "Bupropion XL tablets 150, 300 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Naltrexone: current opioid use, acute opioid withdrawal, positive opioid screen", "Bupropion: seizure disorder, bulimia/anorexia, abrupt alcohol or sedative withdrawal, MAOI use"],
+        "warnings": ["Injection-site reactions (can be severe)", "Seizure risk and insomnia (bupropion)", "Precipitated opioid withdrawal; loss of opioid tolerance and overdose risk"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A monthly-style injection plus a daily pill modestly increased methamphetamine-free urine tests in a large trial. Cost and access are limits."
+      },
       "references": [
         { "label": "Trivedi MH, et al. Bupropion and naltrexone in methamphetamine use disorder. N Engl J Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33497547/" },
         { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
@@ -25,6 +42,23 @@
       "use": "Reduce methamphetamine use",
       "evidence": "guideline-recommended",
       "notes": "Coffin 2020 showed reduced methamphetamine use at 30 mg/day among men and transgender women who have sex with men. A 2026 Australian phase 3 trial reported a modest reduction in use days. ASAM/AAAP 2024: conditional, low certainty. Cautions: sedation, weight gain, and antidepressant suicidality warning.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder; not for methamphetamine use disorder.",
+        "dosing": {
+          "start": "15 mg at bedtime",
+          "target": "30 mg/day",
+          "max": "45 mg/day",
+          "notes": "Used in men and transgender women who have sex with men in the key trial."
+        },
+        "formulations": ["Tablets 7.5, 15, 30, 45 mg", "ODT 15, 30, 45 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Linezolid or IV methylene blue"],
+        "warnings": ["Sedation and weight gain", "Rare neutropenia", "Serotonin syndrome with serotonergic drugs"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant that cut methamphetamine use in one trial, with sleepiness and weight gain as side effects."
+      },
       "references": [
         { "label": "Coffin PO, et al. Effects of mirtazapine for methamphetamine use disorder. JAMA Psychiatry 2020", "url": "https://pubmed.ncbi.nlm.nih.gov/31825466/" },
         { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
@@ -36,6 +70,23 @@
       "use": "Reduce cocaine use; also considered for amphetamine-type stimulant use",
       "evidence": "guideline-recommended",
       "notes": "Johnson 2013 found more cocaine-free weeks with topiramate titrated to 300 mg/day. ASAM/AAAP 2024 gives conditional, low-certainty recommendations for cocaine use disorder (especially with co-occurring AUD) and for ATS use disorder. Cautions: cognitive slowing, paresthesia, kidney stones, metabolic acidosis, and teratogenicity.",
+      "details": {
+        "labeledFor": "FDA-approved for epilepsy and migraine prevention; not for cocaine or amphetamine use disorders.",
+        "dosing": {
+          "start": "25 mg/day",
+          "target": "Titrate to 200–300 mg/day (cocaine trial)",
+          "max": "300 mg/day in trials",
+          "notes": "Slow titration; conditional, low-certainty guideline support."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to topiramate"],
+        "warnings": ["Cognitive slowing, paresthesias, kidney stones", "Metabolic acidosis; angle-closure glaucoma", "Teratogenic (oral clefts)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An epilepsy medicine that increased cocaine-free weeks in a trial, particularly when drinking is also a problem."
+      },
       "references": [
         { "label": "Johnson BA, et al. Topiramate for the treatment of cocaine addiction: a randomized clinical trial. JAMA Psychiatry 2013", "url": "https://pubmed.ncbi.nlm.nih.gov/24132249/" },
         { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
@@ -47,6 +98,23 @@
       "use": "Promote cocaine abstinence; reduce methamphetamine use in lower-frequency users (<18 days/month)",
       "evidence": "guideline-recommended",
       "notes": "ASAM/AAAP 2024 gives conditional, low-certainty recommendations, with extra consideration when tobacco use disorder or depression co-occurs. Benefit as monotherapy is modest and inconsistent. Cautions: seizure risk (avoid with eating disorders or seizure history) and insomnia.",
+      "details": {
+        "labeledFor": "FDA-approved for depression, SAD prevention, and smoking cessation; not for stimulant use disorders.",
+        "dosing": {
+          "start": "150 mg/day",
+          "target": "300 mg/day (up to 450 mg/day in combination protocols)",
+          "max": "450 mg/day",
+          "notes": "Modest and inconsistent benefit as a single drug."
+        },
+        "formulations": ["XL tablets 150, 300 mg", "SR tablets 100, 150, 200 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Seizure disorder", "Bulimia/anorexia", "Abrupt alcohol or sedative withdrawal", "MAOI use within 14 days"],
+        "warnings": ["Seizure risk, insomnia, anxiety", "Blood pressure increases", "Avoid in eating disorders"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Bupropion may help some people cut down on cocaine or lighter methamphetamine use, especially if they also smoke or are depressed."
+      },
       "references": [
         { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
       ]
@@ -57,6 +125,23 @@
       "use": "Agonist-type treatment: long-acting amphetamine or modafinil for cocaine use disorder (also topiramate + ER mixed amphetamine salts); long-acting methylphenidate for ATS use disorder",
       "evidence": "guideline-recommended",
       "notes": "ASAM/AAAP 2024 gives conditional recommendations (low to moderate certainty) but limits them to board-certified addiction specialists or equivalently trained physicians able to monitor closely (pill counts, drug testing, PDMP checks). Some regimens used doses at or above ADHD maximums. Cautions: misuse and diversion, cardiovascular effects, psychosis, and Schedule II/IV prescribing rules.",
+      "details": {
+        "labeledFor": "These stimulants are FDA-approved for ADHD and narcolepsy (modafinil for sleepiness disorders); none is approved for stimulant use disorders.",
+        "dosing": {
+          "start": "Start at standard ADHD starting doses",
+          "target": "Cocaine: ER mixed amphetamine salts 60–80 mg/day or modafinil 200–400 mg/day; ATS: long-acting methylphenidate (some studies up to 180 mg/day)",
+          "max": "Some regimens exceed ADHD maximums; limit to addiction specialists",
+          "notes": "Pill counts, urine testing, and PDMP checks are expected."
+        },
+        "formulations": ["Mixed amphetamine salts XR capsules", "Methylphenidate ER tablets/capsules", "Modafinil tablets 100, 200 mg"],
+        "boxedWarnings": ["Abuse, misuse, and addiction"],
+        "contraindications": ["Hypersensitivity", "MAOI use within 14 days (stimulants)"],
+        "warnings": ["Misuse and diversion", "Cardiovascular effects; psychosis and mania", "Insomnia, appetite loss"],
+        "rems": null,
+        "controlledSubstance": "C-II (stimulants); C-IV (modafinil)",
+        "genericAvailable": true,
+        "plainSummary": "Prescription stimulants are sometimes used as a substitute treatment for stimulant addiction, but only by trained addiction specialists with close monitoring."
+      },
       "references": [
         { "label": "ASAM/AAAP Clinical Practice Guideline on the Management of Stimulant Use Disorder. J Addict Med 2024", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/" }
       ]

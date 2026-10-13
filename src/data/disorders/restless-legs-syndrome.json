@@ -114,6 +114,23 @@
       "use": "RLS (adults, including ESRD)",
       "evidence": "guideline-recommended",
       "notes": "AASM 2024 strong recommendation (conditional in ESRD). Cautions: sedation, dizziness, falls, misuse potential, respiratory depression with opioids or other CNS depressants, and renal dose adjustment.",
+      "details": {
+        "labeledFor": "FDA-approved for postherpetic neuralgia and adjunctive partial-onset seizures. Its prodrug gabapentin enacarbil (Horizant) is the labeled RLS product.",
+        "dosing": {
+          "start": "100–300 mg 1–3 hours before bedtime",
+          "target": "300–1,200 mg in the evening (up to 2,400 mg/day in divided doses is reported)",
+          "max": "3,600 mg/day (labeled seizure maximum); adjust for kidney function",
+          "notes": "In end-stage kidney disease dose after dialysis."
+        },
+        "formulations": ["Capsules 100, 300, 400 mg", "Tablets 600, 800 mg", "Oral solution 250 mg/5 mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to gabapentin"],
+        "warnings": ["Sedation, dizziness, falls", "Respiratory depression with opioids or CNS depressants", "Misuse potential; renal dose adjustment"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A nerve-pain and seizure medicine that guidelines now recommend for restless legs, with less risk of the symptom worsening than older dopamine drugs."
+      },
       "references": [{ "label": "Winkelman JW et al. Treatment of RLS and PLMD: AASM clinical practice guideline. J Clin Sleep Med 2025 (published online 2024)", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
     },
     {
@@ -122,6 +139,23 @@
       "use": "RLS",
       "evidence": "guideline-recommended",
       "notes": "AASM 2024 strong recommendation. In a large RCT it had lower augmentation rates than pramipexole. Cautions: dizziness, somnolence, weight gain, edema, misuse potential (C-V), and renal dose adjustment.",
+      "details": {
+        "labeledFor": "FDA-approved for neuropathic pain, fibromyalgia, and adjunctive partial-onset seizures; not for RLS.",
+        "dosing": {
+          "start": "50–75 mg 1–3 hours before bedtime",
+          "target": "150–300 mg/day",
+          "max": "450 mg/day (trials up to 450 mg; labeled maximum 600 mg/day)",
+          "notes": "Reduce for renal impairment."
+        },
+        "formulations": ["Capsules 25–300 mg", "Oral solution 20 mg/mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to pregabalin"],
+        "warnings": ["Dizziness, somnolence, weight gain, edema", "Respiratory depression with CNS depressants", "Misuse potential; angioedema"],
+        "rems": null,
+        "controlledSubstance": "C-V",
+        "genericAvailable": true,
+        "plainSummary": "A nerve-pain and seizure medicine that guidelines recommend for restless legs. It can cause sleepiness and weight gain."
+      },
       "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
     },
     {
@@ -130,6 +164,23 @@
       "use": "RLS with ferritin ≤100 ng/mL or transferrin saturation <20%",
       "evidence": "guideline-recommended",
       "notes": "AASM 2024 strong recommendation. FDA-approved for iron-deficiency anemia, not RLS. Iron thresholds for RLS (oral or IV if ferritin ≤75 ng/mL or TSAT <20%; IV only if ferritin 75–100) are higher than for the general population. Cautions: hypophosphatemia, hypersensitivity reactions, and cost/access. Other IV iron options with conditional recommendations: LMW iron dextran, ferumoxytol, and iron sucrose in ESRD.",
+      "details": {
+        "labeledFor": "FDA-approved for iron-deficiency anemia and iron deficiency with heart failure; not for RLS.",
+        "dosing": {
+          "start": "500–750 mg IV",
+          "target": "RLS trials: 1,000 mg once (non-US dosing) or 750 mg twice at least 7 days apart (US labeled dosing)",
+          "max": "1,000 mg per single dose; 15 mg/kg total if under 50 kg",
+          "notes": "Check ferritin and transferrin saturation first; repeat labs in about 8–12 weeks."
+        },
+        "formulations": ["IV injection (Injectafer 750 mg/15 mL)"],
+        "boxedWarnings": [],
+        "contraindications": [],
+        "warnings": ["Hypersensitivity and anaphylaxis", "Symptomatic hypophosphatemia, especially with repeated dosing", "Transient hypertension and injection-site reactions"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": false,
+        "plainSummary": "Iron through a vein can help restless legs when iron stores are low. It is given in a clinic."
+      },
       "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
     },
     {
@@ -138,6 +189,23 @@
       "use": "RLS with ferritin ≤75 ng/mL or transferrin saturation <20%",
       "evidence": "guideline-recommended",
       "notes": "AASM 2024 conditional recommendation. Check morning iron studies off supplements. Absorption is limited; consider every-other-day dosing with vitamin C. Cautions: GI upset, constipation, and iron overload if given without testing.",
+      "details": {
+        "labeledFor": "Over-the-counter iron supplement for iron deficiency; not specifically for RLS.",
+        "dosing": {
+          "start": "65 mg elemental iron (325 mg ferrous sulfate) once daily or every other day",
+          "target": "Same dose with vitamin C 100–200 mg; take morning, away from food if tolerated",
+          "max": "Typically 65 mg elemental iron/day (up to about 195 mg/day divided in some protocols)",
+          "notes": "Recheck ferritin and TSAT after about 8–12 weeks."
+        },
+        "formulations": ["Ferrous sulfate tablets 325 mg (65 mg elemental)", "Other iron salts and polysaccharide-iron products"],
+        "boxedWarnings": ["Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6"],
+        "contraindications": ["Hemochromatosis or iron overload"],
+        "warnings": ["Constipation, nausea, dark stools", "Iron overload if given without testing", "Poor absorption; separate from levothyroxine, tetracyclines, and fluoroquinolones"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Iron pills help restless legs in people with low iron. Blood tests should guide treatment, and iron must be kept away from children."
+      },
       "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
     },
     {
@@ -146,6 +214,23 @@
       "use": "Refractory RLS, including augmentation after dopamine agonists",
       "evidence": "guideline-recommended",
       "notes": "AASM 2024 conditional recommendation (moderate certainty), usually at low doses for refractory cases. Cautions: respiratory depression (especially with sleep apnea or other sedatives), opioid use disorder risk, constipation, and opioid boxed warnings. Requires risk assessment and monitoring.",
+      "details": {
+        "labeledFor": "Labeled as analgesics (oxycodone, methadone) or for opioid dependence (buprenorphine); not for RLS.",
+        "dosing": {
+          "start": "Lowest available dose at bedtime (e.g., oxycodone ER 5 mg or methadone 2.5–5 mg)",
+          "target": "Low, stable doses: methadone about 5–20 mg/day; oxycodone/naloxone PR trial range 5/2.5–40/20 mg twice daily",
+          "max": "Keep as low as possible; reassess often",
+          "notes": "Specialist use for refractory RLS or augmentation; follow opioid-prescribing safeguards."
+        },
+        "formulations": ["Oxycodone ER tablets", "Methadone tablets 5, 10 mg", "Buprenorphine sublingual products"],
+        "boxedWarnings": ["Addiction, abuse, and misuse; life-threatening respiratory depression", "Accidental ingestion; neonatal opioid withdrawal syndrome", "Risks with benzodiazepines and other CNS depressants; CYP3A4 interactions"],
+        "contraindications": ["Significant respiratory depression", "Acute or severe asthma; paralytic ileus", "Hypersensitivity"],
+        "warnings": ["Respiratory depression, especially with sleep apnea", "Opioid use disorder risk; constipation", "Methadone: QT prolongation"],
+        "rems": "Opioid Analgesic REMS (opioid analgesic products)",
+        "controlledSubstance": "C-II (oxycodone, methadone); C-III (buprenorphine)",
+        "genericAvailable": true,
+        "plainSummary": "Low-dose opioids are used only for severe restless legs that has not improved with other treatments. They carry risks of dependence and slowed breathing."
+      },
       "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
     },
     {
@@ -154,6 +239,23 @@
       "use": "RLS",
       "evidence": "guideline-recommended",
       "notes": "AASM 2024 conditional recommendation (low certainty) based on small trials. Cautions: headache, dizziness, GI upset, and bleeding risk with other antiplatelets or anticoagulants.",
+      "details": {
+        "labeledFor": "FDA-approved as an adjunct to coumarin anticoagulants to prevent postoperative thromboembolism and for dipyridamole stress imaging; not for RLS.",
+        "dosing": {
+          "start": "50 mg three times daily",
+          "target": "75 mg three times daily (trial dose)",
+          "max": "Labeled antiplatelet adjunct dosing is 75–100 mg four times daily",
+          "notes": "Low-certainty evidence from small trials."
+        },
+        "formulations": ["Tablets 25, 50, 75 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to dipyridamole"],
+        "warnings": ["Headache, dizziness, GI upset", "Bleeding with antiplatelets or anticoagulants", "Hypotension; caution in coronary disease"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A blood-thinner-related medicine that helped restless legs in small trials. It can cause headaches and increase bleeding with other blood thinners."
+      },
       "references": [{ "label": "Winkelman JW et al. AASM RLS/PLMD guideline. J Clin Sleep Med 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/" }]
     }
   ],

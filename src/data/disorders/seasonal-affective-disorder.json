@@ -67,6 +67,23 @@
       "use": "Treatment of an acute winter depressive episode",
       "evidence": "RCT-supported",
       "notes": "In the Can-SAD RCT, fluoxetine 20 mg/day was about as effective as bright light therapy. FDA-approved for MDD in general (the seasonal pattern is an MDD specifier), but has no SAD-specific labeling. Cochrane (2021) rated the evidence for second-generation antidepressants in SAD treatment as low certainty. Antidepressant boxed warning applies.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder (the seasonal pattern is an MDD specifier); only extended-release bupropion is labeled for SAD prevention.",
+        "dosing": {
+          "start": "20 mg once daily in the morning",
+          "target": "20–40 mg/day (Can-SAD used 20 mg/day)",
+          "max": "80 mg/day (labeled maximum)",
+          "notes": "Light therapy is a first-line alternative."
+        },
+        "formulations": ["Capsules 10, 20, 40 mg", "Tablets 10, 20, 60 mg", "Oral solution 20 mg/5 mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug", "Thioridazine or pimozide"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An SSRI that worked about as well as light therapy for winter depression in one trial."
+      },
       "references": [
         {
           "label": "Lam et al. The Can-SAD study. Am J Psychiatry 2006, PubMed",
@@ -84,6 +101,23 @@
       "use": "Treatment of an acute winter depressive episode",
       "evidence": "RCT-supported",
       "notes": "A placebo-controlled outpatient trial (Moscovitch 2004) found sertraline effective in SAD. Labeled for MDD, not SAD-specific. Usual SSRI cautions and boxed warning apply.",
+      "details": {
+        "labeledFor": "FDA-approved for depression and other conditions; not for SAD specifically.",
+        "dosing": {
+          "start": "50 mg once daily",
+          "target": "50–200 mg/day (the placebo-controlled trial range)",
+          "max": "200 mg/day",
+          "notes": "Light therapy may be combined."
+        },
+        "formulations": ["Tablets 25, 50, 100 mg", "Oral concentrate 20 mg/mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An SSRI that was better than placebo for winter depression in a trial."
+      },
       "references": [
         {
           "label": "Moscovitch et al. Placebo-controlled study of sertraline in SAD. Psychopharmacology 2004, PubMed",

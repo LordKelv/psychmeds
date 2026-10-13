@@ -39,6 +39,23 @@
       "use": "Excessive daytime sleepiness in IH",
       "evidence": "guideline-recommended",
       "notes": "AASM 2021 gives a strong recommendation for adults with IH. Cautions: headache, anxiety, insomnia, rare serious rash, and reduced hormonal contraceptive efficacy.",
+      "details": {
+        "labeledFor": "FDA-approved for sleepiness in narcolepsy, obstructive sleep apnea, and shift work disorder; not for idiopathic hypersomnia.",
+        "dosing": {
+          "start": "100–200 mg in the morning",
+          "target": "200–400 mg/day as one or two doses (second dose by early afternoon)",
+          "max": "400 mg/day",
+          "notes": "Reduces the effectiveness of hormonal contraceptives for up to a month after stopping."
+        },
+        "formulations": ["Tablets 100, 200 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to modafinil or armodafinil"],
+        "warnings": ["Rare serious rash (SJS/TEN, DRESS) and angioedema", "Headache, anxiety, insomnia; psychiatric symptoms", "Hypertension; CYP3A4/2C19 interactions"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "A wake-promoting medicine that is a first-line choice for sleepiness in idiopathic hypersomnia. It can cause headaches and weakens birth-control pills."
+      },
       "references": [{ "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" }]
     },
     {
@@ -47,6 +64,23 @@
       "use": "Excessive daytime sleepiness in IH",
       "evidence": "guideline-recommended",
       "notes": "Conditional AASM 2021 recommendation for adults. Cautions: misuse potential (C-II, boxed warning), elevated blood pressure and heart rate, insomnia, anxiety, and appetite loss.",
+      "details": {
+        "labeledFor": "FDA-approved for ADHD and narcolepsy; not for idiopathic hypersomnia.",
+        "dosing": {
+          "start": "5–10 mg in the morning",
+          "target": "10–60 mg/day in divided doses",
+          "max": "60 mg/day (IR)",
+          "notes": "Avoid late-day doses."
+        },
+        "formulations": ["IR tablets 5, 10, 20 mg", "ER tablets 10, 20 mg (Metadate ER, Methylin ER)"],
+        "boxedWarnings": ["Abuse, misuse, and addiction"],
+        "contraindications": ["Hypersensitivity to methylphenidate", "MAOI use within 14 days"],
+        "warnings": ["Increased blood pressure and heart rate", "Insomnia, anxiety, appetite loss", "Psychosis/mania; misuse potential"],
+        "rems": null,
+        "controlledSubstance": "C-II",
+        "genericAvailable": true,
+        "plainSummary": "A stimulant used when other wake-promoting medicines are not enough. It can raise blood pressure and has misuse potential."
+      },
       "references": [{ "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" }]
     },
     {
@@ -55,6 +89,23 @@
       "use": "Excessive daytime sleepiness in IH",
       "evidence": "guideline-recommended",
       "notes": "Conditional AASM 2021 recommendation. The phase 3 INTUNE study missed its primary endpoint, and FDA issued a refusal-to-file letter for the IH sNDA in February 2025. Cautions: insomnia, headache, QT prolongation, CYP2D6/CYP3A4 interactions, and reduced hormonal contraceptive efficacy.",
+      "details": {
+        "labeledFor": "FDA-approved for sleepiness and cataplexy in narcolepsy (ages 6+); the FDA refused to file the IH application (Feb 2025).",
+        "dosing": {
+          "start": "8.9 mg each morning for one week",
+          "target": "17.8–35.6 mg once daily on waking",
+          "max": "35.6 mg/day",
+          "notes": "Halve the dose with strong CYP2D6 inhibitors; reduce in renal or hepatic impairment."
+        },
+        "formulations": ["Tablets 4.45, 17.8 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Severe hepatic impairment"],
+        "warnings": ["QT prolongation", "Insomnia, headache, nausea, anxiety", "Reduces effectiveness of hormonal contraceptives", "CYP2D6/3A4 interactions"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": false,
+        "plainSummary": "A non-stimulant wake-promoting medicine approved for narcolepsy that is sometimes used for idiopathic hypersomnia."
+      },
       "references": [
         { "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" },
         { "label": "NeurologyLive: FDA refuses to file Harmony sNDA for pitolisant in idiopathic hypersomnia (2025)", "url": "https://www.neurologylive.com/view/fda-refuses-file-harmony-supplemental-nda-pitolisant-idiopathic-hypersomnia" }
@@ -66,6 +117,23 @@
       "use": "IH symptoms, including sleepiness and sleep inertia",
       "evidence": "guideline-recommended",
       "notes": "Conditional AASM 2021 recommendation. Lumryz met its primary endpoint in the phase 3 REVITALYZ IH trial (May 2026), with an sNDA planned by end of 2026, but it is not FDA-approved for IH. Cautions: REMS restriction, respiratory depression, contraindicated with alcohol and sedative-hypnotics, high sodium load, and misuse potential.",
+      "details": {
+        "labeledFor": "Xyrem and Lumryz are FDA-approved for narcolepsy; only Xywav (low-sodium oxybate) is approved for IH.",
+        "dosing": {
+          "start": "4.5 g/night (Xyrem split into two doses; Lumryz once at bedtime)",
+          "target": "6–9 g/night, titrated by 1.5 g weekly",
+          "max": "9 g/night",
+          "notes": "Lower-sodium Xywav is preferred in IH; these products carry a large sodium load."
+        },
+        "formulations": ["Xyrem and generic oral solution 500 mg/mL", "Lumryz extended-release oral suspension packets"],
+        "boxedWarnings": ["CNS depression: do not use with alcohol or sedative hypnotics", "Abuse and misuse"],
+        "contraindications": ["Succinic semialdehyde dehydrogenase deficiency", "Concomitant sedative hypnotics or alcohol"],
+        "warnings": ["Respiratory depression and sleep apnea worsening", "Sleep-walking, confusion, depression/suicidality", "High sodium load (heart failure, hypertension)", "Misuse and diversion"],
+        "rems": "XYWAV and XYREM REMS / LUMRYZ REMS",
+        "controlledSubstance": "C-III",
+        "genericAvailable": true,
+        "plainSummary": "A strong sleep medicine taken at night that can reduce sleep inertia and daytime sleepiness. It is tightly controlled because it can slow breathing and be misused."
+      },
       "references": [
         { "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" },
         { "label": "Alkermes: positive topline results from REVITALYZ phase 3 study of Lumryz in IH (2026)", "url": "https://investor.alkermes.com/news-releases/news-release-details/alkermes-announces-positive-topline-results-revitalyzsm-phase-3" }
@@ -77,6 +145,23 @@
       "use": "IH refractory to standard wake-promoting agents",
       "evidence": "guideline-recommended",
       "notes": "Conditional AASM 2021 recommendation based on limited data. Cautions: GI upset, taste disturbance, QT prolongation, strong CYP3A4 inhibition with many interactions, C. difficile risk, and antimicrobial-resistance concerns with long-term use.",
+      "details": {
+        "labeledFor": "FDA-approved as an antibiotic; not for idiopathic hypersomnia.",
+        "dosing": {
+          "start": "500 mg twice daily",
+          "target": "500 mg twice daily, typically trialed for 2 or more weeks",
+          "max": "1,000 mg/day",
+          "notes": "Used only when wake-promoting agents fail; review interactions first."
+        },
+        "formulations": ["Tablets 250, 500 mg; ER tablets 500 mg; suspension"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to macrolides", "History of cholestatic jaundice with clarithromycin", "QT-prolonging drugs (pimozide, cisapride)", "Statins (lovastatin, simvastatin)", "Colchicine in renal or hepatic impairment", "Ergot alkaloids, ticagrelor"],
+        "warnings": ["QT prolongation", "Strong CYP3A4 inhibitor", "GI upset and taste disturbance", "C. difficile infection; antimicrobial resistance with long-term use"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antibiotic that, in small studies, reduced sleepiness in some people with idiopathic hypersomnia. It affects many other medicines and is used only when other options fail."
+      },
       "references": [{ "label": "Maski K et al. AASM guideline: treatment of central disorders of hypersomnolence. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" }]
     }
   ],

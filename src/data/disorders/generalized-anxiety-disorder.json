@@ -716,6 +716,23 @@
       "use": "First-line GAD treatment (not FDA-labeled for GAD)",
       "evidence": "guideline-recommended",
       "notes": "NICE suggests sertraline first when drug treatment is chosen for GAD. Efficacy supported in network meta-analysis. Usual SSRI cautions: early activation, GI upset, sexual dysfunction, discontinuation symptoms, boxed suicidality warning in young people.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder, OCD, panic disorder, PTSD, social anxiety disorder, and PMDD; not for GAD.",
+        "dosing": {
+          "start": "25–50 mg/day",
+          "target": "50–200 mg/day",
+          "max": "200 mg/day",
+          "notes": "Start low to limit early anxiety; allow 4–6 weeks for full effect."
+        },
+        "formulations": ["Tablets 25, 50, 100 mg", "Oral concentrate 20 mg/mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Sertraline is a first-choice SSRI for long-term worry even though its label does not list GAD."
+      },
       "references": [
         {
           "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
@@ -733,6 +750,23 @@
       "use": "GAD, especially when SSRIs/SNRIs are not tolerated",
       "evidence": "guideline-recommended",
       "notes": "Not FDA-approved for GAD in the US (approved in the EU/UK). NICE: consider if SSRIs/SNRIs not tolerated. Cautions: dizziness, sedation, weight gain, edema, misuse potential, respiratory depression with opioids or other CNS depressants, dose adjustment in renal impairment, taper to stop.",
+      "details": {
+        "labeledFor": "FDA-approved for neuropathic pain (diabetic, postherpetic, spinal cord injury), fibromyalgia, and adjunctive partial-onset seizures; approved for GAD in the EU/UK but not in the US.",
+        "dosing": {
+          "start": "25–75 mg twice daily",
+          "target": "150–600 mg/day in two or three divided doses (EU range)",
+          "max": "600 mg/day",
+          "notes": "Reduce for renal impairment; taper over at least one week."
+        },
+        "formulations": ["Capsules 25, 50, 75, 100, 150, 200, 225, 300 mg", "Oral solution 20 mg/mL", "Extended-release tablets (Lyrica CR)"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to pregabalin"],
+        "warnings": ["Dizziness, sedation, weight gain, peripheral edema", "Respiratory depression with opioids or CNS depressants", "Misuse potential", "Angioedema; suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": "C-V",
+        "genericAvailable": true,
+        "plainSummary": "A nerve-pain and seizure medicine that is a licensed anxiety treatment in Europe. It can cause dizziness and weight gain and can be misused."
+      },
       "references": [
         {
           "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
@@ -750,6 +784,23 @@
       "use": "GAD (monotherapy)",
       "evidence": "RCT-supported",
       "notes": "Effective in RCTs and network meta-analysis, but an FDA application for GAD was not approved, and NICE advises against antipsychotics for GAD in primary care. Cautions: sedation, weight gain and metabolic effects, tardive dyskinesia, boxed warnings (dementia mortality; suicidality).",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar disorder, and MDD adjunct; an application for GAD was not approved.",
+        "dosing": {
+          "start": "50 mg/day",
+          "target": "50–300 mg/day (GAD RCTs tested 50, 150, 300 mg XR)",
+          "max": "300 mg/day studied; 800 mg/day labeled maximum",
+          "notes": "Take once daily in the evening."
+        },
+        "formulations": ["XR tablets 50, 150, 200, 300, 400 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Hypersensitivity to quetiapine"],
+        "warnings": ["Sedation, weight gain, metabolic effects", "Orthostasis, QT prolongation, tardive dyskinesia", "Not advised for GAD in primary care by NICE"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antipsychotic that eased anxiety in trials, but the FDA did not approve it for this use and it carries metabolic and movement risks."
+      },
       "references": [
         {
           "label": "Slee et al. 2019, Lancet: Pharmacological treatments for GAD, network meta-analysis",

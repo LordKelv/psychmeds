@@ -81,6 +81,30 @@ export interface ApprovedTreatment {
   };
 }
 
+/**
+ * Expandable detail for an off-label agent, mirroring what an approved card shows. Because the FDA label does not
+ * cover the use, `dosing` reflects ranges reported in the cited guidelines and trials (checked against the drug's
+ * labeled dosing for other indications), not label text.
+ */
+export interface OffLabelDetails {
+  /** What the FDA has approved this agent for instead, and that the use on this card is not on the label. */
+  labeledFor: string;
+  /** Commonly reported off-label dosing. For multi-agent entries, name each agent in the strings. */
+  dosing: Dosing;
+  formulations: string[];
+  /** Boxed warnings on the product's own label; empty when it has none. */
+  boxedWarnings: string[];
+  contraindications: string[];
+  /** Key cautions that are not boxed warnings or contraindications (short phrases). */
+  warnings: string[];
+  rems: string | null;
+  /** DEA schedule, e.g. "C-IV"; may add agents in parentheses for multi-agent entries; null if not controlled. */
+  controlledSubstance: string | null;
+  genericAvailable: boolean;
+  /** One or two plain-language sentences for patients and families; no dosing. */
+  plainSummary: string;
+}
+
 export interface OffLabelUse {
   agent: string;
   drugClass?: string;
@@ -89,6 +113,10 @@ export interface OffLabelUse {
   evidence: OffLabelEvidence;
   /** Cautions and context; never phrased as a recommendation to prescribe. */
   notes: string;
+  /** Required for every entry that names a medication; omitted only when `contextOnly` is true. */
+  details?: OffLabelDetails;
+  /** True for reference rows that are not a medication (e.g., a general caution about drug treatment). */
+  contextOnly?: boolean;
   references: Link[];
 }
 

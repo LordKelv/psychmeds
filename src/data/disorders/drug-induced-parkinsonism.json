@@ -154,6 +154,23 @@
       "use": "Antipsychotic-induced akathisia",
       "evidence": "limited",
       "notes": "Used for decades for akathisia, but evidence is mixed: a Cochrane review found too few data to recommend it, while one placebo-controlled trial (n=90) found benefit comparable to mirtazapine. In that trial about 17% stopped for hypotension and bradycardia. Cautions: asthma/COPD, bradycardia or conduction block, hypotension, diabetes (masks hypoglycemia), and depression. It does not treat parkinsonism itself. Reducing the dose of or switching the causative drug is usually considered first. Not FDA-labeled for akathisia.",
+      "details": {
+        "labeledFor": "FDA-approved for hypertension, angina, atrial fibrillation, migraine prevention, essential tremor, and other cardiovascular uses; not for akathisia.",
+        "dosing": {
+          "start": "10 mg two or three times daily",
+          "target": "20–80 mg/day in divided doses",
+          "max": "Studies used up to about 80–120 mg/day; labeled hypertension maximum is 640 mg/day",
+          "notes": "Check pulse and blood pressure before each increase. Do not stop abruptly."
+        },
+        "formulations": ["Tablets 10, 20, 40, 60, 80 mg", "ER capsules 60–160 mg", "Oral solution 20 mg/5 mL, 40 mg/5 mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Cardiogenic shock", "Sinus bradycardia or heart block greater than first degree", "Bronchial asthma", "Decompensated heart failure", "Hypersensitivity"],
+        "warnings": ["Bradycardia and hypotension (about 17% stopped in one trial)", "Bronchospasm in asthma/COPD", "Abrupt cessation can worsen angina or precipitate heart attack", "Masks hypoglycemia; may worsen depression"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A blood-pressure medicine used for the restlessness that some antipsychotics cause (akathisia). It can slow the heart and is avoided in asthma."
+      },
       "references": [
         {
           "label": "Jethwa KD. Pharmacological management of antipsychotic-induced akathisia: an update and treatment algorithm. BJPsych Advances 2015",
@@ -171,6 +188,23 @@
       "use": "Antipsychotic-induced akathisia (low dose, e.g., 15 mg daily in trials)",
       "evidence": "RCT-supported",
       "notes": "Two small placebo-controlled trials (n=26 over 5 days; n=90 over 7 days) found greater akathisia improvement than placebo, mostly with first-generation antipsychotics; short follow-up. Cautions: sedation (reported in about a third of participants in the larger trial), weight gain, rare agranulocytosis, and additive sedation with other CNS depressants. It does not treat parkinsonism itself. Not FDA-labeled for akathisia.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder in adults; not for akathisia.",
+        "dosing": {
+          "start": "15 mg once daily at bedtime",
+          "target": "15 mg/day (the doses used in the akathisia trials)",
+          "max": "15 mg/day in the trials (labeled adult maximum 45 mg/day)",
+          "notes": "Short trials (5–7 days); watch for excess sedation."
+        },
+        "formulations": ["Tablets 7.5, 15, 30, 45 mg", "Orally disintegrating tablets 15, 30, 45 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Linezolid or IV methylene blue"],
+        "warnings": ["Sedation (about a third in the larger trial) and weight gain", "Rare agranulocytosis/neutropenia", "Additive sedation with CNS depressants; serotonin syndrome"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant used in low doses for antipsychotic-caused restlessness. It causes sleepiness and weight gain."
+      },
       "references": [
         {
           "label": "Jethwa KD. Pharmacological management of antipsychotic-induced akathisia: an update and treatment algorithm. BJPsych Advances 2015",

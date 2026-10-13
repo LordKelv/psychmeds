@@ -14,6 +14,23 @@
       "use": "Appetite stimulation and anxiety around eating",
       "evidence": "limited",
       "notes": "Supported only by case reports and a retrospective pediatric chart review (associated with shorter hospital stay). Sedation and weight gain; antidepressant suicidality boxed warning applies.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder in adults; use in ARFID or in children is off-label.",
+        "dosing": {
+          "start": "7.5 mg at bedtime",
+          "target": "7.5–30 mg at bedtime (case reports and chart reviews)",
+          "max": "45 mg/day (labeled adult maximum)",
+          "notes": "Weight and appetite effects appear within weeks; monitor for activation or suicidality in youth."
+        },
+        "formulations": ["Tablets 7.5, 15, 30, 45 mg", "Orally disintegrating tablets 15, 30, 45 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Linezolid or IV methylene blue"],
+        "warnings": ["Sedation and weight gain (the effect that is sought here)", "Rare agranulocytosis/neutropenia", "Serotonin syndrome with serotonergic drugs; hyponatremia", "QT prolongation; DRESS (rare)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant that boosts appetite and lessens anxiety, used in a few children with severe food avoidance. Evidence comes only from case reports."
+      },
       "references": [
         { "label": "Chishti A et al. Mirtazapine and hospital stay in pediatric ARFID: retrospective chart review. Int J Eat Disord 2025 (PMID 40265508)", "url": "https://pubmed.ncbi.nlm.nih.gov/40265508/" },
         { "label": "Naguy A et al. Mirtazapine improved eating patterns in ARFID. Am J Ther 2023 (PMID 33491963)", "url": "https://pubmed.ncbi.nlm.nih.gov/33491963/" }
@@ -25,6 +42,23 @@
       "use": "Fear-based food avoidance and weight restoration in youth",
       "evidence": "limited",
       "notes": "A retrospective case series of children and adolescents in an eating-disorders program reported improved eating and weight with low-dose adjunctive olanzapine. No controlled trials. Metabolic effects, sedation, and EPS.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia and bipolar I disorder (adolescents 13+); use in younger children or in ARFID is off-label.",
+        "dosing": {
+          "start": "1.25–2.5 mg at bedtime",
+          "target": "2.5–5 mg/day (case series)",
+          "max": "10 mg/day (upper end of case-series doses)",
+          "notes": "Used adjunctively alongside nutritional rehabilitation; check weight, glucose, and lipids."
+        },
+        "formulations": ["Tablets 2.5, 5, 7.5, 10 mg", "Orally disintegrating tablets 5, 10 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Hypersensitivity to olanzapine"],
+        "warnings": ["Sedation and orthostasis", "Metabolic effects (weight gain, glucose, lipids)", "Extrapyramidal symptoms", "Anticholinergic effects"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A low dose of an antipsychotic that eased fear of eating and helped weight gain in a case series of young people. There are no controlled trials."
+      },
       "references": [
         { "label": "Brewerton TD, D'Agostino M. Adjunctive olanzapine in pediatric ARFID. J Child Adolesc Psychopharmacol 2017 (PMID 29068721)", "url": "https://pubmed.ncbi.nlm.nih.gov/29068721/" },
         { "label": "Hirsch D et al. Approved and pipeline pharmacological interventions for eating disorders (2010–2025). CNS Drugs 2025", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12855243/" }

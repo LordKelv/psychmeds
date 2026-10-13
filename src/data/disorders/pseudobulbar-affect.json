@@ -54,6 +54,23 @@
       "use": "Pathological laughing and crying (PBA), mainly after stroke",
       "evidence": "RCT-supported",
       "notes": "Evidence comes from small placebo-controlled trials (e.g., a crossover trial of citalopram 10–20 mg daily in post-stroke pathological crying), mostly in stroke patients; trials vary in diagnostic criteria and outcome measures, and benefit in ALS, MS, or dementia-related PBA is less well studied. Cautions: dose-dependent QT prolongation (US labeling limits citalopram to 20 mg/day in patients older than 60), hyponatremia in older adults, bleeding risk, and serotonin syndrome if combined with other serotonergic drugs (including dextromethorphan-quinidine).",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder; not for pseudobulbar affect.",
+        "dosing": {
+          "start": "10 mg once daily",
+          "target": "10–20 mg/day (post-stroke crossover trial)",
+          "max": "20 mg/day in patients over 60 (FDA QT limit); 40 mg/day in younger adults",
+          "notes": "Serotonin syndrome risk when combined with dextromethorphan-quinidine."
+        },
+        "formulations": ["Tablets 10, 20, 40 mg; oral solution"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Pimozide", "Hypersensitivity"],
+        "warnings": ["QT prolongation", "Hyponatremia and bleeding risk", "Serotonin syndrome"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant that reduced sudden crying or laughing episodes in small studies, mostly after stroke."
+      },
       "references": [
         { "label": "Andersen G et al. Citalopram for post-stroke pathological crying. Lancet 1993 (PMID 8104273)", "url": "https://pubmed.ncbi.nlm.nih.gov/8104273/" },
         { "label": "Giacobbe P, Flint A. Pharmacological treatment of post-stroke pathological laughing and crying. J Psychiatry Neurosci 2007 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1963355" }
@@ -65,6 +82,23 @@
       "use": "Pathological laughing and crying (PBA), mainly after stroke",
       "evidence": "RCT-supported",
       "notes": "A review of post-stroke pathological laughing and crying lists sertraline (about 50 mg daily) among four antidepressants with small placebo-controlled trials; data are mostly post-stroke and pooled samples are small. A case report also described improvement on sertraline 50 mg daily after subarachnoid hemorrhage. Cautions: serotonin syndrome risk (including with dextromethorphan-quinidine), hyponatremia, bleeding risk, and activation or GI effects.",
+      "details": {
+        "labeledFor": "FDA-approved for depression, OCD, panic disorder, PTSD, social anxiety disorder, and PMDD; not for PBA.",
+        "dosing": {
+          "start": "25–50 mg/day",
+          "target": "About 50 mg/day in the studies",
+          "max": "200 mg/day (labeled maximum)",
+          "notes": "Evidence is limited to small post-stroke samples."
+        },
+        "formulations": ["Tablets 25, 50, 100 mg", "Oral concentrate 20 mg/mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An SSRI used for crying or laughing spells after stroke or brain injury, supported only by small studies."
+      },
       "references": [
         { "label": "Giacobbe P, Flint A. Pharmacological treatment of post-stroke pathological laughing and crying. J Psychiatry Neurosci 2007 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1963355" },
         { "label": "Takeuchi H et al. Sertraline for pathological laughing after aneurysmal subarachnoid hemorrhage: case report. Neurol Med Chir 2014 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4533423" }
@@ -76,6 +110,23 @@
       "use": "Pathological laughing and crying (PBA), mainly after stroke",
       "evidence": "RCT-supported",
       "notes": "A 6-week double-blind trial in 28 patients with post-stroke pathological laughing and crying found greater improvement with nortriptyline than placebo, independent of depression status; the sample was small and stroke-specific. Cautions: anticholinergic effects, orthostasis, sedation, cardiac conduction effects and arrhythmia risk, lethality in overdose, and QT prolongation. Reviewers generally favor SSRIs over TCAs because of cardiovascular and tolerability concerns.",
+      "details": {
+        "labeledFor": "FDA-approved for depression; not for PBA.",
+        "dosing": {
+          "start": "10–25 mg at bedtime",
+          "target": "50–100 mg/day (post-stroke trial)",
+          "max": "150 mg/day (labeled maximum)",
+          "notes": "Serum levels can guide dosing."
+        },
+        "formulations": ["Capsules 10, 25, 50, 75 mg", "Oral solution 10 mg/5 mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Acute recovery period after myocardial infarction", "Hypersensitivity to the drug"],
+        "warnings": ["Anticholinergic effects (dry mouth, constipation, urinary retention, confusion)", "Orthostasis and cardiac conduction effects; ECG in at-risk patients", "Lowers the seizure threshold; may trigger mania", "Highly toxic in overdose; limit quantities"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An older antidepressant that outperformed placebo for crying spells after stroke in one small trial, but newer drugs are usually preferred."
+      },
       "references": [
         { "label": "Robinson RG et al. Pathological laughing and crying following stroke: validation of a measurement scale and a double-blind treatment study. Am J Psychiatry 1993", "url": "https://ajp.psychiatryonline.org/doi/10.1176/ajp.150.2.286" },
         { "label": "Giacobbe P, Flint A. Pharmacological treatment of post-stroke pathological laughing and crying. J Psychiatry Neurosci 2007 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1963355" }
@@ -87,6 +138,23 @@
       "use": "Pathological laughing and crying (PBA)",
       "evidence": "limited",
       "notes": "Data are limited to older, small reports (e.g., a 1985 report of low-dose amitriptyline, cited from secondary sources and not reviewed directly). No modern amitriptyline-specific controlled trial was identified. Systematic-review evidence for antidepressants overall is described as small, heterogeneous, and mostly in stroke patients. Cautions: strong anticholinergic burden (generally avoided in older adults and dementia), sedation, orthostasis, cardiac conduction effects and QT prolongation, and lethality in overdose.",
+      "details": {
+        "labeledFor": "FDA-approved for depression; not for PBA.",
+        "dosing": {
+          "start": "10 mg at bedtime",
+          "target": "10–75 mg/day in older reports",
+          "max": "150 mg/day (labeled outpatient maximum)",
+          "notes": "Generally avoided in older adults and dementia because of anticholinergic burden."
+        },
+        "formulations": ["Tablets 10, 25, 50, 75, 100, 150 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Acute recovery period after myocardial infarction", "Hypersensitivity to the drug"],
+        "warnings": ["Anticholinergic effects (dry mouth, constipation, urinary retention, confusion)", "Orthostasis and cardiac conduction effects; ECG in at-risk patients", "Lowers the seizure threshold; may trigger mania", "Highly toxic in overdose; limit quantities"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An older antidepressant used in low doses for crying spells, based only on old reports. It is usually avoided in older adults."
+      },
       "references": [
         { "label": "Hicks et al. Pharmacotherapy for pseudobulbar affect after traumatic brain injury: systematic review. Neuropsychol Rev 2020", "url": "https://link.springer.com/article/10.1007/s11065-020-09427-7" },
         { "label": "ISPOR abstract: Comparison of clinical effectiveness of treatments for PBA, results from a systematic review", "url": "https://www.ispor.org/heor-resources/presentations-database/presentation/ispor-20th-annual-international-meeting/comparison-of-clinical-effectiveness-of-treatments-for-pseudobulbar-affect-pba---results-from-a-systematic-review" }

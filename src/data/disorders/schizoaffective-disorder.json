@@ -203,6 +203,23 @@
       "use": "Primary antipsychotic treatment of schizoaffective disorder (labeled for schizophrenia and/or bipolar disorder but not specifically for schizoaffective disorder)",
       "evidence": "RCT-supported",
       "notes": "Trials of these agents often enrolled mixed schizophrenia/schizoaffective samples; treatment is commonly extrapolated from schizophrenia and bipolar data. In a Finnish/Swedish nationwide cohort, LAIs and clozapine were associated with the lowest psychosis rehospitalization risk, while quetiapine was not associated with reduced risk. Usual antipsychotic metabolic, movement, and prolactin monitoring applies.",
+      "details": {
+        "labeledFor": "Risperidone, olanzapine, aripiprazole, and ziprasidone are FDA-approved for schizophrenia and/or bipolar I disorder; only paliperidone carries a schizoaffective indication.",
+        "dosing": {
+          "start": "Risperidone 1–2 mg, olanzapine 5–10 mg, aripiprazole 10–15 mg, or ziprasidone 40 mg twice daily",
+          "target": "Usual schizophrenia ranges (risperidone 4–8 mg, olanzapine 10–20 mg, aripiprazole 15–30 mg, ziprasidone 80–160 mg/day)",
+          "max": "Labeled maximums (risperidone 16, olanzapine 20, aripiprazole 30, ziprasidone 160 mg/day)",
+          "notes": "Long-acting injectables of these drugs are used to protect against relapse."
+        },
+        "formulations": ["Risperidone, olanzapine, aripiprazole oral and long-acting injectables", "Ziprasidone capsules 20, 40, 60, 80 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in young people (aripiprazole)"],
+        "contraindications": ["Hypersensitivity to the drug", "Ziprasidone: QT prolongation, recent MI, uncompensated heart failure, or QT-prolonging drugs"],
+        "warnings": ["Metabolic monitoring (weight, glucose, lipids)", "Extrapyramidal symptoms, tardive dyskinesia, prolactin", "Ziprasidone: QT prolongation; take with food"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Doctors commonly use the same antipsychotics as for schizophrenia in schizoaffective disorder, even though only one oral and one injection are labeled for it."
+      },
       "references": [
         {
           "label": "Lintunen J et al. Long-term real-world effectiveness of pharmacotherapies for schizoaffective disorder. Schizophr Bull 2021",
@@ -216,6 +233,23 @@
       "use": "Adjunct for mood symptoms, especially bipolar-type schizoaffective disorder",
       "evidence": "limited",
       "notes": "Evidence is mainly observational and extrapolated from bipolar disorder; combination with antipsychotics was associated with reduced psychosis rehospitalization in a nationwide cohort. Lithium requires serum level, renal, and thyroid monitoring; valproate carries hepatotoxicity, pancreatitis, and teratogenicity warnings (avoid in people who may become pregnant when alternatives exist).",
+      "details": {
+        "labeledFor": "Lithium and valproate are FDA-approved for bipolar disorder (and valproate for epilepsy); lamotrigine for epilepsy and bipolar I maintenance; none is labeled for schizoaffective disorder.",
+        "dosing": {
+          "start": "Lithium 300 mg twice daily; divalproex 250–500 mg twice daily; lamotrigine 25 mg/day with slow titration",
+          "target": "Lithium level 0.6–1.0 mEq/L; valproate trough 50–100 mcg/mL; lamotrigine 100–200 mg/day",
+          "max": "Labeled limits apply (lamotrigine 200 mg/day for bipolar)",
+          "notes": "Add to an antipsychotic for mood symptoms."
+        },
+        "formulations": ["Lithium capsules, tablets, ER tablets, solution", "Divalproex DR/ER tablets", "Lamotrigine tablets 25–200 mg"],
+        "boxedWarnings": ["Lithium: lithium toxicity", "Valproate: hepatotoxicity, fetal risk, pancreatitis", "Lamotrigine: serious skin rashes"],
+        "contraindications": ["Hypersensitivity to the drug", "Valproate: hepatic disease, urea cycle disorders, mitochondrial disease"],
+        "warnings": ["Lithium: serum level, renal, and thyroid monitoring", "Valproate: teratogenicity, hepatotoxicity, thrombocytopenia", "Lamotrigine: slow titration to limit rash"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Mood stabilizers are added to an antipsychotic for the mood swings in schizoaffective disorder. Each needs its own safety monitoring."
+      },
       "references": [
         {
           "label": "Lintunen J et al. Schizophr Bull 2021 (nationwide cohorts)",
@@ -233,6 +267,23 @@
       "use": "Adjunct for depressive episodes in depressive-type schizoaffective disorder",
       "evidence": "limited",
       "notes": "Data are largely extrapolated from schizophrenia trials (small benefit for depressive and negative symptoms) and observational cohorts with inconsistent results. Monitor for activation, mania/switching in bipolar-type illness, QT prolongation with some combinations, and CYP2D6 interactions with antipsychotics.",
+      "details": {
+        "labeledFor": "SSRIs are FDA-approved for depression and anxiety disorders; none is labeled for schizoaffective disorder.",
+        "dosing": {
+          "start": "Sertraline 25–50 mg or escitalopram 5–10 mg daily",
+          "target": "Usual antidepressant ranges (sertraline 50–200 mg, escitalopram 10–20 mg)",
+          "max": "Labeled maximums apply",
+          "notes": "Watch CYP2D6 interactions with antipsychotics."
+        },
+        "formulations": ["Sertraline tablets 25–100 mg", "Escitalopram tablets 5–20 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly", "Switch to mania in bipolar-type illness", "QT prolongation with some antipsychotic combinations"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antidepressants may be added for depressive episodes in schizoaffective disorder, usually alongside an antipsychotic."
+      },
       "references": [
         {
           "label": "Helfer B et al. Antidepressants added to antipsychotics for schizophrenia: meta-analysis. Am J Psychiatry 2016",
@@ -250,6 +301,23 @@
       "use": "Treatment-resistant schizoaffective disorder (clozapine is labeled only for treatment-resistant schizophrenia and for suicidal behavior in schizoaffective disorder)",
       "evidence": "limited",
       "notes": "Observational nationwide data associate clozapine with the lowest risk of psychosis rehospitalization in schizoaffective disorder. Requires ANC monitoring and attention to myocarditis, seizures, orthostasis, constipation/ileus, and metabolic effects.",
+      "details": {
+        "labeledFor": "FDA-approved for treatment-resistant schizophrenia and reducing suicidal behavior in schizophrenia or schizoaffective disorder; not for treatment-resistant schizoaffective disorder as such.",
+        "dosing": {
+          "start": "12.5 mg once or twice daily",
+          "target": "Increase by 25–50 mg/day toward 300–450 mg/day; use levels to guide",
+          "max": "900 mg/day",
+          "notes": "Follow the clozapine ANC monitoring schedule on the current label."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg; ODT 12.5–200 mg", "Oral suspension 50 mg/mL"],
+        "boxedWarnings": ["Severe neutropenia", "Orthostatic hypotension, bradycardia, and syncope", "Seizures", "Myocarditis and cardiomyopathy", "Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Serious hypersensitivity to clozapine"],
+        "warnings": ["Severe constipation and ileus", "Myocarditis, especially in the first month", "Sialorrhea, sedation, metabolic effects"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Clozapine is the strongest antipsychotic and is used when schizoaffective disorder has not responded to other medicines. It needs regular blood tests."
+      },
       "references": [
         {
           "label": "Lintunen J et al. Schizophr Bull 2021",

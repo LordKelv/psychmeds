@@ -119,6 +119,23 @@
       "use": "Reduce heavy drinking or achieve abstinence",
       "evidence": "guideline-recommended",
       "notes": "APA 2018 suggests it for moderate–severe AUD when naltrexone or acamprosate are not tolerated or not preferred. VA/DoD 2021 also lists it among recommended options. Trials titrated slowly to about 200–300 mg/day. Cautions: cognitive slowing, paresthesias, weight loss, kidney stones, angle-closure glaucoma, metabolic acidosis, and teratogenicity (oral clefts).",
+      "details": {
+        "labeledFor": "FDA-approved for epilepsy and migraine prevention (and, with phentermine, weight management); not for alcohol use disorder.",
+        "dosing": {
+          "start": "25 mg/day, often at bedtime",
+          "target": "Increase by 25–50 mg weekly to 200–300 mg/day in two divided doses as tolerated",
+          "max": "300 mg/day in AUD trials (labeled epilepsy maximum 400 mg/day)",
+          "notes": "Slow titration limits cognitive and sensory side effects. Reduce dose in renal impairment (CrCl below 70 mL/min)."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg", "Sprinkle capsules 15, 25 mg", "Extended-release capsules (labeled for epilepsy and migraine only)"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to topiramate"],
+        "warnings": ["Cognitive slowing, word-finding difficulty, paresthesias", "Kidney stones and metabolic acidosis", "Acute myopia with secondary angle-closure glaucoma", "Fetal harm (oral clefts); lowers estrogen-contraceptive effectiveness at higher doses", "Weight loss; suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An epilepsy and migraine medicine that can reduce heavy drinking in some people. It can cause tingling, slowed thinking, and kidney stones, and it is risky in pregnancy."
+      },
       "references": [
         { "label": "Johnson BA, et al. Topiramate for treating alcohol dependence: a randomized controlled trial. JAMA 2007", "url": "https://pubmed.ncbi.nlm.nih.gov/17925516/" },
         { "label": "APA Practice Guideline for the Pharmacological Treatment of Patients With AUD (2018), Psychiatric News summary", "url": "https://psychnews.psychiatryonline.org/doi/10.1176/appi.pn.2018.pp1b4" },
@@ -131,6 +148,23 @@
       "use": "Reduce heavy drinking or achieve abstinence; may also help with sleep and protracted withdrawal symptoms",
       "evidence": "guideline-recommended",
       "notes": "Suggested by APA 2018 and VA/DoD 2021 as an alternative option. Mason 2014 showed a dose effect (900–1800 mg/day), but later trials were mixed. Cautions: misuse potential (especially with opioid use disorder), sedation, dizziness, respiratory depression when combined with opioids or other CNS depressants, and dose adjustment in renal impairment.",
+      "details": {
+        "labeledFor": "FDA-approved for postherpetic neuralgia and as adjunctive therapy for partial-onset seizures; not for alcohol use disorder.",
+        "dosing": {
+          "start": "300 mg at bedtime, or 100–300 mg three times daily",
+          "target": "900–1,800 mg/day in divided doses (Mason 2014 tested 900 and 1,800 mg/day)",
+          "max": "Up to 3,600 mg/day in labeled seizure dosing; adjust for CrCl",
+          "notes": "Evening-weighted dosing can help sleep and early abstinence symptoms."
+        },
+        "formulations": ["Capsules 100, 300, 400 mg", "Tablets 600, 800 mg", "Oral solution 250 mg/5 mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to gabapentin"],
+        "warnings": ["Sedation, dizziness, and falls", "Respiratory depression with opioids or other CNS depressants (FDA 2019 warning)", "Misuse and diversion potential (scheduled C-V in some states)", "Reduce dose in renal impairment", "Taper rather than stop abruptly; suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An anti-seizure and nerve-pain medicine that can help some people drink less and sleep better in early recovery. It causes drowsiness and can be misused, especially with opioids."
+      },
       "references": [
         { "label": "Mason BJ, et al. Gabapentin treatment for alcohol dependence: a randomized clinical trial. JAMA Intern Med 2014", "url": "https://pubmed.ncbi.nlm.nih.gov/24190578/" },
         { "label": "APA Practice Guideline for the Pharmacological Treatment of Patients With AUD (2018), Psychiatric News summary", "url": "https://psychnews.psychiatryonline.org/doi/10.1176/appi.pn.2018.pp1b4" }
@@ -142,6 +176,23 @@
       "use": "Reduce drinking, including in patients with alcohol-related liver disease",
       "evidence": "RCT-supported",
       "notes": "A 2023 Cochrane review found it probably increases abstinence but showed no clear effect on heavy drinking, and trial results are inconsistent. It is sometimes chosen for patients with cirrhosis because it is cleared by the kidneys. Cautions: sedation, confusion, overdose toxicity (especially at high doses), withdrawal seizures if stopped abruptly, and renal dose adjustment.",
+      "details": {
+        "labeledFor": "Oral baclofen is FDA-approved for spasticity from multiple sclerosis and spinal cord disease; not for alcohol use disorder.",
+        "dosing": {
+          "start": "5 mg three times daily",
+          "target": "30–90 mg/day in divided doses (trials ranged from 30 to 150 mg/day)",
+          "max": "80 mg/day is the labeled maximum for spasticity; some trials and specialist protocols exceed it, with greater risk",
+          "notes": "Increase every 3 days as tolerated. Doses above those in the main RCTs carry more sedation and toxicity."
+        },
+        "formulations": ["Tablets 5, 10, 20 mg", "Oral solution or suspension (Ozobax 5 mg/5 mL, Fleqsuvy 5 mg/mL)", "Lyvispah granules 5, 10, 20 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to baclofen"],
+        "warnings": ["Sedation, dizziness, and confusion", "Abrupt discontinuation can cause hallucinations, seizures, and high fever", "Renally cleared: encephalopathy and toxicity in kidney disease", "Respiratory depression with other CNS depressants; may lower the seizure threshold"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A muscle relaxant that is sometimes used to cut down drinking, including in people with liver disease. It causes drowsiness and must not be stopped suddenly."
+      },
       "references": [
         { "label": "Agabio R, et al. Baclofen for alcohol use disorder. Cochrane Database Syst Rev 2023", "url": "https://pubmed.ncbi.nlm.nih.gov/36637087/" }
       ]
@@ -152,6 +203,23 @@
       "use": "Reduce heavy drinking, particularly in people who also smoke",
       "evidence": "RCT-supported",
       "notes": "A multisite RCT (Litten 2013) found fewer heavy-drinking days with 2 mg/day; benefits may be larger in smokers. Cautions: nausea, abnormal dreams, and possible neuropsychiatric effects; the labeled caution about reduced alcohol tolerance also applies.",
+      "details": {
+        "labeledFor": "FDA-approved as an aid to smoking cessation; not for alcohol use disorder.",
+        "dosing": {
+          "start": "0.5 mg daily for 3 days, then 0.5 mg twice daily for 4 days",
+          "target": "1 mg twice daily (2 mg/day), as in Litten 2013",
+          "max": "2 mg/day; in severe renal impairment (CrCl below 30 mL/min) 0.5 mg twice daily at most",
+          "notes": "Take after eating with a full glass of water to reduce nausea."
+        },
+        "formulations": ["Tablets 0.5, 1 mg (starting and continuing packs)", "Generic varenicline tartrate tablets"],
+        "boxedWarnings": [],
+        "contraindications": ["Serious hypersensitivity or skin reactions to varenicline"],
+        "warnings": ["Nausea, abnormal dreams, insomnia", "Monitor mood and behavior (no longer a boxed warning)", "Reduced alcohol tolerance reported (greater intoxication, unusual behavior, amnesia)", "Seizures (rare); cardiovascular events in people with heart disease"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A stop-smoking pill that may also reduce heavy drinking, especially in people who smoke. Nausea and vivid dreams are common, and it can make alcohol hit harder."
+      },
       "references": [
         { "label": "Litten RZ, et al. A double-blind, placebo-controlled trial assessing the efficacy of varenicline tartrate for alcohol dependence. J Addict Med 2013", "url": "https://pubmed.ncbi.nlm.nih.gov/23728065/" }
       ]

@@ -97,6 +97,23 @@
       "use": "Tics, particularly with co-occurring ADHD",
       "evidence": "guideline-recommended",
       "notes": "The AAN 2019 guideline lists alpha-2 agonists as an option, with better evidence when ADHD co-occurs. An RCT in children with tics and ADHD showed tic reduction; a later trial of guanfacine ER for tics alone was negative. Sedation, hypotension, bradycardia; taper to avoid rebound hypertension.",
+      "details": {
+        "labeledFor": "FDA-approved for ADHD (guanfacine ER, ages 6–17); IR guanfacine is a blood pressure medicine. Neither is labeled for tics.",
+        "dosing": {
+          "start": "0.5–1 mg at bedtime (ER 1 mg)",
+          "target": "1–4 mg/day",
+          "max": "4 mg/day (ER 6–12 y), 7 mg/day (ER 13–17 y) per ADHD labeling",
+          "notes": "Taper to stop."
+        },
+        "formulations": ["Guanfacine IR tablets 1, 2 mg", "Guanfacine ER tablets 1, 2, 3, 4 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to guanfacine"],
+        "warnings": ["Sedation and fatigue", "Low blood pressure, slow heart rate", "Rebound hypertension if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A non-stimulant that can reduce tics, especially when ADHD is also present."
+      },
       "references": [
         { "label": "Pringsheim T et al. AAN practice guideline: treatment of tics in Tourette syndrome and chronic tic disorders. Neurology 2019 (PMID 31061208)", "url": "https://pubmed.ncbi.nlm.nih.gov/31061208/" },
         { "label": "Scahill L et al. Placebo-controlled study of guanfacine in children with tic disorders and ADHD. Am J Psychiatry 2001 (PMID 11431228)", "url": "https://pubmed.ncbi.nlm.nih.gov/11431228/" }
@@ -108,6 +125,23 @@
       "use": "Tics, particularly with co-occurring ADHD",
       "evidence": "guideline-recommended",
       "notes": "Named by the AAN guideline. In the Tourette's Syndrome Study Group trial, clonidine (alone or with methylphenidate) improved ADHD symptoms and tics did not worsen. Sedation is common; monitor blood pressure and heart rate; avoid abrupt discontinuation.",
+      "details": {
+        "labeledFor": "FDA-approved for hypertension (oral, patch) and ER for ADHD in children; not for tics.",
+        "dosing": {
+          "start": "0.025–0.05 mg at bedtime",
+          "target": "0.1–0.3 mg/day in divided doses (patch 0.1–0.3 mg/week)",
+          "max": "0.4 mg/day",
+          "notes": "Do not stop abruptly."
+        },
+        "formulations": ["Tablets 0.1, 0.2, 0.3 mg", "Weekly transdermal patch", "ER tablets 0.1 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to clonidine"],
+        "warnings": ["Sedation (common)", "Low blood pressure, slow heart rate", "Rebound hypertension if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A blood-pressure medicine that can calm tics and ADHD symptoms together. It can cause sleepiness."
+      },
       "references": [
         { "label": "Pringsheim T et al. AAN practice guideline: treatment of tics. Neurology 2019 (PMID 31061208)", "url": "https://pubmed.ncbi.nlm.nih.gov/31061208/" },
         { "label": "Tourette's Syndrome Study Group. Treatment of ADHD in children with tics: RCT. Neurology 2002 (PMID 11865128)", "url": "https://pubmed.ncbi.nlm.nih.gov/11865128/" }
@@ -119,6 +153,23 @@
       "use": "Moderate to severe tics",
       "evidence": "guideline-recommended",
       "notes": "Listed in the AAN guideline among antipsychotics with evidence for tic reduction. Weight gain, metabolic effects, hyperprolactinemia, sedation, and EPS.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar I mania, and irritability in autism; not for tics.",
+        "dosing": {
+          "start": "0.25–0.5 mg at bedtime",
+          "target": "0.5–3.5 mg/day in tic studies",
+          "max": "Tic studies stayed well below the labeled maximum of 16 mg/day",
+          "notes": "Monitor weight, prolactin, and metabolic labs."
+        },
+        "formulations": ["Tablets 0.25–4 mg", "ODT; oral solution 1 mg/mL"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Hypersensitivity to risperidone or paliperidone"],
+        "warnings": ["Weight gain and metabolic effects", "Hyperprolactinemia, sedation, extrapyramidal symptoms", "Tardive dyskinesia"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antipsychotic that reduces tics in moderate to severe cases. It can cause weight gain and hormone changes."
+      },
       "references": [
         { "label": "Pringsheim T et al. AAN practice guideline: treatment of tics. Neurology 2019 (PMID 31061208)", "url": "https://pubmed.ncbi.nlm.nih.gov/31061208/" }
       ]
@@ -129,6 +180,23 @@
       "use": "Tics",
       "evidence": "limited",
       "notes": "One small RCT (about 30 patients) showed tic reduction; the AAN guideline rates evidence as low. Cognitive slowing, paresthesia, weight loss, kidney stones.",
+      "details": {
+        "labeledFor": "FDA-approved for epilepsy and migraine prevention; not for tics.",
+        "dosing": {
+          "start": "25 mg/day",
+          "target": "Up to about 200 mg/day (the small RCT titrated to tolerance)",
+          "max": "200 mg/day in the trial",
+          "notes": "Slow titration to limit cognitive effects."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg", "Sprinkle capsules 15, 25 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to topiramate"],
+        "warnings": ["Cognitive slowing, paresthesias, weight loss", "Kidney stones and metabolic acidosis", "Teratogenic (oral clefts)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An epilepsy medicine that reduced tics in one small trial."
+      },
       "references": [
         { "label": "Jankovic J et al. RCT of topiramate in Tourette syndrome. J Neurol Neurosurg Psychiatry 2010 (PMID 19726418)", "url": "https://pubmed.ncbi.nlm.nih.gov/19726418/" }
       ]

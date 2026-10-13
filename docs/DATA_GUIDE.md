@@ -49,6 +49,19 @@ node scripts/validate-data.mjs src/data/disorders/<id>.json
     not prescriptive, and mention key cautions.
     `evidence`: `guideline-recommended` (named in a major guideline such as APA, VA/DoD, NICE, CANMAT, AASM),
     `RCT-supported` (positive RCTs or meta-analysis, not guideline-endorsed), `limited` (case series, mixed data).
+    **Off-label details.** Every `offLabel` entry that names a medication also needs a `details` object
+    (see `OffLabelDetails` in `src/types.ts`) so the card expands like an approved one:
+    - `labeledFor`: what the FDA has approved the drug for, and that this use is not on the label.
+    - `dosing` (`start`/`target`/`max`, optional `notes`): ranges reported in the cited guideline or trial, checked
+      against the drug's labeled dosing for other indications. Do not present them as label text. For entries that
+      cover several agents, name each agent in the strings.
+    - `formulations`, `boxedWarnings`, `contraindications`: from the drug's own label. List a boxed warning only when
+      you are sure it is boxed; otherwise put it in `warnings`.
+    - `warnings`: short key cautions that are neither boxed nor contraindications.
+    - `controlledSubstance` (may add agents in parentheses), `rems`, `genericAvailable`, and a dosing-free
+      `plainSummary`.
+    Reference rows that are not a medication (e.g., a general caution about drug treatment) set `contextOnly: true`
+    and omit `details`.
 11. **Disorders with no approved drug** still get a file: `approved: []`, a clear
     `noApprovedNote`, and the off-label options.
 12. **Plain language**: `plainSummary` fields are 1–2 sentences at about an 8th-grade reading level,

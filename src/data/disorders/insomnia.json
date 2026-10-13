@@ -430,6 +430,23 @@
       "use": "Chronic insomnia (sleep onset or maintenance), often at low doses",
       "evidence": "limited",
       "notes": "Widely prescribed, but supporting trials are small and short. The AASM 2017 guideline suggests against trazodone for sleep-onset or sleep-maintenance insomnia (weak recommendation), and the VA/DoD 2025 guideline also advises against it. Cautions: orthostatic hypotension and falls (especially in older adults), next-day sedation, priapism, QT prolongation, and serotonergic interactions.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder; not for insomnia.",
+        "dosing": {
+          "start": "25–50 mg at bedtime",
+          "target": "25–100 mg at bedtime",
+          "max": "100–150 mg at bedtime in practice (labeled MDD maximum 400 mg/day)",
+          "notes": "Lowest effective dose; avoid in older adults at risk for falls."
+        },
+        "formulations": ["Tablets 50, 100, 150, 300 mg", "Oral solution 50 mg/5 mL (Raldesy)"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Linezolid or IV methylene blue"],
+        "warnings": ["Orthostatic hypotension and falls", "Next-day sedation; priapism", "QT prolongation; serotonin syndrome"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant often prescribed in small doses for sleep. Guidelines advise against routine use, and it can cause dizziness and falls."
+      },
       "references": [
         { "label": "Sateia MJ et al. AASM clinical practice guideline for the pharmacologic treatment of chronic insomnia in adults. J Clin Sleep Med 2017", "url": "https://pubmed.ncbi.nlm.nih.gov/27998379/" },
         { "label": "Everitt H et al. Antidepressants for insomnia in adults. Cochrane Database Syst Rev 2018", "url": "https://pubmed.ncbi.nlm.nih.gov/29761479/" },
@@ -442,6 +459,23 @@
       "use": "Insomnia (low dose), generally discouraged when insomnia is the only indication",
       "evidence": "limited",
       "notes": "There is little controlled evidence for low-dose quetiapine in primary insomnia. Guidelines generally discourage antipsychotics for insomnia alone because of metabolic effects (weight gain, dyslipidemia, hyperglycemia), orthostasis, anticholinergic effects, akathisia/EPS, QT prolongation, and, in older adults with dementia, the boxed warning for increased mortality. It may be considered when a comorbid condition independently warrants an antipsychotic.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar disorder, and MDD adjunct; not for insomnia.",
+        "dosing": {
+          "start": "12.5–25 mg at bedtime",
+          "target": "25–100 mg at bedtime",
+          "max": "Keep as low as possible; metabolic risk rises with dose",
+          "notes": "Reserve for patients with another condition that independently warrants it."
+        },
+        "formulations": ["IR tablets 25, 50, 100, 200, 300, 400 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Hypersensitivity to quetiapine"],
+        "warnings": ["Weight gain, glucose and lipid changes", "Orthostasis, sedation, QT prolongation", "Akathisia/EPS; anticholinergic effects"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antipsychotic sometimes used in tiny doses for sleep. Guidelines discourage this because of weight gain and other risks."
+      },
       "references": [
         { "label": "Thompson W et al. Atypical antipsychotics for insomnia: a systematic review. Sleep Med 2016", "url": "https://pubmed.ncbi.nlm.nih.gov/27544830/" },
         { "label": "Karsten J et al. Low doses of mirtazapine or quetiapine for transient insomnia: randomised, double-blind, cross-over, placebo-controlled trial. J Psychopharmacol 2017", "url": "https://pubmed.ncbi.nlm.nih.gov/28093029/" },
@@ -454,6 +488,23 @@
       "use": "Insomnia, particularly with comorbid pain, restless legs, or alcohol use disorder",
       "evidence": "limited",
       "notes": "Evidence for insomnia comes mainly from small trials. Cautions: daytime sedation, dizziness, falls, misuse potential (especially with opioids), respiratory depression when combined with opioids or other CNS depressants, and dose adjustment in renal impairment.",
+      "details": {
+        "labeledFor": "FDA-approved for postherpetic neuralgia and adjunctive partial-onset seizures; not for insomnia.",
+        "dosing": {
+          "start": "100–300 mg at bedtime",
+          "target": "300–900 mg at bedtime",
+          "max": "1,800 mg/day typical ceiling in practice; doses above 900 mg at bedtime are rarely studied for sleep",
+          "notes": "Adjust for renal function."
+        },
+        "formulations": ["Capsules 100, 300, 400 mg", "Tablets 600, 800 mg", "Oral solution 250 mg/5 mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to gabapentin"],
+        "warnings": ["Daytime sedation, dizziness, falls", "Respiratory depression with opioids or CNS depressants", "Misuse potential"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A nerve-pain and seizure medicine sometimes used for sleep, especially when pain or restless legs is also present."
+      },
       "references": [
         { "label": "Lo HS et al. Treatment effects of gabapentin for primary insomnia. Clin Neuropharmacol 2010", "url": "https://pubmed.ncbi.nlm.nih.gov/20124884/" }
       ]
@@ -464,6 +515,23 @@
       "use": "Insomnia, mainly when comorbid with depression",
       "evidence": "limited",
       "notes": "Low doses are sedating through H1 antagonism, but trials in insomnia without depression are few, and a small RCT found limited and short-lived benefit. Cautions: weight gain and increased appetite, next-day sedation, restless legs, and rare neutropenia. Antidepressant boxed warning for suicidality in young people applies.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder; not for insomnia.",
+        "dosing": {
+          "start": "7.5 mg at bedtime",
+          "target": "7.5–15 mg at bedtime",
+          "max": "30 mg/day for sleep (labeled MDD maximum 45 mg/day)",
+          "notes": "Weight gain and appetite increase are common."
+        },
+        "formulations": ["Tablets 7.5, 15, 30, 45 mg", "Orally disintegrating tablets 15, 30, 45 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Linezolid or IV methylene blue"],
+        "warnings": ["Weight gain and next-day sedation", "Restless legs; rare neutropenia", "Serotonin syndrome with serotonergic drugs"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant that is sleep-inducing at low doses, mainly used when depression and poor sleep occur together."
+      },
       "references": [
         { "label": "Karsten J et al. Low doses of mirtazapine or quetiapine for transient insomnia. J Psychopharmacol 2017", "url": "https://pubmed.ncbi.nlm.nih.gov/28093029/" },
         { "label": "De Crescenzo F et al. Comparative effects of pharmacological interventions for insomnia disorder in adults: network meta-analysis. Lancet 2022", "url": "https://pubmed.ncbi.nlm.nih.gov/35843245/" }

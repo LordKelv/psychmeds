@@ -1479,7 +1479,8 @@
       "drugId": "aripiprazole",
       "generic": "aripiprazole",
       "brands": [
-        "Abilify"
+        "Abilify",
+        "Opipza"
       ],
       "drugClass": "Atypical antipsychotic (D2 partial agonist)",
       "section": "Adjunctive treatment",
@@ -1948,6 +1949,23 @@
       "use": "Augmentation of an antidepressant after inadequate response",
       "evidence": "guideline-recommended",
       "notes": "A long-established augmentation strategy with the strongest evidence in older trials. Usually targeted to lower serum levels than in bipolar disorder. Requires level, renal, and thyroid monitoring. It has a narrow therapeutic index and interacts with NSAIDs, ACE inhibitors, and diuretics. It may also reduce suicide risk.",
+      "details": {
+        "labeledFor": "Lithium is FDA-approved for bipolar I disorder; not labeled as an antidepressant augmentation agent.",
+        "dosing": {
+          "start": "150–300 mg/day, titrated weekly",
+          "target": "Serum level about 0.5–0.8 mEq/L (often 600–900 mg/day); lower than bipolar targets",
+          "max": "Keep level at or below about 1.0 mEq/L",
+          "notes": "Check level 5–7 days after changes, then renal function, calcium, and TSH every 6–12 months."
+        },
+        "formulations": ["Capsules 150, 300, 600 mg", "Tablets 300 mg; ER tablets 300, 450 mg", "Oral solution 8 mEq/5 mL"],
+        "boxedWarnings": ["Lithium toxicity can occur at doses close to therapeutic levels"],
+        "contraindications": ["Hypersensitivity to lithium (older labels also list significant renal or cardiovascular disease, dehydration, sodium depletion)"],
+        "warnings": ["Narrow therapeutic index", "NSAIDs, ACE inhibitors/ARBs, thiazides raise levels", "Hypothyroidism, nephrogenic diabetes insipidus, CKD", "Tremor and GI effects"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A mood-stabilizing medicine added to an antidepressant when depression has not fully improved. Regular blood tests are needed because the safe range is narrow."
+      },
       "references": [
         {
           "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",
@@ -1969,6 +1987,23 @@
       "use": "Augmentation of an antidepressant after inadequate response",
       "evidence": "guideline-recommended",
       "notes": "Typically 25–50 mcg/day added to an antidepressant. In STAR*D level 3, it performed similarly to lithium with fewer discontinuations. Monitor for hyperthyroid symptoms, arrhythmia, and bone loss, especially in older adults.",
+      "details": {
+        "labeledFor": "FDA-approved for hypothyroidism and as a thyroid-suppression test aid; not for depression.",
+        "dosing": {
+          "start": "12.5–25 mcg/day",
+          "target": "25–50 mcg/day added to an antidepressant",
+          "max": "50 mcg/day (higher doses have limited data)",
+          "notes": "Check TSH and free T4; start lower in older adults or with heart disease."
+        },
+        "formulations": ["Tablets 5, 25, 50 mcg"],
+        "boxedWarnings": ["Not for obesity or weight loss; larger doses may cause serious or life-threatening toxicity"],
+        "contraindications": ["Uncorrected adrenal insufficiency", "Untreated thyrotoxicosis"],
+        "warnings": ["Arrhythmias and angina, especially in older adults or heart disease", "Bone density loss with prolonged excess", "Interacts with warfarin, digoxin, and diabetes medicines"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A thyroid hormone sometimes added to an antidepressant to boost its effect. It can cause a fast heartbeat and bone thinning if the dose is too high."
+      },
       "references": [
         {
           "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",
@@ -1986,6 +2021,23 @@
       "use": "Treatment-resistant depression",
       "evidence": "guideline-recommended",
       "notes": "Subanesthetic IV infusions (commonly 0.5 mg/kg over 40 minutes) work rapidly, but effects are often short-lived without repeated dosing. Risks include dissociation, raised blood pressure, abuse potential, and limited long-term safety data. Not FDA-approved for depression (esketamine nasal spray is the approved product). Guidelines position it after multiple failed treatments.",
+      "details": {
+        "labeledFor": "Esketamine nasal spray (Spravato) is the FDA-approved product for treatment-resistant depression; IV racemic ketamine is approved only as an anesthetic.",
+        "dosing": {
+          "start": "0.5 mg/kg IV over 40 minutes",
+          "target": "0.5 mg/kg twice weekly for 2–4 weeks, then individualized maintenance",
+          "max": "Doses above 0.5 mg/kg are not clearly better (some clinics use up to about 1 mg/kg)",
+          "notes": "Monitor blood pressure and dissociation; arrange transport home."
+        },
+        "formulations": ["Injection 10, 50, 100 mg/mL (diluted for infusion)"],
+        "boxedWarnings": [],
+        "contraindications": ["Conditions where a rise in blood pressure is hazardous (aortic or intracranial aneurysm, AV malformation, recent stroke or MI)", "Hypersensitivity to ketamine"],
+        "warnings": ["Dissociation, anxiety, hypertension during and after the infusion", "Abuse and dependence potential; bladder and liver toxicity with repeated use", "Effects are often short-lived; limited long-term safety data"],
+        "rems": null,
+        "controlledSubstance": "C-III",
+        "genericAvailable": true,
+        "plainSummary": "An anesthetic given in tiny doses through a vein for depression that has not responded to several treatments. Effects begin fast but often fade without repeat treatments."
+      },
       "references": [
         {
           "label": "McQuaid et al. VA/DoD 2022 MDD guideline synopsis (Ann Intern Med 2022), PubMed",
@@ -2007,6 +2059,23 @@
       "use": "Augmentation or combination after partial response",
       "evidence": "guideline-recommended",
       "notes": "Adding bupropion to an SSRI was comparable to buspirone augmentation in STAR*D and was a reasonable option in VA-AUGMENT/VAST-D. It may offset SSRI sexual dysfunction and fatigue. Watch for seizure risk, anxiety, and blood pressure. Bupropion inhibits CYP2D6 and can raise levels of some SSRIs (e.g., paroxetine, fluoxetine).",
+      "details": {
+        "labeledFor": "FDA-approved for depression (IR/SR/XL), seasonal affective disorder prevention (XL), and smoking cessation (SR); combining it with an SSRI/SNRI is off-label.",
+        "dosing": {
+          "start": "Add XL 150 mg once daily",
+          "target": "XL 150–300 mg/day added to the SSRI/SNRI",
+          "max": "XL 450 mg/day (labeled maximum)",
+          "notes": "Lowers seizure threshold; raises levels of drugs cleared by CYP2D6 (paroxetine, fluoxetine)."
+        },
+        "formulations": ["XL tablets 150, 300 mg", "SR tablets 100, 150, 200 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Seizure disorder", "Bulimia or anorexia nervosa", "Abrupt discontinuation of alcohol or sedatives", "MAOI use within 14 days"],
+        "warnings": ["Lowers the seizure threshold", "Anxiety, insomnia, blood pressure increases", "CYP2D6 inhibition"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Adding bupropion to another antidepressant can help when the first drug only partly works. It may reduce sexual side effects and low energy."
+      },
       "references": [
         {
           "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",
@@ -2028,6 +2097,23 @@
       "use": "Combination therapy after partial response",
       "evidence": "RCT-supported",
       "notes": "Evidence is mixed. An early combination-from-the-start RCT was positive, but the larger MIR trial in primary care found no clinically meaningful benefit of adding mirtazapine to an SSRI/SNRI in treatment-resistant depression. Sedation and weight gain are common. Watch for serotonin syndrome when combined with other serotonergic drugs.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder as a single agent; use combined with an SSRI/SNRI is off-label.",
+        "dosing": {
+          "start": "15 mg at bedtime",
+          "target": "15–45 mg at bedtime",
+          "max": "45 mg/day",
+          "notes": "Weight gain and sedation are common."
+        },
+        "formulations": ["Tablets 7.5, 15, 30, 45 mg", "Orally disintegrating tablets 15, 30, 45 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Linezolid or IV methylene blue"],
+        "warnings": ["Sedation and weight gain", "Serotonin syndrome when combined", "Rare neutropenia/agranulocytosis"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Adding mirtazapine to another antidepressant can help sleep and appetite, but a large trial found little overall benefit."
+      },
       "references": [
         {
           "label": "Blier et al. Combination of antidepressant medications from treatment initiation (Am J Psychiatry 2010), PubMed",
@@ -2045,6 +2131,23 @@
       "use": "Augmentation in treatment-resistant depression",
       "evidence": "RCT-supported",
       "notes": "Doses used in trials are higher than in Parkinson's disease, reached by slow titration (often to about 2.5 mg/day). A recent RCT in treatment-resistant depression was positive. Adverse effects include nausea, sleepiness and sudden sleep episodes, impulse-control disorders, and possible psychosis or mania.",
+      "details": {
+        "labeledFor": "FDA-approved for Parkinson's disease and restless legs syndrome; not for depression.",
+        "dosing": {
+          "start": "0.125 mg at bedtime (or 0.125 mg three times daily), increased every 3–7 days",
+          "target": "About 1–2.5 mg/day in the augmentation trials, reached by slow titration",
+          "max": "4.5 mg/day (Parkinson's labeled maximum)",
+          "notes": "Reduce in renal impairment; taper rather than stop abruptly."
+        },
+        "formulations": ["Immediate-release tablets 0.125, 0.25, 0.5, 0.75, 1, 1.5 mg", "ER tablets 0.375–4.5 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to pramipexole"],
+        "warnings": ["Sudden sleep onset and somnolence", "Impulse-control problems (gambling, hypersexuality)", "Orthostatic hypotension, hallucinations, nausea", "Rebound or augmentation on withdrawal"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A Parkinson's medicine that has helped some people whose depression did not respond to usual treatments. It can cause sudden sleepiness and impulsive behaviors."
+      },
       "references": [
         {
           "label": "Browning et al. Pramipexole augmentation in treatment-resistant depression (PAX-D), PubMed",
@@ -2058,6 +2161,23 @@
       "use": "Adjunct to an antidepressant after inadequate response",
       "evidence": "guideline-recommended",
       "notes": "Low doses (around 0.5–3 mg/day) have positive adjunctive RCTs and are listed among adjunctive antipsychotic options in CANMAT. Not FDA-approved for MDD. Risks include hyperprolactinemia, EPS, metabolic effects, and increased mortality in elderly patients with dementia.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar I mania, and irritability in autism; not approved for MDD.",
+        "dosing": {
+          "start": "0.25–0.5 mg/day",
+          "target": "0.5–2 mg/day (trials 0.5–3 mg/day)",
+          "max": "3 mg/day in trials (labeled schizophrenia maximum 16 mg/day)",
+          "notes": "Reassess after 4–6 weeks; check prolactin if symptoms arise."
+        },
+        "formulations": ["Tablets 0.25, 0.5, 1, 2, 3, 4 mg", "ODT 0.25–4 mg; oral solution 1 mg/mL"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Hypersensitivity to risperidone or paliperidone"],
+        "warnings": ["Hyperprolactinemia, extrapyramidal symptoms, tardive dyskinesia", "Weight gain and metabolic effects", "Orthostasis; stroke risk in older adults with dementia"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A low dose of an antipsychotic sometimes added to an antidepressant when depression has not lifted. It can cause stiffness, weight gain, and hormone changes."
+      },
       "references": [
         {
           "label": "CANMAT 2023 update on clinical guidelines for management of MDD in adults (Can J Psychiatry 2024)",

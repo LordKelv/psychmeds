@@ -46,6 +46,23 @@
       "use": "Hallucinations and delusions in Parkinson's disease psychosis (low dose)",
       "evidence": "RCT-supported",
       "notes": "The MDS evidence-based review rated clozapine 'efficacious' with 'acceptable risk with specialized monitoring' (clinically useful). Placebo-controlled trials used low doses (mean about 25–36 mg/day) without worsening motor scores in those trials. Cautions: boxed warnings for severe neutropenia, orthostatic hypotension/bradycardia/syncope, seizures, myocarditis, and increased mortality in elderly patients with dementia-related psychosis; ANC monitoring is required per the current label; sedation, sialorrhea, and constipation are common. Not FDA-labeled for this use.",
+      "details": {
+        "labeledFor": "FDA-approved for treatment-resistant schizophrenia and reducing suicidal behavior; not for Parkinson's disease psychosis.",
+        "dosing": {
+          "start": "6.25–12.5 mg at bedtime",
+          "target": "12.5–50 mg/day (trials averaged 25–36 mg/day)",
+          "max": "100 mg/day typically in this condition (labeled maximum 900 mg/day)",
+          "notes": "Follow the clozapine ANC monitoring schedule on the current label."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg; ODT 12.5–200 mg", "Oral suspension 50 mg/mL"],
+        "boxedWarnings": ["Severe neutropenia", "Orthostatic hypotension, bradycardia, and syncope", "Seizures", "Myocarditis and cardiomyopathy", "Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Serious hypersensitivity to clozapine"],
+        "warnings": ["Sedation, drooling, constipation (can be severe)", "Orthostasis and falls", "Myocarditis; metabolic effects", "Seizures"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A strong antipsychotic that, at very low doses, eases hallucinations in Parkinson's disease without worsening movement. Blood counts must be checked regularly."
+      },
       "references": [
         {
           "label": "Seppi K et al. Update on treatments for nonmotor symptoms of Parkinson's disease: an evidence-based medicine review. Mov Disord 2019 (MDS review, PMC)",
@@ -63,6 +80,23 @@
       "use": "Hallucinations and delusions in Parkinson's disease psychosis (low dose)",
       "evidence": "limited",
       "notes": "Widely used because it generally does not worsen motor symptoms, but the MDS review rated efficacy as 'insufficient evidence' ('possibly useful'), with no high-quality positive placebo-controlled RCTs; small placebo-controlled trials were negative or underpowered, and some open-label and comparator data are supportive. Cautions: boxed warning for increased mortality in elderly patients with dementia-related psychosis, sedation, orthostatic hypotension, metabolic effects, and QT prolongation. Not FDA-labeled for this use.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar disorder, and MDD adjunct; not for Parkinson's disease psychosis.",
+        "dosing": {
+          "start": "12.5–25 mg at bedtime",
+          "target": "25–100 mg/day",
+          "max": "150 mg/day (trial doses reached about 150 mg)",
+          "notes": "Evidence is limited and trials were mostly negative."
+        },
+        "formulations": ["IR tablets 25–400 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Hypersensitivity to quetiapine"],
+        "warnings": ["Sedation, orthostasis, falls", "Metabolic effects and QT prolongation", "Increased mortality in older adults with dementia"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A low-dose antipsychotic often used for hallucinations in Parkinson's disease because it rarely worsens movement, though proof of benefit is limited."
+      },
       "references": [
         {
           "label": "Seppi K et al. Update on treatments for nonmotor symptoms of Parkinson's disease: an evidence-based medicine review. Mov Disord 2019 (MDS review, PMC)",

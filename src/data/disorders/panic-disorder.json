@@ -298,6 +298,23 @@
       "use": "Panic disorder",
       "evidence": "guideline-recommended",
       "notes": "SSRIs are first-line in APA and NICE guidance; escitalopram and citalopram are licensed for panic disorder in the UK but not FDA-labeled for it. Start low to limit early jitteriness. Citalopram has dose-related QT prolongation.",
+      "details": {
+        "labeledFor": "FDA-approved for depression and (escitalopram) GAD; neither is FDA-labeled for panic disorder.",
+        "dosing": {
+          "start": "Escitalopram 5 mg or citalopram 10 mg daily",
+          "target": "Escitalopram 10–20 mg or citalopram 20–40 mg daily",
+          "max": "Escitalopram 20 mg/day; citalopram 40 mg/day (20 mg over age 60)",
+          "notes": "Start low to limit early jitteriness."
+        },
+        "formulations": ["Escitalopram tablets 5, 10, 20 mg", "Citalopram tablets 10, 20, 40 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Pimozide", "Hypersensitivity to the drug"],
+        "warnings": ["QT prolongation (citalopram dose-related)", "Early activation or anxiety", "Hyponatremia and bleeding risk"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "These SSRIs are first-line in guidelines for panic disorder, even though their labels do not list it."
+      },
       "references": [
         {
           "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
@@ -319,6 +336,23 @@
       "use": "Panic disorder when SSRIs are unsuitable or ineffective",
       "evidence": "guideline-recommended",
       "notes": "NICE: consider if an SSRI is unsuitable or there is no improvement after 12 weeks. Cautions: anticholinergic effects, orthostasis, cardiac conduction effects, lethality in overdose.",
+      "details": {
+        "labeledFor": "Imipramine and clomipramine are FDA-approved for depression (imipramine) and OCD (clomipramine); not for panic disorder.",
+        "dosing": {
+          "start": "10–25 mg at bedtime",
+          "target": "Imipramine 100–200 mg/day (about 2.25 mg/kg in trials); clomipramine 50–150 mg/day",
+          "max": "Imipramine 300 mg/day (labeled maximum); clomipramine 250 mg/day",
+          "notes": "Increase slowly because early anxiety is common."
+        },
+        "formulations": ["Imipramine tablets 10, 25, 50 mg", "Clomipramine capsules 25, 50, 75 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Acute recovery period after myocardial infarction", "Hypersensitivity to the drug"],
+        "warnings": ["Anticholinergic effects (dry mouth, constipation, urinary retention, confusion)", "Orthostasis and cardiac conduction effects; ECG in at-risk patients", "Lowers the seizure threshold; may trigger mania", "Highly toxic in overdose; limit quantities"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Older antidepressants that can treat panic disorder when SSRIs do not work or are not tolerated. They are dangerous in overdose."
+      },
       "references": [
         {
           "label": "NICE CG113: Generalised anxiety disorder and panic disorder in adults (recommendations)",
@@ -336,6 +370,23 @@
       "use": "Panic disorder (short-term or adjunctive)",
       "evidence": "RCT-supported",
       "notes": "Labeled for 'anxiety disorders' rather than panic disorder specifically. APA lists benzodiazepines as an option, but NICE advises against them for panic disorder because of poorer long-term outcomes. Same boxed warnings as other benzodiazepines (opioids; misuse; dependence and withdrawal).",
+      "details": {
+        "labeledFor": "Lorazepam and diazepam are FDA-approved for anxiety disorders; neither is specifically labeled for panic disorder.",
+        "dosing": {
+          "start": "Lorazepam 0.5 mg twice daily or diazepam 2 mg two to three times daily",
+          "target": "Lorazepam 2–6 mg/day or diazepam 5–30 mg/day in divided doses",
+          "max": "Lorazepam 10 mg/day; diazepam 40 mg/day (labeled anxiety maximums)",
+          "notes": "Use short-term or as a bridge while an SSRI takes effect."
+        },
+        "formulations": ["Lorazepam tablets 0.5, 1, 2 mg", "Diazepam tablets 2, 5, 10 mg; solution"],
+        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
+        "warnings": ["Sedation, falls, and cognitive effects", "Respiratory depression with opioids or alcohol", "Dependence and withdrawal seizures if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "Benzodiazepines can calm panic quickly, but they are habit-forming and are usually kept to short-term use."
+      },
       "references": [
         {
           "label": "APA Practice Guideline for Panic Disorder, 2nd ed. (2009; legacy guideline)",

@@ -72,6 +72,23 @@
       "use": "Desmopressin-resistant enuresis, especially with signs of overactive bladder or reduced bladder capacity",
       "evidence": "guideline-recommended",
       "notes": "The International Children's Continence Society suggests adding an anticholinergic to desmopressin in therapy-resistant cases after constipation and daytime bladder dysfunction are addressed. Oxybutynin is labeled for pediatric detrusor overactivity from neurological conditions, not enuresis. Constipation, dry mouth, heat intolerance, and possible cognitive or behavioral effects; check post-void residual.",
+      "details": {
+        "labeledFor": "Oxybutynin is FDA-approved for overactive bladder and for pediatric detrusor overactivity from neurologic conditions; solifenacin for overactive bladder in adults and neurogenic detrusor overactivity in children. Neither is approved for enuresis.",
+        "dosing": {
+          "start": "Oxybutynin 2.5 mg at bedtime or twice daily; solifenacin 2.5 mg daily",
+          "target": "Oxybutynin 5 mg once or twice daily; solifenacin 5 mg daily (children usually 5 years and older)",
+          "max": "Oxybutynin labeled pediatric maximum 15 mg/day; solifenacin 10 mg/day in adults (pediatric by weight)",
+          "notes": "Treat constipation and daytime bladder symptoms first; check post-void residual."
+        },
+        "formulations": ["Oxybutynin tablets 5 mg; syrup 5 mg/5 mL; ER tablets 5, 10, 15 mg", "Solifenacin tablets 5, 10 mg; oral suspension 1 mg/mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Urinary retention", "Gastric retention", "Uncontrolled narrow-angle glaucoma", "Hypersensitivity"],
+        "warnings": ["Constipation (can worsen bedwetting)", "Dry mouth, flushing, heat intolerance in children", "Possible drowsiness or behavior changes", "Check post-void residual before and during use"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A bladder-calming medicine sometimes added when desmopressin alone does not stop bedwetting. It can cause constipation and dry mouth."
+      },
       "references": [
         { "label": "Nevéus T et al. Management and treatment of nocturnal enuresis: updated ICCS standardization document. J Pediatr Urol 2020 (PMID 32278657)", "url": "https://pubmed.ncbi.nlm.nih.gov/32278657/" }
       ]

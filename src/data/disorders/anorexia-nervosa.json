@@ -14,6 +14,23 @@
       "use": "Promoting weight gain in adult outpatients",
       "evidence": "RCT-supported",
       "notes": "A 16-week multisite RCT (n=152) found a modestly greater monthly BMI increase than placebo (about 0.26 vs 0.10 kg/m2 per month) with no benefit on obsessional symptoms. Low doses (2.5–10 mg/day) were used. Monitor glucose, lipids, sedation, QT, and EPS; patients may resist weight-promoting medication. Evidence in adolescents is limited.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia, bipolar I disorder, and (with fluoxetine) treatment-resistant depression; not for anorexia nervosa.",
+        "dosing": {
+          "start": "2.5 mg once daily",
+          "target": "5 mg/day; the 16-week RCT titrated within 2.5–10 mg/day (mean about 7 mg)",
+          "max": "10 mg/day in the main trial",
+          "notes": "Give at bedtime. Check weight, glucose, lipids, and QTc; monitor for refeeding complications."
+        },
+        "formulations": ["Tablets 2.5, 5, 7.5, 10, 15, 20 mg", "Orally disintegrating tablets 5, 10, 15, 20 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Hypersensitivity to olanzapine"],
+        "warnings": ["Sedation, orthostasis, and anticholinergic effects", "Weight gain and metabolic effects", "QT prolongation and arrhythmia risk at very low weight", "Neutropenia; DRESS (rare)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antipsychotic used in small doses to help adults with anorexia gain weight. It can cause sleepiness and blood sugar or cholesterol changes."
+      },
       "references": [
         { "label": "Attia E et al. Olanzapine versus placebo in adult outpatients with anorexia nervosa: RCT. Am J Psychiatry 2019 (PMID 30654643)", "url": "https://pubmed.ncbi.nlm.nih.gov/30654643/" },
         { "label": "Hirsch D et al. Approved and pipeline pharmacological interventions for eating disorders (2010–2025). CNS Drugs 2025", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12855243/" }

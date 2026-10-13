@@ -39,6 +39,23 @@
       "use": "Reducing binge frequency, often with obesity",
       "evidence": "RCT-supported",
       "notes": "Placebo-controlled trials showed fewer binge episodes and weight loss, but discontinuation for adverse effects was higher (paresthesia, cognitive slowing, word-finding difficulty, kidney stones). Teratogenic risk (oral clefts) in pregnancy.",
+      "details": {
+        "labeledFor": "FDA-approved for epilepsy and migraine prevention; not for binge-eating disorder.",
+        "dosing": {
+          "start": "25 mg/day",
+          "target": "Increase by 25–50 mg weekly toward 100–300 mg/day (trials averaged about 200 mg/day)",
+          "max": "400 mg/day; trials allowed up to 600 mg/day",
+          "notes": "Slower titration reduces cognitive side effects; reduce dose in renal impairment."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg", "Sprinkle capsules 15, 25 mg", "Extended-release capsules (labeled for epilepsy and migraine only)"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to topiramate"],
+        "warnings": ["Cognitive slowing, word-finding difficulty, paresthesias", "Kidney stones and metabolic acidosis", "Acute myopia with secondary angle-closure glaucoma", "Fetal harm (oral clefts); lowers estrogen-contraceptive effectiveness at higher doses", "Weight loss; suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An epilepsy and migraine medicine that reduced binge eating and body weight in trials. It can cause tingling, slowed thinking, and kidney stones, and it is risky in pregnancy."
+      },
       "references": [
         { "label": "McElroy SL et al. Topiramate for BED associated with obesity: placebo-controlled study. Biol Psychiatry 2007 (PMID 17258690)", "url": "https://pubmed.ncbi.nlm.nih.gov/17258690/" },
         { "label": "Hirsch D et al. Approved and pipeline pharmacological interventions for eating disorders (2010–2025). CNS Drugs 2025", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12855243/" }

@@ -119,6 +119,23 @@
       "use": "Residual excessive daytime sleepiness in OSA despite or without CPAP",
       "evidence": "RCT-supported",
       "notes": "Positive phase 3 RCTs (HAROSA I/II/III) support it, and it is approved for this use in Europe but not in the US. French 2024 residual-sleepiness guidelines discuss it among options. Cautions: insomnia, headache, QT prolongation, CYP2D6/CYP3A4 interactions, and reduced hormonal contraceptive efficacy. Airway therapy should continue.",
+      "details": {
+        "labeledFor": "FDA-approved for narcolepsy sleepiness (adults and children 6+); approved for OSA sleepiness in Europe but not in the US.",
+        "dosing": {
+          "start": "4.45–8.9 mg each morning",
+          "target": "8.9–17.8 mg once daily on waking (European OSA labeling)",
+          "max": "17.8 mg/day in the European OSA labeling (US narcolepsy labeling allows up to 35.6 mg/day)",
+          "notes": "Continue airway therapy such as CPAP."
+        },
+        "formulations": ["Tablets 4.45, 17.8 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Severe hepatic impairment"],
+        "warnings": ["QT prolongation", "Insomnia, headache, nausea, anxiety", "Reduces hormonal contraceptive effectiveness", "CYP2D6/3A4 interactions"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": false,
+        "plainSummary": "A non-stimulant that reduces leftover sleepiness in sleep apnea in Europe. In the US it is approved only for narcolepsy."
+      },
       "references": [
         { "label": "Pépin JL et al. Pitolisant for residual excessive daytime sleepiness in OSA patients adhering to CPAP: randomized trial. Chest 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/33121980/" },
         { "label": "Barateau L et al. Guidelines for the assessment and management of residual sleepiness in OSA (SFRMS/SPLF). Respir Med Res 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/38861872/" }

@@ -36,6 +36,12 @@ export default function AboutPage() {
           <strong>Limited evidence</strong>: case series, small or mixed trials.
         </li>
       </ul>
+      <p>
+        Each off-label card expands like an approved one to show what the drug <em>is</em> FDA-approved for, reported
+        dosing, formulations, boxed warnings, key cautions, contraindications, and its DEA schedule and REMS status.
+        Because the FDA label does not cover these uses, the dosing comes from the cited guidelines and trials (checked
+        against the drug&apos;s labeling for other indications), not from label text.
+      </p>
       <h2>Limitations</h2>
       <p>
         Labels change. Dosing here is summarized and indication-specific, and it leaves out many details (renal and

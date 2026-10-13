@@ -1545,6 +1545,23 @@
       "use": "Acute bipolar I depression",
       "evidence": "guideline-recommended",
       "notes": "Not labeled for acute depression, but CANMAT/ISBD 2018 lists lithium monotherapy as a first-line option for acute bipolar I depression, based mainly on older and mixed trial data. Antidepressant onset may be slow. Same narrow therapeutic index, renal, thyroid, and drug-interaction cautions as for its labeled uses.",
+      "details": {
+        "labeledFor": "FDA-approved for acute mania and maintenance in bipolar I disorder; not labeled for acute bipolar depression.",
+        "dosing": {
+          "start": "300 mg once or twice daily (IR); ER 300–450 mg at bedtime",
+          "target": "Serum level about 0.6–1.0 mEq/L (trials aimed for 0.8–1.2)",
+          "max": "Titrate to serum level (12-hour trough); avoid levels above 1.5 mEq/L",
+          "notes": "Check level 5–7 days after each change, plus renal function, calcium, and TSH."
+        },
+        "formulations": ["Capsules 150, 300, 600 mg", "Tablets 300 mg; ER tablets 300, 450 mg", "Oral solution 8 mEq/5 mL"],
+        "boxedWarnings": ["Lithium toxicity can occur at doses close to therapeutic levels"],
+        "contraindications": ["Hypersensitivity to lithium (older labels also list significant renal or cardiovascular disease, dehydration, and sodium depletion)"],
+        "warnings": ["Narrow therapeutic index; toxicity with dehydration, sodium loss, or renal impairment", "NSAIDs, ACE inhibitors/ARBs, and thiazides raise levels", "Hypothyroidism, nephrogenic diabetes insipidus, chronic kidney disease", "Tremor, GI upset; possible fetal cardiac effects"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "The classic mood stabilizer, sometimes used for the low phase of bipolar I disorder. Regular blood tests are needed because the safe range is narrow."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1562,6 +1579,23 @@
       "use": "Acute bipolar depression (monotherapy or adjunctive)",
       "evidence": "guideline-recommended",
       "notes": "CANMAT/ISBD 2018 lists lamotrigine as first-line for acute bipolar I depression, though individual RCTs were negative and pooled effects are modest (larger in more severe depression). Required slow titration means benefit takes weeks. Serious rash risk; halve dosing with valproate.",
+      "details": {
+        "labeledFor": "FDA-approved for epilepsy and for maintenance treatment of bipolar I disorder; not for acute bipolar depression.",
+        "dosing": {
+          "start": "25 mg/day for weeks 1–2 (12.5 mg/day with valproate; 50 mg/day with enzyme inducers such as carbamazepine)",
+          "target": "200 mg/day by weeks 6–7 (100 mg/day with valproate; up to 400 mg/day with inducers)",
+          "max": "200 mg/day recommended for bipolar disorder (400 mg showed no added benefit)",
+          "notes": "Re-titrate from the start if doses are missed for more than 5 half-lives. Estrogen-containing contraceptives lower levels."
+        },
+        "formulations": ["Tablets 25, 100, 150, 200 mg", "Chewable dispersible tablets 5, 25 mg", "Orally disintegrating tablets 25–200 mg", "Extended-release tablets (epilepsy only)"],
+        "boxedWarnings": ["Serious skin rashes, including Stevens-Johnson syndrome"],
+        "contraindications": ["Hypersensitivity to lamotrigine"],
+        "warnings": ["Rash risk is highest with fast titration or valproate co-use; stop at the first sign of rash", "Hemophagocytic lymphohistiocytosis (rare); aseptic meningitis", "Valproate doubles levels; carbamazepine and estrogens lower them", "Suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A mood stabilizer that can help bipolar depression slowly. It must be increased very gradually because it can cause a dangerous rash."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1579,6 +1613,23 @@
       "use": "Acute bipolar depression",
       "evidence": "guideline-recommended",
       "notes": "CANMAT/ISBD 2018 lists divalproex as a second-line option for acute bipolar I depression, based on small placebo-controlled trials pooled in meta-analysis. Major teratogenicity (avoid in people who may become pregnant unless alternatives are unacceptable), hepatotoxicity, pancreatitis, weight gain, and polycystic ovary concerns apply.",
+      "details": {
+        "labeledFor": "FDA-approved for acute mania (and epilepsy and migraine); not for acute bipolar depression.",
+        "dosing": {
+          "start": "250–500 mg twice daily (DR) or 500 mg once daily (ER)",
+          "target": "Trough level 50–100 mcg/mL (up to 125 acceptable); often 1,000–2,000 mg/day",
+          "max": "60 mg/kg/day (labeled maximum)",
+          "notes": "Check liver tests, platelets, and levels; avoid in people who could become pregnant unless alternatives are unacceptable."
+        },
+        "formulations": ["Delayed-release tablets 125, 250, 500 mg", "Extended-release tablets 250, 500 mg", "Sprinkle capsules 125 mg; valproic acid capsules 250 mg; solution 250 mg/5 mL"],
+        "boxedWarnings": ["Hepatotoxicity, including fatal hepatic failure", "Fetal risk: major congenital malformations, decreased IQ, and neurodevelopmental disorders", "Pancreatitis"],
+        "contraindications": ["Hepatic disease or significant hepatic dysfunction", "Known mitochondrial disease (POLG variants)", "Urea cycle disorders", "Hypersensitivity to valproate"],
+        "warnings": ["Thrombocytopenia, hyperammonemia, weight gain, hair loss, tremor", "Polycystic ovary syndrome concerns", "Lamotrigine and carbapenem interactions", "Suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A mood stabilizer sometimes added for bipolar depression. It can harm the liver and can cause serious birth defects, so it is generally avoided in people who might become pregnant."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1596,6 +1647,23 @@
       "use": "Maintenance treatment of bipolar I disorder",
       "evidence": "guideline-recommended",
       "notes": "Labeling states long-term (>3 weeks) effectiveness has not been shown in controlled trials, yet divalproex is widely used for maintenance and CANMAT/ISBD 2018 lists it as first-line maintenance. Trial evidence for relapse prevention is weaker than for lithium. Same teratogenicity and hepatic cautions.",
+      "details": {
+        "labeledFor": "Depakote (DR) is labeled for acute mania; Depakote ER for acute manic or mixed episodes. Long-term (maintenance) effectiveness has not been shown in controlled trials.",
+        "dosing": {
+          "start": "Continue the dose that controlled the acute episode (often 750–1,500 mg/day)",
+          "target": "Trough level about 50–100 mcg/mL (up to 125); usually 1,000–2,000 mg/day",
+          "max": "60 mg/kg/day (labeled maximum)",
+          "notes": "Monitor liver tests, platelets, weight, and levels; confirm contraception."
+        },
+        "formulations": ["Delayed-release tablets 125, 250, 500 mg", "Extended-release tablets 250, 500 mg", "Sprinkle capsules 125 mg"],
+        "boxedWarnings": ["Hepatotoxicity, including fatal hepatic failure", "Fetal risk: major congenital malformations, decreased IQ, and neurodevelopmental disorders", "Pancreatitis"],
+        "contraindications": ["Hepatic disease or significant hepatic dysfunction", "Known mitochondrial disease (POLG variants)", "Urea cycle disorders", "Hypersensitivity to valproate"],
+        "warnings": ["Thrombocytopenia, hyperammonemia, weight gain", "Polycystic ovary syndrome concerns; hair loss, tremor", "Lamotrigine and carbapenem interactions", "Suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A mood stabilizer widely used to prevent new bipolar episodes, though the label does not cover long-term use. It can harm the liver and cause birth defects."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1613,6 +1681,23 @@
       "use": "Acute bipolar I depression, added to a mood stabilizer or antipsychotic",
       "evidence": "guideline-recommended",
       "notes": "CANMAT/ISBD 2018 lists SSRIs (except paroxetine) or bupropion added to lithium/valproate or an atypical antipsychotic as second-line for bipolar I depression. Meta-analyses show small benefit. The ISBD task force advises against antidepressant monotherapy in bipolar I, avoiding them with mixed features, rapid cycling, or prior antidepressant-induced switch, and noting a higher switch risk with SNRIs and tricyclics. Monitor for emerging mania/hypomania and suicidality.",
+      "details": {
+        "labeledFor": "SSRIs and bupropion are FDA-approved for major depressive disorder; they are not labeled for bipolar depression.",
+        "dosing": {
+          "start": "Sertraline 25–50 mg, escitalopram 5–10 mg, or bupropion XL 150 mg daily, added to a mood stabilizer or antipsychotic",
+          "target": "Usual antidepressant ranges (e.g., sertraline 50–150 mg, escitalopram 10–20 mg, bupropion XL 150–300 mg)",
+          "max": "Labeled MDD maximums apply (sertraline 200 mg, escitalopram 20 mg, bupropion XL 450 mg)",
+          "notes": "Avoid paroxetine. Continue only if benefit is clear; taper off after remission in many cases."
+        },
+        "formulations": ["Sertraline tablets 25, 50, 100 mg; oral concentrate 20 mg/mL", "Escitalopram tablets 5, 10, 20 mg; solution 1 mg/mL", "Bupropion XL tablets 150, 300 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug", "Bupropion: seizure disorder, bulimia/anorexia, abrupt alcohol or sedative withdrawal"],
+        "warnings": ["Manic or hypomanic switch, mixed features, or rapid cycling", "Higher switch risk with SNRIs and tricyclics", "Bupropion lowers the seizure threshold", "Hyponatremia, bleeding risk, serotonin syndrome"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antidepressants are sometimes added for bipolar depression, but only alongside a mood stabilizer because on their own they can trigger mania."
+      },
       "references": [
         {
           "label": "Pacchiarotti I et al. ISBD task force report on antidepressant use in bipolar disorders. Am J Psychiatry 2013",
@@ -1634,6 +1719,23 @@
       "use": "Acute bipolar II depression",
       "evidence": "guideline-recommended",
       "notes": "CANMAT/ISBD 2018 lists sertraline and venlafaxine as second-line monotherapy for bipolar II depression. In an RCT comparing sertraline, lithium, and the combination, response rates were similar and switch rates low, but hypomania can still occur. Monitor for mood elevation and mixed features. Bipolar II depression has FDA-labeled options (quetiapine, lumateperone).",
+      "details": {
+        "labeledFor": "Both are FDA-approved for major depressive disorder (venlafaxine also for anxiety disorders); neither is labeled for bipolar II depression.",
+        "dosing": {
+          "start": "Sertraline 25–50 mg/day; venlafaxine XR 37.5–75 mg/day",
+          "target": "Sertraline 50–200 mg/day; venlafaxine XR 75–225 mg/day",
+          "max": "Sertraline 200 mg/day; venlafaxine XR 225 mg/day",
+          "notes": "Monitor closely for hypomania; venlafaxine can raise blood pressure."
+        },
+        "formulations": ["Sertraline tablets 25, 50, 100 mg", "Venlafaxine XR capsules 37.5, 75, 150 mg; ER tablets 37.5–225 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Hypomania/mania and mixed features", "Venlafaxine: dose-related blood pressure increases and discontinuation symptoms", "Hyponatremia, bleeding risk, serotonin syndrome"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antidepressants are an option for the low phase of bipolar II disorder, but they can tip some people into hypomania, so mood is watched closely."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1651,6 +1753,23 @@
       "use": "Maintenance treatment of bipolar I disorder without lithium/divalproex",
       "evidence": "guideline-recommended",
       "notes": "Labeled only for maintenance as an adjunct to lithium or divalproex, but CANMAT/ISBD 2018 lists quetiapine monotherapy as a first-line maintenance option based on a randomized-withdrawal trial. Long-term metabolic effects (weight, glucose, lipids), sedation, and QT cautions apply.",
+      "details": {
+        "labeledFor": "FDA-approved for acute mania, bipolar depression, and as adjunct to lithium/divalproex for maintenance; monotherapy maintenance is not labeled.",
+        "dosing": {
+          "start": "Continue the dose that achieved remission (often 300–800 mg/day)",
+          "target": "300–800 mg/day (maintenance trials)",
+          "max": "800 mg/day",
+          "notes": "IR is split twice daily; XR is once daily in the evening. Monitor weight, glucose, and lipids."
+        },
+        "formulations": ["IR tablets 25, 50, 100, 200, 300, 400 mg", "XR tablets 50, 150, 200, 300, 400 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Hypersensitivity to quetiapine"],
+        "warnings": ["Sedation, orthostasis, and falls", "Metabolic effects (weight, glucose, lipids)", "QT prolongation; cataracts and tardive dyskinesia", "Leukopenia/neutropenia"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antipsychotic that can help prevent both highs and lows in bipolar I disorder. It causes drowsiness and weight and blood sugar changes."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1668,6 +1787,23 @@
       "use": "Acute mania and maintenance treatment",
       "evidence": "guideline-recommended",
       "notes": "Only Equetro is labeled, and only for acute mania. CANMAT/ISBD 2018 lists carbamazepine as second-line for acute mania and maintenance. It induces CYP3A4 and its own metabolism, which lowers levels of many drugs including hormonal contraceptives and several antipsychotics. HLA-B*1502 testing in at-risk ancestry; risk of blood dyscrasias, hyponatremia, and teratogenicity.",
+      "details": {
+        "labeledFor": "Only Equetro (ER capsules) is labeled for bipolar I, and only for acute mania; generic carbamazepine is labeled for epilepsy and trigeminal neuralgia.",
+        "dosing": {
+          "start": "200 mg twice daily",
+          "target": "400–1,200 mg/day in divided doses; serum level about 4–12 mcg/mL",
+          "max": "1,600 mg/day (Equetro mania ceiling)",
+          "notes": "Autoinduction lowers levels in the first weeks; recheck levels and sodium."
+        },
+        "formulations": ["IR tablets 200 mg; chewable 100 mg", "ER tablets 100, 200, 400 mg; ER capsules 100, 200, 300 mg", "Oral suspension 100 mg/5 mL"],
+        "boxedWarnings": ["Serious dermatologic reactions (SJS/TEN) and the HLA-B*1502 allele", "Aplastic anemia and agranulocytosis"],
+        "contraindications": ["History of bone marrow depression", "Hypersensitivity to carbamazepine or tricyclic compounds", "MAOI use within 14 days; nefazodone", "Non-nucleoside reverse transcriptase inhibitors"],
+        "warnings": ["Strong CYP3A4 inducer (lowers hormonal contraceptives and many antipsychotics)", "Hyponatremia/SIADH; hepatotoxicity", "Teratogenic (neural tube defects)", "Test HLA-B*1502 in at-risk Asian ancestry"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An anti-seizure medicine used as a second-line mood stabilizer. It needs blood tests and changes how many other medicines, including birth control pills, work."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1681,6 +1817,23 @@
       "use": "Acute mania",
       "evidence": "guideline-recommended",
       "notes": "Not labeled for mania, but CANMAT/ISBD 2018 lists haloperidol as second-line, and a multiple-treatments meta-analysis ranked it among the most effective antimanic drugs. High risk of extrapyramidal symptoms and tardive dyskinesia; generally used short term. IM forms are used for acute agitation.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia and Tourette's disorder; not labeled for mania.",
+        "dosing": {
+          "start": "2–5 mg/day orally (IM 2–5 mg for agitation)",
+          "target": "5–15 mg/day in mania trials",
+          "max": "Usually kept at or below about 20 mg/day (extrapyramidal risk rises sharply)",
+          "notes": "Short-term use; consider adding an anticholinergic only if needed. IV use is off-label and raises QT risk."
+        },
+        "formulations": ["Tablets 0.5, 1, 2, 5, 10, 20 mg", "Oral concentrate 2 mg/mL", "Lactate injection 5 mg/mL; decanoate injection"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Severe toxic CNS depression or coma", "Parkinson's disease", "Hypersensitivity to haloperidol"],
+        "warnings": ["Extrapyramidal symptoms and tardive dyskinesia", "QT prolongation and torsades (especially IV)", "Neuroleptic malignant syndrome", "Hyperprolactinemia; falls in older adults"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An older antipsychotic that works quickly against mania. It often causes stiffness and movement side effects, so it is usually used for short periods."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1698,6 +1851,23 @@
       "use": "Acute mania (monotherapy)",
       "evidence": "guideline-recommended",
       "notes": "Not FDA-approved for bipolar disorder. CANMAT/ISBD 2018 lists paliperidone (>6 mg/day) as a first-line monotherapy for acute mania based on RCTs. Prolactin elevation, EPS, and QT cautions; dose-adjust for renal impairment.",
+      "details": {
+        "labeledFor": "FDA-approved for schizophrenia and schizoaffective disorder; not approved for bipolar disorder.",
+        "dosing": {
+          "start": "6 mg once daily in the morning",
+          "target": "More than 6 mg/day, usually 6–12 mg/day (trials 3–12 mg)",
+          "max": "12 mg/day",
+          "notes": "Maximum 6 mg/day if CrCl 50–79 mL/min and 3 mg/day if CrCl 10–49 mL/min."
+        },
+        "formulations": ["Extended-release tablets 1.5, 3, 6, 9 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Hypersensitivity to paliperidone or risperidone"],
+        "warnings": ["Prolactin elevation, extrapyramidal symptoms, QT prolongation", "Orthostatic hypotension, metabolic effects", "Non-deformable tablet: avoid in severe GI narrowing (tablet shell may appear in stool)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antipsychotic given once a day that is used for mania even though it is approved for schizophrenia. It can raise prolactin and cause stiffness."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",
@@ -1711,6 +1881,23 @@
       "use": "Treatment-refractory bipolar disorder (mania or maintenance)",
       "evidence": "guideline-recommended",
       "notes": "Used for illness that has not responded to several standard agents. CANMAT/ISBD 2018 lists it as third-line for acute mania and maintenance. Evidence is mostly open-label, observational, and from one randomized open trial (systematic review). Requires absolute neutrophil count (ANC) monitoring per current labeling. Risks include agranulocytosis, myocarditis, seizures, severe constipation, and metabolic effects.",
+      "details": {
+        "labeledFor": "FDA-approved for treatment-resistant schizophrenia and for reducing suicidal behavior in schizophrenia/schizoaffective disorder; not labeled for bipolar disorder.",
+        "dosing": {
+          "start": "12.5 mg once or twice daily",
+          "target": "Increase by 25–50 mg/day as tolerated toward 200–450 mg/day; use levels to guide",
+          "max": "900 mg/day",
+          "notes": "Follow the clozapine ANC monitoring schedule on the current label."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg; ODT 12.5–200 mg", "Oral suspension 50 mg/mL"],
+        "boxedWarnings": ["Severe neutropenia", "Orthostatic hypotension, bradycardia, and syncope", "Seizures", "Myocarditis and cardiomyopathy", "Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Serious hypersensitivity to clozapine"],
+        "warnings": ["Severe constipation and ileus (can be fatal)", "Myocarditis, especially in the first month", "Sialorrhea, sedation, weight and metabolic effects", "Interactions: fluvoxamine and smoking changes alter levels"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A strong antipsychotic held for bipolar disorder that has not improved with other treatments. Regular blood counts are required because it can lower white blood cells."
+      },
       "references": [
         {
           "label": "Yatham LN et al. CANMAT/ISBD 2018 guidelines for the management of patients with bipolar disorder. Bipolar Disord 2018",

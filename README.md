@@ -5,7 +5,8 @@
 A mobile-friendly compendium of FDA-approved medications for psychiatric and related neuropsychiatric conditions.
 Pick a condition to see every medication with a labeled indication for it (indication wording, ages, dosing, boxed
 warnings, REMS, label link). Off-label options appear in a separate, clearly marked section with evidence ratings and
-references. A Clinician / Plain-language toggle switches the level of detail.
+references; each one expands to show reported dosing, formulations, boxed warnings, key cautions, and
+contraindications. A Clinician / Plain-language toggle switches the level of detail.
 
 ## Development
 

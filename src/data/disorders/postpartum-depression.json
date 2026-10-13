@@ -59,6 +59,23 @@
       "use": "First-line pharmacotherapy for perinatal/postpartum depression (approved for MDD, not PPD-specific)",
       "evidence": "guideline-recommended",
       "notes": "ACOG Clinical Practice Guideline No. 5 names SSRIs (sertraline and escitalopram commonly cited) as first-line pharmacotherapy for perinatal depression. These drugs are FDA-approved for major depressive disorder, which includes peripartum onset, but carry no PPD-specific labeling. Cochrane review found low-certainty evidence that SSRIs improve response and remission versus placebo. Consider lactation data, neonatal adaptation in late-pregnancy exposure, and the antidepressant boxed warning for suicidal thoughts in young adults.",
+      "details": {
+        "labeledFor": "SSRIs are FDA-approved for major depressive disorder (which includes peripartum onset); only zuranolone is labeled specifically for postpartum depression.",
+        "dosing": {
+          "start": "Sertraline 25–50 mg/day or escitalopram 5–10 mg/day",
+          "target": "Sertraline 50–200 mg/day; escitalopram 10–20 mg/day",
+          "max": "Sertraline 200 mg/day; escitalopram 20 mg/day",
+          "notes": "Review lactation data; sertraline has among the lowest infant exposure."
+        },
+        "formulations": ["Sertraline tablets 25, 50, 100 mg", "Escitalopram tablets 5, 10, 20 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly", "Review infant exposure through breast milk"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "SSRIs are the usual first medicines for postpartum depression. Breastfeeding parents should talk with their clinician about the best choice."
+      },
       "references": [
         {
           "label": "ACOG Clinical Practice Guideline No. 5 (Obstet Gynecol 2023), PubMed",

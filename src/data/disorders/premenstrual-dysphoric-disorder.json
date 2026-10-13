@@ -254,6 +254,23 @@
       "use": "Continuous or luteal-phase treatment of PMDD",
       "evidence": "guideline-recommended",
       "notes": "ACOG Clinical Practice Guideline No. 7 (2023) recommends SSRIs as a class (continuous or intermittent) for affective premenstrual symptoms. The 2024 Cochrane review found SSRIs effective for PMS/PMDD, with continuous dosing possibly more effective than intermittent. Common adverse effects include nausea, fatigue, and sexual dysfunction. Antidepressant boxed warning applies to adolescents and young adults.",
+      "details": {
+        "labeledFor": "Escitalopram and citalopram are FDA-approved for depression (and, for escitalopram, GAD); not for PMDD.",
+        "dosing": {
+          "start": "Escitalopram 5–10 mg or citalopram 10–20 mg daily (continuous, or from ovulation to menses onset)",
+          "target": "Escitalopram 10–20 mg; citalopram 20–40 mg",
+          "max": "Escitalopram 20 mg/day; citalopram 40 mg/day",
+          "notes": "Luteal-phase dosing starts about 14 days before expected menses."
+        },
+        "formulations": ["Escitalopram tablets 5, 10, 20 mg", "Citalopram tablets 10, 20, 40 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Pimozide", "Hypersensitivity"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "SSRIs other than the three approved ones are also widely used for PMDD, taken every day or only in the two weeks before a period."
+      },
       "references": [
         {
           "label": "ACOG Clinical Practice Guideline No. 7: Management of Premenstrual Disorders (2023)",
@@ -271,6 +288,23 @@
       "use": "PMDD when SSRIs are not tolerated or not effective",
       "evidence": "RCT-supported",
       "notes": "A placebo-controlled RCT (Freeman 2001, n=164, 50–200 mg/day) showed benefit. Watch for blood pressure increases, discontinuation symptoms with intermittent dosing, and the antidepressant boxed warning.",
+      "details": {
+        "labeledFor": "FDA-approved for depression, GAD, social anxiety, and panic disorder; not for PMDD.",
+        "dosing": {
+          "start": "37.5 mg/day",
+          "target": "50–200 mg/day in the RCT",
+          "max": "225 mg/day (labeled XR maximum)",
+          "notes": "Check blood pressure; taper rather than stop abruptly."
+        },
+        "formulations": ["Capsules ER 37.5, 75, 150 mg", "ER tablets 37.5, 75, 150, 225 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Hypersensitivity to venlafaxine"],
+        "warnings": ["Dose-related increases in blood pressure", "Discontinuation symptoms; taper gradually", "Hyponatremia, bleeding risk, serotonin syndrome", "Mydriasis/angle-closure glaucoma"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An SNRI that worked in a trial for PMDD when SSRIs are not tolerated or do not help."
+      },
       "references": [
         {
           "label": "Freeman et al. Venlafaxine in the treatment of PMDD. Obstet Gynecol 2001, PubMed",
@@ -284,6 +318,23 @@
       "use": "Severe, treatment-refractory PMDD (ovarian suppression)",
       "evidence": "guideline-recommended",
       "notes": "ACOG suggests GnRH agonists with combined hormonal add-back for adults with severe symptoms; not suggested for adolescents. Risks: hypoestrogenic effects (vasomotor symptoms, bone density loss), cost; add-back hormones can sometimes bring symptoms back. Usually managed with gynecology.",
+      "details": {
+        "labeledFor": "Leuprolide is FDA-approved for prostate cancer, endometriosis, fibroids, and central precocious puberty; no GnRH agonist is approved for PMDD.",
+        "dosing": {
+          "start": "Leuprolide depot 3.75 mg IM monthly, with add-back estrogen/progestogen to limit bone loss",
+          "target": "Monthly dosing for a few months, reassessed",
+          "max": "Limit duration; monitor bone density (often for 6 months or less without add-back)",
+          "notes": "Coordinate with gynecology; not suggested for adolescents."
+        },
+        "formulations": ["Leuprolide acetate depot injection (monthly, 3-month)", "Add-back: transdermal or oral estradiol with a progestogen"],
+        "boxedWarnings": [],
+        "contraindications": ["Pregnancy", "Undiagnosed abnormal vaginal bleeding", "Breastfeeding"],
+        "warnings": ["Menopausal symptoms and bone density loss", "Mood changes, injection-site reactions", "Add-back hormones can bring symptoms back"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A hormone-blocking treatment for very severe PMDD that does not respond to other options. Doctors add back small hormone doses to protect the bones."
+      },
       "references": [
         {
           "label": "ACOG Clinical Practice Guideline No. 7: Management of Premenstrual Disorders (2023)",
@@ -301,6 +352,23 @@
       "use": "PMDD symptoms in patients who also want contraception",
       "evidence": "guideline-recommended",
       "notes": "ACOG notes COCs moderately improve premenstrual symptoms other than depressive symptoms. Only drospirenone 3 mg/EE 0.02 mg products carry PMDD labeling. Mood may worsen with some progestins. Usual COC thrombosis and smoking cautions apply.",
+      "details": {
+        "labeledFor": "Only drospirenone 3 mg/ethinyl estradiol 20 mcg products are FDA-labeled for PMDD; other combined contraceptives are not.",
+        "dosing": {
+          "start": "One active pill daily (extended or continuous regimens skip the inactive pills)",
+          "target": "Same pill daily at the same time",
+          "max": "One tablet per day",
+          "notes": "Mood can worsen with some progestins."
+        },
+        "formulations": ["Combined oral contraceptive tablets, patches, vaginal rings"],
+        "boxedWarnings": ["Cigarette smoking and serious cardiovascular events (women over 35 who smoke)"],
+        "contraindications": ["History of thrombosis, stroke, or heart disease", "Estrogen-dependent cancers", "Uncontrolled hypertension; migraine with aura", "Smoking over age 35; liver tumors or disease"],
+        "warnings": ["Blood clots and cardiovascular events", "Hypertension", "Breakthrough bleeding with continuous regimens"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Birth-control pills other than the approved one may help some physical premenstrual symptoms and suit people who also want contraception."
+      },
       "references": [
         {
           "label": "AAFP summary of ACOG premenstrual disorders guideline (2024)",

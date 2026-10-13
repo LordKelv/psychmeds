@@ -75,6 +75,23 @@
       "use": "Relief of autonomic opioid withdrawal symptoms (often combined with symptomatic adjuncts)",
       "evidence": "guideline-recommended",
       "notes": "Recommended by ASAM (2020) as a non-opioid option for withdrawal management. A Cochrane review found clonidine and lofexidine similarly effective, with less hypotension on lofexidine. Cautions: hypotension, bradycardia, sedation, and rebound hypertension if stopped abruptly. It does little for craving or myalgia, so it is usually paired with symptomatic medications.",
+      "details": {
+        "labeledFor": "FDA-approved for hypertension and (extended-release) for ADHD in children; not for opioid withdrawal. (Lofexidine is the approved alpha-2 agonist for this use.)",
+        "dosing": {
+          "start": "0.1 mg every 6–8 hours (hold for low blood pressure or heart rate)",
+          "target": "0.1–0.3 mg every 6–8 hours",
+          "max": "About 1.2 mg/day, with BP and pulse checks",
+          "notes": "Taper over several days; usually combined with symptomatic medicines."
+        },
+        "formulations": ["Tablets 0.1, 0.2, 0.3 mg", "Weekly transdermal patch 0.1–0.3 mg/24 h (slow onset)"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to clonidine"],
+        "warnings": ["Hypotension, bradycardia, and sedation", "Rebound hypertension if stopped abruptly", "Additive effect with other sedatives and blood pressure medicines"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A blood-pressure medicine that eases sweating, racing heart, and anxiety during opioid withdrawal. It can lower blood pressure and does not treat cravings."
+      },
       "references": [
         { "label": "ASAM National Practice Guideline for the Treatment of OUD, 2020 Focused Update (SAMHSA listing)", "url": "https://www.samhsa.gov/resource/ebp/asam-national-practice-guideline-treatment-opioid-use-disorder" },
         { "label": "Gowing L, et al. Alpha2-adrenergic agonists for the management of opioid withdrawal. Cochrane Database Syst Rev 2016 (CD002024.pub5)", "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002024.pub5/full" }
@@ -86,6 +103,23 @@
       "use": "Medically supervised withdrawal using a buprenorphine taper",
       "evidence": "guideline-recommended",
       "notes": "Buprenorphine labels cover 'treatment of opioid dependence' but do not list withdrawal management as a separate indication. Guidelines (ASAM 2020) prefer buprenorphine or methadone tapers over alpha-2 agonists alone, but favor continuing maintenance because relapse and overdose risk is high after any taper. Precipitated withdrawal can occur if started too early, especially after fentanyl or methadone.",
+      "details": {
+        "labeledFor": "FDA-approved for the treatment of opioid dependence; withdrawal management by short taper is not a separate labeled indication.",
+        "dosing": {
+          "start": "2–4 mg sublingual once moderate withdrawal signs appear (COWS about 8–12), after at least 12–24 hours since short-acting opioids (longer after methadone or fentanyl; low-dose initiation protocols exist)",
+          "target": "8–16 mg/day to stabilize, then taper over days to weeks if a taper is chosen",
+          "max": "24 mg/day usually (the label states there is no maximum but notes data above 24 mg/day are limited)",
+          "notes": "Guidelines favor continuing maintenance rather than tapering off."
+        },
+        "formulations": ["Sublingual tablets 2, 8 mg", "Buprenorphine/naloxone film and tablets"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to buprenorphine"],
+        "warnings": ["Precipitated withdrawal if started too early", "Respiratory depression with benzodiazepines, alcohol, or other CNS depressants", "Hepatitis/liver injury monitoring; QT prolongation at high doses", "Dependence; overdose risk after a taper"],
+        "rems": null,
+        "controlledSubstance": "C-III",
+        "genericAvailable": true,
+        "plainSummary": "Buprenorphine can be used for a short, supervised taper during opioid withdrawal. Doctors usually prefer to continue it as long-term treatment because relapse and overdose risk are high after stopping."
+      },
       "references": [
         { "label": "Gowing L, et al. Buprenorphine for managing opioid withdrawal. Cochrane Database Syst Rev 2017", "url": "https://www.cochrane.org/evidence/CD002025_buprenorphine-managing-opioid-withdrawal" },
         { "label": "ASAM National Practice Guideline for the Treatment of OUD, 2020 Focused Update (SAMHSA listing)", "url": "https://www.samhsa.gov/resource/ebp/asam-national-practice-guideline-treatment-opioid-use-disorder" }

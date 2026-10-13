@@ -820,6 +820,23 @@
       "use": "ADHD in preschool-aged children when behavioral treatment is insufficient",
       "evidence": "guideline-recommended",
       "notes": "Methylphenidate products are not labeled for children under 6, and 2025 labeling states extended-release stimulants are not recommended under 6 because of higher exposure and weight loss. The AAP guideline places parent training in behavior management first and allows methylphenidate for moderate-to-severe persistent impairment; the PATS trial supports efficacy at low IR doses, with more adverse effects than in older children. Amphetamine IR products are labeled from age 3.",
+      "details": {
+        "labeledFor": "FDA-approved for ADHD in patients 6 years and older (and narcolepsy); not labeled for children under 6.",
+        "dosing": {
+          "start": "IR 1.25–2.5 mg once or twice daily (PATS began at 1.25 mg three times daily)",
+          "target": "Titrate weekly; PATS mean optimal dose was about 14 mg/day in divided doses",
+          "max": "Not established; PATS tested up to 7.5 mg three times daily (22.5 mg/day)",
+          "notes": "Use immediate-release products in preschoolers; extended-release stimulants are not recommended under 6. Half or quarter tablets or the oral solution allow small doses."
+        },
+        "formulations": ["IR tablets 5, 10, 20 mg", "Chewable tablets 2.5, 5, 10 mg", "Oral solution 5 mg/5 mL, 10 mg/5 mL"],
+        "boxedWarnings": ["Abuse, misuse, and addiction"],
+        "contraindications": ["Hypersensitivity to methylphenidate", "MAOI use within 14 days"],
+        "warnings": ["Growth suppression (track height and weight)", "Increased blood pressure and heart rate", "New psychosis or mania, aggression, tics", "Priapism and peripheral vasculopathy (rare)", "Appetite loss and sleep problems; more adverse effects than in older children"],
+        "rems": null,
+        "controlledSubstance": "C-II",
+        "genericAvailable": true,
+        "plainSummary": "A stimulant sometimes tried in preschoolers with severe ADHD after parent training has not been enough. It is not approved for children this young, so growth, sleep, and mood are watched closely."
+      },
       "references": [
         {
           "label": "Wolraich ML et al. AAP clinical practice guideline for ADHD. Pediatrics 2019 (PMID 31570648)",
@@ -837,6 +854,22 @@
       "use": "ADHD in adults (often with comorbid depression or substance use, or when stimulants are unsuitable)",
       "evidence": "RCT-supported",
       "notes": "A Cochrane review found low-quality evidence of modest symptom improvement versus placebo in adults; smaller effects than stimulants. Lowers seizure threshold (avoid in seizure or eating disorders); carries the antidepressant suicidality boxed warning.",
+      "details": {
+        "labeledFor": "FDA-approved for depression (IR/SR/XL), prevention of seasonal depressive episodes (XL), and smoking cessation (SR); not for ADHD.",
+        "dosing": {
+          "start": "SR 100–150 mg once daily, or XL 150 mg once daily",
+          "target": "SR 150 mg twice daily or XL 300 mg once daily (adult ADHD trials used 150–450 mg/day)",
+          "max": "SR 400 mg/day; XL 450 mg/day (labeled maximums for depression); no single IR/SR dose above 150–200 mg"
+        },
+        "formulations": ["SR tablets 100, 150, 200 mg", "XL tablets 150, 300 mg; Forfivo XL 450 mg", "Aplenzin (HBr) 174, 348, 522 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Seizure disorder", "Current or prior bulimia or anorexia nervosa", "Abrupt discontinuation of alcohol, benzodiazepines, barbiturates, or antiepileptics", "MAOI use within 14 days", "Use of other bupropion-containing products"],
+        "warnings": ["Lowers the seizure threshold (dose-related)", "Can raise blood pressure; insomnia, anxiety, agitation", "Neuropsychiatric symptoms; angle-closure glaucoma", "CYP2D6 inhibitor (raises levels of some antidepressants and antipsychotics)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant that is sometimes used for adult ADHD, especially when depression or substance use is also present. It can cause seizures at high doses and carries the antidepressant suicidality warning."
+      },
       "references": [
         {
           "label": "Verbeeck W et al. Bupropion for ADHD in adults. Cochrane Database Syst Rev 2017 (PMID 28965364)",
@@ -850,6 +883,23 @@
       "use": "Second- or third-line ADHD treatment, sometimes with comorbid tics or enuresis",
       "evidence": "limited",
       "notes": "Cochrane review of six small RCTs (mostly desipramine) showed short-term core-symptom improvement, but evidence quality was low. Cardiac conduction effects and sudden death reports with desipramine in children; baseline and follow-up ECG commonly advised. Toxic in overdose.",
+      "details": {
+        "labeledFor": "Both are FDA-approved for depression; neither is labeled for ADHD.",
+        "dosing": {
+          "start": "Desipramine 10–25 mg/day; nortriptyline 10–25 mg/day (children are dosed by weight and titrated slowly)",
+          "target": "Desipramine about 2–3.5 mg/kg/day in pediatric trials; nortriptyline about 0.5–2 mg/kg/day, guided by serum level",
+          "max": "Desipramine: adolescent/geriatric labeled maximum 150 mg/day (adult 300 mg/day). Nortriptyline: 150 mg/day",
+          "notes": "Obtain a baseline ECG and repeat after dose changes."
+        },
+        "formulations": ["Desipramine tablets 10, 25, 50, 75, 100, 150 mg", "Nortriptyline capsules 10, 25, 50, 75 mg; oral solution 10 mg/5 mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Acute recovery period after myocardial infarction", "Hypersensitivity to the drug"],
+        "warnings": ["Cardiac conduction effects and arrhythmias; sudden death reports in children taking desipramine", "Anticholinergic effects (constipation, dry mouth, urinary retention)", "Lowers the seizure threshold; can precipitate mania", "Highly toxic in overdose; limit quantity dispensed"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Older antidepressants that are occasionally used for ADHD when other medicines fail or when tics are also present. They can affect heart rhythm, so heart tests are usually done, and they are dangerous in overdose."
+      },
       "references": [
         {
           "label": "Otasowie J et al. Tricyclic antidepressants for ADHD in children and adolescents. Cochrane Database Syst Rev 2014 (PMID 25238582)",
@@ -863,6 +913,23 @@
       "use": "Adult ADHD when stimulants and labeled non-stimulants are not suitable",
       "evidence": "limited",
       "notes": "US labeling and pivotal trials are pediatric. A 2018 network meta-analysis found insufficient adult data for alpha-2 agonists. A 2023 meta-analysis of adult non-stimulant trials found a moderate effect for guanfacine, but based on only two small RCTs. Sedation, hypotension, bradycardia, and rebound hypertension if stopped abruptly.",
+      "details": {
+        "labeledFor": "Guanfacine ER (Intuniv) and clonidine ER (Kapvay/Onyda XR) are FDA-approved for ADHD in children and adolescents only; adult use is off-label.",
+        "dosing": {
+          "start": "Guanfacine ER 1 mg once daily; clonidine ER 0.1 mg at bedtime",
+          "target": "Guanfacine ER usually 3–7 mg/day (adult studies up to about 7 mg); clonidine ER 0.2–0.4 mg/day in divided doses",
+          "max": "Guanfacine ER 7 mg/day (labeled ceiling for ages 13–17); clonidine ER 0.4 mg/day",
+          "notes": "Increase guanfacine by no more than 1 mg/week. Taper over 3–7 days to avoid rebound hypertension. Strong CYP3A4 inhibitors raise guanfacine levels (halve the dose)."
+        },
+        "formulations": ["Guanfacine ER tablets 1, 2, 3, 4 mg", "Clonidine ER tablets 0.1 mg", "Onyda XR oral suspension 0.1 mg/mL"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to the drug"],
+        "warnings": ["Sedation and fatigue", "Hypotension, bradycardia, syncope", "Rebound hypertension if stopped abruptly", "Caution with other blood pressure–lowering or sedating drugs"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Non-stimulant blood pressure medicines that are approved for ADHD in children. Doctors sometimes use them in adults when stimulants are not suitable; they can cause sleepiness and low blood pressure."
+      },
       "references": [
         {
           "label": "Cortese S et al. Comparative efficacy and tolerability of ADHD medications: network meta-analysis. Lancet Psychiatry 2018 (PMID 30097390)",

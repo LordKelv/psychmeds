@@ -156,6 +156,23 @@
       "use": "First-line SAD treatment",
       "evidence": "guideline-recommended",
       "notes": "NICE first-line SSRI (with sertraline) for adults with SAD; not FDA-labeled for SAD. Usual SSRI cautions; Cochrane review supports SSRIs as a class.",
+      "details": {
+        "labeledFor": "FDA-approved for depression and GAD (and pediatric GAD); not for social anxiety disorder.",
+        "dosing": {
+          "start": "5–10 mg once daily",
+          "target": "10–20 mg once daily",
+          "max": "20 mg/day",
+          "notes": "Allow 8–12 weeks for a full trial."
+        },
+        "formulations": ["Tablets 5, 10, 20 mg", "Oral solution 1 mg/5 mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Pimozide", "Hypersensitivity to escitalopram or citalopram"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Escitalopram is a first-choice medicine for social anxiety in UK guidelines, though not FDA-labeled for it."
+      },
       "references": [
         {
           "label": "NICE CG159: Social anxiety disorder (recommendations)",
@@ -173,6 +190,23 @@
       "use": "SAD after non-response to a first SSRI",
       "evidence": "guideline-recommended",
       "notes": "NICE alternative SSRI. Luvox CR held an FDA SAD indication (2008), but Luvox CR is discontinued and current generic fluvoxamine ER labels list OCD only, so SAD is off-label. Strong CYP1A2/2C19 inhibitor with many interactions (contraindicated with tizanidine, thioridazine, pimozide, alosetron, ramelteon).",
+      "details": {
+        "labeledFor": "Fluvoxamine IR is FDA-approved for OCD; Luvox CR once carried a social anxiety indication, but current generic ER labels list OCD only.",
+        "dosing": {
+          "start": "25–50 mg at bedtime",
+          "target": "100–300 mg/day in divided doses",
+          "max": "300 mg/day",
+          "notes": "Many interactions: strong CYP1A2/2C19 inhibitor."
+        },
+        "formulations": ["IR tablets 25, 50, 100 mg", "ER capsules 100, 150 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Tizanidine, thioridazine, pimozide, alosetron, ramelteon", "Hypersensitivity"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly", "Raises levels of many drugs (clozapine, theophylline, warfarin, tizanidine)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An SSRI with a long history in social anxiety that is now labeled only for OCD. It interacts with many medicines."
+      },
       "references": [
         {
           "label": "NICE CG159: Social anxiety disorder (recommendations)",
@@ -190,6 +224,23 @@
       "use": "Treatment-resistant SAD",
       "evidence": "guideline-recommended",
       "notes": "NICE option after non-response to an alternative SSRI or SNRI. Requires a tyramine-restricted diet and strict interaction precautions (serotonergic drugs, sympathomimetics); risk of hypertensive crisis and orthostasis.",
+      "details": {
+        "labeledFor": "FDA-approved for depressed patients clinically characterized as atypical, nonendogenous, or neurotic; not for social anxiety disorder.",
+        "dosing": {
+          "start": "15 mg once to three times daily",
+          "target": "45–90 mg/day in divided doses",
+          "max": "90 mg/day",
+          "notes": "Reserved for treatment-resistant illness; strict diet and drug-interaction precautions."
+        },
+        "formulations": ["Tablets 15 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Pheochromocytoma, heart failure, liver disease or abnormal liver tests", "Sympathomimetics, SSRIs, SNRIs, tricyclics, bupropion, buspirone, dextromethorphan, meperidine", "Foods high in tyramine"],
+        "warnings": ["Hypertensive crisis", "Serotonin syndrome", "Orthostatic hypotension, insomnia, weight gain"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A strong older antidepressant that works well for social anxiety but needs a strict diet and careful checks of other medicines."
+      },
       "references": [
         {
           "label": "NICE CG159: Social anxiety disorder (recommendations)",
@@ -207,6 +258,23 @@
       "use": "SAD",
       "evidence": "RCT-supported",
       "notes": "Some positive RCTs, but evidence is limited and NICE advises against routinely offering anticonvulsants for SAD. Cautions: sedation, dizziness, misuse potential, respiratory depression with opioids, renal dosing.",
+      "details": {
+        "labeledFor": "Pregabalin is FDA-approved for neuropathic pain, fibromyalgia, and seizures; gabapentin for postherpetic neuralgia and seizures. Neither is approved for social anxiety.",
+        "dosing": {
+          "start": "Pregabalin 75 mg twice daily; gabapentin 300 mg at bedtime",
+          "target": "Pregabalin 150–600 mg/day (trials used 150, 300, 600 mg); gabapentin 900–3,600 mg/day",
+          "max": "Pregabalin 600 mg/day; gabapentin 3,600 mg/day",
+          "notes": "NICE advises against routinely offering anticonvulsants for SAD."
+        },
+        "formulations": ["Pregabalin capsules; solution", "Gabapentin capsules and tablets"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to the drug"],
+        "warnings": ["Sedation, dizziness, weight gain (pregabalin)", "Respiratory depression with opioids", "Misuse potential; renal dose adjustment"],
+        "rems": null,
+        "controlledSubstance": "C-V (pregabalin)",
+        "genericAvailable": true,
+        "plainSummary": "Nerve-pain and seizure medicines that showed some benefit for social anxiety in small studies but are not routinely recommended."
+      },
       "references": [
         {
           "label": "Williams et al. 2017, Cochrane: Pharmacotherapy for social anxiety disorder",
@@ -224,6 +292,23 @@
       "use": "SAD (short-term or adjunctive)",
       "evidence": "RCT-supported",
       "notes": "Limited RCT support; NICE advises against routinely offering benzodiazepines for SAD. Boxed warnings: opioid co-use, misuse and addiction, dependence and withdrawal.",
+      "details": {
+        "labeledFor": "FDA-approved for seizure disorders and panic disorder; not for social anxiety disorder.",
+        "dosing": {
+          "start": "0.25–0.5 mg at bedtime",
+          "target": "0.5–3 mg/day (the RCT mean was about 2.4 mg/day)",
+          "max": "4 mg/day (labeled panic maximum)",
+          "notes": "Short-term or adjunctive use."
+        },
+        "formulations": ["Tablets 0.5, 1, 2 mg", "ODT 0.125, 0.25, 0.5, 1, 2 mg"],
+        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "contraindications": ["Significant liver disease", "Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
+        "warnings": ["Sedation and falls", "Respiratory depression with opioids", "Dependence and withdrawal seizures if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "A benzodiazepine that can lessen social anxiety, but guidelines advise against routine use because of dependence."
+      },
       "references": [
         {
           "label": "Williams et al. 2017, Cochrane: Pharmacotherapy for social anxiety disorder",

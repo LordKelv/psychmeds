@@ -14,6 +14,23 @@
       "use": "Short-term adjunctive targeting of affective instability, anger, impulsivity, or transient psychotic/dissociative symptoms",
       "evidence": "RCT-supported",
       "notes": "Some small RCTs showed benefit on specific symptom domains, but the 2022 Cochrane review rated the evidence low to very low certainty, with no consistent effect on overall BPD severity. NICE CG78 advises against medium- and long-term antipsychotic use for BPD. Cautions: weight gain and metabolic effects (olanzapine, quetiapine), akathisia, sedation, and overdose risk.",
+      "details": {
+        "labeledFor": "Aripiprazole, quetiapine, and olanzapine are FDA-approved for schizophrenia and bipolar disorder (among others); none is approved for borderline personality disorder.",
+        "dosing": {
+          "start": "Aripiprazole 2–5 mg/day; quetiapine 25–50 mg at bedtime; olanzapine 2.5–5 mg/day",
+          "target": "Aripiprazole about 5–15 mg/day; quetiapine about 150–300 mg/day; olanzapine about 5–10 mg/day (trial ranges)",
+          "max": "Stay well below labeled maximums (aripiprazole 30, quetiapine 800, olanzapine 20 mg/day)",
+          "notes": "Reserve for short-term, symptom-targeted use and reassess regularly."
+        },
+        "formulations": ["Aripiprazole tablets 2–30 mg", "Quetiapine IR tablets 25–400 mg", "Olanzapine tablets 2.5–20 mg"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in young people (aripiprazole, quetiapine)"],
+        "contraindications": ["Hypersensitivity to the drug"],
+        "warnings": ["Weight gain and metabolic effects (olanzapine, quetiapine)", "Akathisia (aripiprazole), sedation", "Overdose risk; QT prolongation (quetiapine)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antipsychotics are sometimes tried for a short time for anger or mood swings in borderline personality disorder. Evidence is weak, and talk therapy is the main treatment."
+      },
       "references": [
         { "label": "Stoffers-Winterling et al. Pharmacological interventions for BPD. Cochrane 2022, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/36375174/" },
         { "label": "NICE CG78 Borderline personality disorder: recognition and management, recommendations 1.3.5", "url": "https://www.nice.org.uk/guidance/cg78/chapter/Recommendations" }
@@ -25,6 +42,23 @@
       "use": "Affective instability, anger, and impulsivity",
       "evidence": "limited",
       "notes": "Early small trials were positive, but the large LABILE RCT (2018) found lamotrigine no better than placebo, and the 2022 Cochrane review found low-certainty evidence overall. Cautions: valproate is highly teratogenic (avoid in people who could become pregnant unless no alternative exists); lamotrigine carries a serious-rash boxed warning and needs slow titration; consider lethality in overdose.",
+      "details": {
+        "labeledFor": "Lamotrigine, topiramate, and valproate are FDA-approved for epilepsy (and valproate/lamotrigine for bipolar disorder); none is approved for borderline personality disorder.",
+        "dosing": {
+          "start": "Lamotrigine 25 mg/day with slow titration; topiramate 25 mg/day; divalproex 250–500 mg twice daily",
+          "target": "Lamotrigine about 200 mg/day (LABILE allowed up to 400 mg); topiramate about 100–250 mg/day; divalproex trough level 50–100 mcg/mL",
+          "max": "Lamotrigine 400 mg/day; topiramate 400 mg/day; valproate 60 mg/kg/day (labeled maximums)",
+          "notes": "Avoid valproate in people who may become pregnant."
+        },
+        "formulations": ["Lamotrigine tablets 25–200 mg", "Topiramate tablets 25–200 mg", "Divalproex DR/ER tablets 125–500 mg"],
+        "boxedWarnings": ["Lamotrigine: serious skin rashes", "Valproate: hepatotoxicity, fetal risk, pancreatitis"],
+        "contraindications": ["Hypersensitivity to the drug", "Valproate: hepatic disease, urea cycle disorders, mitochondrial disease"],
+        "warnings": ["Lamotrigine rash risk requires slow titration", "Valproate teratogenicity and hepatotoxicity", "Topiramate cognitive slowing and kidney stones", "Lethal in overdose is a concern with valproate"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Anti-seizure medicines are sometimes tried for mood swings and impulsivity. A large trial found lamotrigine no better than placebo."
+      },
       "references": [
         { "label": "Crawford et al. Lamotrigine in BPD (LABILE RCT). Am J Psychiatry 2018, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/29621901/" },
         { "label": "Stoffers-Winterling et al. Pharmacological interventions for BPD. Cochrane 2022, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/36375174/" }
@@ -36,6 +70,23 @@
       "use": "Comorbid major depression or anxiety disorders (not core BPD symptoms)",
       "evidence": "guideline-recommended",
       "notes": "NICE CG78 supports drug treatment for comorbid conditions, and NICE NG222 advises treating depression in people with personality disorder with combined antidepressant and psychotherapy. Evidence for antidepressants on core BPD features is weak (Cochrane 2022). Cautions: monitor for suicidality (antidepressant boxed warning in young adults), and limit quantities given overdose risk (especially TCAs, which should generally be avoided).",
+      "details": {
+        "labeledFor": "SSRIs are FDA-approved for major depressive disorder and anxiety disorders; they are not labeled for borderline personality disorder itself.",
+        "dosing": {
+          "start": "Usual starting doses (e.g., sertraline 25–50 mg, fluoxetine 10–20 mg, escitalopram 5–10 mg)",
+          "target": "Usual MDD/anxiety dose ranges",
+          "max": "Labeled maximums (sertraline 200, fluoxetine 80, escitalopram 20 mg/day)",
+          "notes": "Dispense limited quantities when overdose risk is high."
+        },
+        "formulations": ["Sertraline tablets 25, 50, 100 mg; oral concentrate 20 mg/mL", "Escitalopram tablets 5, 10, 20 mg; solution 1 mg/mL", "Fluoxetine capsules 10, 20, 40 mg; tablets 10, 20, 60 mg", "Citalopram tablets 10, 20, 40 mg", "Paroxetine tablets 10, 20, 30, 40 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly", "Avoid tricyclics given overdose lethality"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antidepressants can treat depression or anxiety that occurs along with borderline personality disorder, though they do little for the core symptoms."
+      },
       "references": [
         { "label": "NICE CG78 Borderline personality disorder, recommendations 1.3.5–1.3.6", "url": "https://www.nice.org.uk/guidance/cg78/chapter/Recommendations" },
         { "label": "NICE NG222 Depression in adults, section 1.11 (depression with personality disorder)", "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations" }
@@ -47,6 +98,23 @@
       "use": "Brief use during a crisis as part of an overall care plan",
       "evidence": "guideline-recommended",
       "notes": "NICE CG78 (1.3.5.4) allows cautious short-term sedative use in crisis, preferably with a drug that has low side-effect burden, low addictive potential, and relative safety in overdose, at the minimum dose and with an agreed short duration. Benzodiazepines are generally avoided because of disinhibition, dependence, and misuse risk.",
+      "details": {
+        "labeledFor": "Hydroxyzine is FDA-approved for anxiety, pruritus, and sedation; promethazine for allergic conditions, nausea, and sedation. Neither is approved for crisis management in borderline personality disorder.",
+        "dosing": {
+          "start": "Hydroxyzine 25 mg per dose",
+          "target": "25–50 mg per dose as needed for a few days",
+          "max": "Keep to the minimum dose for an agreed short period (labeled anxiety dosing is 50–100 mg four times daily, up to 400 mg/day)",
+          "notes": "NICE advises an agreed short duration and a drug that is relatively safe in overdose."
+        },
+        "formulations": ["Hydroxyzine HCl tablets 10, 25, 50 mg; syrup 10 mg/5 mL; capsules (pamoate) 25, 50, 100 mg", "Promethazine tablets 12.5, 25, 50 mg; syrup 6.25 mg/5 mL"],
+        "boxedWarnings": ["Promethazine: fatal respiratory depression in children under 2 years; severe tissue injury with injection"],
+        "contraindications": ["Hydroxyzine: early pregnancy, prolonged QT interval, hypersensitivity", "Promethazine: coma, children under 2 years"],
+        "warnings": ["Sedation, dizziness, and anticholinergic effects", "QT prolongation (hydroxyzine)", "Falls in older adults; additive effects with alcohol and sedatives"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A sleepy-making antihistamine can be used briefly during a crisis. It has less risk of dependence than a benzodiazepine."
+      },
       "references": [
         { "label": "NICE CG78 Borderline personality disorder, recommendation 1.3.5.4", "url": "https://www.nice.org.uk/guidance/cg78/chapter/Recommendations" }
       ]
@@ -56,6 +124,7 @@
       "use": "Context: role of medication overall",
       "evidence": "guideline-recommended",
       "notes": "The APA 2024 practice guideline recommends structured psychotherapy as the primary treatment and suggests pharmacotherapy not be used as the primary intervention. It encourages review of existing medications to reduce polypharmacy, and short-term use, if any, for specific symptoms or comorbidities. Included as a reference point rather than a specific agent.",
+      "contextOnly": true,
       "references": [
         { "label": "APA Practice Guideline for the Treatment of Patients With BPD. Am J Psychiatry 2024, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/39482953/" }
       ]

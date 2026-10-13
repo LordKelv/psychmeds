@@ -43,6 +43,23 @@
       "use": "Reducing binge and purge frequency",
       "evidence": "RCT-supported",
       "notes": "A 10-week RCT showed reduced binge/purge days. Cognitive slowing, paresthesia, kidney stones, and weight loss, which can be undesirable in eating disorders; teratogenic.",
+      "details": {
+        "labeledFor": "FDA-approved for epilepsy and migraine prevention; not for bulimia nervosa.",
+        "dosing": {
+          "start": "25 mg/day",
+          "target": "100–250 mg/day (trial mean about 100 mg/day, range up to 400)",
+          "max": "400 mg/day (trial maximum)",
+          "notes": "Weight loss may be undesirable in eating disorders; screen carefully."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg", "Sprinkle capsules 15, 25 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to topiramate"],
+        "warnings": ["Cognitive slowing, paresthesias, kidney stones, metabolic acidosis", "Weight loss", "Fetal harm (oral clefts); reduces effectiveness of estrogen contraceptives", "Angle-closure glaucoma; suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An epilepsy medicine that cut binge and purge episodes in a trial. Weight loss is a side effect, which can be a problem in eating disorders."
+      },
       "references": [
         { "label": "Hoopes SP et al. Topiramate for bulimia nervosa, RCT part 1. J Clin Psychiatry 2003 (PMID 14658948)", "url": "https://pubmed.ncbi.nlm.nih.gov/14658948/" }
       ]
@@ -53,6 +70,23 @@
       "use": "Alternative when fluoxetine is not tolerated",
       "evidence": "limited",
       "notes": "Evidence is much smaller than for fluoxetine (a single small sertraline RCT). Usual SSRI cautions, including the suicidality boxed warning. Bupropion is contraindicated in bulimia because of seizure risk.",
+      "details": {
+        "labeledFor": "Sertraline is FDA-approved for depression, OCD, panic, PTSD, social anxiety, and PMDD; not for bulimia nervosa.",
+        "dosing": {
+          "start": "25–50 mg/day",
+          "target": "100–200 mg/day (the small RCT used about 100 mg/day)",
+          "max": "200 mg/day",
+          "notes": "Avoid bupropion in bulimia (seizure risk)."
+        },
+        "formulations": ["Tablets 25, 50, 100 mg", "Oral concentrate 20 mg/mL"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Another SSRI that may help if fluoxetine is not tolerated, though evidence is much smaller."
+      },
       "references": [
         { "label": "Milano W et al. Treatment of bulimia nervosa with sertraline: RCT. Adv Ther 2004 (PMID 15605617)", "url": "https://pubmed.ncbi.nlm.nih.gov/15605617/" }
       ]

@@ -2261,6 +2261,23 @@
       "use": "Partial response to clozapine (clozapine-resistant symptoms) and mitigation of clozapine-associated weight/metabolic effects",
       "evidence": "RCT-supported",
       "notes": "Among augmentation agents, aripiprazole had one of the larger pooled effects on total symptoms in a network meta-analysis, though many trials were small or low quality; an RCT showed weight and lipid benefits with modest symptom effects. Antipsychotic polypharmacy adds adverse-effect burden; confirm adequate clozapine levels and adherence first.",
+      "details": {
+        "labeledFor": "Aripiprazole is FDA-approved for schizophrenia; adding it to clozapine is off-label.",
+        "dosing": {
+          "start": "2–5 mg/day",
+          "target": "5–15 mg/day (trials 5–30 mg)",
+          "max": "30 mg/day",
+          "notes": "Confirm adequate clozapine levels and adherence first."
+        },
+        "formulations": ["Tablets 2–30 mg", "ODT; oral solution 1 mg/mL"],
+        "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["Hypersensitivity to aripiprazole"],
+        "warnings": ["Akathisia and restlessness", "Antipsychotic polypharmacy raises side-effect burden", "Metabolic monitoring; impulse-control problems"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Adding aripiprazole to clozapine can help leftover symptoms and may limit the weight gain clozapine causes."
+      },
       "references": [
         {
           "label": "Siskind DJ et al. Augmentation strategies for clozapine refractory schizophrenia: systematic review and meta-analysis. Aust N Z J Psychiatry 2018",
@@ -2278,6 +2295,23 @@
       "use": "Adjunct for partial response, persistent hostility/aggression, or clozapine-induced seizure prophylaxis",
       "evidence": "limited",
       "notes": "Cochrane review found a response benefit that disappeared when open-label trials were excluded; more sedation and dizziness. Hepatotoxicity, pancreatitis, thrombocytopenia, weight gain, and major teratogenicity (avoid in people who may become pregnant when alternatives exist); may raise or lower clozapine levels.",
+      "details": {
+        "labeledFor": "Valproate is FDA-approved for mania, epilepsy, and migraine prevention; not for schizophrenia.",
+        "dosing": {
+          "start": "250–500 mg twice daily",
+          "target": "Trough 50–100 mcg/mL (trials up to about 2,000 mg/day)",
+          "max": "60 mg/kg/day (labeled maximum)",
+          "notes": "Avoid in people who may become pregnant."
+        },
+        "formulations": ["Divalproex DR/ER tablets", "Valproic acid capsules and solution"],
+        "boxedWarnings": ["Hepatotoxicity, including fatal hepatic failure", "Fetal risk: major congenital malformations, decreased IQ, and neurodevelopmental disorders", "Pancreatitis"],
+        "contraindications": ["Hepatic disease or significant dysfunction", "Mitochondrial disease (POLG)", "Urea cycle disorders", "Hypersensitivity"],
+        "warnings": ["Thrombocytopenia, hyperammonemia, weight gain", "May raise or lower clozapine levels", "Suicidality warning applies to antiepileptics"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An anti-seizure and mood medicine added to an antipsychotic for aggression or partial response. It can harm the liver and cause birth defects."
+      },
       "references": [
         {
           "label": "Wang Y et al. Valproate for schizophrenia. Cochrane Database Syst Rev 2016 (CD004028)",
@@ -2295,6 +2329,23 @@
       "use": "Persistent negative symptoms or comorbid depressive symptoms",
       "evidence": "RCT-supported",
       "notes": "Meta-analysis of 82 RCTs showed small benefits for negative and depressive symptoms without increased psychosis exacerbation; more GI, dizziness, and anticholinergic effects. Watch CYP2D6/1A2 interactions (e.g., fluvoxamine or fluoxetine raising clozapine or other antipsychotic levels) and QT effects.",
+      "details": {
+        "labeledFor": "SSRIs and mirtazapine are FDA-approved for depression and anxiety disorders; not for negative or depressive symptoms in schizophrenia.",
+        "dosing": {
+          "start": "Escitalopram 5–10 mg, sertraline 25–50 mg, or mirtazapine 15 mg",
+          "target": "Escitalopram 10–20 mg, sertraline 50–200 mg, mirtazapine 30 mg",
+          "max": "Labeled maximums apply",
+          "notes": "Check CYP2D6/1A2 interactions with the antipsychotic."
+        },
+        "formulations": ["Escitalopram tablets", "Sertraline tablets", "Mirtazapine tablets 7.5–45 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly", "Fluvoxamine and fluoxetine can raise clozapine and other antipsychotic levels"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antidepressants are sometimes added to an antipsychotic for low mood or lack of motivation in schizophrenia."
+      },
       "references": [
         {
           "label": "Helfer B et al. Antidepressants added to antipsychotics for schizophrenia: systematic review and meta-analysis. Am J Psychiatry 2016",
@@ -2308,6 +2359,23 @@
       "use": "Treatment-resistant schizophrenia in children and adolescents (clozapine is not FDA-approved under 18)",
       "evidence": "guideline-recommended",
       "notes": "AACAP practice parameter supports clozapine for youth with treatment-refractory schizophrenia. Youth may have higher rates of neutropenia, seizures, and metabolic effects; requires ANC monitoring and specialist oversight.",
+      "details": {
+        "labeledFor": "Clozapine is FDA-approved for adults with treatment-resistant schizophrenia; not approved under age 18.",
+        "dosing": {
+          "start": "12.5 mg once daily",
+          "target": "Titrate more slowly than in adults toward about 200–400 mg/day; use levels",
+          "max": "Adult maximum 900 mg/day; youth often need less",
+          "notes": "Specialist oversight with ANC monitoring is required."
+        },
+        "formulations": ["Tablets 25, 50, 100, 200 mg; ODT; oral suspension 50 mg/mL"],
+        "boxedWarnings": ["Severe neutropenia", "Orthostatic hypotension, bradycardia, and syncope", "Seizures", "Myocarditis and cardiomyopathy", "Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Serious hypersensitivity to clozapine"],
+        "warnings": ["Higher rates of neutropenia, seizures, and metabolic effects in youth", "Myocarditis; constipation and ileus", "Sedation and drooling"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Clozapine is used in teens with schizophrenia that has not improved with other medicines. It needs close specialist care."
+      },
       "references": [
         {
           "label": "McClellan J et al. AACAP practice parameter for children and adolescents with schizophrenia. J Am Acad Child Adolesc Psychiatry 2013",
@@ -2321,6 +2389,23 @@
       "use": "Persistent substantial aggressive behavior in schizophrenia (outside the labeled treatment-resistance and suicidality indications)",
       "evidence": "guideline-recommended",
       "notes": "The APA 2020 guideline suggests clozapine for patients with schizophrenia who have substantial or persistent aggressive behavior despite other treatments. Same neutropenia, myocarditis, seizure, and metabolic monitoring as for labeled use.",
+      "details": {
+        "labeledFor": "Clozapine is FDA-approved for treatment-resistant schizophrenia and suicidal behavior; not for aggression alone.",
+        "dosing": {
+          "start": "12.5 mg once or twice daily",
+          "target": "Increase by 25–50 mg/day as tolerated to about 300–450 mg/day",
+          "max": "900 mg/day",
+          "notes": "Use ANC monitoring and levels as for labeled use."
+        },
+        "formulations": ["Tablets 25–200 mg; ODT; suspension"],
+        "boxedWarnings": ["Severe neutropenia", "Orthostatic hypotension, bradycardia, and syncope", "Seizures", "Myocarditis and cardiomyopathy", "Increased mortality in elderly patients with dementia-related psychosis"],
+        "contraindications": ["Serious hypersensitivity to clozapine"],
+        "warnings": ["Severe constipation and ileus", "Myocarditis; seizures; metabolic effects", "Interactions with fluvoxamine and smoking changes"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Clozapine can reduce repeated aggression in schizophrenia even when treatment resistance is not the main problem."
+      },
       "references": [
         {
           "label": "Keepers GA et al. APA Practice Guideline for the Treatment of Patients With Schizophrenia, 3rd ed. Am J Psychiatry 2020",
@@ -2334,6 +2419,23 @@
       "use": "Acute agitation in psychosis, alone or with an antipsychotic",
       "evidence": "guideline-recommended",
       "notes": "Recommended in the AAEP Project BETA consensus as an option for agitation, particularly when cause is uncertain. Risk of respiratory depression and oversedation, especially with alcohol, opioids, or parenteral olanzapine (concurrent use not recommended).",
+      "details": {
+        "labeledFor": "Lorazepam is FDA-approved for anxiety disorders and, as injection, status epilepticus and preanesthetic sedation; not for agitation in psychosis.",
+        "dosing": {
+          "start": "1–2 mg orally or IM",
+          "target": "Repeat after 30–60 minutes if needed",
+          "max": "Typically no more than about 8–10 mg/day in acute agitation (labeled anxiety maximum 10 mg/day)",
+          "notes": "Avoid combining with IM olanzapine."
+        },
+        "formulations": ["Tablets 0.5, 1, 2 mg", "Injection 2, 4 mg/mL"],
+        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
+        "warnings": ["Respiratory depression, especially with alcohol, opioids, or parenteral olanzapine", "Oversedation and falls", "Paradoxical agitation"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "A short-acting sedative that can quickly calm severe agitation, alone or with an antipsychotic. It can slow breathing."
+      },
       "references": [
         {
           "label": "Wilson MP et al. Psychopharmacology of agitation: AAEP Project BETA consensus. West J Emerg Med 2012",
@@ -2347,6 +2449,23 @@
       "use": "Catatonia occurring in schizophrenia (lorazepam challenge and treatment)",
       "evidence": "guideline-recommended",
       "notes": "The 2023 British Association for Psychopharmacology consensus guideline names benzodiazepines (lorazepam preferred) and/or ECT as first-line; evidence is mostly observational. Antipsychotics may worsen catatonia or raise NMS risk in some patients; monitor sedation and respiration.",
+      "details": {
+        "labeledFor": "Lorazepam is FDA-approved for anxiety disorders and as injection for status epilepticus; not for catatonia.",
+        "dosing": {
+          "start": "Challenge: 1–2 mg IV, IM, or orally",
+          "target": "If improved, 3–8 mg/day in divided doses; repeat challenge after 3–5 minutes if no response",
+          "max": "Higher doses are used under specialist care in resistant cases",
+          "notes": "ECT is the next step if benzodiazepines fail."
+        },
+        "formulations": ["Tablets 0.5, 1, 2 mg", "Injection 2, 4 mg/mL"],
+        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
+        "warnings": ["Respiratory depression and oversedation", "Antipsychotics may worsen catatonia or raise NMS risk", "Dependence with prolonged use"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "Lorazepam is the first treatment for catatonia, a state of immobility or odd movements. Doctors test the response with a dose and watch for improvement."
+      },
       "references": [
         {
           "label": "Rogers JP et al. Catatonia: BAP consensus guidelines. J Psychopharmacol 2023 (PMC full text)",

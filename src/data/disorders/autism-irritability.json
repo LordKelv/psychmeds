@@ -72,6 +72,23 @@
       "use": "Core autism symptoms or language impairment, especially with folate receptor alpha autoantibodies or suspected cerebral folate deficiency",
       "evidence": "limited",
       "notes": "Not FDA-approved for autism. In September 2025 FDA announced a planned label change, but the March 10, 2026 Wellcovorin approval covers only cerebral folate transport deficiency in adult and pediatric patients with a confirmed FOLR1 gene variant (FOLR1-CFTD), a very rare disorder, and is based on published case reports rather than trials; FDA stated evidence was insufficient for autism. Small RCTs (about 50–60 children each) reported gains in verbal communication or autism scores; replication is lacking. Generally well tolerated; irritability and agitation have been reported.",
+      "details": {
+        "labeledFor": "FDA-approved (Wellcovorin, March 2026) only for cerebral folate transport deficiency with a confirmed FOLR1 variant; generic leucovorin is labeled for methotrexate rescue and megaloblastic anemia. Not for autism.",
+        "dosing": {
+          "start": "About 2 mg/kg/day in two divided doses (published pediatric trials)",
+          "target": "2 mg/kg/day (maximum 50 mg/day) for 12 weeks in published RCTs",
+          "max": "50 mg/day in trials",
+          "notes": "Check vitamin B12 status first; there is no standard autism dosing."
+        },
+        "formulations": ["Tablets 5, 10, 15, 25 mg", "Oral solution", "Injection (for other indications)"],
+        "boxedWarnings": [],
+        "contraindications": ["Pernicious anemia and other megaloblastic anemias from vitamin B12 deficiency", "Hypersensitivity to leucovorin or folic acid"],
+        "warnings": ["Can mask B12 deficiency", "Irritability and agitation reported in autism trials", "May lower seizure control (antagonizes some anticonvulsants)", "GI upset"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A form of folate that some small studies suggest may help language in some autistic children. The FDA has said evidence is not enough to approve it for autism."
+      },
       "references": [
         { "label": "FDA-approved Wellcovorin label, 3/2026 (FOLR1-CFTD indication)", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/018342s015lbl.pdf" },
         { "label": "Frye RE et al. Folinic acid improves verbal communication in children with autism and language impairment: RCT. Mol Psychiatry 2018 (PMID 27752075)", "url": "https://pubmed.ncbi.nlm.nih.gov/27752075/" },
@@ -85,6 +102,23 @@
       "use": "Hyperactivity and inattention in autistic children (co-occurring ADHD symptoms)",
       "evidence": "RCT-supported",
       "notes": "Methylphenidate is approved for ADHD, not for autism-associated hyperactivity. In the RUPP crossover trial about half of children responded, a lower rate than in typical ADHD, with more adverse effects (irritability, social withdrawal, appetite loss).",
+      "details": {
+        "labeledFor": "FDA-approved for ADHD (ages 6+) and narcolepsy; not for hyperactivity in autism.",
+        "dosing": {
+          "start": "About 0.125 mg/kg per dose, given 2–3 times daily (RUPP test dose)",
+          "target": "0.25–0.5 mg/kg per dose in the RUPP trial; titrate to response",
+          "max": "60 mg/day (labeled IR maximum for ADHD)",
+          "notes": "Start low and increase weekly; stop if irritability or social withdrawal worsens."
+        },
+        "formulations": ["IR tablets 5, 10, 20 mg", "Chewable tablets 2.5, 5, 10 mg", "Oral solution 5 mg/5 mL, 10 mg/5 mL"],
+        "boxedWarnings": ["Abuse, misuse, and addiction"],
+        "contraindications": ["Hypersensitivity to methylphenidate", "MAOI use within 14 days"],
+        "warnings": ["Irritability, social withdrawal, and repetitive behavior in autistic children", "Appetite loss and growth suppression", "Increased blood pressure and heart rate; tics", "Fewer responders than in typical ADHD"],
+        "rems": null,
+        "controlledSubstance": "C-II",
+        "genericAvailable": true,
+        "plainSummary": "A stimulant that helps about half of autistic children who also have ADHD-type symptoms. Side effects such as irritability happen more often than in other children."
+      },
       "references": [
         { "label": "RUPP Autism Network. Methylphenidate in pervasive developmental disorders with hyperactivity. Arch Gen Psychiatry 2005 (PMID 16275814)", "url": "https://pubmed.ncbi.nlm.nih.gov/16275814/" }
       ]
@@ -95,6 +129,23 @@
       "use": "Hyperactivity and impulsivity in autistic children",
       "evidence": "RCT-supported",
       "notes": "An 8-week RCT in children with ASD showed reduced hyperactivity versus placebo. Drowsiness, fatigue, decreased appetite, and lower blood pressure and heart rate; taper to avoid rebound hypertension.",
+      "details": {
+        "labeledFor": "FDA-approved for ADHD in ages 6–17; not for hyperactivity in autism.",
+        "dosing": {
+          "start": "1 mg once daily",
+          "target": "1–3 mg/day in the autism RCT; titrate by 1 mg per week",
+          "max": "4 mg/day (ages 6–12) or 7 mg/day (ages 13–17) per ADHD labeling",
+          "notes": "Taper over 3–7 days when stopping; strong CYP3A4 inhibitors raise levels."
+        },
+        "formulations": ["Extended-release tablets 1, 2, 3, 4 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to guanfacine"],
+        "warnings": ["Sedation and fatigue", "Low blood pressure and slow heart rate", "Rebound hypertension if stopped abruptly", "Decreased appetite"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A non-stimulant that calmed hyperactivity and impulsive behavior in a trial of autistic children. It can cause sleepiness and low blood pressure and should not be stopped suddenly."
+      },
       "references": [
         { "label": "Scahill L et al. Extended-release guanfacine for hyperactivity in children with ASD. Am J Psychiatry 2015 (PMID 26315981)", "url": "https://pubmed.ncbi.nlm.nih.gov/26315981/" }
       ]
@@ -105,6 +156,23 @@
       "use": "Insomnia in autistic children",
       "evidence": "RCT-supported",
       "notes": "A pediatric prolonged-release formulation improved total sleep time in a 13-week RCT. In the US, melatonin is sold as a supplement with variable content; no US-approved pediatric melatonin product exists.",
+      "details": {
+        "labeledFor": "Dietary supplement in the US; no FDA-approved melatonin product. (A pediatric prolonged-release melatonin is approved in Europe.)",
+        "dosing": {
+          "start": "2 mg prolonged-release 30–60 minutes before bedtime",
+          "target": "2–5 mg nightly (the 13-week RCT escalated from 2 to 5 mg)",
+          "max": "5 mg in the pediatric RCT; immediate-release 1–10 mg is common in practice",
+          "notes": "Pair with a consistent bedtime routine; check that the product contents are reliable."
+        },
+        "formulations": ["Over-the-counter tablets, capsules, gummies, and liquids (0.5–10 mg; content varies)"],
+        "boxedWarnings": [],
+        "contraindications": [],
+        "warnings": ["Daytime sleepiness, headache, or mood effects", "Supplement strength and purity vary (gummies often exceed the label)", "Accidental ingestion by children has risen; store out of reach", "Fluvoxamine raises melatonin levels (CYP1A2)"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "A sleep hormone sold as a supplement that helped autistic children fall asleep and sleep longer in a trial. Because supplements vary in strength, families should check with a clinician about the product and timing."
+      },
       "references": [
         { "label": "Gringras P et al. Pediatric prolonged-release melatonin for insomnia in children with ASD. JAACAP 2017 (PMID 29096777)", "url": "https://pubmed.ncbi.nlm.nih.gov/29096777/" }
       ]

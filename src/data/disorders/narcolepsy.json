@@ -432,6 +432,23 @@
       "use": "Cataplexy",
       "evidence": "guideline-recommended",
       "notes": "Strong recommendation for cataplexy in adults in the 2021 European (EAN/ESRS/EU-NN) guideline, based mainly on clinical experience and limited trial data. It is not FDA-labeled for narcolepsy. Cautions: abrupt discontinuation can cause severe rebound cataplexy (status cataplecticus); also hypertension and the antidepressant boxed warning for suicidality in young people.",
+      "details": {
+        "labeledFor": "FDA-approved for major depressive disorder, anxiety disorders, and others; not for cataplexy.",
+        "dosing": {
+          "start": "37.5 mg/day",
+          "target": "75–225 mg/day (XR)",
+          "max": "225 mg/day",
+          "notes": "Taper gradually: abrupt stopping can cause severe rebound cataplexy."
+        },
+        "formulations": ["Capsules ER 37.5, 75, 150 mg", "ER tablets 37.5, 75, 150, 225 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Hypersensitivity to venlafaxine"],
+        "warnings": ["Dose-related increases in blood pressure", "Discontinuation symptoms; taper gradually", "Hyponatremia, bleeding risk, serotonin syndrome", "Mydriasis/angle-closure glaucoma", "Abrupt withdrawal can cause status cataplecticus"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An antidepressant that reduces sudden muscle weakness (cataplexy) in narcolepsy. Stopping it suddenly can bring back severe attacks."
+      },
       "references": [
         { "label": "Bassetti CLA et al. European guideline and expert statements on the management of narcolepsy in adults and children. Eur J Neurol 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34173695/" }
       ]
@@ -442,6 +459,23 @@
       "use": "Cataplexy",
       "evidence": "guideline-recommended",
       "notes": "Strong recommendation for adult cataplexy in the 2021 European guideline. Cautions: anticholinergic effects, orthostasis, weight gain, sexual dysfunction, lowered seizure threshold, cardiac conduction effects, and rebound cataplexy on abrupt withdrawal.",
+      "details": {
+        "labeledFor": "FDA-approved for obsessive-compulsive disorder; not for cataplexy.",
+        "dosing": {
+          "start": "10–25 mg/day at bedtime",
+          "target": "10–75 mg/day (lower than OCD doses)",
+          "max": "75–150 mg/day in practice (labeled OCD maximum 250 mg/day)",
+          "notes": "Taper to avoid rebound cataplexy; ECG in at-risk patients."
+        },
+        "formulations": ["Capsules 25, 50, 75 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days", "Acute recovery period after myocardial infarction", "Hypersensitivity to the drug"],
+        "warnings": ["Anticholinergic effects (dry mouth, constipation, urinary retention, confusion)", "Orthostasis and cardiac conduction effects; ECG in at-risk patients", "Lowers the seizure threshold; may trigger mania", "Highly toxic in overdose; limit quantities", "Abrupt withdrawal can cause rebound cataplexy"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "An older antidepressant that is effective against cataplexy in narcolepsy. It can cause dry mouth, weight gain, and heart-rhythm changes."
+      },
       "references": [
         { "label": "Bassetti CLA et al. European guideline on the management of narcolepsy. Eur J Neurol 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34173695/" },
         { "label": "Vignatelli L et al. Antidepressant drugs for narcolepsy. Cochrane Database Syst Rev 2008", "url": "https://pubmed.ncbi.nlm.nih.gov/18254030/" }
@@ -453,6 +487,23 @@
       "use": "Cataplexy",
       "evidence": "limited",
       "notes": "Used for cataplexy based on small studies and clinical experience; a Cochrane review found insufficient high-quality evidence for antidepressants in narcolepsy. Cautions: rebound cataplexy on abrupt stop, possible worsening of REM sleep behavior symptoms, and the antidepressant boxed warning in young people.",
+      "details": {
+        "labeledFor": "SSRIs are FDA-approved for depression and anxiety disorders; none is approved for cataplexy.",
+        "dosing": {
+          "start": "Fluoxetine 10–20 mg/day",
+          "target": "Fluoxetine 20–60 mg/day",
+          "max": "Fluoxetine 80 mg/day (labeled maximum)",
+          "notes": "Evidence from small studies and clinical experience only."
+        },
+        "formulations": ["Fluoxetine capsules 10, 20, 40 mg; tablets 10, 20, 60 mg"],
+        "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
+        "contraindications": ["MAOI use within 14 days (or linezolid / IV methylene blue)", "Pimozide (citalopram, sertraline)", "Hypersensitivity to the drug"],
+        "warnings": ["Early activation or anxiety, GI upset, sexual dysfunction", "Hyponatremia and bleeding risk (higher with NSAIDs/anticoagulants)", "Serotonin syndrome with other serotonergic drugs", "Discontinuation symptoms if stopped abruptly", "Rebound cataplexy on abrupt stop", "May worsen REM sleep behavior symptoms"],
+        "rems": null,
+        "controlledSubstance": null,
+        "genericAvailable": true,
+        "plainSummary": "Antidepressants such as fluoxetine are sometimes used to reduce cataplexy, though evidence is limited."
+      },
       "references": [
         { "label": "Vignatelli L et al. Antidepressant drugs for narcolepsy. Cochrane Database Syst Rev 2008", "url": "https://pubmed.ncbi.nlm.nih.gov/18254030/" }
       ]
@@ -463,6 +514,23 @@
       "use": "Excessive daytime sleepiness in children with narcolepsy",
       "evidence": "guideline-recommended",
       "notes": "FDA-labeled only for adults. The AASM 2021 guideline gives a conditional recommendation for modafinil in pediatric narcolepsy. Cautions: serious rash including Stevens-Johnson syndrome (higher concern in children), psychiatric symptoms, and reduced hormonal contraceptive efficacy.",
+      "details": {
+        "labeledFor": "Modafinil is FDA-approved for adults with narcolepsy, OSA, and shift work disorder; use in children is off-label.",
+        "dosing": {
+          "start": "50–100 mg in the morning",
+          "target": "100–400 mg/day by weight and response (adult labeled dose 200 mg/day)",
+          "max": "400 mg/day",
+          "notes": "Specialist use in children; monitor for rash and mood changes."
+        },
+        "formulations": ["Tablets 100, 200 mg"],
+        "boxedWarnings": [],
+        "contraindications": ["Hypersensitivity to modafinil or armodafinil"],
+        "warnings": ["Serious rash including Stevens-Johnson syndrome (more of a concern in children)", "Psychiatric symptoms, insomnia, headache", "Reduces hormonal contraceptive effectiveness"],
+        "rems": null,
+        "controlledSubstance": "C-IV",
+        "genericAvailable": true,
+        "plainSummary": "A wake-promoting medicine used off-label in children with narcolepsy. A rare but serious rash needs prompt attention."
+      },
       "references": [
         { "label": "Maski K et al. Treatment of central disorders of hypersomnolence: AASM clinical practice guideline. J Clin Sleep Med 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34743789/" }
       ]
