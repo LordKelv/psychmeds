@@ -73,7 +73,7 @@
           "notes": "Avoid late-day doses."
         },
         "formulations": ["IR tablets 5, 10, 20 mg", "ER tablets 10, 20 mg (Metadate ER, Methylin ER)"],
-        "boxedWarnings": ["Abuse, misuse, and addiction"],
+        "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
         "contraindications": ["Hypersensitivity to methylphenidate", "MAOI use within 14 days"],
         "warnings": ["Increased blood pressure and heart rate", "Insomnia, anxiety, appetite loss", "Psychosis/mania; misuse potential"],
         "rems": null,

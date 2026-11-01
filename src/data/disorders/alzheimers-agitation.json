@@ -29,7 +29,7 @@
       "formulations": ["Tablets 0.25, 0.5, 1, 2, 3, and 4 mg"],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in pediatric and young adult patients (antidepressant class warning)"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": ["Known hypersensitivity to brexpiprazole or any component"],
       "rems": null,
@@ -65,7 +65,7 @@
         "Extended-release tablets 30 mg/105 mg and 45 mg/105 mg (dextromethorphan HBr/bupropion HCl)",
         "Titration kit"
       ],
-      "boxedWarnings": ["Suicidal thoughts and behaviors (antidepressant class warning)"],
+      "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
       "contraindications": [
         "Seizure disorder",
         "Current or prior diagnosis of bulimia or anorexia nervosa",

@@ -44,7 +44,7 @@
         "Capsules (generic)"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
@@ -90,7 +90,7 @@
         "Oral solution"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
@@ -188,7 +188,7 @@
         "Extended-release tablets (Paxil CR)"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
@@ -236,7 +236,7 @@
         "Capsules (generic)"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
@@ -287,7 +287,7 @@
         "Venlafaxine besylate extended-release tablets 112.5 mg"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 7 days of stopping venlafaxine / 14 days of stopping an MAOI (including linezolid or IV methylene blue)",
@@ -332,7 +332,7 @@
         "Extended-release tablets"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Hypersensitivity to desvenlafaxine or venlafaxine",
@@ -378,7 +378,7 @@
         "Delayed-release sprinkle capsules (Drizalma Sprinkle)"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 5 days of stopping duloxetine / 14 days of stopping an MAOI (including linezolid or IV methylene blue)"
@@ -422,7 +422,7 @@
         "Extended-release capsules"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Hypersensitivity to levomilnacipran or milnacipran",
@@ -523,7 +523,7 @@
         "Extended-release tablets"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Seizure disorder",
@@ -572,7 +572,7 @@
         "Orally disintegrating tablets"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)",
@@ -618,7 +618,7 @@
         "Oral solution (Raldesy)"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)"
@@ -708,7 +708,7 @@
         "Tablets"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Use with or within 14 days of an MAOI (including linezolid or IV methylene blue)"
@@ -751,7 +751,7 @@
         "Tablets"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Hypersensitivity to vortioxetine",
@@ -795,7 +795,7 @@
         "Extended-release tablets"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "QTc >450 ms at baseline or congenital long QT syndrome",
@@ -1032,7 +1032,7 @@
         "Oral concentrate (generic)"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Hypersensitivity to doxepin",
@@ -1266,9 +1266,9 @@
         "Tablets (5/12.5 mg, 10/25 mg)"
       ],
       "boxedWarnings": [
-        "Risks from concomitant use with opioids",
-        "Abuse, misuse, and addiction",
-        "Dependence and withdrawal reactions",
+        "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal",
         "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
@@ -1362,7 +1362,7 @@
         "Tablets"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients",
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults",
         "Hypertensive crisis with significant tyramine use"
       ],
       "contraindications": [
@@ -1455,7 +1455,7 @@
         "Transdermal system (6, 9, 12 mg/24 h)"
       ],
       "boxedWarnings": [
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "SSRIs, SNRIs, clomipramine, imipramine, meperidine, tramadol, methadone, pentazocine, propoxyphene, dextromethorphan",
@@ -1548,7 +1548,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Hypersensitivity to brexpiprazole"
@@ -1636,7 +1636,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Hypersensitivity to cariprazine"
@@ -1681,7 +1681,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Hypersensitivity to lumateperone"
@@ -1728,7 +1728,7 @@
         "Dissociation",
         "Respiratory depression",
         "Abuse and misuse",
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Aneurysmal vascular disease (thoracic/abdominal aorta, intracranial, peripheral) or arteriovenous malformation",
@@ -1870,7 +1870,7 @@
         "Dissociation",
         "Respiratory depression",
         "Abuse and misuse",
-        "Suicidal thoughts and behaviors in pediatric and young adult patients"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Aneurysmal vascular disease (thoracic/abdominal aorta, intracranial, peripheral) or arteriovenous malformation",
