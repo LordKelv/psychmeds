@@ -51,7 +51,7 @@
         "notes": "Known CYP2D6 poor metabolizers: half the usual dose. Adjust for strong CYP2D6/CYP3A4 inhibitors or CYP3A4 inducers. Monitor weight, metabolic parameters, and EPS."
       },
       "formulations": ["Tablets", "Orally disintegrating tablet (generic)", "Oral solution 1 mg/mL (generic)", "Orally disintegrating film (Opipza)"],
-      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors with antidepressant drugs (children, adolescents, and young adults)"],
+      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in children, adolescents, and young adults"],
       "contraindications": ["Known hypersensitivity to aripiprazole"],
       "rems": null,
       "controlledSubstance": null,
@@ -111,7 +111,7 @@
           "notes": "Start low and increase weekly; stop if irritability or social withdrawal worsens."
         },
         "formulations": ["IR tablets 5, 10, 20 mg", "Chewable tablets 2.5, 5, 10 mg", "Oral solution 5 mg/5 mL, 10 mg/5 mL"],
-        "boxedWarnings": ["Abuse, misuse, and addiction"],
+        "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
         "contraindications": ["Hypersensitivity to methylphenidate", "MAOI use within 14 days"],
         "warnings": ["Irritability, social withdrawal, and repetitive behavior in autistic children", "Appetite loss and growth suppression", "Increased blood pressure and heart rate; tics", "Fewer responders than in typical ADHD"],
         "rems": null,

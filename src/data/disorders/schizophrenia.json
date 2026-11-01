@@ -46,7 +46,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Known hypersensitivity to aripiprazole"
@@ -179,7 +179,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Known hypersensitivity to brexpiprazole or any component"
@@ -224,7 +224,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Known hypersensitivity to cariprazine"
@@ -313,7 +313,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Known hypersensitivity to lumateperone or any component"
@@ -358,7 +358,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Known hypersensitivity to lurasidone",
@@ -583,7 +583,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "Known hypersensitivity to quetiapine or any excipient"
@@ -912,7 +912,7 @@
       ],
       "boxedWarnings": [
         "Increased mortality in elderly patients with dementia-related psychosis",
-        "Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"
+        "Suicidal thoughts and behaviors in children, adolescents, and young adults"
       ],
       "contraindications": [
         "CNS depression from drugs",
@@ -2088,7 +2088,7 @@
         "Single-use inhaler 10 mg"
       ],
       "boxedWarnings": [
-        "Bronchospasm (restricted to certified healthcare settings under REMS)",
+        "Bronchospasm that can lead to respiratory distress and arrest",
         "Increased mortality in elderly patients with dementia-related psychosis"
       ],
       "contraindications": [
@@ -2428,7 +2428,7 @@
           "notes": "Avoid combining with IM olanzapine."
         },
         "formulations": ["Tablets 0.5, 1, 2 mg", "Injection 2, 4 mg/mL"],
-        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
         "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
         "warnings": ["Respiratory depression, especially with alcohol, opioids, or parenteral olanzapine", "Oversedation and falls", "Paradoxical agitation"],
         "rems": null,
@@ -2458,7 +2458,7 @@
           "notes": "ECT is the next step if benzodiazepines fail."
         },
         "formulations": ["Tablets 0.5, 1, 2 mg", "Injection 2, 4 mg/mL"],
-        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
         "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
         "warnings": ["Respiratory depression and oversedation", "Antipsychotics may worsen catatonia or raise NMS risk", "Dependence with prolonged use"],
         "rems": null,

@@ -87,7 +87,7 @@
           "notes": "Benzodiazepines can cause or worsen delirium, especially in older adults."
         },
         "formulations": ["Tablets 0.5, 1, 2 mg", "Injection 2, 4 mg/mL"],
-        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
         "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
         "warnings": ["Worsening delirium and confusion", "Respiratory depression, especially with opioids", "Falls and oversedation"],
         "rems": null,

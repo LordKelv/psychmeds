@@ -239,8 +239,8 @@
       "formulations": ["Capsules: 7.5 mg, 15 mg, 22.5 mg, 30 mg"],
       "boxedWarnings": [
         "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
-        "Abuse, misuse, and addiction",
-        "Dependence and withdrawal reactions"
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
       ],
       "contraindications": [],
       "rems": null,
@@ -269,8 +269,8 @@
       "formulations": ["Tablets: 0.125 mg, 0.25 mg"],
       "boxedWarnings": [
         "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
-        "Abuse, misuse, and addiction",
-        "Dependence and withdrawal reactions"
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
       ],
       "contraindications": ["Hypersensitivity to triazolam or other benzodiazepines", "Concomitant strong CYP3A inhibitors (e.g., ketoconazole, itraconazole, nefazodone, several HIV protease inhibitors)"],
       "rems": null,
@@ -299,8 +299,8 @@
       "formulations": ["Tablets: 1 mg, 2 mg"],
       "boxedWarnings": [
         "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
-        "Abuse, misuse, and addiction",
-        "Dependence and withdrawal reactions"
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
       ],
       "contraindications": ["Concomitant ketoconazole or itraconazole"],
       "rems": null,
@@ -329,8 +329,8 @@
       "formulations": ["Capsules: 15 mg, 30 mg"],
       "boxedWarnings": [
         "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
-        "Abuse, misuse, and addiction",
-        "Dependence and withdrawal reactions"
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
       ],
       "contraindications": ["Hypersensitivity to flurazepam or other benzodiazepines"],
       "rems": null,
@@ -359,8 +359,8 @@
       "formulations": ["Tablets: 15 mg (functionally scored)"],
       "boxedWarnings": [
         "Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death",
-        "Abuse, misuse, and addiction",
-        "Dependence and withdrawal reactions"
+        "Abuse, misuse, and addiction, which can lead to overdose or death",
+        "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"
       ],
       "contraindications": ["Hypersensitivity to quazepam or other benzodiazepines", "Established or suspected sleep apnea", "Chronic pulmonary insufficiency"],
       "rems": null,

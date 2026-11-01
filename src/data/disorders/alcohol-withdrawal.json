@@ -24,7 +24,7 @@
         "notes": "The label notes that parenteral therapy is usually used first, but chlordiazepoxide injection is no longer marketed. Long-acting metabolites accumulate in hepatic impairment and in older adults; consider oxazepam or lorazepam instead. Taper gradually to avoid benzodiazepine withdrawal."
       },
       "formulations": ["Capsules 5 mg, 10 mg, 25 mg"],
-      "boxedWarnings": ["Risks from concomitant use with opioids", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+      "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
       "contraindications": ["Hypersensitivity to chlordiazepoxide"],
       "rems": null,
       "controlledSubstance": "C-IV",
@@ -50,7 +50,7 @@
         "notes": "Long half-life allows self-tapering. Use caution in hepatic impairment, older adults, and respiratory compromise. IV: inject slowly and watch for respiratory depression and hypotension."
       },
       "formulations": ["Tablets 2 mg, 5 mg, 10 mg", "Oral solution", "Injection 5 mg/mL (IV/IM)"],
-      "boxedWarnings": ["Risks from concomitant use with opioids", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+      "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
       "contraindications": ["Hypersensitivity to diazepam or excipients", "Acute narrow-angle glaucoma", "Injection: untreated open-angle glaucoma"],
       "rems": null,
       "controlledSubstance": "C-IV",
@@ -76,7 +76,7 @@
         "notes": "Avoid excessive reductions in total dose on successive days. Converted to desmethyldiazepam, which accumulates in older adults and in hepatic impairment."
       },
       "formulations": ["Tablets 3.75 mg, 7.5 mg, 15 mg"],
-      "boxedWarnings": ["Risks from concomitant use with opioids", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+      "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
       "contraindications": ["Hypersensitivity to clorazepate", "Acute narrow-angle glaucoma"],
       "rems": null,
       "controlledSubstance": "C-IV",
@@ -102,7 +102,7 @@
         "notes": "Glucuronidated without active metabolites, so often preferred in hepatic impairment and in older adults. Slower oral absorption makes it less suited to rapid symptom control."
       },
       "formulations": ["Capsules 10 mg, 15 mg, 30 mg"],
-      "boxedWarnings": ["Risks from concomitant use with opioids", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+      "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
       "contraindications": ["Hypersensitivity to oxazepam", "Not indicated in psychoses"],
       "rems": null,
       "controlledSubstance": "C-IV",
@@ -154,7 +154,7 @@
           "notes": "Preferred over long-acting benzodiazepines when liver disease or advanced age impairs metabolism. Give thiamine before glucose."
         },
         "formulations": ["Tablets 0.5, 1, 2 mg", "Oral concentrate 2 mg/mL", "Injection 2, 4 mg/mL"],
-        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
         "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
         "warnings": ["Respiratory depression, especially with opioids, alcohol, or other sedatives", "Paradoxical agitation and delirium in older adults", "Propylene glycol toxicity (lactic acidosis, renal injury) with high IV doses", "Concurrent parenteral olanzapine is not recommended"],
         "rems": null,

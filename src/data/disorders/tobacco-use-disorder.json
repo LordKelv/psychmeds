@@ -50,7 +50,7 @@
         "notes": "May be combined with the nicotine patch (labeled; monitor blood pressure). Moderate–severe hepatic impairment: 150 mg every other day. Consider lowering the dose in renal impairment. Swallow whole. Seizure risk is dose-related."
       },
       "formulations": ["Extended-release (SR) tablets 150 mg"],
-      "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults (antidepressant class warning)"],
+      "boxedWarnings": ["Suicidal thoughts and behaviors in children, adolescents, and young adults"],
       "contraindications": ["Seizure disorder", "Current or prior bulimia or anorexia nervosa", "Abrupt discontinuation of alcohol, benzodiazepines, barbiturates, or antiepileptic drugs", "MAOI use within 14 days, or starting in patients on linezolid or IV methylene blue", "Hypersensitivity to bupropion"],
       "rems": null,
       "controlledSubstance": null,

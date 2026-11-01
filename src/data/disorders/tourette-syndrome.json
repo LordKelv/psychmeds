@@ -22,7 +22,7 @@
         "notes": "Adjust at intervals of at least 1 week. CYP2D6 poor metabolizers: half the usual dose; adjust for strong CYP2D6/CYP3A4 inhibitors and CYP3A4 inducers."
       },
       "formulations": ["Tablets", "Orally disintegrating tablet (generic)", "Oral solution 1 mg/mL (generic)", "Orally disintegrating film (Opipza)"],
-      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors with antidepressant drugs (children, adolescents, and young adults)"],
+      "boxedWarnings": ["Increased mortality in elderly patients with dementia-related psychosis", "Suicidal thoughts and behaviors in children, adolescents, and young adults"],
       "contraindications": ["Known hypersensitivity to aripiprazole"],
       "rems": null,
       "controlledSubstance": null,

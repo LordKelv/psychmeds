@@ -99,7 +99,7 @@
       },
       "formulations": ["Inhalation powder, 10 mg single-use inhaler"],
       "boxedWarnings": [
-        "Bronchospasm (available only through a restricted REMS program)",
+        "Bronchospasm that can lead to respiratory distress and arrest",
         "Increased mortality in elderly patients with dementia-related psychosis"
       ],
       "contraindications": [

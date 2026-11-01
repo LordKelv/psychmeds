@@ -379,7 +379,7 @@
           "notes": "Use short-term or as a bridge while an SSRI takes effect."
         },
         "formulations": ["Lorazepam tablets 0.5, 1, 2 mg", "Diazepam tablets 2, 5, 10 mg; solution"],
-        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
         "contraindications": ["Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
         "warnings": ["Sedation, falls, and cognitive effects", "Respiratory depression with opioids or alcohol", "Dependence and withdrawal seizures if stopped abruptly"],
         "rems": null,

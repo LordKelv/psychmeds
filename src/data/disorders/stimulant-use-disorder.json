@@ -134,7 +134,7 @@
           "notes": "Pill counts, urine testing, and PDMP checks are expected."
         },
         "formulations": ["Mixed amphetamine salts XR capsules", "Methylphenidate ER tablets/capsules", "Modafinil tablets 100, 200 mg"],
-        "boxedWarnings": ["Abuse, misuse, and addiction"],
+        "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
         "contraindications": ["Hypersensitivity", "MAOI use within 14 days (stimulants)"],
         "warnings": ["Misuse and diversion", "Cardiovascular effects; psychosis and mania", "Insomnia, appetite loss"],
         "rems": null,

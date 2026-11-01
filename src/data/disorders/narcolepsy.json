@@ -310,7 +310,7 @@
         "notes": "Increase pediatric dose by 5–10 mg weekly. Take last dose before 6 p.m. if insomnia occurs. ER tablets (10 mg, 20 mg; about 8-hour duration) may replace IR once titrated. Screen for cardiac disease before starting."
       },
       "formulations": ["Tablets: 5 mg, 10 mg, 20 mg", "Chewable tablets", "Oral solution (Methylin)", "Extended-release tablets: 10 mg, 20 mg"],
-      "boxedWarnings": ["Abuse, misuse, and addiction"],
+      "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
       "contraindications": ["Hypersensitivity to methylphenidate", "MAOI use currently or within 14 days"],
       "rems": null,
       "controlledSubstance": "C-II",
@@ -336,7 +336,7 @@
         "notes": "Increase by 5 mg (ages 6–12) or 10 mg (12+) weekly. First dose on awakening, then additional doses every 4–6 hours. Avoid late-evening doses. Screen for cardiac disease."
       },
       "formulations": ["Tablets: 5 mg, 7.5 mg, 10 mg, 12.5 mg, 15 mg, 20 mg, 30 mg"],
-      "boxedWarnings": ["Abuse, misuse, and addiction"],
+      "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
       "contraindications": ["Hypersensitivity to amphetamine", "MAOI use currently or within 14 days (including linezolid or IV methylene blue)"],
       "rems": null,
       "controlledSubstance": "C-II",
@@ -362,7 +362,7 @@
         "notes": "Increase by 5 mg (6–12) or 10 mg (12+) weekly. First dose on awakening. Reduce dose if insomnia or anorexia develops."
       },
       "formulations": ["Tablets: 5 mg, 10 mg"],
-      "boxedWarnings": ["Abuse, misuse, and addiction"],
+      "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
       "contraindications": ["Known hypersensitivity to amphetamine products", "MAOI use currently or within 14 days"],
       "rems": null,
       "controlledSubstance": "C-II",
@@ -388,7 +388,7 @@
         "notes": "Increase by 5 mg (6–12) or 10 mg (12+) weekly. Spansule ER capsules allow once-daily dosing. Reduce dose for insomnia or anorexia."
       },
       "formulations": ["Tablets (Zenzedi and generics)", "Extended-release capsules (Dexedrine Spansule)", "Oral solution (ProCentra)"],
-      "boxedWarnings": ["Abuse, misuse, and addiction"],
+      "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
       "contraindications": ["Known hypersensitivity to amphetamine products", "MAOI use currently or within 14 days"],
       "rems": null,
       "controlledSubstance": "C-II",

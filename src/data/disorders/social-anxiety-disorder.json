@@ -301,7 +301,7 @@
           "notes": "Short-term or adjunctive use."
         },
         "formulations": ["Tablets 0.5, 1, 2 mg", "ODT 0.125, 0.25, 0.5, 1, 2 mg"],
-        "boxedWarnings": ["Concomitant use with opioids can cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction", "Dependence and withdrawal reactions"],
+        "boxedWarnings": ["Concomitant use with opioids may cause profound sedation, respiratory depression, coma, and death", "Abuse, misuse, and addiction, which can lead to overdose or death", "Physical dependence and withdrawal reactions; abrupt discontinuation or rapid dose reduction can cause life-threatening withdrawal"],
         "contraindications": ["Significant liver disease", "Acute narrow-angle glaucoma", "Hypersensitivity to benzodiazepines"],
         "warnings": ["Sedation and falls", "Respiratory depression with opioids", "Dependence and withdrawal seizures if stopped abruptly"],
         "rems": null,

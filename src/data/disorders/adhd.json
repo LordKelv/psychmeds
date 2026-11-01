@@ -829,7 +829,7 @@
           "notes": "Use immediate-release products in preschoolers; extended-release stimulants are not recommended under 6. Half or quarter tablets or the oral solution allow small doses."
         },
         "formulations": ["IR tablets 5, 10, 20 mg", "Chewable tablets 2.5, 5, 10 mg", "Oral solution 5 mg/5 mL, 10 mg/5 mL"],
-        "boxedWarnings": ["Abuse, misuse, and addiction"],
+        "boxedWarnings": ["Abuse, misuse, and addiction (risk of substance use disorder, overdose, and death)"],
         "contraindications": ["Hypersensitivity to methylphenidate", "MAOI use within 14 days"],
         "warnings": ["Growth suppression (track height and weight)", "Increased blood pressure and heart rate", "New psychosis or mania, aggression, tics", "Priapism and peripheral vasculopathy (rare)", "Appetite loss and sleep problems; more adverse effects than in older children"],
         "rems": null,
